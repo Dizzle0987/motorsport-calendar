@@ -13,7 +13,13 @@ from motorsport_calendar.ics import render_calendar
 from motorsport_calendar.merge import deduplicate, merge_events
 from motorsport_calendar.model import Event, ROME
 from motorsport_calendar.parsers import classify_session, parse_f1_schedule_html, parse_motogp_json
-from motorsport_calendar.update import generate, validate
+from motorsport_calendar.update import (
+    competitions_with_current_season,
+    current_and_future_events,
+    current_and_future_rounds,
+    generate,
+    validate,
+)
 
 
 def event(**changes) -> Event:
@@ -238,3 +244,60 @@ def test_generation_is_idempotent_when_events_do_not_change(tmp_path):
     generate(tmp_path, online=False, now=datetime(2026, 8, 11, 14, tzinfo=timezone.utc))
     after = {name: (tmp_path / name).read_bytes() for name in tracked}
     assert before == after
+
+
+def test_completed_seasons_are_removed_at_new_year():
+    rounds = [
+        {"competition":"Formula 1", "slug":"old", "start_date":"2026-12-04"},
+        {"competition":"Formula 1", "slug":"current", "start_date":"2027-03-05"},
+        {"competition":"MotoGP", "slug":"future", "start_date":"2028-02-25"},
+    ]
+    kept_rounds = current_and_future_rounds(rounds, datetime(2027, 1, 1).date())
+    assert [r["slug"] for r in kept_rounds] == ["current", "future"]
+    kept_events = current_and_future_events([
+        event(start="2026-12-04T15:00"), event(start="2027-03-07T15:00", grand_prix="Current GP")
+    ], datetime(2027, 1, 1).date())
+    assert len(kept_events) == 1 and kept_events[0].grand_prix == "Current GP"
+
+
+def test_old_season_is_retained_until_replacement_is_available():
+    rounds = [
+        {"competition":"Formula 1", "slug":"old-f1", "start_date":"2026-12-04"},
+        {"competition":"MotoGP", "slug":"current-motogp", "start_date":"2027-02-26"},
+    ]
+    active = competitions_with_current_season(rounds, datetime(2027, 1, 1).date())
+    assert active == {"MotoGP"}
+
+
+def test_generation_prunes_previous_year_when_new_seasons_exist(tmp_path):
+    source = Path(__file__).parents[1]
+    shutil.copytree(source / "data", tmp_path / "data")
+    catalog_path = tmp_path / "data/rounds.json"
+    catalog = json.loads(catalog_path.read_text())
+    catalog["rounds"].extend([
+        {
+            "competition":"Formula 1", "slug":"australia-2027", "grand_prix":"Australian GP 2027",
+            "circuit":"Albert Park", "location":"Melbourne", "country":"Australia",
+            "start_date":"2027-03-05",
+        },
+        {
+            "competition":"MotoGP", "slug":"thailand-2027", "grand_prix":"Thailand GP 2027",
+            "circuit":"Chang International Circuit", "location":"Buriram", "country":"Thailand",
+            "start_date":"2027-02-26",
+        },
+    ])
+    catalog_path.write_text(json.dumps(catalog))
+
+    generated = generate(tmp_path, online=False, now=datetime(2027, 1, 1, tzinfo=timezone.utc))
+    assert {e.competition for e in generated} == {"Formula 1", "MotoGP"}
+    assert all(e.start_dt.year >= 2027 for e in generated)
+    saved_rounds = json.loads(catalog_path.read_text())["rounds"]
+    assert all(int(r["start_date"][:4]) >= 2027 for r in saved_rounds)
+
+
+def test_generation_keeps_last_valid_seasons_until_new_ones_exist(tmp_path):
+    source = Path(__file__).parents[1]
+    shutil.copytree(source / "data", tmp_path / "data")
+    generated = generate(tmp_path, online=False, now=datetime(2027, 1, 1, tzinfo=timezone.utc))
+    assert {e.competition for e in generated} == {"Formula 1", "MotoGP"}
+    assert any(e.start_dt.year == 2026 for e in generated)
