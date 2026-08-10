@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Calendari F1 e MotoGP sottoscrivibili, aggiornati automaticamente.">
+  <meta property="og:title" content="Motorsport Calendar">
+  <meta property="og:description" content="F1 e MotoGP, sessione per sessione, nel tuo calendario.">
+  <meta property="og:image" content="https://dizzle0987.github.io/motorsport-calendar/og.png">
+  <meta name="theme-color" content="#08111d">
+  <title>Motorsport Calendar — F1 + MotoGP</title>
+  <style>
+    :root{--ink:#eef4fb;--muted:#9cb0c7;--panel:#101c2b;--line:#24364b;--lime:#c8ff3d;--orange:#ff6b2c;--blue:#38bdf8;--bg:#08111d}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;background:linear-gradient(120deg,transparent 0 42%,rgba(200,255,61,.04) 42% 43%,transparent 43% 100%),radial-gradient(circle at 85% 0,rgba(56,189,248,.12),transparent 34%)}
+    .wrap{width:min(1120px,calc(100% - 32px));margin:auto;position:relative}.top{display:flex;align-items:center;justify-content:space-between;padding:22px 0;border-bottom:1px solid var(--line)}
+    .brand{font-weight:900;letter-spacing:-.03em}.brand i{display:inline-block;width:11px;height:11px;background:var(--lime);border-radius:50%;margin-right:10px;box-shadow:0 0 18px var(--lime)}nav a{color:var(--muted);text-decoration:none;margin-left:20px;font-size:14px}
+    .hero{padding:84px 0 64px;display:grid;grid-template-columns:1.2fr .8fr;gap:56px;align-items:end}.eyebrow{color:var(--lime);font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}h1{font-size:clamp(45px,7vw,86px);line-height:.94;letter-spacing:-.06em;margin:18px 0 24px;max-width:780px}h1 em{font-style:normal;color:var(--lime)}
+    .lead{font-size:20px;color:var(--muted);max-width:650px}.status{border-left:2px solid var(--lime);padding:6px 0 6px 18px;color:var(--muted)}.status strong{display:block;color:var(--ink)}
+    .actions{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px;margin:0 0 68px}.btn{display:flex;align-items:center;justify-content:space-between;min-height:64px;padding:16px 20px;background:var(--panel);border:1px solid var(--line);border-radius:12px;color:var(--ink);font-weight:800;text-decoration:none;transition:.18s transform,.18s border-color}.btn:hover{transform:translateY(-2px);border-color:var(--lime)}.btn.primary{background:var(--lime);color:#07100c;border-color:var(--lime)}
+    section{padding:66px 0;border-top:1px solid var(--line)}h2{font-size:clamp(30px,4vw,48px);letter-spacing:-.04em;margin:0 0 30px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{background:rgba(16,28,43,.86);border:1px solid var(--line);border-radius:16px;padding:24px}.card h3{margin:0 0 8px}.card p,.card li{color:var(--muted)}code{font:13px ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--blue);overflow-wrap:anywhere}.copyrow{display:flex;gap:8px;align-items:center;margin-top:12px}.copyrow code{flex:1}.copy{border:1px solid var(--line);background:#0a1522;color:var(--ink);border-radius:8px;padding:8px 10px;cursor:pointer}
+    .events{list-style:none;padding:0;margin:0;display:grid;gap:10px}.events li{display:grid;grid-template-columns:110px 1fr auto;gap:16px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:15px 18px}.events strong{font-size:15px}.events time{color:var(--muted);font-variant-numeric:tabular-nums}.tag{font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.08em}.tag.f1{color:var(--orange)}.tag.motogp{color:var(--blue)}
+    .notice{background:#172414;border:1px solid #38532b;border-radius:14px;padding:18px 20px;color:#dfffb0}.legend{display:flex;flex-wrap:wrap;gap:10px}.pill{border:1px solid var(--line);border-radius:999px;padding:7px 11px;color:var(--muted);font-size:13px}footer{padding:36px 0 52px;color:var(--muted);font-size:14px}
+    @media(max-width:800px){nav{display:none}.hero{grid-template-columns:1fr;padding:58px 0 42px;gap:20px}.actions,.grid{grid-template-columns:1fr}.events li{grid-template-columns:1fr;gap:4px}.btn{min-height:58px}section{padding:48px 0}}
+  </style>
+</head>
+<body>
+  <header class="wrap top"><div class="brand"><i></i>Motorsport Calendar</div><nav><a href="#eventi">Prossimi eventi</a><a href="#guide">Guide</a><a href="#fonti">Fonti</a></nav></header>
+  <main class="wrap">
+    <div class="hero"><div><div class="eyebrow">F1 + MotoGP · Europe/Rome</div><h1>Ogni sessione.<br><em>Zero partenze perse.</em></h1><p class="lead">Tre calendari iCalendar sottoscrivibili che si aggiornano automaticamente. Orari verificati, stato delle sessioni e copertura TV per Austria e Italia.</p></div><div class="status"><strong>Aggiornamento automatico ogni 6 ore</strong>Ultimo aggiornamento: <time>{{UPDATED_AT}}</time></div></div>
+    <div class="actions"><a class="btn primary" href="webcal://dizzle0987.github.io/motorsport-calendar/calendar.ics"><span>Sottoscrivi calendario completo</span><span>↗</span></a><a class="btn" href="webcal://dizzle0987.github.io/motorsport-calendar/f1.ics"><span>Solo Formula 1</span><span>↗</span></a><a class="btn" href="webcal://dizzle0987.github.io/motorsport-calendar/motogp.ics"><span>Solo MotoGP</span><span>↗</span></a></div>
+    <section id="eventi"><h2>Prossime sessioni</h2><ul class="events">{{UPCOMING_EVENTS}}</ul></section>
+    <section><h2>Link HTTPS copiabili</h2><div class="grid">
+      <div class="card"><h3>Calendario completo</h3><div class="copyrow"><code>https://dizzle0987.github.io/motorsport-calendar/calendar.ics</code><button class="copy" data-copy="https://dizzle0987.github.io/motorsport-calendar/calendar.ics">Copia</button></div></div>
+      <div class="card"><h3>Formula 1</h3><div class="copyrow"><code>https://dizzle0987.github.io/motorsport-calendar/f1.ics</code><button class="copy" data-copy="https://dizzle0987.github.io/motorsport-calendar/f1.ics">Copia</button></div></div>
+      <div class="card"><h3>MotoGP</h3><div class="copyrow"><code>https://dizzle0987.github.io/motorsport-calendar/motogp.ics</code><button class="copy" data-copy="https://dizzle0987.github.io/motorsport-calendar/motogp.ics">Copia</button></div></div>
+      <div class="card"><h3>Sottoscrizione ≠ importazione</h3><p>La sottoscrizione continua a ricevere gli aggiornamenti. Scaricare e importare il file una sola volta crea invece una copia statica.</p></div>
+    </div></section>
+    <section id="guide"><h2>Come sottoscrivere</h2><div class="notice"><strong>Apple Calendar:</strong> nelle impostazioni della sottoscrizione lascia disattivata l’opzione “Rimuovi avvisi”, altrimenti i promemoria del feed non verranno mostrati.</div><div class="grid" style="margin-top:18px">
+      <article class="card"><h3>iPhone / iPad</h3><ol><li>Tocca uno dei pulsanti webcal.</li><li>Conferma “Sottoscrivi”.</li><li>Apri i dettagli e disattiva “Rimuovi avvisi”.</li></ol></article>
+      <article class="card"><h3>Android / Google Calendar</h3><ol><li>Da computer apri Google Calendar.</li><li>Altri calendari → Da URL.</li><li>Incolla il link HTTPS; apparirà anche su Android.</li></ol></article>
+      <article class="card"><h3>Mac</h3><ol><li>Apri il link webcal.</li><li>Scegli una frequenza di aggiornamento.</li><li>Lascia “Rimuovi avvisi” disattivato.</li></ol></article>
+      <article class="card"><h3>Windows / Outlook</h3><ol><li>Aggiungi calendario → Sottoscrivi dal Web.</li><li>Incolla il link HTTPS.</li><li>Assegna un nome e salva.</li></ol></article>
+    </div></section>
+    <section id="fonti"><h2>Broadcaster e trasparenza</h2><div class="legend"><span class="pill">AT · ORF 1 / ORF ON</span><span class="pill">AT · ServusTV / ServusTV On</span><span class="pill">IT · TV8 gratuito</span><span class="pill">IT · Sky Sport / NOW a pagamento</span><span class="pill">Diretta</span><span class="pill">Differita</span><span class="pill">Da confermare</span></div><p style="color:var(--muted);max-width:800px">Ogni evento riporta fonte sportiva, fonte dell’orario e tipo di trasmissione. Una differita TV8 non viene indicata come diretta. Se il palinsesto della singola sessione non è pubblicato, compare “Da confermare”. I servizi streaming possono avere limitazioni geografiche.</p></section>
+  </main>
+  <footer class="wrap">Dati sportivi: Formula1.com e MotoGP.com; fallback strutturati documentati nel repository. Nessun orario viene dedotto dai soli diritti TV.</footer>
+  <script>document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',async()=>{await navigator.clipboard.writeText(b.dataset.copy);b.textContent='Copiato';setTimeout(()=>b.textContent='Copia',1500)}));</script>
+</body></html>
