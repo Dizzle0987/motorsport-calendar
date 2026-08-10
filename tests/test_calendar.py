@@ -12,7 +12,13 @@ from motorsport_calendar.discovery import discover_rounds, merge_rounds
 from motorsport_calendar.ics import render_calendar
 from motorsport_calendar.merge import deduplicate, merge_events
 from motorsport_calendar.model import Event, ROME
-from motorsport_calendar.parsers import classify_session, parse_f1_schedule_html, parse_motogp_json
+from motorsport_calendar.parsers import (
+    classify_session,
+    parse_f1_schedule_html,
+    parse_f1_schedule_json,
+    parse_motogp_event_json,
+    parse_motogp_json,
+)
 from motorsport_calendar.update import (
     competitions_with_current_season,
     current_and_future_events,
@@ -48,6 +54,55 @@ def test_parsing_motogp_and_filters_lower_classes():
     ]}
     events = parse_motogp_json(payload)
     assert len(events) == 1 and events[0].competition == "MotoGP" and events[0].session == "Q1"
+
+
+def test_parsing_structured_f1_session_times():
+    rounds = [{
+        "competition":"Formula 1", "slug":"netherlands", "grand_prix":"Dutch Grand Prix 2026",
+        "circuit":"Zandvoort", "location":"Zandvoort", "country":"Netherlands",
+        "start_date":"2026-08-21",
+    }]
+    payload = {"MRData":{"RaceTable":{"Races":[{
+        "raceName":"Dutch Grand Prix", "date":"2026-08-23", "time":"13:00:00Z",
+        "FirstPractice":{"date":"2026-08-21", "time":"10:30:00Z"},
+        "SprintQualifying":{"date":"2026-08-21", "time":"14:30:00Z"},
+        "Sprint":{"date":"2026-08-22", "time":"10:00:00Z"},
+        "Qualifying":{"date":"2026-08-22", "time":"14:00:00Z"},
+    }]}}}
+    events = parse_f1_schedule_json(payload, rounds)
+    assert [e.session for e in events] == ["FP1", "Sprint Qualifying", "Sprint", "Qualifiche", "Gara"]
+    assert events[0].start == "2026-08-21T12:30+02:00"
+    assert all(e.is_timed for e in events)
+
+
+def test_parsing_official_motogp_event_api_and_filtering_categories():
+    rnd = {
+        "competition":"MotoGP", "slug":"aragon", "grand_prix":"Aragon Grand Prix 2026",
+        "circuit":"MotorLand Aragón", "location":"Alcañiz", "country":"Spain",
+        "start_date":"2026-08-28",
+    }
+    payload = {
+        "id":"event-uuid", "url":"aragon", "season":{"year":2026},
+        "broadcasts":[
+            {"shortname":"FP1", "name":"Free Practice Nr. 1", "type":"SESSION",
+             "status":"NOT-STARTED", "date_start":"2026-08-28T10:45:00+0200",
+             "date_end":"2026-08-28T11:30:00+0200", "category":{"acronym":"MGP"}},
+            {"shortname":"FP1", "name":"Free Practice Nr. 1", "type":"SESSION",
+             "status":"NOT-STARTED", "date_start":"2026-08-28T09:50:00+0200",
+             "date_end":"2026-08-28T10:30:00+0200", "category":{"acronym":"MT2"}},
+            {"shortname":"PRESS", "name":"Press Conference", "type":"MEDIA",
+             "status":"NOT-STARTED", "date_start":"2026-08-27T16:00:00+0200",
+             "category":{"acronym":"MGP"}},
+            {"shortname":"RAC2", "name":"Grand Prix", "type":"SESSION",
+             "status":"FINISHED", "date_start":"2026-08-30T14:00:00+0200",
+             "date_end":"2026-08-30T14:45:00+0200", "category":{"acronym":"MGP"}},
+        ],
+    }
+    events = parse_motogp_event_json(payload, rnd)
+    assert [e.session for e in events] == ["Prove libere", "Gara"]
+    assert events[0].start == "2026-08-28T10:45+02:00"
+    assert events[1].end == "2026-08-30T14:45+02:00"
+    assert all(e.is_timed for e in events)
 
 
 @pytest.mark.parametrize("raw,expected", [
