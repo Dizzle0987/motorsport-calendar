@@ -219,6 +219,16 @@ def test_round_merge_deduplicates_provider_specific_slugs():
     assert merged[0]["slug"] == "australia"
 
 
+def test_round_merge_tolerates_thursday_friday_weekend_boundaries():
+    official = [{"competition":"Formula 1", "slug":"las-vegas", "grand_prix":"Las Vegas GP 2026",
+                 "circuit":"Las Vegas Strip", "location":"Las Vegas", "country":"USA", "start_date":"2026-11-19"}]
+    fallback = [{"competition":"Formula 1", "slug":"vegas", "grand_prix":"Las Vegas GP 2026",
+                 "circuit":"Las Vegas Strip", "location":"Las Vegas", "country":"USA", "start_date":"2026-11-20"}]
+    merged = merge_rounds(official, fallback)
+    assert len(merged) == 1
+    assert merged[0]["start_date"] == "2026-11-19"
+
+
 def test_generation_is_idempotent_when_events_do_not_change(tmp_path):
     source = Path(__file__).parents[1]
     shutil.copytree(source / "data", tmp_path / "data")
