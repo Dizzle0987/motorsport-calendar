@@ -40,6 +40,23 @@ def events_signature(events: list[Event]) -> str:
     return json.dumps([event.as_dict() for event in events], ensure_ascii=False, sort_keys=True)
 
 
+def current_and_future_rounds(rounds: list[dict], today: date) -> list[dict]:
+    """Drop completed calendar years while retaining current and announced future seasons."""
+    return [rnd for rnd in rounds if int(rnd["start_date"][:4]) >= today.year]
+
+
+def current_and_future_events(events: list[Event], today: date) -> list[Event]:
+    return [event for event in events if event.start_dt.year >= today.year]
+
+
+def competitions_with_current_season(rounds: list[dict], today: date) -> set[str]:
+    """Return series whose official catalog already contains the current season."""
+    return {
+        rnd["competition"] for rnd in rounds
+        if int(rnd["start_date"][:4]) == today.year
+    }
+
+
 def load_round_catalog(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -148,6 +165,28 @@ def generate(root: Path = ROOT, *, online: bool = True, now: datetime | None = N
     if online:
         try:
             rounds = discover_rounds(rounds, now.date())
+        except (urllib.error.URLError, TimeoutError, ValueError):
+            # The saved official catalog remains usable when discovery is temporarily unavailable.
+            pass
+
+    active_competitions = competitions_with_current_season(rounds, now.date())
+    if active_competitions:
+        rounds = [
+            rnd for rnd in rounds
+            if rnd["competition"] not in active_competitions
+            or int(rnd["start_date"][:4]) >= now.year
+        ]
+        previous = [
+            event for event in previous
+            if event.competition not in active_competitions or event.start_dt.year >= now.year
+        ]
+        manual = [
+            event for event in manual
+            if event.competition not in active_competitions or event.start_dt.year >= now.year
+        ]
+
+    if online:
+        try:
             official_f1 = fetch_f1_details(rounds)
         except (urllib.error.URLError, TimeoutError, ValueError):
             # Round-level official dates remain usable. Existing outputs are never emptied.
@@ -179,6 +218,7 @@ def generate(root: Path = ROOT, *, online: bool = True, now: datetime | None = N
     files[root / "data/events.json"] = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
     round_catalog["rounds"] = rounds
     round_catalog["managed_seasons"] = sorted({int(r["start_date"][:4]) for r in rounds})
+    round_catalog["retention"] = "current_and_future"
     files[root / "data/rounds.json"] = json.dumps(round_catalog, ensure_ascii=False, indent=2) + "\n"
     _atomic_write_many(files)
     return combined
