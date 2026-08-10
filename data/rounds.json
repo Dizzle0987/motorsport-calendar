@@ -1,0 +1,422 @@
+{
+  "sources": {
+    "Formula 1": "https://www.formula1.com/en/racing",
+    "MotoGP": "https://www.motogp.com/en/calendar"
+  },
+  "rounds": [
+    {
+      "competition": "Formula 1",
+      "slug": "australia",
+      "grand_prix": "FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026",
+      "circuit": "Albert Park Grand Prix Circuit",
+      "location": "Melbourne",
+      "country": "Australia",
+      "start_date": "2026-03-06"
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "china",
+      "grand_prix": "FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2026",
+      "circuit": "Shanghai International Circuit",
+      "location": "Shanghai",
+      "country": "China",
+      "start_date": "2026-03-13",
+      "sprint": true
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "japan",
+      "grand_prix": "FORMULA 1 ARAMCO JAPANESE GRAND PRIX 2026",
+      "circuit": "Suzuka International Racing Course",
+      "location": "Suzuka",
+      "country": "Japan",
+      "start_date": "2026-03-27"
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "miami",
+      "grand_prix": "FORMULA 1 CRYPTO.COM MIAMI GRAND PRIX 2026",
+      "circuit": "Miami International Autodrome",
+      "location": "Miami",
+      "country": "USA",
+      "start_date": "2026-05-01",
+      "sprint": true
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "canada",
+      "grand_prix": "FORMULA 1 LENOVO GRAND PRIX DU CANADA 2026",
+      "circuit": "Circuit Gilles-Villeneuve",
+      "location": "Montréal",
+      "country": "Canada",
+      "start_date": "2026-05-22",
+      "sprint": true
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "monaco",
+      "grand_prix": "FORMULA 1 LOUIS VUITTON GRAND PRIX DE MONACO 2026",
+      "circuit": "Circuit de Monaco",
+      "location": "Monte Carlo",
+      "country": "Monaco",
+      "start_date": "2026-06-05"
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "barcelona-catalunya",
+      "grand_prix": "FORMULA 1 MSC CRUISES GRAN PREMIO DE BARCELONA-CATALUNYA 2026",
+      "circuit": "Circuit de Barcelona-Catalunya",
+      "location": "Montmeló",
+      "country": "Spain",
+      "start_date": "2026-06-12"
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "austria",
+      "grand_prix": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
+      "circuit": "Red Bull Ring",
+      "location": "Spielberg",
+      "country": "Austria",
+      "start_date": "2026-06-26"
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "great-britain",
+      "grand_prix": "FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026",
+      "circuit": "Silverstone Circuit",
+      "location": "Silverstone",
+      "country": "United Kingdom",
+      "start_date": "2026-07-03",
+      "sprint": true
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "belgium",
+      "grand_prix": "FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026",
+      "circuit": "Circuit de Spa-Francorchamps",
+      "location": "Stavelot",
+      "country": "Belgium",
+      "start_date": "2026-07-17"
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "hungary",
+      "grand_prix": "FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026",
+      "circuit": "Hungaroring",
+      "location": "Mogyoród",
+      "country": "Hungary",
+      "start_date": "2026-07-24"
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "netherlands",
+      "grand_prix": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
+      "circuit": "Circuit Zandvoort",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "start_date": "2026-08-21",
+      "sprint": true
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "italy",
+      "grand_prix": "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026",
+      "circuit": "Autodromo Nazionale Monza",
+      "location": "Monza",
+      "country": "Italy",
+      "start_date": "2026-09-04"
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "spain",
+      "grand_prix": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
+      "circuit": "Madring",
+      "location": "Madrid",
+      "country": "Spain",
+      "start_date": "2026-09-11"
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "azerbaijan",
+      "grand_prix": "FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
+      "circuit": "Baku City Circuit",
+      "location": "Baku",
+      "country": "Azerbaijan",
+      "start_date": "2026-09-24"
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "bahrain",
+      "grand_prix": "FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026",
+      "circuit": "Sepang International Circuit",
+      "location": "Sepang",
+      "country": "Malaysia",
+      "start_date": "2026-10-02"
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "singapore",
+      "grand_prix": "FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2026",
+      "circuit": "Marina Bay Street Circuit",
+      "location": "Singapore",
+      "country": "Singapore",
+      "start_date": "2026-10-09",
+      "sprint": true
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "united-states",
+      "grand_prix": "FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026",
+      "circuit": "Circuit of the Americas",
+      "location": "Austin",
+      "country": "USA",
+      "start_date": "2026-10-23"
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "mexico",
+      "grand_prix": "FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2026",
+      "circuit": "Autódromo Hermanos Rodríguez",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "start_date": "2026-10-30"
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "brazil",
+      "grand_prix": "FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO PAULO 2026",
+      "circuit": "Autódromo José Carlos Pace",
+      "location": "São Paulo",
+      "country": "Brazil",
+      "start_date": "2026-11-06"
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "las-vegas",
+      "grand_prix": "FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026",
+      "circuit": "Las Vegas Strip Circuit",
+      "location": "Las Vegas",
+      "country": "USA",
+      "start_date": "2026-11-19"
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "qatar",
+      "grand_prix": "FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2026",
+      "circuit": "Lusail International Circuit",
+      "location": "Lusail",
+      "country": "Qatar",
+      "start_date": "2026-11-27"
+    },
+    {
+      "competition": "Formula 1",
+      "slug": "abu-dhabi",
+      "grand_prix": "FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2026",
+      "circuit": "Yas Marina Circuit",
+      "location": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "start_date": "2026-12-04"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "thailand",
+      "grand_prix": "Grand Prix of Thailand 2026",
+      "circuit": "Chang International Circuit",
+      "location": "Buriram",
+      "country": "Thailand",
+      "start_date": "2026-02-27"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "brazil",
+      "grand_prix": "Grand Prix of Brazil 2026",
+      "circuit": "Autódromo Internacional Ayrton Senna",
+      "location": "Goiânia",
+      "country": "Brazil",
+      "start_date": "2026-03-20"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "americas",
+      "grand_prix": "Grand Prix of the Americas 2026",
+      "circuit": "Circuit of the Americas",
+      "location": "Austin",
+      "country": "USA",
+      "start_date": "2026-03-27"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "spain",
+      "grand_prix": "Spanish Grand Prix 2026",
+      "circuit": "Circuito de Jerez – Ángel Nieto",
+      "location": "Jerez de la Frontera",
+      "country": "Spain",
+      "start_date": "2026-04-24"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "france",
+      "grand_prix": "French Grand Prix 2026",
+      "circuit": "Le Mans Bugatti Circuit",
+      "location": "Le Mans",
+      "country": "France",
+      "start_date": "2026-05-08"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "catalonia",
+      "grand_prix": "Catalan Grand Prix 2026",
+      "circuit": "Circuit de Barcelona-Catalunya",
+      "location": "Montmeló",
+      "country": "Spain",
+      "start_date": "2026-05-15"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "italy",
+      "grand_prix": "Italian Grand Prix 2026",
+      "circuit": "Autodromo Internazionale del Mugello",
+      "location": "Scarperia e San Piero",
+      "country": "Italy",
+      "start_date": "2026-05-29"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "hungary",
+      "grand_prix": "Hungarian Grand Prix 2026",
+      "circuit": "Balaton Park Circuit",
+      "location": "Balatonfőkajár",
+      "country": "Hungary",
+      "start_date": "2026-06-05"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "czechia",
+      "grand_prix": "Czech Grand Prix 2026",
+      "circuit": "Automotodrom Brno",
+      "location": "Brno",
+      "country": "Czechia",
+      "start_date": "2026-06-19"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "netherlands",
+      "grand_prix": "Dutch TT 2026",
+      "circuit": "TT Circuit Assen",
+      "location": "Assen",
+      "country": "Netherlands",
+      "start_date": "2026-06-26"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "germany",
+      "grand_prix": "German Grand Prix 2026",
+      "circuit": "Sachsenring",
+      "location": "Hohenstein-Ernstthal",
+      "country": "Germany",
+      "start_date": "2026-07-10"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "great-britain",
+      "grand_prix": "British Grand Prix 2026",
+      "circuit": "Silverstone Circuit",
+      "location": "Silverstone",
+      "country": "United Kingdom",
+      "start_date": "2026-08-07"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "aragon",
+      "grand_prix": "MICHELIN Grand Prix of Aragon 2026",
+      "circuit": "MotorLand Aragón",
+      "location": "Alcañiz",
+      "country": "Spain",
+      "start_date": "2026-08-28"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "san-marino",
+      "grand_prix": "San Marino and Rimini Riviera Grand Prix 2026",
+      "circuit": "Misano World Circuit Marco Simoncelli",
+      "location": "Misano Adriatico",
+      "country": "San Marino",
+      "start_date": "2026-09-11"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "austria",
+      "grand_prix": "Austrian Grand Prix 2026",
+      "circuit": "Red Bull Ring",
+      "location": "Spielberg",
+      "country": "Austria",
+      "start_date": "2026-09-18"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "japan",
+      "grand_prix": "Grand Prix of Japan 2026",
+      "circuit": "Mobility Resort Motegi",
+      "location": "Motegi",
+      "country": "Japan",
+      "start_date": "2026-10-02"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "indonesia",
+      "grand_prix": "Grand Prix of Indonesia 2026",
+      "circuit": "Pertamina Mandalika International Circuit",
+      "location": "Lombok",
+      "country": "Indonesia",
+      "start_date": "2026-10-09"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "australia",
+      "grand_prix": "Australian Motorcycle Grand Prix 2026",
+      "circuit": "Phillip Island Grand Prix Circuit",
+      "location": "Phillip Island",
+      "country": "Australia",
+      "start_date": "2026-10-23"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "malaysia",
+      "grand_prix": "Malaysian Grand Prix 2026",
+      "circuit": "Sepang International Circuit",
+      "location": "Sepang",
+      "country": "Malaysia",
+      "start_date": "2026-10-30"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "qatar",
+      "grand_prix": "Qatar Grand Prix 2026",
+      "circuit": "Lusail International Circuit",
+      "location": "Lusail",
+      "country": "Qatar",
+      "start_date": "2026-11-06"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "portugal",
+      "grand_prix": "Portuguese Grand Prix 2026",
+      "circuit": "Autódromo Internacional do Algarve",
+      "location": "Portimão",
+      "country": "Portugal",
+      "start_date": "2026-11-20"
+    },
+    {
+      "competition": "MotoGP",
+      "slug": "valencia",
+      "grand_prix": "Valencian Community Grand Prix 2026",
+      "circuit": "Circuit Ricardo Tormo",
+      "location": "Cheste",
+      "country": "Spain",
+      "start_date": "2026-11-27"
+    }
+  ],
+  "managed_seasons": [
+    2026
+  ]
+}

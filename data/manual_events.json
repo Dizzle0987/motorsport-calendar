@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "documentation": "Una voce con la stessa stable_key sostituisce i dati automatici; enabled:false la disabilita.",
+  "events": []
+}
