@@ -207,3 +207,14 @@ def test_round_merge_never_deletes_and_enriches_existing():
     merged = merge_rounds(old, new)
     assert len(merged) == 2
     assert next(r for r in merged if r["start_date"].startswith("2026"))["circuit"] == "Mugello"
+
+
+def test_generation_is_idempotent_when_events_do_not_change(tmp_path):
+    source = Path(__file__).parents[1]
+    shutil.copytree(source / "data", tmp_path / "data")
+    generate(tmp_path, online=False, now=datetime(2026, 8, 11, 8, tzinfo=timezone.utc))
+    tracked = ("calendar.ics", "f1.ics", "motogp.ics", "data/events.json", "data/rounds.json")
+    before = {name: (tmp_path / name).read_bytes() for name in tracked}
+    generate(tmp_path, online=False, now=datetime(2026, 8, 11, 14, tzinfo=timezone.utc))
+    after = {name: (tmp_path / name).read_bytes() for name in tracked}
+    assert before == after
