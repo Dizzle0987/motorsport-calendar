@@ -209,6 +209,16 @@ def test_round_merge_never_deletes_and_enriches_existing():
     assert next(r for r in merged if r["start_date"].startswith("2026"))["circuit"] == "Mugello"
 
 
+def test_round_merge_deduplicates_provider_specific_slugs():
+    official = [{"competition":"Formula 1", "slug":"australia", "grand_prix":"Australian GP 2027",
+                 "circuit":"Albert Park", "location":"Melbourne", "country":"Australia", "start_date":"2027-03-05"}]
+    fallback = [{"competition":"Formula 1", "slug":"albert_park", "grand_prix":"Australian GP 2027",
+                 "circuit":"Albert Park", "location":"Melbourne", "country":"Australia", "start_date":"2027-03-05"}]
+    merged = merge_rounds(official, fallback)
+    assert len(merged) == 1
+    assert merged[0]["slug"] == "australia"
+
+
 def test_generation_is_idempotent_when_events_do_not_change(tmp_path):
     source = Path(__file__).parents[1]
     shutil.copytree(source / "data", tmp_path / "data")
