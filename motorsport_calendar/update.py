@@ -86,7 +86,10 @@ def events_from_rounds(rounds: list[dict], today: date | None = None) -> list[Ev
             source, source_url = MOTOGP_SOURCE, MOTOGP_CALENDAR
         for offset, session in sessions:
             session_date = start + timedelta(days=offset)
-            status = "conclusa" if session_date < today else "da confermare"
+            # The official round date is confirmed even when the session time is not.
+            # Keep time and broadcast uncertainty in the description instead of
+            # marking the entire event as TBC.
+            status = "conclusa" if session_date < today else "programmata"
             events.append(_tbc_broadcast(Event(
                 competition=competition, grand_prix=rnd["grand_prix"], session=session,
                 circuit=rnd["circuit"], location=rnd["location"], country=rnd["country"],

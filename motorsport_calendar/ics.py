@@ -30,6 +30,7 @@ def _description(event: Event) -> str:
         status = "RINVIATA — DATA DA DESTINARSI"
     return "\n".join(filter(None, [
         f"Stato: {status}",
+        "Orario: Da confermare" if not event.is_timed else "",
         f"Austria: {event.broadcaster_at} ({event.broadcast_type_at})",
         f"Italia: {event.broadcaster_it} ({event.broadcast_type_it})",
         "Streaming soggetto a possibili limitazioni geografiche.",
