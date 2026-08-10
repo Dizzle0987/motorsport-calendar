@@ -407,20 +407,11 @@
     {
       "competition": "Formula 1",
       "slug": "las-vegas",
-      "grand_prix": "FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026",
-      "circuit": "Las Vegas Strip Circuit",
-      "location": "Las Vegas",
-      "country": "USA",
-      "start_date": "2026-11-19"
-    },
-    {
-      "competition": "Formula 1",
-      "slug": "vegas",
       "grand_prix": "Las Vegas Grand Prix 2026",
       "circuit": "Las Vegas Strip Street Circuit",
       "location": "Las Vegas",
       "country": "USA",
-      "start_date": "2026-11-20",
+      "start_date": "2026-11-19",
       "source_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "sprint": false
     },
