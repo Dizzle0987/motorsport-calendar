@@ -1,0 +1,2631 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+PRODID:-//Motorsport Calendar//IT
+X-WR-CALNAME:Formula 1
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:476b8742b996eddbab704533@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260306
+DTEND;VALUE=DATE:20260307
+SUMMARY:Formula 1 — FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026 
+ — FP1
+LOCATION:Albert Park Grand Prix Circuit\, Melbourne\, Australia
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/australia\
+ nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://www.fo
+ rmula1.com/en/racing/2026/australia
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0e922942629a132f17e3c7dc@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260306
+DTEND;VALUE=DATE:20260307
+SUMMARY:Formula 1 — FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026 
+ — FP2
+LOCATION:Albert Park Grand Prix Circuit\, Melbourne\, Australia
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/australia\
+ nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://www.fo
+ rmula1.com/en/racing/2026/australia
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:abe794c8f2372ed8b4b1143e@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260307
+DTEND;VALUE=DATE:20260308
+SUMMARY:Formula 1 — FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026 
+ — FP3
+LOCATION:Albert Park Grand Prix Circuit\, Melbourne\, Australia
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/australia\
+ nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://www.fo
+ rmula1.com/en/racing/2026/australia
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:09020ee6206243f4dc32bced@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260307
+DTEND;VALUE=DATE:20260308
+SUMMARY:Formula 1 — FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026 
+ — Qualifiche
+LOCATION:Albert Park Grand Prix Circuit\, Melbourne\, Australia
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/australia\
+ nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://www.fo
+ rmula1.com/en/racing/2026/australia
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:474cceec138f6b581710d7fe@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260308
+DTEND;VALUE=DATE:20260309
+SUMMARY:Formula 1 — FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026 
+ — Gara
+LOCATION:Albert Park Grand Prix Circuit\, Melbourne\, Australia
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/australia\
+ nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://www.fo
+ rmula1.com/en/racing/2026/australia
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c7af17fb17d0a75383e81b59@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260313
+DTEND;VALUE=DATE:20260314
+SUMMARY:Formula 1 — FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2026 — FP1
+LOCATION:Shanghai International Circuit\, Shanghai\, China
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/china\nFon
+ te orario: Formula1.com (solo data\; ora non pubblicata) https://www.formul
+ a1.com/en/racing/2026/china
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:232c81f4dab1110f04927995@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260313
+DTEND;VALUE=DATE:20260314
+SUMMARY:Formula 1 — FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2026 — Sprint
+  Qualifying
+LOCATION:Shanghai International Circuit\, Shanghai\, China
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/china\nFon
+ te orario: Formula1.com (solo data\; ora non pubblicata) https://www.formul
+ a1.com/en/racing/2026/china
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:75907e74b42e15c261082a12@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260314
+DTEND;VALUE=DATE:20260315
+SUMMARY:Formula 1 — FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2026 — Qualif
+ iche
+LOCATION:Shanghai International Circuit\, Shanghai\, China
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/china\nFon
+ te orario: Formula1.com (solo data\; ora non pubblicata) https://www.formul
+ a1.com/en/racing/2026/china
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e7e86492e02626a4b9540121@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260314
+DTEND;VALUE=DATE:20260315
+SUMMARY:Formula 1 — FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2026 — Sprint
+LOCATION:Shanghai International Circuit\, Shanghai\, China
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/china\nFon
+ te orario: Formula1.com (solo data\; ora non pubblicata) https://www.formul
+ a1.com/en/racing/2026/china
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5dc59d9fcb4965ee89612fad@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260315
+DTEND;VALUE=DATE:20260316
+SUMMARY:Formula 1 — FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2026 — Gara
+LOCATION:Shanghai International Circuit\, Shanghai\, China
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/china\nFon
+ te orario: Formula1.com (solo data\; ora non pubblicata) https://www.formul
+ a1.com/en/racing/2026/china
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4bfebf14779aac79c7ac9022@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260327
+DTEND;VALUE=DATE:20260328
+SUMMARY:Formula 1 — FORMULA 1 ARAMCO JAPANESE GRAND PRIX 2026 — FP1
+LOCATION:Suzuka International Racing Course\, Suzuka\, Japan
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/japan\nFon
+ te orario: Formula1.com (solo data\; ora non pubblicata) https://www.formul
+ a1.com/en/racing/2026/japan
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:36aab851f7d96041f9f91d81@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260327
+DTEND;VALUE=DATE:20260328
+SUMMARY:Formula 1 — FORMULA 1 ARAMCO JAPANESE GRAND PRIX 2026 — FP2
+LOCATION:Suzuka International Racing Course\, Suzuka\, Japan
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/japan\nFon
+ te orario: Formula1.com (solo data\; ora non pubblicata) https://www.formul
+ a1.com/en/racing/2026/japan
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:adeff5acc9c2347639fcad15@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260329
+SUMMARY:Formula 1 — FORMULA 1 ARAMCO JAPANESE GRAND PRIX 2026 — FP3
+LOCATION:Suzuka International Racing Course\, Suzuka\, Japan
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/japan\nFon
+ te orario: Formula1.com (solo data\; ora non pubblicata) https://www.formul
+ a1.com/en/racing/2026/japan
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0ac29a9c126b1495a4db2883@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260329
+SUMMARY:Formula 1 — FORMULA 1 ARAMCO JAPANESE GRAND PRIX 2026 — Qualifi
+ che
+LOCATION:Suzuka International Racing Course\, Suzuka\, Japan
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/japan\nFon
+ te orario: Formula1.com (solo data\; ora non pubblicata) https://www.formul
+ a1.com/en/racing/2026/japan
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a65560bb8c3796fae9ea2b05@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260329
+DTEND;VALUE=DATE:20260330
+SUMMARY:Formula 1 — FORMULA 1 ARAMCO JAPANESE GRAND PRIX 2026 — Gara
+LOCATION:Suzuka International Racing Course\, Suzuka\, Japan
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/japan\nFon
+ te orario: Formula1.com (solo data\; ora non pubblicata) https://www.formul
+ a1.com/en/racing/2026/japan
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2f583a1cbba5c801e13038cf@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:Formula 1 — FORMULA 1 CRYPTO.COM MIAMI GRAND PRIX 2026 — FP1
+LOCATION:Miami International Autodrome\, Miami\, USA
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/miami\nFon
+ te orario: Formula1.com (solo data\; ora non pubblicata) https://www.formul
+ a1.com/en/racing/2026/miami
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8f14f6763314fb270581b0f0@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:Formula 1 — FORMULA 1 CRYPTO.COM MIAMI GRAND PRIX 2026 — Sprint
+  Qualifying
+LOCATION:Miami International Autodrome\, Miami\, USA
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/miami\nFon
+ te orario: Formula1.com (solo data\; ora non pubblicata) https://www.formul
+ a1.com/en/racing/2026/miami
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bad408e203924ab2942f0329@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260502
+DTEND;VALUE=DATE:20260503
+SUMMARY:Formula 1 — FORMULA 1 CRYPTO.COM MIAMI GRAND PRIX 2026 — Qualif
+ iche
+LOCATION:Miami International Autodrome\, Miami\, USA
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/miami\nFon
+ te orario: Formula1.com (solo data\; ora non pubblicata) https://www.formul
+ a1.com/en/racing/2026/miami
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fabf866aedfbff5a9dae8d78@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260502
+DTEND;VALUE=DATE:20260503
+SUMMARY:Formula 1 — FORMULA 1 CRYPTO.COM MIAMI GRAND PRIX 2026 — Sprint
+LOCATION:Miami International Autodrome\, Miami\, USA
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/miami\nFon
+ te orario: Formula1.com (solo data\; ora non pubblicata) https://www.formul
+ a1.com/en/racing/2026/miami
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1092284946128c49e1d01c5a@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260503
+DTEND;VALUE=DATE:20260504
+SUMMARY:Formula 1 — FORMULA 1 CRYPTO.COM MIAMI GRAND PRIX 2026 — Gara
+LOCATION:Miami International Autodrome\, Miami\, USA
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/miami\nFon
+ te orario: Formula1.com (solo data\; ora non pubblicata) https://www.formul
+ a1.com/en/racing/2026/miami
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e9446c3394a80abd9edf527c@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260523
+SUMMARY:Formula 1 — FORMULA 1 LENOVO GRAND PRIX DU CANADA 2026 — FP1
+LOCATION:Circuit Gilles-Villeneuve\, Montréal\, Canada
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/canada\nFo
+ nte orario: Formula1.com (solo data\; ora non pubblicata) https://www.formu
+ la1.com/en/racing/2026/canada
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c0b28479c54e13aa703a4d89@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260523
+SUMMARY:Formula 1 — FORMULA 1 LENOVO GRAND PRIX DU CANADA 2026 — Sprint
+  Qualifying
+LOCATION:Circuit Gilles-Villeneuve\, Montréal\, Canada
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/canada\nFo
+ nte orario: Formula1.com (solo data\; ora non pubblicata) https://www.formu
+ la1.com/en/racing/2026/canada
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b96e7d5ea9c642e46094449f@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260524
+SUMMARY:Formula 1 — FORMULA 1 LENOVO GRAND PRIX DU CANADA 2026 — Qualif
+ iche
+LOCATION:Circuit Gilles-Villeneuve\, Montréal\, Canada
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/canada\nFo
+ nte orario: Formula1.com (solo data\; ora non pubblicata) https://www.formu
+ la1.com/en/racing/2026/canada
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b17891bd5c4c078333cfdf05@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260524
+SUMMARY:Formula 1 — FORMULA 1 LENOVO GRAND PRIX DU CANADA 2026 — Sprint
+LOCATION:Circuit Gilles-Villeneuve\, Montréal\, Canada
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/canada\nFo
+ nte orario: Formula1.com (solo data\; ora non pubblicata) https://www.formu
+ la1.com/en/racing/2026/canada
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ed7c77d47a2e7a74ad15d937@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+SUMMARY:Formula 1 — FORMULA 1 LENOVO GRAND PRIX DU CANADA 2026 — Gara
+LOCATION:Circuit Gilles-Villeneuve\, Montréal\, Canada
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/canada\nFo
+ nte orario: Formula1.com (solo data\; ora non pubblicata) https://www.formu
+ la1.com/en/racing/2026/canada
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:697384a72cc6a55c13be1394@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
+SUMMARY:Formula 1 — FORMULA 1 LOUIS VUITTON GRAND PRIX DE MONACO 2026 —
+  FP1
+LOCATION:Circuit de Monaco\, Monte Carlo\, Monaco
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/monaco\nFo
+ nte orario: Formula1.com (solo data\; ora non pubblicata) https://www.formu
+ la1.com/en/racing/2026/monaco
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3d309c19edcbe5b47eb154cd@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
+SUMMARY:Formula 1 — FORMULA 1 LOUIS VUITTON GRAND PRIX DE MONACO 2026 —
+  FP2
+LOCATION:Circuit de Monaco\, Monte Carlo\, Monaco
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/monaco\nFo
+ nte orario: Formula1.com (solo data\; ora non pubblicata) https://www.formu
+ la1.com/en/racing/2026/monaco
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd76ca2857ce3ed476be21f4@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
+SUMMARY:Formula 1 — FORMULA 1 LOUIS VUITTON GRAND PRIX DE MONACO 2026 —
+  FP3
+LOCATION:Circuit de Monaco\, Monte Carlo\, Monaco
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/monaco\nFo
+ nte orario: Formula1.com (solo data\; ora non pubblicata) https://www.formu
+ la1.com/en/racing/2026/monaco
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a609e409618eb3e5f645d263@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
+SUMMARY:Formula 1 — FORMULA 1 LOUIS VUITTON GRAND PRIX DE MONACO 2026 —
+  Qualifiche
+LOCATION:Circuit de Monaco\, Monte Carlo\, Monaco
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/monaco\nFo
+ nte orario: Formula1.com (solo data\; ora non pubblicata) https://www.formu
+ la1.com/en/racing/2026/monaco
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4d32a6d3034637b83245eb2c@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260608
+SUMMARY:Formula 1 — FORMULA 1 LOUIS VUITTON GRAND PRIX DE MONACO 2026 —
+  Gara
+LOCATION:Circuit de Monaco\, Monte Carlo\, Monaco
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/monaco\nFo
+ nte orario: Formula1.com (solo data\; ora non pubblicata) https://www.formu
+ la1.com/en/racing/2026/monaco
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:419d16a1a61e93e4ba70f9ec@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
+SUMMARY:Formula 1 — FORMULA 1 MSC CRUISES GRAN PREMIO DE BARCELONA-CATALU
+ NYA 2026 — FP1
+LOCATION:Circuit de Barcelona-Catalunya\, Montmeló\, Spain
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/barcelona-
+ catalunya\nFonte orario: Formula1.com (solo data\; ora non pubblicata) http
+ s://www.formula1.com/en/racing/2026/barcelona-catalunya
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:82449374869275c3b5a4e6be@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
+SUMMARY:Formula 1 — FORMULA 1 MSC CRUISES GRAN PREMIO DE BARCELONA-CATALU
+ NYA 2026 — FP2
+LOCATION:Circuit de Barcelona-Catalunya\, Montmeló\, Spain
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/barcelona-
+ catalunya\nFonte orario: Formula1.com (solo data\; ora non pubblicata) http
+ s://www.formula1.com/en/racing/2026/barcelona-catalunya
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ed1452b0119bf2610c3b1d31@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260614
+SUMMARY:Formula 1 — FORMULA 1 MSC CRUISES GRAN PREMIO DE BARCELONA-CATALU
+ NYA 2026 — FP3
+LOCATION:Circuit de Barcelona-Catalunya\, Montmeló\, Spain
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/barcelona-
+ catalunya\nFonte orario: Formula1.com (solo data\; ora non pubblicata) http
+ s://www.formula1.com/en/racing/2026/barcelona-catalunya
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3a4a97707e8792ec52462395@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260614
+SUMMARY:Formula 1 — FORMULA 1 MSC CRUISES GRAN PREMIO DE BARCELONA-CATALU
+ NYA 2026 — Qualifiche
+LOCATION:Circuit de Barcelona-Catalunya\, Montmeló\, Spain
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/barcelona-
+ catalunya\nFonte orario: Formula1.com (solo data\; ora non pubblicata) http
+ s://www.formula1.com/en/racing/2026/barcelona-catalunya
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:23b60a068d13399e674497cb@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260615
+SUMMARY:Formula 1 — FORMULA 1 MSC CRUISES GRAN PREMIO DE BARCELONA-CATALU
+ NYA 2026 — Gara
+LOCATION:Circuit de Barcelona-Catalunya\, Montmeló\, Spain
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/barcelona-
+ catalunya\nFonte orario: Formula1.com (solo data\; ora non pubblicata) http
+ s://www.formula1.com/en/racing/2026/barcelona-catalunya
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4fee614e3376ef032aa2d865@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:Formula 1 — FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026 — FP1
+LOCATION:Red Bull Ring\, Spielberg\, Austria
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/austria\nF
+ onte orario: Formula1.com (solo data\; ora non pubblicata) https://www.form
+ ula1.com/en/racing/2026/austria
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e29ed938bed3fab1c0685b20@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:Formula 1 — FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026 — FP2
+LOCATION:Red Bull Ring\, Spielberg\, Austria
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/austria\nF
+ onte orario: Formula1.com (solo data\; ora non pubblicata) https://www.form
+ ula1.com/en/racing/2026/austria
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e8d48bd42ccb595968d5431f@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260628
+SUMMARY:Formula 1 — FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026 — FP3
+LOCATION:Red Bull Ring\, Spielberg\, Austria
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/austria\nF
+ onte orario: Formula1.com (solo data\; ora non pubblicata) https://www.form
+ ula1.com/en/racing/2026/austria
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:68c097d6acee5f9af9208735@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260628
+SUMMARY:Formula 1 — FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026 — Qualifi
+ che
+LOCATION:Red Bull Ring\, Spielberg\, Austria
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/austria\nF
+ onte orario: Formula1.com (solo data\; ora non pubblicata) https://www.form
+ ula1.com/en/racing/2026/austria
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b1198570d4b35befc23402df@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+SUMMARY:Formula 1 — FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026 — Gara
+LOCATION:Red Bull Ring\, Spielberg\, Austria
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/austria\nF
+ onte orario: Formula1.com (solo data\; ora non pubblicata) https://www.form
+ ula1.com/en/racing/2026/austria
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8c4e4c7063231599158ca835@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:Formula 1 — FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026 — FP1
+LOCATION:Silverstone Circuit\, Silverstone\, United Kingdom
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/great-brit
+ ain\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://ww
+ w.formula1.com/en/racing/2026/great-britain
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:92392bce41834627f2937af7@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:Formula 1 — FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026 — Sprint 
+ Qualifying
+LOCATION:Silverstone Circuit\, Silverstone\, United Kingdom
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/great-brit
+ ain\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://ww
+ w.formula1.com/en/racing/2026/great-britain
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0075e13d1b34c57dec6fb0b2@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
+SUMMARY:Formula 1 — FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026 — Qualifi
+ che
+LOCATION:Silverstone Circuit\, Silverstone\, United Kingdom
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/great-brit
+ ain\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://ww
+ w.formula1.com/en/racing/2026/great-britain
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7666261bed88452b0d38e55c@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
+SUMMARY:Formula 1 — FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026 — Sprint
+LOCATION:Silverstone Circuit\, Silverstone\, United Kingdom
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/great-brit
+ ain\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://ww
+ w.formula1.com/en/racing/2026/great-britain
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cc2d7389d76d9320be6a7ca9@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+SUMMARY:Formula 1 — FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026 — Gara
+LOCATION:Silverstone Circuit\, Silverstone\, United Kingdom
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/great-brit
+ ain\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://ww
+ w.formula1.com/en/racing/2026/great-britain
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9c8307df4e85d259f7a6fe18@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:Formula 1 — FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026 —
+  FP1
+LOCATION:Circuit de Spa-Francorchamps\, Stavelot\, Belgium
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/belgium\nF
+ onte orario: Formula1.com (solo data\; ora non pubblicata) https://www.form
+ ula1.com/en/racing/2026/belgium
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20f98c4aa5da61ec137c41f9@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:Formula 1 — FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026 —
+  FP2
+LOCATION:Circuit de Spa-Francorchamps\, Stavelot\, Belgium
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/belgium\nF
+ onte orario: Formula1.com (solo data\; ora non pubblicata) https://www.form
+ ula1.com/en/racing/2026/belgium
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:24ea96f794d9d31f18acddb2@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20260719
+SUMMARY:Formula 1 — FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026 —
+  FP3
+LOCATION:Circuit de Spa-Francorchamps\, Stavelot\, Belgium
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/belgium\nF
+ onte orario: Formula1.com (solo data\; ora non pubblicata) https://www.form
+ ula1.com/en/racing/2026/belgium
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f7b5ec5a14d0f572096edb25@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20260719
+SUMMARY:Formula 1 — FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026 —
+  Qualifiche
+LOCATION:Circuit de Spa-Francorchamps\, Stavelot\, Belgium
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/belgium\nF
+ onte orario: Formula1.com (solo data\; ora non pubblicata) https://www.form
+ ula1.com/en/racing/2026/belgium
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:37592a3f9f105d8f0540f04f@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+SUMMARY:Formula 1 — FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026 —
+  Gara
+LOCATION:Circuit de Spa-Francorchamps\, Stavelot\, Belgium
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/belgium\nF
+ onte orario: Formula1.com (solo data\; ora non pubblicata) https://www.form
+ ula1.com/en/racing/2026/belgium
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9a3abfb8469f2334e6f1ab2d@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
+SUMMARY:Formula 1 — FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026 — FP1
+LOCATION:Hungaroring\, Mogyoród\, Hungary
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/hungary\nF
+ onte orario: Formula1.com (solo data\; ora non pubblicata) https://www.form
+ ula1.com/en/racing/2026/hungary
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:43afb94948cd5b13f54fa34c@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
+SUMMARY:Formula 1 — FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026 — FP2
+LOCATION:Hungaroring\, Mogyoród\, Hungary
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/hungary\nF
+ onte orario: Formula1.com (solo data\; ora non pubblicata) https://www.form
+ ula1.com/en/racing/2026/hungary
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:462032d1b0e3d117be7d3759@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
+SUMMARY:Formula 1 — FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026 — FP3
+LOCATION:Hungaroring\, Mogyoród\, Hungary
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/hungary\nF
+ onte orario: Formula1.com (solo data\; ora non pubblicata) https://www.form
+ ula1.com/en/racing/2026/hungary
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0f95583331f0c9f1d4196550@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
+SUMMARY:Formula 1 — FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026 — Qualifich
+ e
+LOCATION:Hungaroring\, Mogyoród\, Hungary
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/hungary\nF
+ onte orario: Formula1.com (solo data\; ora non pubblicata) https://www.form
+ ula1.com/en/racing/2026/hungary
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1548f5d26412e0f4222bb3de@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
+SUMMARY:Formula 1 — FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026 — Gara
+LOCATION:Hungaroring\, Mogyoród\, Hungary
+DESCRIPTION:Stato: CONCLUSA\nAustria: ORF 1 / ORF ON o ServusTV / ServusTV 
+ On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW — Da 
+ confermare (da confermare)\nStreaming soggetto a possibili limitazioni geog
+ rafiche.\nOrario non ancora verificato: evento per l'intera giornata.\nFont
+ e sportiva: Formula1.com https://www.formula1.com/en/racing/2026/hungary\nF
+ onte orario: Formula1.com (solo data\; ora non pubblicata) https://www.form
+ ula1.com/en/racing/2026/hungary
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd25d2157f9b9f6fbead1a0a@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+SUMMARY:TBC — Formula 1 — FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026 — 
+ FP1
+LOCATION:Circuit Zandvoort\, Zandvoort\, Netherlands
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/net
+ herlands\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https
+ ://www.formula1.com/en/racing/2026/netherlands
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:160d6b19c904da6acfe4ee5b@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+SUMMARY:TBC — Formula 1 — FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026 — 
+ Sprint Qualifying
+LOCATION:Circuit Zandvoort\, Zandvoort\, Netherlands
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/net
+ herlands\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https
+ ://www.formula1.com/en/racing/2026/netherlands
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e2a9860b30da51e520dac2d4@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
+SUMMARY:TBC — Formula 1 — FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026 — 
+ Qualifiche
+LOCATION:Circuit Zandvoort\, Zandvoort\, Netherlands
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/net
+ herlands\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https
+ ://www.formula1.com/en/racing/2026/netherlands
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0c1323bb0d01b1bc5b6c67ed@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
+SUMMARY:TBC — Formula 1 — FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026 — 
+ Sprint
+LOCATION:Circuit Zandvoort\, Zandvoort\, Netherlands
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/net
+ herlands\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https
+ ://www.formula1.com/en/racing/2026/netherlands
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c309d62df4d0d4e449ad1cd7@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:TBC — Formula 1 — FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026 — 
+ Gara
+LOCATION:Circuit Zandvoort\, Zandvoort\, Netherlands
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/net
+ herlands\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https
+ ://www.formula1.com/en/racing/2026/netherlands
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:918d58a7d2ff3b8552eeb86d@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:TBC — Formula 1 — FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026
+  — FP1
+LOCATION:Autodromo Nazionale Monza\, Monza\, Italy
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/ita
+ ly\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://www
+ .formula1.com/en/racing/2026/italy
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:34035a8e1eb88a95d681ead0@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:TBC — Formula 1 — FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026
+  — FP2
+LOCATION:Autodromo Nazionale Monza\, Monza\, Italy
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/ita
+ ly\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://www
+ .formula1.com/en/racing/2026/italy
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f6324ac00932a6d83412a642@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:TBC — Formula 1 — FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026
+  — FP3
+LOCATION:Autodromo Nazionale Monza\, Monza\, Italy
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/ita
+ ly\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://www
+ .formula1.com/en/racing/2026/italy
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6d039ab99946eb12fbffd6f9@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:TBC — Formula 1 — FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026
+  — Qualifiche
+LOCATION:Autodromo Nazionale Monza\, Monza\, Italy
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/ita
+ ly\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://www
+ .formula1.com/en/racing/2026/italy
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6c8cd69ea7242621e0cbb1b4@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:TBC — Formula 1 — FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026
+  — Gara
+LOCATION:Autodromo Nazionale Monza\, Monza\, Italy
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/ita
+ ly\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://www
+ .formula1.com/en/racing/2026/italy
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:80c5acd674cff75f57524f02@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:TBC — Formula 1 — FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 20
+ 26 — FP1
+LOCATION:Madring\, Madrid\, Spain
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/spa
+ in\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://www
+ .formula1.com/en/racing/2026/spain
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:79e37d770152ceccc3441673@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:TBC — Formula 1 — FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 20
+ 26 — FP2
+LOCATION:Madring\, Madrid\, Spain
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/spa
+ in\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://www
+ .formula1.com/en/racing/2026/spain
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:826346a0d85950a27cfebb0f@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:TBC — Formula 1 — FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 20
+ 26 — FP3
+LOCATION:Madring\, Madrid\, Spain
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/spa
+ in\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://www
+ .formula1.com/en/racing/2026/spain
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e384bbeb1347fdfff6ede7dd@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:TBC — Formula 1 — FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 20
+ 26 — Qualifiche
+LOCATION:Madring\, Madrid\, Spain
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/spa
+ in\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://www
+ .formula1.com/en/racing/2026/spain
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8d99eb2ff6171cb00304108f@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:TBC — Formula 1 — FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 20
+ 26 — Gara
+LOCATION:Madring\, Madrid\, Spain
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/spa
+ in\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://www
+ .formula1.com/en/racing/2026/spain
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:25cd98611dfca9499c74e69a@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:TBC — Formula 1 — FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX
+  2026 — FP1
+LOCATION:Baku City Circuit\, Baku\, Azerbaijan
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/aze
+ rbaijan\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https:
+ //www.formula1.com/en/racing/2026/azerbaijan
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:76112f87527437268c4abaaf@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:TBC — Formula 1 — FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX
+  2026 — FP2
+LOCATION:Baku City Circuit\, Baku\, Azerbaijan
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/aze
+ rbaijan\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https:
+ //www.formula1.com/en/racing/2026/azerbaijan
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:95b656e166130427a3307429@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:TBC — Formula 1 — FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX
+  2026 — FP3
+LOCATION:Baku City Circuit\, Baku\, Azerbaijan
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/aze
+ rbaijan\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https:
+ //www.formula1.com/en/racing/2026/azerbaijan
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8888c61d02f3b2aea179cf36@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:TBC — Formula 1 — FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX
+  2026 — Qualifiche
+LOCATION:Baku City Circuit\, Baku\, Azerbaijan
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/aze
+ rbaijan\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https:
+ //www.formula1.com/en/racing/2026/azerbaijan
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:091e36959f8ad4204e4da69d@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:TBC — Formula 1 — FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX
+  2026 — Gara
+LOCATION:Baku City Circuit\, Baku\, Azerbaijan
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/aze
+ rbaijan\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https:
+ //www.formula1.com/en/racing/2026/azerbaijan
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5d0b52890bb2f1ff8ad02519@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:TBC — Formula 1 — FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALA
+ YSIA 2026 — FP1
+LOCATION:Sepang International Circuit\, Sepang\, Malaysia
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/bah
+ rain\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://w
+ ww.formula1.com/en/racing/2026/bahrain
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:640406bbd202c65f322e3e3f@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:TBC — Formula 1 — FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALA
+ YSIA 2026 — FP2
+LOCATION:Sepang International Circuit\, Sepang\, Malaysia
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/bah
+ rain\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://w
+ ww.formula1.com/en/racing/2026/bahrain
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ddc2de13ace9754edef5964e@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:TBC — Formula 1 — FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALA
+ YSIA 2026 — FP3
+LOCATION:Sepang International Circuit\, Sepang\, Malaysia
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/bah
+ rain\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://w
+ ww.formula1.com/en/racing/2026/bahrain
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ad8f2435655ae1200a8c8f4c@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:TBC — Formula 1 — FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALA
+ YSIA 2026 — Qualifiche
+LOCATION:Sepang International Circuit\, Sepang\, Malaysia
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/bah
+ rain\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://w
+ ww.formula1.com/en/racing/2026/bahrain
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a4807c779fd0b95333a845c6@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:TBC — Formula 1 — FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALA
+ YSIA 2026 — Gara
+LOCATION:Sepang International Circuit\, Sepang\, Malaysia
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/bah
+ rain\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://w
+ ww.formula1.com/en/racing/2026/bahrain
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:81f6034ed984bbe134808f55@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:TBC — Formula 1 — FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND 
+ PRIX 2026 — FP1
+LOCATION:Marina Bay Street Circuit\, Singapore\, Singapore
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/sin
+ gapore\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https:/
+ /www.formula1.com/en/racing/2026/singapore
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5aaa24add50c11871d59ff2a@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:TBC — Formula 1 — FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND 
+ PRIX 2026 — Sprint Qualifying
+LOCATION:Marina Bay Street Circuit\, Singapore\, Singapore
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/sin
+ gapore\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https:/
+ /www.formula1.com/en/racing/2026/singapore
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5f1db8b9102740ebe7e8d65e@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:TBC — Formula 1 — FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND 
+ PRIX 2026 — Qualifiche
+LOCATION:Marina Bay Street Circuit\, Singapore\, Singapore
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/sin
+ gapore\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https:/
+ /www.formula1.com/en/racing/2026/singapore
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6eb791cc95d1e370d4a8faaf@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:TBC — Formula 1 — FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND 
+ PRIX 2026 — Sprint
+LOCATION:Marina Bay Street Circuit\, Singapore\, Singapore
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/sin
+ gapore\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https:/
+ /www.formula1.com/en/racing/2026/singapore
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:00d93c9d6316f65be12c149b@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:TBC — Formula 1 — FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND 
+ PRIX 2026 — Gara
+LOCATION:Marina Bay Street Circuit\, Singapore\, Singapore
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/sin
+ gapore\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https:/
+ /www.formula1.com/en/racing/2026/singapore
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ab278d3c5022ccfe60d68fc6@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:TBC — Formula 1 — FORMULA 1 MSC CRUISES UNITED STATES GRAND PRI
+ X 2026 — FP1
+LOCATION:Circuit of the Americas\, Austin\, USA
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/uni
+ ted-states\nFonte orario: Formula1.com (solo data\; ora non pubblicata) htt
+ ps://www.formula1.com/en/racing/2026/united-states
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:61d90e5f1c0afffbd4f00780@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:TBC — Formula 1 — FORMULA 1 MSC CRUISES UNITED STATES GRAND PRI
+ X 2026 — FP2
+LOCATION:Circuit of the Americas\, Austin\, USA
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/uni
+ ted-states\nFonte orario: Formula1.com (solo data\; ora non pubblicata) htt
+ ps://www.formula1.com/en/racing/2026/united-states
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:058a21611cfa32fc8d410b83@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:TBC — Formula 1 — FORMULA 1 MSC CRUISES UNITED STATES GRAND PRI
+ X 2026 — FP3
+LOCATION:Circuit of the Americas\, Austin\, USA
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/uni
+ ted-states\nFonte orario: Formula1.com (solo data\; ora non pubblicata) htt
+ ps://www.formula1.com/en/racing/2026/united-states
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0a4bfa7b0c58308bf7d2490b@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:TBC — Formula 1 — FORMULA 1 MSC CRUISES UNITED STATES GRAND PRI
+ X 2026 — Qualifiche
+LOCATION:Circuit of the Americas\, Austin\, USA
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/uni
+ ted-states\nFonte orario: Formula1.com (solo data\; ora non pubblicata) htt
+ ps://www.formula1.com/en/racing/2026/united-states
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:093b1e524e522903d19b0c1b@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:TBC — Formula 1 — FORMULA 1 MSC CRUISES UNITED STATES GRAND PRI
+ X 2026 — Gara
+LOCATION:Circuit of the Americas\, Austin\, USA
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/uni
+ ted-states\nFonte orario: Formula1.com (solo data\; ora non pubblicata) htt
+ ps://www.formula1.com/en/racing/2026/united-states
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4629f7bbbd9d3a95797206a0@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:TBC — Formula 1 — FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO
+  2026 — FP1
+LOCATION:Autódromo Hermanos Rodríguez\, Mexico City\, Mexico
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/mex
+ ico\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://ww
+ w.formula1.com/en/racing/2026/mexico
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ab7cda9131193ec31bce9e59@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:TBC — Formula 1 — FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO
+  2026 — FP2
+LOCATION:Autódromo Hermanos Rodríguez\, Mexico City\, Mexico
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/mex
+ ico\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://ww
+ w.formula1.com/en/racing/2026/mexico
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c6f900f2701514d391904f73@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:TBC — Formula 1 — FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO
+  2026 — FP3
+LOCATION:Autódromo Hermanos Rodríguez\, Mexico City\, Mexico
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/mex
+ ico\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://ww
+ w.formula1.com/en/racing/2026/mexico
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a387ab1fc1f1b82dae2f8360@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:TBC — Formula 1 — FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO
+  2026 — Qualifiche
+LOCATION:Autódromo Hermanos Rodríguez\, Mexico City\, Mexico
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/mex
+ ico\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://ww
+ w.formula1.com/en/racing/2026/mexico
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a8cc864f6b51e2deef083ea7@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:TBC — Formula 1 — FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO
+  2026 — Gara
+LOCATION:Autódromo Hermanos Rodríguez\, Mexico City\, Mexico
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/mex
+ ico\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://ww
+ w.formula1.com/en/racing/2026/mexico
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff8d1c1a55882a5cfb153806@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:TBC — Formula 1 — FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO 
+ PAULO 2026 — FP1
+LOCATION:Autódromo José Carlos Pace\, São Paulo\, Brazil
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/bra
+ zil\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://ww
+ w.formula1.com/en/racing/2026/brazil
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2cecef68f15b46fd9260ffa8@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:TBC — Formula 1 — FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO 
+ PAULO 2026 — FP2
+LOCATION:Autódromo José Carlos Pace\, São Paulo\, Brazil
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/bra
+ zil\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://ww
+ w.formula1.com/en/racing/2026/brazil
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:963805b9047d39a3d290f550@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:TBC — Formula 1 — FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO 
+ PAULO 2026 — FP3
+LOCATION:Autódromo José Carlos Pace\, São Paulo\, Brazil
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/bra
+ zil\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://ww
+ w.formula1.com/en/racing/2026/brazil
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ca8e32098fea8f1d27be498f@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:TBC — Formula 1 — FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO 
+ PAULO 2026 — Qualifiche
+LOCATION:Autódromo José Carlos Pace\, São Paulo\, Brazil
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/bra
+ zil\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://ww
+ w.formula1.com/en/racing/2026/brazil
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:72f18c0173e7030b0b52bd50@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:TBC — Formula 1 — FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO 
+ PAULO 2026 — Gara
+LOCATION:Autódromo José Carlos Pace\, São Paulo\, Brazil
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/bra
+ zil\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://ww
+ w.formula1.com/en/racing/2026/brazil
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5f74d1728802458c80ea099c@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:TBC — Formula 1 — FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026 
+ — FP1
+LOCATION:Las Vegas Strip Circuit\, Las Vegas\, USA
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/las
+ -vegas\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https:/
+ /www.formula1.com/en/racing/2026/las-vegas
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c5b75a772c4ab256f47e85be@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:TBC — Formula 1 — FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026 
+ — FP2
+LOCATION:Las Vegas Strip Circuit\, Las Vegas\, USA
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/las
+ -vegas\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https:/
+ /www.formula1.com/en/racing/2026/las-vegas
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:253f05b38d5cedf3bdd87efd@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:TBC — Formula 1 — FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026 
+ — FP3
+LOCATION:Las Vegas Strip Circuit\, Las Vegas\, USA
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/las
+ -vegas\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https:/
+ /www.formula1.com/en/racing/2026/las-vegas
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:80f18a9184406fd03f1ae338@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:TBC — Formula 1 — FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026 
+ — Qualifiche
+LOCATION:Las Vegas Strip Circuit\, Las Vegas\, USA
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/las
+ -vegas\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https:/
+ /www.formula1.com/en/racing/2026/las-vegas
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1940fc8673bd3d1013e39e38@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:TBC — Formula 1 — FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026 
+ — Gara
+LOCATION:Las Vegas Strip Circuit\, Las Vegas\, USA
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/las
+ -vegas\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https:/
+ /www.formula1.com/en/racing/2026/las-vegas
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4baaf7d8669d68b7781a309a@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:TBC — Formula 1 — FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2026
+  — FP1
+LOCATION:Lusail International Circuit\, Lusail\, Qatar
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/qat
+ ar\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://www
+ .formula1.com/en/racing/2026/qatar
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0c562583262d92c99d4ea495@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:TBC — Formula 1 — FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2026
+  — FP2
+LOCATION:Lusail International Circuit\, Lusail\, Qatar
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/qat
+ ar\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://www
+ .formula1.com/en/racing/2026/qatar
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c8eebddd7c8d2491e72e0e18@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:TBC — Formula 1 — FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2026
+  — FP3
+LOCATION:Lusail International Circuit\, Lusail\, Qatar
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/qat
+ ar\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://www
+ .formula1.com/en/racing/2026/qatar
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9875d15784d0d0f9e8742b6f@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:TBC — Formula 1 — FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2026
+  — Qualifiche
+LOCATION:Lusail International Circuit\, Lusail\, Qatar
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/qat
+ ar\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://www
+ .formula1.com/en/racing/2026/qatar
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2ebc61195e97e7c82a380962@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:TBC — Formula 1 — FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2026
+  — Gara
+LOCATION:Lusail International Circuit\, Lusail\, Qatar
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/qat
+ ar\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https://www
+ .formula1.com/en/racing/2026/qatar
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f51d0b6d377f64239c754772@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:TBC — Formula 1 — FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX
+  2026 — FP1
+LOCATION:Yas Marina Circuit\, Abu Dhabi\, United Arab Emirates
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/abu
+ -dhabi\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https:/
+ /www.formula1.com/en/racing/2026/abu-dhabi
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:46799deb3ef0a11a62945015@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:TBC — Formula 1 — FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX
+  2026 — FP2
+LOCATION:Yas Marina Circuit\, Abu Dhabi\, United Arab Emirates
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/abu
+ -dhabi\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https:/
+ /www.formula1.com/en/racing/2026/abu-dhabi
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2753af4f4d3ecafaceb24253@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:TBC — Formula 1 — FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX
+  2026 — FP3
+LOCATION:Yas Marina Circuit\, Abu Dhabi\, United Arab Emirates
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/abu
+ -dhabi\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https:/
+ /www.formula1.com/en/racing/2026/abu-dhabi
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:45d0363f158b4f8837ca3071@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:TBC — Formula 1 — FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX
+  2026 — Qualifiche
+LOCATION:Yas Marina Circuit\, Abu Dhabi\, United Arab Emirates
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/abu
+ -dhabi\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https:/
+ /www.formula1.com/en/racing/2026/abu-dhabi
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3cb9f0196a62c404d1856a28@motorsport-calendar
+DTSTAMP:20260810T222521Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:TBC — Formula 1 — FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX
+  2026 — Gara
+LOCATION:Yas Marina Circuit\, Abu Dhabi\, United Arab Emirates
+DESCRIPTION:Stato: DA CONFERMARE\nAustria: ORF 1 / ORF ON o ServusTV / Serv
+ usTV On — Da confermare (da confermare)\nItalia: TV8 / Sky Sport / NOW 
+ — Da confermare (da confermare)\nStreaming soggetto a possibili limitazio
+ ni geografiche.\nOrario non ancora verificato: evento per l'intera giornata
+ .\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing/2026/abu
+ -dhabi\nFonte orario: Formula1.com (solo data\; ora non pubblicata) https:/
+ /www.formula1.com/en/racing/2026/abu-dhabi
+BEGIN:VALARM
+TRIGGER:-PT2H30M
+ACTION:DISPLAY
+DESCRIPTION:Motorsport tra 2 ore e 30 minuti
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Gara domani
+END:VALARM
+END:VEVENT
+END:VCALENDAR

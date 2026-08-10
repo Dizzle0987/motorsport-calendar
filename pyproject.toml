@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "motorsport-calendar"
+version = "1.0.0"
+description = "Calendari iCalendar F1 e MotoGP con aggiornamenti verificabili"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8.3,<9", "tzdata>=2025.2"]
+
+[project.scripts]
+motorsport-calendar = "motorsport_calendar.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.setuptools.packages.find]
+include = ["motorsport_calendar*"]
