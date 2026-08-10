@@ -18,7 +18,7 @@ Le date dei round iniziali provengono dai calendari ufficiali [Formula1.com](htt
 
 Ogni aggiornamento controlla automaticamente la stagione corrente e quella successiva. Appena Formula 1 o MotoGP pubblicano un nuovo calendario strutturato, i round vengono aggiunti a `data/rounds.json`, trasformati in sessioni e inclusi negli stessi tre URL iCalendar già sottoscritti. Non è necessario sottoscrivere un nuovo link ogni anno.
 
-Le stagioni già acquisite restano archiviate: un errore o un calendario futuro ancora incompleto non può cancellarle. L’anno fa parte dell’identità logica del Gran Premio, quindi due edizioni annuali non condividono lo stesso UID. Test pre/post-stagionali e sessioni straordinarie restano esclusi.
+Durante l’anno restano disponibili la stagione corrente e quelle future già annunciate. Dal 1° gennaio, non appena il calendario della nuova stagione è disponibile, la stagione precedente viene rimossa automaticamente dal catalogo, dagli eventi e dai tre feed; gli URL di sottoscrizione non cambiano. La pulizia avviene separatamente per Formula 1 e MotoGP, quindi un ritardo o un errore di una fonte non può svuotare una delle due serie. L’anno fa parte dell’identità logica del Gran Premio, quindi due edizioni annuali non condividono lo stesso UID. Test pre/post-stagionali e sessioni straordinarie restano esclusi.
 
 I palinsesti Austria e Italia sono conservativi: ORF 1 / ORF ON e ServusTV / ServusTV On per l’Austria; TV8, Sky Sport e NOW per l’Italia. Senza una pagina che indichi esplicitamente sessione, data e ora, il campo resta “Da confermare”. TV8 in differita non viene mai presentato come diretta. Lo streaming può essere soggetto a limitazioni geografiche.
 
