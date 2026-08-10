@@ -458,5 +458,6 @@
   ],
   "managed_seasons": [
     2026
-  ]
+  ],
+  "retention": "current_and_future"
 }
