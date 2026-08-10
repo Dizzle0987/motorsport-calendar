@@ -29,6 +29,17 @@ def load_events(path: Path) -> list[Event]:
     return [Event.from_dict(item) for item in rows]
 
 
+def load_event_metadata(path: Path) -> dict:
+    if not path.exists():
+        return {}
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    return raw if isinstance(raw, dict) else {}
+
+
+def events_signature(events: list[Event]) -> str:
+    return json.dumps([event.as_dict() for event in events], ensure_ascii=False, sort_keys=True)
+
+
 def load_round_catalog(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -130,6 +141,7 @@ def _atomic_write_many(files: dict[Path, str]) -> None:
 def generate(root: Path = ROOT, *, online: bool = True, now: datetime | None = None) -> list[Event]:
     now = now or datetime.now(timezone.utc)
     previous = load_events(root / "data/events.json")
+    previous_metadata = load_event_metadata(root / "data/events.json")
     manual = load_events(root / "data/manual_events.json")
     round_catalog = load_round_catalog(root / "data/rounds.json")
     rounds = round_catalog["rounds"]
@@ -146,15 +158,20 @@ def generate(root: Path = ROOT, *, online: bool = True, now: datetime | None = N
     combined = merge_events(deduplicate(automatic), manual, previous)
     if not combined and previous:
         combined = previous
+    changed = events_signature(combined) != events_signature(previous)
+    previous_updated_at = previous_metadata.get("updated_at")
+    effective_now = now
+    if not changed and previous_updated_at:
+        effective_now = datetime.fromisoformat(previous_updated_at.replace("Z", "+00:00"))
     calendars = {
-        "calendar.ics": render_calendar(combined, "Motorsport Calendar — F1 + MotoGP", now),
-        "f1.ics": render_calendar([e for e in combined if e.competition == "Formula 1"], "Formula 1", now),
-        "motogp.ics": render_calendar([e for e in combined if e.competition == "MotoGP"], "MotoGP", now),
+        "calendar.ics": render_calendar(combined, "Motorsport Calendar — F1 + MotoGP", effective_now),
+        "f1.ics": render_calendar([e for e in combined if e.competition == "Formula 1"], "Formula 1", effective_now),
+        "motogp.ics": render_calendar([e for e in combined if e.competition == "MotoGP"], "MotoGP", effective_now),
     }
     validate(combined, calendars)
     payload = {
         "schema_version": 1,
-        "updated_at": now.astimezone(timezone.utc).isoformat(timespec="seconds"),
+        "updated_at": effective_now.astimezone(timezone.utc).isoformat(timespec="seconds"),
         "timezone": "Europe/Rome",
         "events": [event.as_dict() for event in combined],
     }
