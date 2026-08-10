@@ -12,7 +12,7 @@ Per sottoscrivere direttamente, sostituire `https://` con `webcal://`. Una sotto
 
 ## Fonti e criteri
 
-Le date dei round iniziali provengono dai calendari ufficiali [Formula1.com](https://www.formula1.com/en/racing) e [MotoGP.com](https://www.motogp.com/en/calendar). L’updater legge le pagine ufficiali F1 delle singole gare per sostituire le sessioni giornaliere TBC con orari verificati. Il parser MotoGP accetta JSON ufficiale normalizzato; in assenza di un orario strutturato pubblicato mantiene una voce giornaliera “Da confermare” e non inventa un’ora. Jolpica/Ergast è previsto come fallback di calendario, non come conferma degli orari delle singole sessioni.
+Le date dei round iniziali provengono dai calendari ufficiali [Formula1.com](https://www.formula1.com/en/racing) e [MotoGP.com](https://www.motogp.com/en/calendar). L’updater legge le pagine ufficiali F1 delle singole gare e l’API pubblica ufficiale MotoGP per sostituire le sessioni giornaliere con data, ora di inizio e ora di fine. Jolpica/Ergast fornisce un fallback strutturato per gli orari F1 quando una pagina ufficiale non è raggiungibile dal workflow; la fonte effettiva resta registrata in ogni evento. Soltanto quando nessuna fonte pubblica un orario viene mantenuta una voce giornaliera e non viene inventata un’ora.
 
 ## Stagioni future
 
