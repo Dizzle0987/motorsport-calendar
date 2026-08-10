@@ -11,6 +11,8 @@ F1_SOURCE = "Formula1.com"
 F1_BASE = "https://www.formula1.com"
 MOTOGP_SOURCE = "MotoGP.com"
 MOTOGP_CALENDAR = "https://www.motogp.com/en/calendar"
+MOTOGP_API = "https://api.pulselive.motogp.com/motogp/v1"
+JOLPICA_SCHEDULE = "https://api.jolpi.ca/ergast/f1/{year}.json"
 
 SESSION_ALIASES = {
     "practice 1": "FP1", "free practice 1": "FP1", "fp1": "FP1",
@@ -83,5 +85,90 @@ def parse_motogp_json(payload: dict[str, Any]) -> list[Event]:
             end=item.get("end"), status=item.get("status", "programmata"),
             source_sport=MOTOGP_SOURCE, source_sport_url=item.get("url", MOTOGP_CALENDAR),
             source_time=MOTOGP_SOURCE, source_time_url=item.get("url", MOTOGP_CALENDAR),
+        ))
+    return events
+
+
+def _local_datetime(value: str) -> str:
+    parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=ROME)
+    return parsed.astimezone(ROME).isoformat(timespec="minutes")
+
+
+def parse_f1_schedule_json(payload: dict[str, Any], rounds: list[dict]) -> list[Event]:
+    """Parse structured Ergast-compatible session times as the F1 page fallback."""
+    events: list[Event] = []
+    round_rows = [rnd for rnd in rounds if rnd["competition"] == "Formula 1"]
+    for race in payload.get("MRData", {}).get("RaceTable", {}).get("Races", []):
+        race_date = str(race.get("date", ""))
+        first_date = str(race.get("FirstPractice", {}).get("date", ""))
+        rnd = next((item for item in round_rows if
+                    item["start_date"][:4] == race_date[:4] and
+                    (item["start_date"] == first_date or
+                     abs((datetime.fromisoformat(item["start_date"]).date() -
+                          datetime.fromisoformat(race_date).date()).days) <= 3)), None)
+        if rnd is None:
+            continue
+        sessions = [
+            ("FirstPractice", "FP1"), ("SecondPractice", "FP2"),
+            ("ThirdPractice", "FP3"), ("SprintQualifying", "Sprint Qualifying"),
+            ("SprintShootout", "Sprint Shootout"), ("Sprint", "Sprint"),
+            ("Qualifying", "Qualifiche"),
+        ]
+        rows = [(race.get(key), name) for key, name in sessions]
+        rows.append(({"date": race.get("date"), "time": race.get("time")}, "Gara"))
+        source_url = JOLPICA_SCHEDULE.format(year=race_date[:4])
+        for raw, session in rows:
+            if not raw or not raw.get("date") or not raw.get("time"):
+                continue
+            events.append(Event(
+                competition="Formula 1", grand_prix=rnd["grand_prix"], session=session,
+                circuit=rnd["circuit"], location=rnd["location"], country=rnd["country"],
+                start=_local_datetime(f"{raw['date']}T{raw['time']}"), status="programmata",
+                source_sport=F1_SOURCE,
+                source_sport_url=f"{F1_BASE}/en/racing/{race_date[:4]}/{rnd['slug']}",
+                source_time="Jolpica/Ergast (fallback strutturato)", source_time_url=source_url,
+            ))
+    return events
+
+
+def parse_motogp_event_json(payload: dict[str, Any], rnd: dict) -> list[Event]:
+    """Parse the official MotoGP event API, keeping MotoGP race sessions only."""
+    session_names = {
+        "FP1": "Prove libere", "PR": "Practice", "FP2": "FP2",
+        "Q1": "Q1", "Q2": "Q2", "SPR": "Sprint", "WUP": "Warm Up",
+        "RAC": "Gara",
+    }
+    status_names = {
+        "NOT-STARTED": "programmata", "CURRENT": "programmata",
+        "FINISHED": "conclusa", "CANCELLED": "cancellata", "CANCELED": "cancellata",
+        "POSTPONED": "rinviata",
+    }
+    year = str(payload.get("season", {}).get("year") or rnd["start_date"][:4])
+    event_url = f"{MOTOGP_CALENDAR}/{year}/event/{payload.get('url', rnd['slug'])}/{payload.get('id', '')}"
+    events: list[Event] = []
+    for raw in payload.get("broadcasts", []):
+        category = raw.get("category") or {}
+        shortname = str(raw.get("shortname", "")).upper()
+        session = session_names.get(shortname)
+        if session is None and shortname.startswith("RAC"):
+            session = "Gara"
+        if category.get("acronym") != "MGP" or raw.get("type") != "SESSION" or session is None:
+            continue
+        start = raw.get("date_start")
+        if not start:
+            continue
+        local_start = _local_datetime(start)
+        local_end = _local_datetime(raw["date_end"]) if raw.get("date_end") else None
+        if local_end and datetime.fromisoformat(local_end) <= datetime.fromisoformat(local_start):
+            local_end = None
+        events.append(Event(
+            competition="MotoGP", grand_prix=rnd["grand_prix"], session=session,
+            circuit=rnd["circuit"], location=rnd["location"], country=rnd["country"],
+            start=local_start, end=local_end,
+            status=status_names.get(str(raw.get("status", "NOT-STARTED")).upper(), "programmata"),
+            source_sport=MOTOGP_SOURCE, source_sport_url=event_url,
+            source_time="MotoGP.com API ufficiale", source_time_url=event_url,
         ))
     return events

@@ -12,7 +12,17 @@ from .discovery import discover_rounds, merge_rounds
 from .ics import render_calendar
 from .merge import deduplicate, merge_events
 from .model import Event
-from .parsers import F1_BASE, F1_SOURCE, MOTOGP_CALENDAR, MOTOGP_SOURCE, parse_f1_schedule_html
+from .parsers import (
+    F1_BASE,
+    F1_SOURCE,
+    JOLPICA_SCHEDULE,
+    MOTOGP_API,
+    MOTOGP_CALENDAR,
+    MOTOGP_SOURCE,
+    parse_f1_schedule_html,
+    parse_f1_schedule_json,
+    parse_motogp_event_json,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 ORF_URL = "https://tv.orf.at/"
@@ -127,6 +137,53 @@ def fetch_f1_details(rounds: list[dict]) -> list[Event]:
             event.circuit, event.location, event.country = rnd["circuit"], rnd["location"], rnd["country"]
             _tbc_broadcast(event)
         found.extend(parsed)
+    for year in sorted({int(rnd["start_date"][:4]) for rnd in rounds if rnd["competition"] == "Formula 1"}):
+        try:
+            request = urllib.request.Request(JOLPICA_SCHEDULE.format(year=year), headers={
+                "User-Agent": "MotorsportCalendar/1.0 (+https://dizzle0987.github.io/motorsport-calendar/)",
+            })
+            with urllib.request.urlopen(request, timeout=20) as response:
+                payload = json.loads(response.read().decode("utf-8"))
+            for event in parse_f1_schedule_json(payload, rounds):
+                _tbc_broadcast(event)
+                found.append(event)
+        except (urllib.error.URLError, TimeoutError, ValueError, json.JSONDecodeError):
+            continue
+    return found
+
+
+def fetch_motogp_details(rounds: list[dict]) -> list[Event]:
+    found: list[Event] = []
+    motogp_rounds = [rnd for rnd in rounds if rnd["competition"] == "MotoGP"]
+    for year in sorted({int(rnd["start_date"][:4]) for rnd in motogp_rounds}):
+        try:
+            request = urllib.request.Request(f"{MOTOGP_API}/events?seasonYear={year}", headers={
+                "User-Agent": "MotorsportCalendar/1.0 (+https://dizzle0987.github.io/motorsport-calendar/)",
+            })
+            with urllib.request.urlopen(request, timeout=20) as response:
+                event_rows = json.loads(response.read().decode("utf-8"))
+        except (urllib.error.URLError, TimeoutError, ValueError, json.JSONDecodeError):
+            continue
+        for raw in event_rows:
+            if raw.get("kind") != "GP" or not raw.get("id") or not raw.get("date_start"):
+                continue
+            event_date = datetime.fromisoformat(raw["date_start"]).date()
+            rnd = next((item for item in motogp_rounds if
+                        item["start_date"][:4] == str(year) and
+                        abs((date.fromisoformat(item["start_date"]) - event_date).days) <= 2), None)
+            if rnd is None:
+                continue
+            try:
+                detail_request = urllib.request.Request(f"{MOTOGP_API}/events/{raw['id']}", headers={
+                    "User-Agent": "MotorsportCalendar/1.0 (+https://dizzle0987.github.io/motorsport-calendar/)",
+                })
+                with urllib.request.urlopen(detail_request, timeout=20) as response:
+                    detail = json.loads(response.read().decode("utf-8"))
+                for event in parse_motogp_event_json(detail, rnd):
+                    _tbc_broadcast(event)
+                    found.append(event)
+            except (urllib.error.URLError, TimeoutError, ValueError, json.JSONDecodeError):
+                continue
     return found
 
 
@@ -191,12 +248,15 @@ def generate(root: Path = ROOT, *, online: bool = True, now: datetime | None = N
     if online:
         try:
             official_f1 = fetch_f1_details(rounds)
+            official_motogp = fetch_motogp_details(rounds)
         except (urllib.error.URLError, TimeoutError, ValueError):
             # Round-level official dates remain usable. Existing outputs are never emptied.
             official_f1 = []
+            official_motogp = []
     else:
         official_f1 = []
-    automatic = deduplicate(official_f1 + events_from_rounds(rounds, today=now.date()))
+        official_motogp = []
+    automatic = deduplicate(official_f1 + official_motogp + events_from_rounds(rounds, today=now.date()))
     combined = merge_events(deduplicate(automatic), manual, previous)
     if not combined and previous:
         combined = previous
