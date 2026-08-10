@@ -1,0 +1,44 @@
+name: Update calendars
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: motorsport-calendar-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Test before update
+        run: pytest
+      - name: Generate validated outputs atomically
+        run: python -m motorsport_calendar.cli
+      - name: Test generated outputs
+        run: pytest
+      - name: Commit only real changes
+        run: |
+          if git diff --quiet -- calendar.ics f1.ics motogp.ics index.html data/events.json data/rounds.json; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add calendar.ics f1.ics motogp.ics index.html data/events.json data/rounds.json
+          git commit -m "chore: update calendars"
+          git push
