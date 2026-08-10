@@ -19,6 +19,7 @@ from motorsport_calendar.parsers import (
     parse_motogp_event_json,
     parse_motogp_json,
 )
+from motorsport_calendar.site import render_index
 from motorsport_calendar.update import (
     competitions_with_current_season,
     current_and_future_events,
@@ -230,6 +231,22 @@ def test_generates_three_ics_and_events_json(tmp_path):
     assert payload["timezone"] == "Europe/Rome"
     assert any(e["competition"] == "Formula 1" for e in payload["events"])
     assert any(e["competition"] == "MotoGP" for e in payload["events"])
+
+
+def test_site_renders_series_logos_in_header_and_event_cards(tmp_path):
+    source = Path(__file__).parents[1]
+    shutil.copytree(source / "templates", tmp_path / "templates")
+    (tmp_path / "data").mkdir()
+    (tmp_path / "data/events.json").write_text(json.dumps({"updated_at": "2026-08-11T12:00:00+02:00"}))
+    events = [
+        event(start="2099-03-29T15:00"),
+        event(competition="MotoGP", grand_prix="Test MotoGP", start="2099-04-01T14:00"),
+    ]
+    render_index(tmp_path, events)
+    page = (tmp_path / "index.html").read_text()
+    assert page.count('src="assets/f1-logo.png"') == 2
+    assert page.count('src="assets/motogp-logo.png"') == 2
+    assert 'alt="Formula 1"' in page and 'alt="MotoGP"' in page
 
 
 def test_main_race_has_two_alarms_other_session_one():
