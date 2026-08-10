@@ -8,7 +8,7 @@ import urllib.request
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from .discovery import discover_rounds
+from .discovery import discover_rounds, merge_rounds
 from .ics import render_calendar
 from .merge import deduplicate, merge_events
 from .model import Event
@@ -144,7 +144,7 @@ def generate(root: Path = ROOT, *, online: bool = True, now: datetime | None = N
     previous_metadata = load_event_metadata(root / "data/events.json")
     manual = load_events(root / "data/manual_events.json")
     round_catalog = load_round_catalog(root / "data/rounds.json")
-    rounds = round_catalog["rounds"]
+    rounds = merge_rounds(round_catalog["rounds"], [])
     if online:
         try:
             rounds = discover_rounds(rounds, now.date())

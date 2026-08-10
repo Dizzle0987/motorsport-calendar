@@ -63,19 +63,32 @@ def _json_blobs(text: str) -> Iterable[object]:
 
 def merge_rounds(existing: list[dict], discovered: list[dict]) -> list[dict]:
     """Append newly published seasons and enrich matching rounds without deletion."""
-    # A provider-specific slug may change (for example ``australia`` vs
-    # ``albert_park``). Competition + weekend start is the cross-source identity.
-    merged = {(r["competition"], r["start_date"]): dict(r) for r in existing}
-    for rnd in discovered:
-        key = (rnd["competition"], rnd["start_date"])
-        if key in merged:
-            preserved = merged[key]
-            preserved.update({k: v for k, v in rnd.items() if k != "slug" and v not in (None, "")})
-            if preserved.get("sprint") and not rnd.get("sprint"):
-                preserved["sprint"] = True
-        else:
-            merged[key] = dict(rnd)
-    return sorted(merged.values(), key=lambda r: (r["start_date"], r["competition"], r["slug"]))
+    # Providers can disagree on whether a weekend starts on Thursday or Friday,
+    # and can use different slugs (``las-vegas`` vs ``vegas``). Two rounds of
+    # the same championship never start within two days, so that is a safe
+    # cross-source identity fallback after an exact slug match.
+    merged: list[dict] = []
+    for rnd in [*existing, *discovered]:
+        start = date.fromisoformat(rnd["start_date"])
+        same_slug = next((item for item in merged if
+                          item["competition"] == rnd["competition"] and
+                          item["start_date"][:4] == rnd["start_date"][:4] and
+                          item["slug"] == rnd["slug"]), None)
+        nearby = next((item for item in merged if
+                       item["competition"] == rnd["competition"] and
+                       abs((date.fromisoformat(item["start_date"]) - start).days) <= 2), None)
+        preserved = same_slug or nearby
+        if preserved is None:
+            merged.append(dict(rnd))
+            continue
+        keep = {"slug"}
+        if nearby is not None and same_slug is None:
+            keep.add("start_date")
+        sprint = preserved.get("sprint") or rnd.get("sprint")
+        preserved.update({k: v for k, v in rnd.items() if k not in keep and v not in (None, "")})
+        if sprint:
+            preserved["sprint"] = True
+    return sorted(merged, key=lambda r: (r["start_date"], r["competition"], r["slug"]))
 
 
 def parse_f1_official_calendar(text: str, year: int) -> list[dict]:
