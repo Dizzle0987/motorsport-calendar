@@ -20,9 +20,15 @@ def merge_events(automatic: list[Event], manual: list[Event], previous: list[Eve
     for key, event in merged.items():
         old = previous_by_key.get(key)
         if old:
-            event.sequence = old.sequence + (event.material_signature() != old.material_signature())
+            changed = event.material_signature() != old.material_signature()
+            event.sequence = old.sequence + changed
             if old.start != event.start:
                 event.notes = "; ".join(filter(None, [event.notes, f"Riprogrammata da {old.start}"]))
+            elif not changed:
+                # Keep durable history such as a previous rescheduling note.
+                event.notes = old.notes
+                if not event.conflicts:
+                    event.conflicts = list(old.conflicts)
         result.append(event)
     return sorted(result, key=lambda e: (e.start, e.competition, e.grand_prix, e.session))
 

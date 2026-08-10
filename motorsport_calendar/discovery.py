@@ -63,12 +63,14 @@ def _json_blobs(text: str) -> Iterable[object]:
 
 def merge_rounds(existing: list[dict], discovered: list[dict]) -> list[dict]:
     """Append newly published seasons and enrich matching rounds without deletion."""
-    merged = {(r["competition"], r["start_date"][:4], r["slug"]): dict(r) for r in existing}
+    # A provider-specific slug may change (for example ``australia`` vs
+    # ``albert_park``). Competition + weekend start is the cross-source identity.
+    merged = {(r["competition"], r["start_date"]): dict(r) for r in existing}
     for rnd in discovered:
-        key = (rnd["competition"], rnd["start_date"][:4], rnd["slug"])
+        key = (rnd["competition"], rnd["start_date"])
         if key in merged:
             preserved = merged[key]
-            preserved.update({k: v for k, v in rnd.items() if v not in (None, "")})
+            preserved.update({k: v for k, v in rnd.items() if k != "slug" and v not in (None, "")})
             if preserved.get("sprint") and not rnd.get("sprint"):
                 preserved["sprint"] = True
         else:
