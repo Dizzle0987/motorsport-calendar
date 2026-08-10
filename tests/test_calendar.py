@@ -17,6 +17,7 @@ from motorsport_calendar.update import (
     competitions_with_current_season,
     current_and_future_events,
     current_and_future_rounds,
+    events_from_rounds,
     generate,
     validate,
 )
@@ -94,6 +95,18 @@ def test_postponed_cancelled_and_tbc_rendering():
     text = render_calendar(values, "Test", datetime(2026, 1, 1, tzinfo=timezone.utc))
     assert "RINVIATA" in text and "CANCELLATA" in text and "TBC" in text
     assert "DTSTART;VALUE=DATE:20260401" in text
+
+
+def test_confirmed_round_date_does_not_mark_whole_event_tbc():
+    rounds = [{
+        "competition":"Formula 1", "slug":"italy", "grand_prix":"Italian GP",
+        "circuit":"Monza", "location":"Monza", "country":"Italy", "start_date":"2026-09-04",
+    }]
+    generated = events_from_rounds(rounds, today=datetime(2026, 8, 11).date())
+    assert generated and all(e.status == "programmata" for e in generated)
+    text = render_calendar(generated, "Test", datetime(2026, 8, 11, tzinfo=timezone.utc))
+    assert "SUMMARY:TBC" not in text
+    assert "Orario: Da confermare" in text.replace("\\n", "\n")
 
 
 def test_manual_override_and_disable():
