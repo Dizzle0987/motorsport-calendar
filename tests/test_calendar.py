@@ -179,6 +179,15 @@ def test_orf_and_servus_priority():
     assert choose_broadcast([choices[0]], "AT")["name"] == "ServusTV"
 
 
+def test_unknown_austrian_broadcaster_does_not_list_both_channels():
+    from motorsport_calendar.update import _tbc_broadcast
+    candidate = _tbc_broadcast(event())
+    assert candidate.broadcaster_at == "Da confermare"
+    text = render_calendar([candidate], "Test")
+    assert "Austria: Da confermare" in text.replace("\\n", "\n")
+    assert "ORF" not in text and "ServusTV" not in text
+
+
 def test_tv8_direct_not_confused_with_delayed_and_free_preferred():
     choices = [
         {"name":"Sky Sport", "type":"diretta", "access":"a pagamento"},
