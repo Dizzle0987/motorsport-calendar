@@ -31,7 +31,8 @@ def _description(event: Event) -> str:
     return "\n".join(filter(None, [
         f"Stato: {status}",
         "Orario: Da confermare" if not event.is_timed else "",
-        f"Austria: {event.broadcaster_at} ({event.broadcast_type_at})",
+        (f"Austria: {event.broadcaster_at}" if event.broadcaster_at == "Da confermare"
+         else f"Austria: {event.broadcaster_at} ({event.broadcast_type_at})"),
         f"Italia: {event.broadcaster_it} ({event.broadcast_type_it})",
         "Streaming soggetto a possibili limitazioni geografiche.",
         event.notes,
