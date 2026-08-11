@@ -72,8 +72,8 @@ def load_round_catalog(path: Path) -> dict:
 
 
 def _tbc_broadcast(event: Event) -> Event:
-    event.broadcaster_at = "ORF 1 / ORF ON o ServusTV / ServusTV On — Da confermare"
-    event.broadcaster_at_url = f"{ORF_URL} | {SERVUS_URL}"
+    event.broadcaster_at = "Da confermare"
+    event.broadcaster_at_url = ""
     event.broadcast_type_at = "da confermare"
     event.broadcaster_it = "TV8 / Sky Sport / NOW — Da confermare"
     event.broadcaster_it_url = f"{TV8_URL} | {SKY_URL}"
