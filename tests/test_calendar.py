@@ -12,6 +12,7 @@ from motorsport_calendar.discovery import discover_rounds, merge_rounds
 from motorsport_calendar.ics import render_calendar
 from motorsport_calendar.merge import deduplicate, merge_events
 from motorsport_calendar.model import Event, ROME
+from motorsport_calendar.official_epg import apply_epg, parse_orf_epg, parse_servus_epg
 from motorsport_calendar.parsers import (
     classify_session,
     parse_f1_schedule_html,
@@ -20,6 +21,7 @@ from motorsport_calendar.parsers import (
     parse_motogp_json,
 )
 from motorsport_calendar.site import render_index
+from motorsport_calendar.tv8 import apply_tv8_schedule
 from motorsport_calendar.update import (
     competitions_with_current_season,
     current_and_future_events,
@@ -202,7 +204,7 @@ def test_published_2026_broadcast_rights_are_applied_per_weekend():
     assert updated[0].broadcaster_at == "ServusTV / ServusTV On"
     assert updated[0].broadcast_time_at == "dalle 12:15"
     assert updated[0].broadcaster_it == "Sky Sport F1 / NOW"
-    assert updated[0].broadcast_time_it == "12:30"
+    assert updated[0].broadcast_time_it == ""
     assert updated[2].broadcaster_at == "ServusTV On (international stream)"
     assert updated[3].broadcaster_at == "ServusTV / ServusTV On"
     assert updated[3].broadcast_time_at == "dalle 14:30"
@@ -212,7 +214,44 @@ def test_published_2026_broadcast_rights_are_applied_per_weekend():
     assert all(item.broadcast_type_it == "diretta" for item in updated)
     rendered = render_calendar(updated, "Test").replace("\r\n ", "")
     assert "palinsesto dalle 12:15" in rendered
-    assert "palinsesto 12:30" in rendered
+    assert "Italia: Sky Sport F1 / NOW (diretta) — palinsesto da confermare" in rendered
+
+
+def test_official_orf_epg_sets_only_verified_programme_start():
+    candidate = event(
+        grand_prix="Austrian Grand Prix 2026", session="Qualifiche",
+        start="2026-06-27T16:00+02:00", broadcaster_at="ORF 1 / ORF ON",
+    )
+    html = '''<ul><li class="broadcast" data-start-time="2026-06-27T15:25:00+02:00"
+      data-end-time="2026-06-27T17:20:00+02:00"><div class="series-title">
+      <a>Formel 1: Qualifying</a></div></li></ul>'''
+    programmes, _ = parse_orf_epg(html)
+    updated = apply_epg([candidate], programmes, "ORF", "https://tv.orf.at/")[0]
+    assert updated.broadcast_time_at == "dalle 15:25"
+
+
+def test_official_servus_epg_parser_and_application():
+    candidate = event(
+        grand_prix="Dutch Grand Prix 2026", session="Gara",
+        start="2026-08-23T15:00+02:00", broadcaster_at="ServusTV / ServusTV On",
+    )
+    payload = r'''\"title\":\"Formel 1: GP der Niederlande - Rennen\",
+      \"start_time\":\"2026-08-23T12:30:00.000Z\",
+      \"end_time\":\"2026-08-23T15:30:00.000Z\"}'''
+    programmes = parse_servus_epg(payload)
+    updated = apply_epg([candidate], programmes, "ServusTV", "https://www.servustv.com/de/epg")[0]
+    assert updated.broadcast_time_at == "dalle 14:30"
+
+
+def test_sporting_start_is_never_used_as_sky_or_servus_airtime():
+    candidate = event(
+        grand_prix="Spanish Grand Prix 2026", start="2026-09-27T15:00+02:00",
+    )
+    updated = apply_published_broadcasts([candidate])[0]
+    assert updated.broadcaster_at == "ServusTV / ServusTV On"
+    assert updated.broadcast_time_at == ""
+    assert updated.broadcaster_it == "Sky Sport F1 / NOW"
+    assert updated.broadcast_time_it == ""
 
 
 def test_orf_rights_do_not_invent_an_airtime_from_the_session_start():
@@ -259,6 +298,52 @@ def test_live_sky_is_preferred_over_delayed_tv8():
     ]
     selected = choose_broadcast(choices, "IT")
     assert selected["name"] == "Sky Sport" and selected["type"] == "diretta"
+
+
+def test_tv8_epg_selects_live_monza_and_ignores_delayed_race():
+    qualifying = event(
+        grand_prix="Italian Grand Prix 2026", circuit="Monza",
+        location="Monza", country="Italy", session="Qualifiche",
+        start="2026-09-05T16:00+02:00",
+    )
+    race = event(
+        grand_prix="Italian Grand Prix 2026", circuit="Monza",
+        location="Monza", country="Italy", session="Gara",
+        start="2026-09-06T15:00+02:00",
+    )
+    schedules = {
+        "2026-09-05": [{
+            "title":{"text":"GP Italia Qualifiche"},
+            "description":{"text":"Dal circuito di Monza"},
+            "badge":{"label":{"text":"16:00 - 17:15"}},
+        }],
+        "2026-09-06": [{
+            "title":{"text":"GP Italia Gara"},
+            "description":{"text":"Dal circuito di Monza"},
+            "badge":{"label":{"text":"18:00 - 19:45"}},
+        }],
+    }
+    updated = apply_tv8_schedule([qualifying, race], schedules)
+    assert updated[0].broadcaster_it == "TV8"
+    assert updated[0].broadcast_type_it == "diretta"
+    assert updated[0].broadcast_time_it == "dalle 16:00"
+    assert updated[1].broadcaster_it != "TV8"
+
+
+def test_tv8_epg_recognizes_combined_live_motogp_qualifying_block():
+    q2 = event(
+        competition="MotoGP", grand_prix="San Marino and Rimini Riviera Grand Prix 2026",
+        circuit="Misano World Circuit", location="Misano", country="Italy",
+        session="Q2", start="2026-09-12T11:15+02:00",
+    )
+    schedules = {"2026-09-12": [{
+        "title":{"text":"GP San Marino: Qualifiche"},
+        "description":{"text":"Dal circuito di Misano"},
+        "badge":{"label":{"text":"10:50 - 11:50"}},
+    }]}
+    updated = apply_tv8_schedule([q2], schedules)[0]
+    assert updated.broadcaster_it == "TV8"
+    assert updated.broadcast_time_it == "dalle 10:50"
 
 
 def test_validation_rejects_empty_or_one_series():
