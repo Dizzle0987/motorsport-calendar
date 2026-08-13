@@ -9,18 +9,18 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:1282be60ed0f467754cf6dd7@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260306T023000
 DTEND;TZID=Europe/Rome:20260306T033000
 SUMMARY:Formula 1 — Australian Grand Prix 2026 — FP1
 LOCATION:Albert Park Grand Prix Circuit\, Melbourne\, Australia
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/australia\nFonte orario: Jolpica/Ergast (fallback str
- utturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto co
- n Formula1.com (solo data\; ora non pubblicata): 2026-03-06
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/australia\nFonte orario: Jolpica/Ergast (fallback strutturato
+ ) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formul
+ a1.com (solo data\; ora non pubblicata): 2026-03-06
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -29,18 +29,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:deae67419ee6c398eeca2c3f@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260306T060000
 DTEND;TZID=Europe/Rome:20260306T070000
 SUMMARY:Formula 1 — Australian Grand Prix 2026 — FP2
 LOCATION:Albert Park Grand Prix Circuit\, Melbourne\, Australia
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/australia\nFonte orario: Jolpica/Ergast (fallback str
- utturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto co
- n Formula1.com (solo data\; ora non pubblicata): 2026-03-06
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/australia\nFonte orario: Jolpica/Ergast (fallback strutturato
+ ) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formul
+ a1.com (solo data\; ora non pubblicata): 2026-03-06
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -49,18 +49,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a0fe79b28159b8c9ccd76735@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260307T023000
 DTEND;TZID=Europe/Rome:20260307T033000
 SUMMARY:Formula 1 — Australian Grand Prix 2026 — FP3
 LOCATION:Albert Park Grand Prix Circuit\, Melbourne\, Australia
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/australia\nFonte orario: Jolpica/Ergast (fallback str
- utturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto co
- n Formula1.com (solo data\; ora non pubblicata): 2026-03-07
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/australia\nFonte orario: Jolpica/Ergast (fallback strutturato
+ ) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formul
+ a1.com (solo data\; ora non pubblicata): 2026-03-07
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -69,18 +69,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:aac1acbc71533da0c3ff1030@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260307T060000
 DTEND;TZID=Europe/Rome:20260307T070000
 SUMMARY:Formula 1 — Australian Grand Prix 2026 — Qualifiche
 LOCATION:Albert Park Grand Prix Circuit\, Melbourne\, Australia
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/australia\nFonte orario: Jolpica/Ergast (fallback str
- utturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto co
- n Formula1.com (solo data\; ora non pubblicata): 2026-03-07
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/australia\nFonte orario: Jolpica/Ergast (fallback strutturato
+ ) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formul
+ a1.com (solo data\; ora non pubblicata): 2026-03-07
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -89,18 +89,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a42283715ce32338c3923da7@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260308T050000
 DTEND;TZID=Europe/Rome:20260308T060000
 SUMMARY:Formula 1 — Australian Grand Prix 2026 — Gara
 LOCATION:Albert Park Grand Prix Circuit\, Melbourne\, Australia
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/australia\nFonte orario: Jolpica/Ergast (fallback str
- utturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto co
- n Formula1.com (solo data\; ora non pubblicata): 2026-03-08
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/australia\nFonte orario: Jolpica/Ergast (fallback strutturato
+ ) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formul
+ a1.com (solo data\; ora non pubblicata): 2026-03-08
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -114,18 +114,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3e528d6971384501ec0cf150@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260313T043000
 DTEND;TZID=Europe/Rome:20260313T053000
 SUMMARY:Formula 1 — Chinese Grand Prix 2026 — FP1
 LOCATION:Shanghai International Circuit\, Shanghai\, China
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/shanghai\nFonte orario: Jolpica/Ergast (fallback stru
- tturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con
-  Formula1.com (solo data\; ora non pubblicata): 2026-03-13
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/shanghai\nFonte orario: Jolpica/Ergast (fallback strutturato) https:/
+ /api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (s
+ olo data\; ora non pubblicata): 2026-03-13
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -134,18 +134,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e5be4e3f2dd9bfeab2978de4@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260313T083000
 DTEND;TZID=Europe/Rome:20260313T093000
 SUMMARY:Formula 1 — Chinese Grand Prix 2026 — Sprint Qualifying
 LOCATION:Shanghai International Circuit\, Shanghai\, China
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/shanghai\nFonte orario: Jolpica/Ergast (fallback stru
- tturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con
-  Formula1.com (solo data\; ora non pubblicata): 2026-03-13
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/shanghai\nFonte orario: Jolpica/Ergast (fallback strutturato) https:/
+ /api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (s
+ olo data\; ora non pubblicata): 2026-03-13
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -154,18 +154,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c8eafd9450fa799b7aa7d063@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260314T040000
 DTEND;TZID=Europe/Rome:20260314T050000
 SUMMARY:Formula 1 — Chinese Grand Prix 2026 — Sprint
 LOCATION:Shanghai International Circuit\, Shanghai\, China
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/shanghai\nFonte orario: Jolpica/Ergast (fallback stru
- tturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con
-  Formula1.com (solo data\; ora non pubblicata): 2026-03-14
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/shanghai\nFonte orario: Jolpica/Ergast (fallback strutturato) https:/
+ /api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (s
+ olo data\; ora non pubblicata): 2026-03-14
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -174,18 +174,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9924c8fc03cf7f38353e26ac@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260314T080000
 DTEND;TZID=Europe/Rome:20260314T090000
 SUMMARY:Formula 1 — Chinese Grand Prix 2026 — Qualifiche
 LOCATION:Shanghai International Circuit\, Shanghai\, China
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/shanghai\nFonte orario: Jolpica/Ergast (fallback stru
- tturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con
-  Formula1.com (solo data\; ora non pubblicata): 2026-03-14
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/shanghai\nFonte orario: Jolpica/Ergast (fallback strutturato) https:/
+ /api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (s
+ olo data\; ora non pubblicata): 2026-03-14
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -194,18 +194,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:93a81532fb4466b55722ae1b@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260315T080000
 DTEND;TZID=Europe/Rome:20260315T090000
 SUMMARY:Formula 1 — Chinese Grand Prix 2026 — Gara
 LOCATION:Shanghai International Circuit\, Shanghai\, China
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/shanghai\nFonte orario: Jolpica/Ergast (fallback stru
- tturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con
-  Formula1.com (solo data\; ora non pubblicata): 2026-03-15
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/shanghai\nFonte orario: Jolpica/Ergast (fallback strutturato) https:/
+ /api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (s
+ olo data\; ora non pubblicata): 2026-03-15
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -219,18 +219,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2e067e3b1a4a7a7fa23f1227@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260327T033000
 DTEND;TZID=Europe/Rome:20260327T043000
 SUMMARY:Formula 1 — Japanese Grand Prix 2026 — FP1
 LOCATION:Suzuka Circuit\, Suzuka\, Japan
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/suzuka\nFonte orario: Jolpica/Ergast (fallback strutt
- urato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-03-27
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/suzuka\nFonte orario: Jolpica/Ergast (fallback strutturato) h
+ ttps://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.
+ com (solo data\; ora non pubblicata): 2026-03-27
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -239,18 +239,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ff2557e00047b0df9bcb04b7@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260327T070000
 DTEND;TZID=Europe/Rome:20260327T080000
 SUMMARY:Formula 1 — Japanese Grand Prix 2026 — FP2
 LOCATION:Suzuka Circuit\, Suzuka\, Japan
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/suzuka\nFonte orario: Jolpica/Ergast (fallback strutt
- urato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-03-27
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/suzuka\nFonte orario: Jolpica/Ergast (fallback strutturato) h
+ ttps://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.
+ com (solo data\; ora non pubblicata): 2026-03-27
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -259,18 +259,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7dc5bdaf2e0f0e4fb5d88a92@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260328T033000
 DTEND;TZID=Europe/Rome:20260328T043000
 SUMMARY:Formula 1 — Japanese Grand Prix 2026 — FP3
 LOCATION:Suzuka Circuit\, Suzuka\, Japan
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/suzuka\nFonte orario: Jolpica/Ergast (fallback strutt
- urato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-03-28
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/suzuka\nFonte orario: Jolpica/Ergast (fallback strutturato) h
+ ttps://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.
+ com (solo data\; ora non pubblicata): 2026-03-28
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -279,18 +279,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:60e6699d6396aaef68b26fc9@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260328T070000
 DTEND;TZID=Europe/Rome:20260328T080000
 SUMMARY:Formula 1 — Japanese Grand Prix 2026 — Qualifiche
 LOCATION:Suzuka Circuit\, Suzuka\, Japan
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/suzuka\nFonte orario: Jolpica/Ergast (fallback strutt
- urato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-03-28
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/suzuka\nFonte orario: Jolpica/Ergast (fallback strutturato) h
+ ttps://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.
+ com (solo data\; ora non pubblicata): 2026-03-28
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -299,18 +299,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:511fa60704c5be5d2bc5dbf7@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260329T070000
 DTEND;TZID=Europe/Rome:20260329T080000
 SUMMARY:Formula 1 — Japanese Grand Prix 2026 — Gara
 LOCATION:Suzuka Circuit\, Suzuka\, Japan
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/suzuka\nFonte orario: Jolpica/Ergast (fallback strutt
- urato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-03-29
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/suzuka\nFonte orario: Jolpica/Ergast (fallback strutturato) h
+ ttps://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.
+ com (solo data\; ora non pubblicata): 2026-03-29
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -324,18 +324,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a0760aaea5d4b94154de0a4b@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260501T180000
 DTEND;TZID=Europe/Rome:20260501T190000
 SUMMARY:Formula 1 — Miami Grand Prix 2026 — FP1
 LOCATION:Miami International Autodrome\, Miami\, USA
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/miami\nFonte orario: Jolpica/Ergast (fallback struttu
- rato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Fo
- rmula1.com (solo data\; ora non pubblicata): 2026-05-01
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/miami\nFonte orario: Jolpica/Ergast (fallback strutturato) https://ap
+ i.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (solo
+  data\; ora non pubblicata): 2026-05-01
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -344,18 +344,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7d011b4c30ffa82c32c5c006@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260501T223000
 DTEND;TZID=Europe/Rome:20260501T233000
 SUMMARY:Formula 1 — Miami Grand Prix 2026 — Sprint Qualifying
 LOCATION:Miami International Autodrome\, Miami\, USA
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/miami\nFonte orario: Jolpica/Ergast (fallback struttu
- rato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Fo
- rmula1.com (solo data\; ora non pubblicata): 2026-05-01
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/miami\nFonte orario: Jolpica/Ergast (fallback strutturato) https://ap
+ i.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (solo
+  data\; ora non pubblicata): 2026-05-01
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -364,18 +364,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:10ff47f52f310669e5626883@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260502T180000
 DTEND;TZID=Europe/Rome:20260502T190000
 SUMMARY:Formula 1 — Miami Grand Prix 2026 — Sprint
 LOCATION:Miami International Autodrome\, Miami\, USA
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/miami\nFonte orario: Jolpica/Ergast (fallback struttu
- rato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Fo
- rmula1.com (solo data\; ora non pubblicata): 2026-05-02
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/miami\nFonte orario: Jolpica/Ergast (fallback strutturato) https://ap
+ i.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (solo
+  data\; ora non pubblicata): 2026-05-02
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -384,18 +384,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e34f9e836483600999b745c7@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260502T220000
 DTEND;TZID=Europe/Rome:20260502T230000
 SUMMARY:Formula 1 — Miami Grand Prix 2026 — Qualifiche
 LOCATION:Miami International Autodrome\, Miami\, USA
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/miami\nFonte orario: Jolpica/Ergast (fallback struttu
- rato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Fo
- rmula1.com (solo data\; ora non pubblicata): 2026-05-02
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/miami\nFonte orario: Jolpica/Ergast (fallback strutturato) https://ap
+ i.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (solo
+  data\; ora non pubblicata): 2026-05-02
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -404,18 +404,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8aad91ec2817e73147fdef60@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260503T220000
 DTEND;TZID=Europe/Rome:20260503T230000
 SUMMARY:Formula 1 — Miami Grand Prix 2026 — Gara
 LOCATION:Miami International Autodrome\, Miami\, USA
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/miami\nFonte orario: Jolpica/Ergast (fallback struttu
- rato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Fo
- rmula1.com (solo data\; ora non pubblicata): 2026-05-03
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/miami\nFonte orario: Jolpica/Ergast (fallback strutturato) https://ap
+ i.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (solo
+  data\; ora non pubblicata): 2026-05-03
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -429,18 +429,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d29de82c62ab7358226fa421@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260522T183000
 DTEND;TZID=Europe/Rome:20260522T193000
 SUMMARY:Formula 1 — Canadian Grand Prix 2026 — FP1
 LOCATION:Circuit Gilles Villeneuve\, Montreal\, Canada
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/villeneuve\nFonte orario: Jolpica/Ergast (fallback st
- rutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto c
- on Formula1.com (solo data\; ora non pubblicata): 2026-05-22
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/villeneuve\nFonte orario: Jolpica/Ergast (fallback strutturat
+ o) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formu
+ la1.com (solo data\; ora non pubblicata): 2026-05-22
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -449,18 +449,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7d1838a3838083415888f375@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260522T223000
 DTEND;TZID=Europe/Rome:20260522T233000
 SUMMARY:Formula 1 — Canadian Grand Prix 2026 — Sprint Qualifying
 LOCATION:Circuit Gilles Villeneuve\, Montreal\, Canada
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/villeneuve\nFonte orario: Jolpica/Ergast (fallback st
- rutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto c
- on Formula1.com (solo data\; ora non pubblicata): 2026-05-22
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/villeneuve\nFonte orario: Jolpica/Ergast (fallback strutturat
+ o) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formu
+ la1.com (solo data\; ora non pubblicata): 2026-05-22
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -469,18 +469,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a30618cdd14e8b174e21b5ed@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260523T180000
 DTEND;TZID=Europe/Rome:20260523T190000
 SUMMARY:Formula 1 — Canadian Grand Prix 2026 — Sprint
 LOCATION:Circuit Gilles Villeneuve\, Montreal\, Canada
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/villeneuve\nFonte orario: Jolpica/Ergast (fallback st
- rutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto c
- on Formula1.com (solo data\; ora non pubblicata): 2026-05-23
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/villeneuve\nFonte orario: Jolpica/Ergast (fallback strutturat
+ o) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formu
+ la1.com (solo data\; ora non pubblicata): 2026-05-23
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -489,18 +489,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e8d72beee68408b6e0c0d664@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260523T220000
 DTEND;TZID=Europe/Rome:20260523T230000
 SUMMARY:Formula 1 — Canadian Grand Prix 2026 — Qualifiche
 LOCATION:Circuit Gilles Villeneuve\, Montreal\, Canada
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/villeneuve\nFonte orario: Jolpica/Ergast (fallback st
- rutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto c
- on Formula1.com (solo data\; ora non pubblicata): 2026-05-23
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/villeneuve\nFonte orario: Jolpica/Ergast (fallback strutturat
+ o) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formu
+ la1.com (solo data\; ora non pubblicata): 2026-05-23
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -509,18 +509,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d504ef3a92672844794846c4@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260524T220000
 DTEND;TZID=Europe/Rome:20260524T230000
 SUMMARY:Formula 1 — Canadian Grand Prix 2026 — Gara
 LOCATION:Circuit Gilles Villeneuve\, Montreal\, Canada
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/villeneuve\nFonte orario: Jolpica/Ergast (fallback st
- rutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto c
- on Formula1.com (solo data\; ora non pubblicata): 2026-05-24
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/villeneuve\nFonte orario: Jolpica/Ergast (fallback strutturat
+ o) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formu
+ la1.com (solo data\; ora non pubblicata): 2026-05-24
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -534,18 +534,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d265731dc027cdd62a46f34c@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260605T133000
 DTEND;TZID=Europe/Rome:20260605T143000
 SUMMARY:Formula 1 — Monaco Grand Prix 2026 — FP1
 LOCATION:Circuit de Monaco\, Monte Carlo\, Monaco
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/monaco\nFonte orario: Jolpica/Ergast (fallback strutt
- urato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-06-05
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/monaco\nFonte orario: Jolpica/Ergast (fallback strutturato) https://a
+ pi.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (sol
+ o data\; ora non pubblicata): 2026-06-05
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -554,18 +554,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:78af3758e61b017a76990a21@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260605T170000
 DTEND;TZID=Europe/Rome:20260605T180000
 SUMMARY:Formula 1 — Monaco Grand Prix 2026 — FP2
 LOCATION:Circuit de Monaco\, Monte Carlo\, Monaco
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/monaco\nFonte orario: Jolpica/Ergast (fallback strutt
- urato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-06-05
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/monaco\nFonte orario: Jolpica/Ergast (fallback strutturato) https://a
+ pi.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (sol
+ o data\; ora non pubblicata): 2026-06-05
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -574,18 +574,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:673d14649783938905d3a91b@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260606T123000
 DTEND;TZID=Europe/Rome:20260606T133000
 SUMMARY:Formula 1 — Monaco Grand Prix 2026 — FP3
 LOCATION:Circuit de Monaco\, Monte Carlo\, Monaco
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/monaco\nFonte orario: Jolpica/Ergast (fallback strutt
- urato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-06-06
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/monaco\nFonte orario: Jolpica/Ergast (fallback strutturato) https://a
+ pi.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (sol
+ o data\; ora non pubblicata): 2026-06-06
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -594,18 +594,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0463dc7367c7920a471d2653@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260606T160000
 DTEND;TZID=Europe/Rome:20260606T170000
 SUMMARY:Formula 1 — Monaco Grand Prix 2026 — Qualifiche
 LOCATION:Circuit de Monaco\, Monte Carlo\, Monaco
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/monaco\nFonte orario: Jolpica/Ergast (fallback strutt
- urato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-06-06
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/monaco\nFonte orario: Jolpica/Ergast (fallback strutturato) https://a
+ pi.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (sol
+ o data\; ora non pubblicata): 2026-06-06
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -614,18 +614,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0f96a3e9b51503efd5454c40@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260607T150000
 DTEND;TZID=Europe/Rome:20260607T160000
 SUMMARY:Formula 1 — Monaco Grand Prix 2026 — Gara
 LOCATION:Circuit de Monaco\, Monte Carlo\, Monaco
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/monaco\nFonte orario: Jolpica/Ergast (fallback strutt
- urato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-06-07
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/monaco\nFonte orario: Jolpica/Ergast (fallback strutturato) https://a
+ pi.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (sol
+ o data\; ora non pubblicata): 2026-06-07
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -639,18 +639,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3176e89efe8a8572832cc471@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260612T133000
 DTEND;TZID=Europe/Rome:20260612T143000
 SUMMARY:Formula 1 — Barcelona Grand Prix 2026 — FP1
 LOCATION:Circuit de Barcelona-Catalunya\, Barcelona\, Spain
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/catalunya\nFonte orario: Jolpica/Ergast (fallback str
- utturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto co
- n Formula1.com (solo data\; ora non pubblicata): 2026-06-12
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/catalunya\nFonte orario: Jolpica/Ergast (fallback strutturato) https:
+ //api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (
+ solo data\; ora non pubblicata): 2026-06-12
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -659,18 +659,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b0777e5d238d036c6cb9da07@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260612T170000
 DTEND;TZID=Europe/Rome:20260612T180000
 SUMMARY:Formula 1 — Barcelona Grand Prix 2026 — FP2
 LOCATION:Circuit de Barcelona-Catalunya\, Barcelona\, Spain
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/catalunya\nFonte orario: Jolpica/Ergast (fallback str
- utturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto co
- n Formula1.com (solo data\; ora non pubblicata): 2026-06-12
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/catalunya\nFonte orario: Jolpica/Ergast (fallback strutturato) https:
+ //api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (
+ solo data\; ora non pubblicata): 2026-06-12
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -679,18 +679,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:58f36fde5f7bce4857f79890@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260613T123000
 DTEND;TZID=Europe/Rome:20260613T133000
 SUMMARY:Formula 1 — Barcelona Grand Prix 2026 — FP3
 LOCATION:Circuit de Barcelona-Catalunya\, Barcelona\, Spain
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/catalunya\nFonte orario: Jolpica/Ergast (fallback str
- utturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto co
- n Formula1.com (solo data\; ora non pubblicata): 2026-06-13
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/catalunya\nFonte orario: Jolpica/Ergast (fallback strutturato) https:
+ //api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (
+ solo data\; ora non pubblicata): 2026-06-13
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -699,18 +699,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e4b83daba8a284183d4cac67@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260613T160000
 DTEND;TZID=Europe/Rome:20260613T170000
 SUMMARY:Formula 1 — Barcelona Grand Prix 2026 — Qualifiche
 LOCATION:Circuit de Barcelona-Catalunya\, Barcelona\, Spain
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/catalunya\nFonte orario: Jolpica/Ergast (fallback str
- utturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto co
- n Formula1.com (solo data\; ora non pubblicata): 2026-06-13
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/catalunya\nFonte orario: Jolpica/Ergast (fallback strutturato) https:
+ //api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (
+ solo data\; ora non pubblicata): 2026-06-13
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -719,18 +719,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a0d2943ef30879c3f432c76a@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260614T150000
 DTEND;TZID=Europe/Rome:20260614T160000
 SUMMARY:Formula 1 — Barcelona Grand Prix 2026 — Gara
 LOCATION:Circuit de Barcelona-Catalunya\, Barcelona\, Spain
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/catalunya\nFonte orario: Jolpica/Ergast (fallback str
- utturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto co
- n Formula1.com (solo data\; ora non pubblicata): 2026-06-14
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/catalunya\nFonte orario: Jolpica/Ergast (fallback strutturato) https:
+ //api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (
+ solo data\; ora non pubblicata): 2026-06-14
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -744,18 +744,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:303b16fa7d8081afcccf9bc4@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260626T133000
 DTEND;TZID=Europe/Rome:20260626T143000
 SUMMARY:Formula 1 — Austrian Grand Prix 2026 — FP1
 LOCATION:Red Bull Ring\, Spielberg\, Austria
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/red_bull_ring\nFonte orario: Jolpica/Ergast (fallback
-  strutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitt
- o con Formula1.com (solo data\; ora non pubblicata): 2026-06-26
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/red_bull_ring\nFonte orario: Jolpica/Ergast (fallback struttu
+ rato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Fo
+ rmula1.com (solo data\; ora non pubblicata): 2026-06-26
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -764,18 +764,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fb8e19e95fe5ba6aefa0b4f3@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260626T170000
 DTEND;TZID=Europe/Rome:20260626T180000
 SUMMARY:Formula 1 — Austrian Grand Prix 2026 — FP2
 LOCATION:Red Bull Ring\, Spielberg\, Austria
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/red_bull_ring\nFonte orario: Jolpica/Ergast (fallback
-  strutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitt
- o con Formula1.com (solo data\; ora non pubblicata): 2026-06-26
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/red_bull_ring\nFonte orario: Jolpica/Ergast (fallback struttu
+ rato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Fo
+ rmula1.com (solo data\; ora non pubblicata): 2026-06-26
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -784,18 +784,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:68fbec25c2539ebdb41927df@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260627T123000
 DTEND;TZID=Europe/Rome:20260627T133000
 SUMMARY:Formula 1 — Austrian Grand Prix 2026 — FP3
 LOCATION:Red Bull Ring\, Spielberg\, Austria
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/red_bull_ring\nFonte orario: Jolpica/Ergast (fallback
-  strutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitt
- o con Formula1.com (solo data\; ora non pubblicata): 2026-06-27
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/red_bull_ring\nFonte orario: Jolpica/Ergast (fallback struttu
+ rato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Fo
+ rmula1.com (solo data\; ora non pubblicata): 2026-06-27
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -804,18 +804,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:290645a5da759f0c33b686cf@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260627T160000
 DTEND;TZID=Europe/Rome:20260627T170000
 SUMMARY:Formula 1 — Austrian Grand Prix 2026 — Qualifiche
 LOCATION:Red Bull Ring\, Spielberg\, Austria
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/red_bull_ring\nFonte orario: Jolpica/Ergast (fallback
-  strutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitt
- o con Formula1.com (solo data\; ora non pubblicata): 2026-06-27
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/red_bull_ring\nFonte orario: Jolpica/Ergast (fallback struttu
+ rato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Fo
+ rmula1.com (solo data\; ora non pubblicata): 2026-06-27
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -824,18 +824,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:892812bffbbdc878b497ad1a@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260628T150000
 DTEND;TZID=Europe/Rome:20260628T160000
 SUMMARY:Formula 1 — Austrian Grand Prix 2026 — Gara
 LOCATION:Red Bull Ring\, Spielberg\, Austria
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/red_bull_ring\nFonte orario: Jolpica/Ergast (fallback
-  strutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitt
- o con Formula1.com (solo data\; ora non pubblicata): 2026-06-28
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/red_bull_ring\nFonte orario: Jolpica/Ergast (fallback struttu
+ rato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Fo
+ rmula1.com (solo data\; ora non pubblicata): 2026-06-28
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -849,18 +849,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f736da1886a470ac530ef12f@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260703T133000
 DTEND;TZID=Europe/Rome:20260703T143000
 SUMMARY:Formula 1 — British Grand Prix 2026 — FP1
 LOCATION:Silverstone Circuit\, Silverstone\, UK
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/silverstone\nFonte orario: Jolpica/Ergast (fallback s
- trutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto 
- con Formula1.com (solo data\; ora non pubblicata): 2026-07-03
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/silverstone\nFonte orario: Jolpica/Ergast (fallback strutturato) http
+ s://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com
+  (solo data\; ora non pubblicata): 2026-07-03
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -869,18 +869,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1e70d1b011ca9ffa4554c6fb@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260703T173000
 DTEND;TZID=Europe/Rome:20260703T183000
 SUMMARY:Formula 1 — British Grand Prix 2026 — Sprint Qualifying
 LOCATION:Silverstone Circuit\, Silverstone\, UK
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/silverstone\nFonte orario: Jolpica/Ergast (fallback s
- trutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto 
- con Formula1.com (solo data\; ora non pubblicata): 2026-07-03
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/silverstone\nFonte orario: Jolpica/Ergast (fallback strutturato) http
+ s://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com
+  (solo data\; ora non pubblicata): 2026-07-03
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -889,18 +889,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:aec272e86721fb70a0191db7@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260704T130000
 DTEND;TZID=Europe/Rome:20260704T140000
 SUMMARY:Formula 1 — British Grand Prix 2026 — Sprint
 LOCATION:Silverstone Circuit\, Silverstone\, UK
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/silverstone\nFonte orario: Jolpica/Ergast (fallback s
- trutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto 
- con Formula1.com (solo data\; ora non pubblicata): 2026-07-04
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/silverstone\nFonte orario: Jolpica/Ergast (fallback strutturato) http
+ s://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com
+  (solo data\; ora non pubblicata): 2026-07-04
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -909,18 +909,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d9b9098a589b6b38d5b10d74@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260704T170000
 DTEND;TZID=Europe/Rome:20260704T180000
 SUMMARY:Formula 1 — British Grand Prix 2026 — Qualifiche
 LOCATION:Silverstone Circuit\, Silverstone\, UK
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/silverstone\nFonte orario: Jolpica/Ergast (fallback s
- trutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto 
- con Formula1.com (solo data\; ora non pubblicata): 2026-07-04
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/silverstone\nFonte orario: Jolpica/Ergast (fallback strutturato) http
+ s://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com
+  (solo data\; ora non pubblicata): 2026-07-04
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -929,18 +929,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a462b4632490a7f658ae5ee3@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260705T160000
 DTEND;TZID=Europe/Rome:20260705T170000
 SUMMARY:Formula 1 — British Grand Prix 2026 — Gara
 LOCATION:Silverstone Circuit\, Silverstone\, UK
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/silverstone\nFonte orario: Jolpica/Ergast (fallback s
- trutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto 
- con Formula1.com (solo data\; ora non pubblicata): 2026-07-05
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/silverstone\nFonte orario: Jolpica/Ergast (fallback strutturato) http
+ s://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com
+  (solo data\; ora non pubblicata): 2026-07-05
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -954,18 +954,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:734eb922da28e031720c9b7d@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260717T133000
 DTEND;TZID=Europe/Rome:20260717T143000
 SUMMARY:Formula 1 — Belgian Grand Prix 2026 — FP1
 LOCATION:Circuit de Spa-Francorchamps\, Spa\, Belgium
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/spa\nFonte orario: Jolpica/Ergast (fallback struttura
- to) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Form
- ula1.com (solo data\; ora non pubblicata): 2026-07-17
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/spa\nFonte orario: Jolpica/Ergast (fallback strutturato) http
+ s://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com
+  (solo data\; ora non pubblicata): 2026-07-17
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -974,18 +974,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bda70e11dfb79a7d41edf87a@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260717T170000
 DTEND;TZID=Europe/Rome:20260717T180000
 SUMMARY:Formula 1 — Belgian Grand Prix 2026 — FP2
 LOCATION:Circuit de Spa-Francorchamps\, Spa\, Belgium
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/spa\nFonte orario: Jolpica/Ergast (fallback struttura
- to) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Form
- ula1.com (solo data\; ora non pubblicata): 2026-07-17
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/spa\nFonte orario: Jolpica/Ergast (fallback strutturato) http
+ s://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com
+  (solo data\; ora non pubblicata): 2026-07-17
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -994,18 +994,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cd3d95f363d37fc742694084@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260718T123000
 DTEND;TZID=Europe/Rome:20260718T133000
 SUMMARY:Formula 1 — Belgian Grand Prix 2026 — FP3
 LOCATION:Circuit de Spa-Francorchamps\, Spa\, Belgium
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/spa\nFonte orario: Jolpica/Ergast (fallback struttura
- to) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Form
- ula1.com (solo data\; ora non pubblicata): 2026-07-18
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/spa\nFonte orario: Jolpica/Ergast (fallback strutturato) http
+ s://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com
+  (solo data\; ora non pubblicata): 2026-07-18
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1014,18 +1014,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1471150ee4d4fdd3c9e6cebb@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260718T160000
 DTEND;TZID=Europe/Rome:20260718T170000
 SUMMARY:Formula 1 — Belgian Grand Prix 2026 — Qualifiche
 LOCATION:Circuit de Spa-Francorchamps\, Spa\, Belgium
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/spa\nFonte orario: Jolpica/Ergast (fallback struttura
- to) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Form
- ula1.com (solo data\; ora non pubblicata): 2026-07-18
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/spa\nFonte orario: Jolpica/Ergast (fallback strutturato) http
+ s://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com
+  (solo data\; ora non pubblicata): 2026-07-18
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1034,18 +1034,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dd779baab50ee2124eb340e4@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260719T150000
 DTEND;TZID=Europe/Rome:20260719T160000
 SUMMARY:Formula 1 — Belgian Grand Prix 2026 — Gara
 LOCATION:Circuit de Spa-Francorchamps\, Spa\, Belgium
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/spa\nFonte orario: Jolpica/Ergast (fallback struttura
- to) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Form
- ula1.com (solo data\; ora non pubblicata): 2026-07-19
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/spa\nFonte orario: Jolpica/Ergast (fallback strutturato) http
+ s://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com
+  (solo data\; ora non pubblicata): 2026-07-19
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1059,18 +1059,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7481822fee1d6fe70d9ca273@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260724T133000
 DTEND;TZID=Europe/Rome:20260724T143000
 SUMMARY:Formula 1 — Hungarian Grand Prix 2026 — FP1
 LOCATION:Hungaroring\, Budapest\, Hungary
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/hungary\nFonte orario: Jolpica/Ergast (fallback strut
- turato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con 
- Formula1.com (solo data\; ora non pubblicata): 2026-07-24
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/hungary\nFonte orario: Jolpica/Ergast (fallback strutturato) https://
+ api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (so
+ lo data\; ora non pubblicata): 2026-07-24
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1079,18 +1079,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:213864ef5c167d75a0ebce26@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260724T170000
 DTEND;TZID=Europe/Rome:20260724T180000
 SUMMARY:Formula 1 — Hungarian Grand Prix 2026 — FP2
 LOCATION:Hungaroring\, Budapest\, Hungary
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/hungary\nFonte orario: Jolpica/Ergast (fallback strut
- turato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con 
- Formula1.com (solo data\; ora non pubblicata): 2026-07-24
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/hungary\nFonte orario: Jolpica/Ergast (fallback strutturato) https://
+ api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (so
+ lo data\; ora non pubblicata): 2026-07-24
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1099,18 +1099,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c1dc162f0ccf411ba7be50be@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260725T123000
 DTEND;TZID=Europe/Rome:20260725T133000
 SUMMARY:Formula 1 — Hungarian Grand Prix 2026 — FP3
 LOCATION:Hungaroring\, Budapest\, Hungary
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/hungary\nFonte orario: Jolpica/Ergast (fallback strut
- turato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con 
- Formula1.com (solo data\; ora non pubblicata): 2026-07-25
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/hungary\nFonte orario: Jolpica/Ergast (fallback strutturato) https://
+ api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (so
+ lo data\; ora non pubblicata): 2026-07-25
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1119,18 +1119,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d589c5b0c91e29b941efc608@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260725T160000
 DTEND;TZID=Europe/Rome:20260725T170000
 SUMMARY:Formula 1 — Hungarian Grand Prix 2026 — Qualifiche
 LOCATION:Hungaroring\, Budapest\, Hungary
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/hungary\nFonte orario: Jolpica/Ergast (fallback strut
- turato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con 
- Formula1.com (solo data\; ora non pubblicata): 2026-07-25
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/hungary\nFonte orario: Jolpica/Ergast (fallback strutturato) https://
+ api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (so
+ lo data\; ora non pubblicata): 2026-07-25
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1139,18 +1139,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a5b97d931a0eba985459394b@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260726T150000
 DTEND;TZID=Europe/Rome:20260726T160000
 SUMMARY:Formula 1 — Hungarian Grand Prix 2026 — Gara
 LOCATION:Hungaroring\, Budapest\, Hungary
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/hungary\nFonte orario: Jolpica/Ergast (fallback strut
- turato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con 
- Formula1.com (solo data\; ora non pubblicata): 2026-07-26
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/hungary\nFonte orario: Jolpica/Ergast (fallback strutturato) https://
+ api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (so
+ lo data\; ora non pubblicata): 2026-07-26
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1164,18 +1164,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:90edf651556ee61022af6502@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260821T123000
 DTEND;TZID=Europe/Rome:20260821T133000
 SUMMARY:Formula 1 — Dutch Grand Prix 2026 — FP1
 LOCATION:Circuit Park Zandvoort\, Zandvoort\, Netherlands
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/zandvoort\nFonte orario: Jolpica/Ergast (fallback str
- utturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto co
- n Formula1.com (solo data\; ora non pubblicata): 2026-08-21
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/zandvoort\nFonte orario: Jolpica/Ergast (fallback strutturato
+ ) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formul
+ a1.com (solo data\; ora non pubblicata): 2026-08-21
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1184,18 +1184,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3696f638e5adb0fab1638fce@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260821T163000
 DTEND;TZID=Europe/Rome:20260821T173000
 SUMMARY:Formula 1 — Dutch Grand Prix 2026 — Sprint Qualifying
 LOCATION:Circuit Park Zandvoort\, Zandvoort\, Netherlands
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/zandvoort\nFonte orario: Jolpica/Ergast (fallback str
- utturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto co
- n Formula1.com (solo data\; ora non pubblicata): 2026-08-21
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/zandvoort\nFonte orario: Jolpica/Ergast (fallback strutturato
+ ) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formul
+ a1.com (solo data\; ora non pubblicata): 2026-08-21
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1204,18 +1204,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:515d293331154579acaad423@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260822T120000
 DTEND;TZID=Europe/Rome:20260822T130000
 SUMMARY:Formula 1 — Dutch Grand Prix 2026 — Sprint
 LOCATION:Circuit Park Zandvoort\, Zandvoort\, Netherlands
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/zandvoort\nFonte orario: Jolpica/Ergast (fallback str
- utturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto co
- n Formula1.com (solo data\; ora non pubblicata): 2026-08-22
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/zandvoort\nFonte orario: Jolpica/Ergast (fallback strutturato
+ ) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formul
+ a1.com (solo data\; ora non pubblicata): 2026-08-22
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1224,18 +1224,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c6853a352a6409399212a01d@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260822T160000
 DTEND;TZID=Europe/Rome:20260822T170000
 SUMMARY:Formula 1 — Dutch Grand Prix 2026 — Qualifiche
 LOCATION:Circuit Park Zandvoort\, Zandvoort\, Netherlands
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/zandvoort\nFonte orario: Jolpica/Ergast (fallback str
- utturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto co
- n Formula1.com (solo data\; ora non pubblicata): 2026-08-22
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/zandvoort\nFonte orario: Jolpica/Ergast (fallback strutturato
+ ) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formul
+ a1.com (solo data\; ora non pubblicata): 2026-08-22
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1244,18 +1244,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f6c540d405acd58a641eba3b@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260823T150000
 DTEND;TZID=Europe/Rome:20260823T160000
 SUMMARY:Formula 1 — Dutch Grand Prix 2026 — Gara
 LOCATION:Circuit Park Zandvoort\, Zandvoort\, Netherlands
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/zandvoort\nFonte orario: Jolpica/Ergast (fallback str
- utturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto co
- n Formula1.com (solo data\; ora non pubblicata): 2026-08-23
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/zandvoort\nFonte orario: Jolpica/Ergast (fallback strutturato
+ ) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formul
+ a1.com (solo data\; ora non pubblicata): 2026-08-23
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1269,18 +1269,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:442dc5e69badadc8ebcccfa5@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260904T123000
 DTEND;TZID=Europe/Rome:20260904T133000
 SUMMARY:Formula 1 — Italian Grand Prix 2026 — FP1
 LOCATION:Autodromo Nazionale di Monza\, Monza\, Italy
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/monza\nFonte orario: Jolpica/Ergast (fallback struttu
- rato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Fo
- rmula1.com (solo data\; ora non pubblicata): 2026-09-04
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/monza\nFonte orario: Jolpica/Ergast (fallback strutturato) ht
+ tps://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.c
+ om (solo data\; ora non pubblicata): 2026-09-04
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1289,18 +1289,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2fe22613c6bc481e25c7d334@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260904T160000
 DTEND;TZID=Europe/Rome:20260904T170000
 SUMMARY:Formula 1 — Italian Grand Prix 2026 — FP2
 LOCATION:Autodromo Nazionale di Monza\, Monza\, Italy
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/monza\nFonte orario: Jolpica/Ergast (fallback struttu
- rato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Fo
- rmula1.com (solo data\; ora non pubblicata): 2026-09-04
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/monza\nFonte orario: Jolpica/Ergast (fallback strutturato) ht
+ tps://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.c
+ om (solo data\; ora non pubblicata): 2026-09-04
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1309,18 +1309,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a5806c68622fbc27fde89fe7@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260905T123000
 DTEND;TZID=Europe/Rome:20260905T133000
 SUMMARY:Formula 1 — Italian Grand Prix 2026 — FP3
 LOCATION:Autodromo Nazionale di Monza\, Monza\, Italy
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/monza\nFonte orario: Jolpica/Ergast (fallback struttu
- rato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Fo
- rmula1.com (solo data\; ora non pubblicata): 2026-09-05
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/monza\nFonte orario: Jolpica/Ergast (fallback strutturato) ht
+ tps://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.c
+ om (solo data\; ora non pubblicata): 2026-09-05
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1329,18 +1329,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:95bc052276c0f293249d73b7@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260905T160000
 DTEND;TZID=Europe/Rome:20260905T170000
 SUMMARY:Formula 1 — Italian Grand Prix 2026 — Qualifiche
 LOCATION:Autodromo Nazionale di Monza\, Monza\, Italy
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/monza\nFonte orario: Jolpica/Ergast (fallback struttu
- rato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Fo
- rmula1.com (solo data\; ora non pubblicata): 2026-09-05
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/monza\nFonte orario: Jolpica/Ergast (fallback strutturato) ht
+ tps://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.c
+ om (solo data\; ora non pubblicata): 2026-09-05
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1349,18 +1349,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3f5ecb1f741e0ce29faca156@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260906T150000
 DTEND;TZID=Europe/Rome:20260906T160000
 SUMMARY:Formula 1 — Italian Grand Prix 2026 — Gara
 LOCATION:Autodromo Nazionale di Monza\, Monza\, Italy
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/monza\nFonte orario: Jolpica/Ergast (fallback struttu
- rato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Fo
- rmula1.com (solo data\; ora non pubblicata): 2026-09-06
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/monza\nFonte orario: Jolpica/Ergast (fallback strutturato) ht
+ tps://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.c
+ om (solo data\; ora non pubblicata): 2026-09-06
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1374,19 +1374,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:79e7d1b581a1d00c7e5b46be@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260911T133000
 DTEND;TZID=Europe/Rome:20260911T143000
 SUMMARY:Formula 1 — Spanish Grand Prix 2026 — FP1
 LOCATION:Madring\, Madrid\, Spain
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/spain\nFonte orario: Formula1.com https://www.formula
- 1.com/en/racing/2026/spain\nConflitto: Conflitto con Jolpica/Ergast (fallba
- ck strutturato): 2026-09-11T13:30+02:00\nConflitto: Conflitto con Formula1.
- com (solo data\; ora non pubblicata): 2026-09-11
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/spain\nFonte orario: Formula1.com https://www.formula1.com/en/racing/
+ 2026/spain\nConflitto: Conflitto con Jolpica/Ergast (fallback strutturato):
+  2026-09-11T13:30+02:00\nConflitto: Conflitto con Formula1.com (solo data\;
+  ora non pubblicata): 2026-09-11
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1395,19 +1395,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ebc38c1cdcec14487fa0592d@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260911T170000
 DTEND;TZID=Europe/Rome:20260911T180000
 SUMMARY:Formula 1 — Spanish Grand Prix 2026 — FP2
 LOCATION:Madring\, Madrid\, Spain
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/spain\nFonte orario: Formula1.com https://www.formula
- 1.com/en/racing/2026/spain\nConflitto: Conflitto con Jolpica/Ergast (fallba
- ck strutturato): 2026-09-11T17:00+02:00\nConflitto: Conflitto con Formula1.
- com (solo data\; ora non pubblicata): 2026-09-11
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/spain\nFonte orario: Formula1.com https://www.formula1.com/en/racing/
+ 2026/spain\nConflitto: Conflitto con Jolpica/Ergast (fallback strutturato):
+  2026-09-11T17:00+02:00\nConflitto: Conflitto con Formula1.com (solo data\;
+  ora non pubblicata): 2026-09-11
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1416,19 +1416,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2ae6aa55fe21b2d3d117fe6e@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260912T123000
 DTEND;TZID=Europe/Rome:20260912T133000
 SUMMARY:Formula 1 — Spanish Grand Prix 2026 — FP3
 LOCATION:Madring\, Madrid\, Spain
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/spain\nFonte orario: Formula1.com https://www.formula
- 1.com/en/racing/2026/spain\nConflitto: Conflitto con Jolpica/Ergast (fallba
- ck strutturato): 2026-09-12T12:30+02:00\nConflitto: Conflitto con Formula1.
- com (solo data\; ora non pubblicata): 2026-09-12
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/spain\nFonte orario: Formula1.com https://www.formula1.com/en/racing/
+ 2026/spain\nConflitto: Conflitto con Jolpica/Ergast (fallback strutturato):
+  2026-09-12T12:30+02:00\nConflitto: Conflitto con Formula1.com (solo data\;
+  ora non pubblicata): 2026-09-12
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1437,19 +1437,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a097994d903df76890cfdaf1@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260912T160000
 DTEND;TZID=Europe/Rome:20260912T170000
 SUMMARY:Formula 1 — Spanish Grand Prix 2026 — Qualifiche
 LOCATION:Madring\, Madrid\, Spain
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/spain\nFonte orario: Formula1.com https://www.formula
- 1.com/en/racing/2026/spain\nConflitto: Conflitto con Jolpica/Ergast (fallba
- ck strutturato): 2026-09-12T16:00+02:00\nConflitto: Conflitto con Formula1.
- com (solo data\; ora non pubblicata): 2026-09-12
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/spain\nFonte orario: Formula1.com https://www.formula1.com/en/racing/
+ 2026/spain\nConflitto: Conflitto con Jolpica/Ergast (fallback strutturato):
+  2026-09-12T16:00+02:00\nConflitto: Conflitto con Formula1.com (solo data\;
+  ora non pubblicata): 2026-09-12
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1458,18 +1458,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:03c2ecc9ee1166d34d897dd8@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20260913T150000
 DTEND;TZID=Europe/Rome:20260913T160000
 SUMMARY:Formula 1 — Spanish Grand Prix 2026 — Gara
 LOCATION:Madring\, Madrid\, Spain
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/spain\nFonte orario: Formula1.com https://www.formula
- 1.com/en/racing/2026/spain\nConflitto: Conflitto con Formula1.com (solo dat
- a\; ora non pubblicata): 2026-09-13
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/spain\nFonte orario: Formula1.com https://www.formula1.com/en/racing/
+ 2026/spain\nConflitto: Conflitto con Formula1.com (solo data\; ora non pubb
+ licata): 2026-09-13
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1483,18 +1483,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dd4d90cd07ed05728ba095a3@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260924T103000
 DTEND;TZID=Europe/Rome:20260924T113000
 SUMMARY:Formula 1 — Azerbaijan Grand Prix 2026 — FP1
 LOCATION:Baku City Circuit\, Baku\, Azerbaijan
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/baku\nFonte orario: Jolpica/Ergast (fallback struttur
- ato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con For
- mula1.com (solo data\; ora non pubblicata): 2026-09-24
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/baku\nFonte orario: Jolpica/Ergast (fallback strutturato) https://api
+ .jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (solo 
+ data\; ora non pubblicata): 2026-09-24
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1503,18 +1503,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:833df1fee6ceec64ed3c5eb9@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260924T140000
 DTEND;TZID=Europe/Rome:20260924T150000
 SUMMARY:Formula 1 — Azerbaijan Grand Prix 2026 — FP2
 LOCATION:Baku City Circuit\, Baku\, Azerbaijan
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/baku\nFonte orario: Jolpica/Ergast (fallback struttur
- ato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con For
- mula1.com (solo data\; ora non pubblicata): 2026-09-24
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/baku\nFonte orario: Jolpica/Ergast (fallback strutturato) https://api
+ .jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (solo 
+ data\; ora non pubblicata): 2026-09-24
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1523,18 +1523,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bba89637b458db015ac4aa2b@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260925T103000
 DTEND;TZID=Europe/Rome:20260925T113000
 SUMMARY:Formula 1 — Azerbaijan Grand Prix 2026 — FP3
 LOCATION:Baku City Circuit\, Baku\, Azerbaijan
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/baku\nFonte orario: Jolpica/Ergast (fallback struttur
- ato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con For
- mula1.com (solo data\; ora non pubblicata): 2026-09-25
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/baku\nFonte orario: Jolpica/Ergast (fallback strutturato) https://api
+ .jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (solo 
+ data\; ora non pubblicata): 2026-09-25
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1543,18 +1543,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d3f68b1df21d4ec141ca897b@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260925T140000
 DTEND;TZID=Europe/Rome:20260925T150000
 SUMMARY:Formula 1 — Azerbaijan Grand Prix 2026 — Qualifiche
 LOCATION:Baku City Circuit\, Baku\, Azerbaijan
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/baku\nFonte orario: Jolpica/Ergast (fallback struttur
- ato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con For
- mula1.com (solo data\; ora non pubblicata): 2026-09-25
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/baku\nFonte orario: Jolpica/Ergast (fallback strutturato) https://api
+ .jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (solo 
+ data\; ora non pubblicata): 2026-09-25
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1563,18 +1563,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e7b13837c146f299b26e37ba@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260926T130000
 DTEND;TZID=Europe/Rome:20260926T140000
 SUMMARY:Formula 1 — Azerbaijan Grand Prix 2026 — Gara
 LOCATION:Baku City Circuit\, Baku\, Azerbaijan
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/baku\nFonte orario: Jolpica/Ergast (fallback struttur
- ato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con For
- mula1.com (solo data\; ora non pubblicata): 2026-09-26
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/baku\nFonte orario: Jolpica/Ergast (fallback strutturato) https://api
+ .jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (solo 
+ data\; ora non pubblicata): 2026-09-26
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1588,18 +1588,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e79e1193d0ab4b06e0ef09d9@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20261002T040000
 DTEND;TZID=Europe/Rome:20261002T050000
 SUMMARY:Formula 1 — Bahrain Grand Prix in Malaysia 2026 — FP1
 LOCATION:Sepang International Circuit\, Kuala Lumpur\, Malaysia
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/sepang\nFonte orario: Jolpica/Ergast (fallback strutt
- urato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-10-02
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/sepang\nFonte orario: Jolpica/Ergast (fallback strutturato) h
+ ttps://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.
+ com (solo data\; ora non pubblicata): 2026-10-02
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1608,18 +1608,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:baeb1800ce18ecfdc6151aa1@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20261002T080000
 DTEND;TZID=Europe/Rome:20261002T090000
 SUMMARY:Formula 1 — Bahrain Grand Prix in Malaysia 2026 — FP2
 LOCATION:Sepang International Circuit\, Kuala Lumpur\, Malaysia
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/sepang\nFonte orario: Jolpica/Ergast (fallback strutt
- urato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-10-02
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/sepang\nFonte orario: Jolpica/Ergast (fallback strutturato) h
+ ttps://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.
+ com (solo data\; ora non pubblicata): 2026-10-02
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1628,18 +1628,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cb156b1b0acf46ee1495a164@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20261003T080000
 DTEND;TZID=Europe/Rome:20261003T090000
 SUMMARY:Formula 1 — Bahrain Grand Prix in Malaysia 2026 — FP3
 LOCATION:Sepang International Circuit\, Kuala Lumpur\, Malaysia
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/sepang\nFonte orario: Jolpica/Ergast (fallback strutt
- urato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-10-03
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/sepang\nFonte orario: Jolpica/Ergast (fallback strutturato) h
+ ttps://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.
+ com (solo data\; ora non pubblicata): 2026-10-03
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1648,18 +1648,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eae68ac0c69746e4c4095911@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20261003T110000
 DTEND;TZID=Europe/Rome:20261003T120000
 SUMMARY:Formula 1 — Bahrain Grand Prix in Malaysia 2026 — Qualifiche
 LOCATION:Sepang International Circuit\, Kuala Lumpur\, Malaysia
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/sepang\nFonte orario: Jolpica/Ergast (fallback strutt
- urato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-10-03
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/sepang\nFonte orario: Jolpica/Ergast (fallback strutturato) h
+ ttps://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.
+ com (solo data\; ora non pubblicata): 2026-10-03
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1668,18 +1668,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dbb6aac343e862794cea53b3@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20261004T090000
 DTEND;TZID=Europe/Rome:20261004T100000
 SUMMARY:Formula 1 — Bahrain Grand Prix in Malaysia 2026 — Gara
 LOCATION:Sepang International Circuit\, Kuala Lumpur\, Malaysia
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/sepang\nFonte orario: Jolpica/Ergast (fallback strutt
- urato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-10-04
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/sepang\nFonte orario: Jolpica/Ergast (fallback strutturato) h
+ ttps://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.
+ com (solo data\; ora non pubblicata): 2026-10-04
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1693,19 +1693,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3e2b211f961fcf652f0c32b8@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20261009T103000
 DTEND;TZID=Europe/Rome:20261009T113000
 SUMMARY:Formula 1 — Singapore Grand Prix 2026 — FP1
 LOCATION:Marina Bay Street Circuit\, Marina Bay\, Singapore
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/singapore\nFonte orario: Formula1.com https://www.for
- mula1.com/en/racing/2026/singapore\nConflitto: Conflitto con Jolpica/Ergast
-  (fallback strutturato): 2026-10-09T10:30+02:00\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-10-09
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/singapore\nFonte orario: Formula1.com https://www.formula1.com/en/rac
+ ing/2026/singapore\nConflitto: Conflitto con Jolpica/Ergast (fallback strut
+ turato): 2026-10-09T10:30+02:00\nConflitto: Conflitto con Formula1.com (sol
+ o data\; ora non pubblicata): 2026-10-09
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1714,19 +1714,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0862dcd8d2d6464941725865@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20261009T143000
 DTEND;TZID=Europe/Rome:20261009T151400
 SUMMARY:Formula 1 — Singapore Grand Prix 2026 — Sprint Qualifying
 LOCATION:Marina Bay Street Circuit\, Marina Bay\, Singapore
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/singapore\nFonte orario: Formula1.com https://www.for
- mula1.com/en/racing/2026/singapore\nConflitto: Conflitto con Jolpica/Ergast
-  (fallback strutturato): 2026-10-09T14:30+02:00\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-10-09
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/singapore\nFonte orario: Formula1.com https://www.formula1.com/en/rac
+ ing/2026/singapore\nConflitto: Conflitto con Jolpica/Ergast (fallback strut
+ turato): 2026-10-09T14:30+02:00\nConflitto: Conflitto con Formula1.com (sol
+ o data\; ora non pubblicata): 2026-10-09
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1735,19 +1735,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b13c3a0fd23de2ded6ea6152@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20261010T110000
 DTEND;TZID=Europe/Rome:20261010T120000
 SUMMARY:Formula 1 — Singapore Grand Prix 2026 — Sprint
 LOCATION:Marina Bay Street Circuit\, Marina Bay\, Singapore
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/singapore\nFonte orario: Formula1.com https://www.for
- mula1.com/en/racing/2026/singapore\nConflitto: Conflitto con Jolpica/Ergast
-  (fallback strutturato): 2026-10-10T11:00+02:00\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-10-10
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/singapore\nFonte orario: Formula1.com https://www.formula1.com/en/rac
+ ing/2026/singapore\nConflitto: Conflitto con Jolpica/Ergast (fallback strut
+ turato): 2026-10-10T11:00+02:00\nConflitto: Conflitto con Formula1.com (sol
+ o data\; ora non pubblicata): 2026-10-10
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1756,19 +1756,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:af73f2c29cd8e835f6372e95@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20261010T150000
 DTEND;TZID=Europe/Rome:20261010T160000
 SUMMARY:Formula 1 — Singapore Grand Prix 2026 — Qualifiche
 LOCATION:Marina Bay Street Circuit\, Marina Bay\, Singapore
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/singapore\nFonte orario: Formula1.com https://www.for
- mula1.com/en/racing/2026/singapore\nConflitto: Conflitto con Jolpica/Ergast
-  (fallback strutturato): 2026-10-10T15:00+02:00\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-10-10
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/singapore\nFonte orario: Formula1.com https://www.formula1.com/en/rac
+ ing/2026/singapore\nConflitto: Conflitto con Jolpica/Ergast (fallback strut
+ turato): 2026-10-10T15:00+02:00\nConflitto: Conflitto con Formula1.com (sol
+ o data\; ora non pubblicata): 2026-10-10
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1777,18 +1777,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:84fd61030fda67bb3a7009e2@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20261011T140000
 DTEND;TZID=Europe/Rome:20261011T150000
 SUMMARY:Formula 1 — Singapore Grand Prix 2026 — Gara
 LOCATION:Marina Bay Street Circuit\, Marina Bay\, Singapore
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/singapore\nFonte orario: Formula1.com https://www.for
- mula1.com/en/racing/2026/singapore\nConflitto: Conflitto con Formula1.com (
- solo data\; ora non pubblicata): 2026-10-11
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/singapore\nFonte orario: Formula1.com https://www.formula1.com/en/rac
+ ing/2026/singapore\nConflitto: Conflitto con Formula1.com (solo data\; ora 
+ non pubblicata): 2026-10-11
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1802,19 +1802,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:976c011161a0ffdd090c46f7@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20261023T193000
 DTEND;TZID=Europe/Rome:20261023T203000
 SUMMARY:Formula 1 — United States Grand Prix 2026 — FP1
 LOCATION:Circuit of the Americas\, Austin\, USA
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/united-states\nFonte orario: Formula1.com https://www
- .formula1.com/en/racing/2026/united-states\nConflitto: Conflitto con Jolpic
- a/Ergast (fallback strutturato): 2026-10-23T19:30+02:00\nConflitto: Conflit
- to con Formula1.com (solo data\; ora non pubblicata): 2026-10-23
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/united-states\nFonte orario: Formula1.com https://www.formula
+ 1.com/en/racing/2026/united-states\nConflitto: Conflitto con Jolpica/Ergast
+  (fallback strutturato): 2026-10-23T19:30+02:00\nConflitto: Conflitto con F
+ ormula1.com (solo data\; ora non pubblicata): 2026-10-23
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1823,19 +1823,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f443e8e0bf963cfe284229b7@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20261023T230000
 DTEND;TZID=Europe/Rome:20261024T000000
 SUMMARY:Formula 1 — United States Grand Prix 2026 — FP2
 LOCATION:Circuit of the Americas\, Austin\, USA
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/united-states\nFonte orario: Formula1.com https://www
- .formula1.com/en/racing/2026/united-states\nConflitto: Conflitto con Jolpic
- a/Ergast (fallback strutturato): 2026-10-23T23:00+02:00\nConflitto: Conflit
- to con Formula1.com (solo data\; ora non pubblicata): 2026-10-23
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/united-states\nFonte orario: Formula1.com https://www.formula
+ 1.com/en/racing/2026/united-states\nConflitto: Conflitto con Jolpica/Ergast
+  (fallback strutturato): 2026-10-23T23:00+02:00\nConflitto: Conflitto con F
+ ormula1.com (solo data\; ora non pubblicata): 2026-10-23
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1844,19 +1844,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ffed49d0f8ad08c08d97156a@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20261024T193000
 DTEND;TZID=Europe/Rome:20261024T203000
 SUMMARY:Formula 1 — United States Grand Prix 2026 — FP3
 LOCATION:Circuit of the Americas\, Austin\, USA
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/united-states\nFonte orario: Formula1.com https://www
- .formula1.com/en/racing/2026/united-states\nConflitto: Conflitto con Jolpic
- a/Ergast (fallback strutturato): 2026-10-24T19:30+02:00\nConflitto: Conflit
- to con Formula1.com (solo data\; ora non pubblicata): 2026-10-24
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/united-states\nFonte orario: Formula1.com https://www.formula
+ 1.com/en/racing/2026/united-states\nConflitto: Conflitto con Jolpica/Ergast
+  (fallback strutturato): 2026-10-24T19:30+02:00\nConflitto: Conflitto con F
+ ormula1.com (solo data\; ora non pubblicata): 2026-10-24
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1865,19 +1865,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8225592a2747117a6bbd406f@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20261024T230000
 DTEND;TZID=Europe/Rome:20261025T000000
 SUMMARY:Formula 1 — United States Grand Prix 2026 — Qualifiche
 LOCATION:Circuit of the Americas\, Austin\, USA
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/united-states\nFonte orario: Formula1.com https://www
- .formula1.com/en/racing/2026/united-states\nConflitto: Conflitto con Jolpic
- a/Ergast (fallback strutturato): 2026-10-24T23:00+02:00\nConflitto: Conflit
- to con Formula1.com (solo data\; ora non pubblicata): 2026-10-24
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/united-states\nFonte orario: Formula1.com https://www.formula
+ 1.com/en/racing/2026/united-states\nConflitto: Conflitto con Jolpica/Ergast
+  (fallback strutturato): 2026-10-24T23:00+02:00\nConflitto: Conflitto con F
+ ormula1.com (solo data\; ora non pubblicata): 2026-10-24
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1886,18 +1886,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:df8f1733383d5311fda5fa13@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20261025T210000
 DTEND;TZID=Europe/Rome:20261025T220000
 SUMMARY:Formula 1 — United States Grand Prix 2026 — Gara
 LOCATION:Circuit of the Americas\, Austin\, USA
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/united-states\nFonte orario: Formula1.com https://www
- .formula1.com/en/racing/2026/united-states\nConflitto: Conflitto con Formul
- a1.com (solo data\; ora non pubblicata): 2026-10-25
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/united-states\nFonte orario: Formula1.com https://www.formula
+ 1.com/en/racing/2026/united-states\nConflitto: Conflitto con Formula1.com (
+ solo data\; ora non pubblicata): 2026-10-25
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1911,18 +1911,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:20c9553e99d1aa644a9c1e2e@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20261030T193000
 DTEND;TZID=Europe/Rome:20261030T203000
 SUMMARY:Formula 1 — Mexico City Grand Prix 2026 — FP1
 LOCATION:Autódromo Hermanos Rodríguez\, Mexico City\, Mexico
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/rodriguez\nFonte orario: Jolpica/Ergast (fallback str
- utturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto co
- n Formula1.com (solo data\; ora non pubblicata): 2026-10-30
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/rodriguez\nFonte orario: Jolpica/Ergast (fallback strutturato) https:
+ //api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (
+ solo data\; ora non pubblicata): 2026-10-30
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1931,18 +1931,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:06f79aa7aac138252d5dbed1@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20261030T230000
 DTEND;TZID=Europe/Rome:20261031T000000
 SUMMARY:Formula 1 — Mexico City Grand Prix 2026 — FP2
 LOCATION:Autódromo Hermanos Rodríguez\, Mexico City\, Mexico
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/rodriguez\nFonte orario: Jolpica/Ergast (fallback str
- utturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto co
- n Formula1.com (solo data\; ora non pubblicata): 2026-10-30
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/rodriguez\nFonte orario: Jolpica/Ergast (fallback strutturato) https:
+ //api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (
+ solo data\; ora non pubblicata): 2026-10-30
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1951,18 +1951,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:53e630e1723dae3f79ccd6e1@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20261031T183000
 DTEND;TZID=Europe/Rome:20261031T193000
 SUMMARY:Formula 1 — Mexico City Grand Prix 2026 — FP3
 LOCATION:Autódromo Hermanos Rodríguez\, Mexico City\, Mexico
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/rodriguez\nFonte orario: Jolpica/Ergast (fallback str
- utturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto co
- n Formula1.com (solo data\; ora non pubblicata): 2026-10-31
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/rodriguez\nFonte orario: Jolpica/Ergast (fallback strutturato) https:
+ //api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (
+ solo data\; ora non pubblicata): 2026-10-31
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1971,18 +1971,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:772808d2910a2edd0bdebaa1@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20261031T220000
 DTEND;TZID=Europe/Rome:20261031T230000
 SUMMARY:Formula 1 — Mexico City Grand Prix 2026 — Qualifiche
 LOCATION:Autódromo Hermanos Rodríguez\, Mexico City\, Mexico
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/rodriguez\nFonte orario: Jolpica/Ergast (fallback str
- utturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto co
- n Formula1.com (solo data\; ora non pubblicata): 2026-10-31
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/rodriguez\nFonte orario: Jolpica/Ergast (fallback strutturato) https:
+ //api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (
+ solo data\; ora non pubblicata): 2026-10-31
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1991,18 +1991,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7a602bd5f92b957deab8febc@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20261101T210000
 DTEND;TZID=Europe/Rome:20261101T220000
 SUMMARY:Formula 1 — Mexico City Grand Prix 2026 — Gara
 LOCATION:Autódromo Hermanos Rodríguez\, Mexico City\, Mexico
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/rodriguez\nFonte orario: Jolpica/Ergast (fallback str
- utturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto co
- n Formula1.com (solo data\; ora non pubblicata): 2026-11-01
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/rodriguez\nFonte orario: Jolpica/Ergast (fallback strutturato) https:
+ //api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com (
+ solo data\; ora non pubblicata): 2026-11-01
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2016,18 +2016,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6df701abe0a24b91f87cf0f4@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20261106T163000
 DTEND;TZID=Europe/Rome:20261106T173000
 SUMMARY:Formula 1 — Brazilian Grand Prix 2026 — FP1
 LOCATION:Autódromo José Carlos Pace\, São Paulo\, Brazil
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/interlagos\nFonte orario: Jolpica/Ergast (fallback st
- rutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto c
- on Formula1.com (solo data\; ora non pubblicata): 2026-11-06
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/interlagos\nFonte orario: Jolpica/Ergast (fallback strutturat
+ o) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formu
+ la1.com (solo data\; ora non pubblicata): 2026-11-06
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2036,18 +2036,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e1f4f5710b6a9a19374bdd6c@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20261106T200000
 DTEND;TZID=Europe/Rome:20261106T210000
 SUMMARY:Formula 1 — Brazilian Grand Prix 2026 — FP2
 LOCATION:Autódromo José Carlos Pace\, São Paulo\, Brazil
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/interlagos\nFonte orario: Jolpica/Ergast (fallback st
- rutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto c
- on Formula1.com (solo data\; ora non pubblicata): 2026-11-06
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/interlagos\nFonte orario: Jolpica/Ergast (fallback strutturat
+ o) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formu
+ la1.com (solo data\; ora non pubblicata): 2026-11-06
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2056,18 +2056,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:83c638dc981d3eeb085fb075@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20261107T153000
 DTEND;TZID=Europe/Rome:20261107T163000
 SUMMARY:Formula 1 — Brazilian Grand Prix 2026 — FP3
 LOCATION:Autódromo José Carlos Pace\, São Paulo\, Brazil
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/interlagos\nFonte orario: Jolpica/Ergast (fallback st
- rutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto c
- on Formula1.com (solo data\; ora non pubblicata): 2026-11-07
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/interlagos\nFonte orario: Jolpica/Ergast (fallback strutturat
+ o) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formu
+ la1.com (solo data\; ora non pubblicata): 2026-11-07
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2076,18 +2076,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:81395deb5cb34e06c22b82b6@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20261107T190000
 DTEND;TZID=Europe/Rome:20261107T200000
 SUMMARY:Formula 1 — Brazilian Grand Prix 2026 — Qualifiche
 LOCATION:Autódromo José Carlos Pace\, São Paulo\, Brazil
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/interlagos\nFonte orario: Jolpica/Ergast (fallback st
- rutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto c
- on Formula1.com (solo data\; ora non pubblicata): 2026-11-07
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/interlagos\nFonte orario: Jolpica/Ergast (fallback strutturat
+ o) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formu
+ la1.com (solo data\; ora non pubblicata): 2026-11-07
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2096,18 +2096,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:785ee6ea5f816273575edc11@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20261108T180000
 DTEND;TZID=Europe/Rome:20261108T190000
 SUMMARY:Formula 1 — Brazilian Grand Prix 2026 — Gara
 LOCATION:Autódromo José Carlos Pace\, São Paulo\, Brazil
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/interlagos\nFonte orario: Jolpica/Ergast (fallback st
- rutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto c
- on Formula1.com (solo data\; ora non pubblicata): 2026-11-08
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/interlagos\nFonte orario: Jolpica/Ergast (fallback strutturat
+ o) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formu
+ la1.com (solo data\; ora non pubblicata): 2026-11-08
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2121,19 +2121,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5bd4105ae763e2d31d34deee@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20261120T013000
 DTEND;TZID=Europe/Rome:20261120T023000
 SUMMARY:Formula 1 — Las Vegas Grand Prix 2026 — FP1
 LOCATION:Las Vegas Strip Street Circuit\, Las Vegas\, USA
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/las-vegas\nFonte orario: Formula1.com https://www.for
- mula1.com/en/racing/2026/las-vegas\nConflitto: Conflitto con Jolpica/Ergast
-  (fallback strutturato): 2026-11-20T01:30+01:00\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-11-19
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/las-vegas\nFonte orario: Formula1.com https://www.formula1.com/en/rac
+ ing/2026/las-vegas\nConflitto: Conflitto con Jolpica/Ergast (fallback strut
+ turato): 2026-11-20T01:30+01:00\nConflitto: Conflitto con Formula1.com (sol
+ o data\; ora non pubblicata): 2026-11-19
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2142,19 +2142,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:77bb305dc2258f82cda34b54@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20261120T050000
 DTEND;TZID=Europe/Rome:20261120T060000
 SUMMARY:Formula 1 — Las Vegas Grand Prix 2026 — FP2
 LOCATION:Las Vegas Strip Street Circuit\, Las Vegas\, USA
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/las-vegas\nFonte orario: Formula1.com https://www.for
- mula1.com/en/racing/2026/las-vegas\nConflitto: Conflitto con Jolpica/Ergast
-  (fallback strutturato): 2026-11-20T05:00+01:00\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-11-19
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/las-vegas\nFonte orario: Formula1.com https://www.formula1.com/en/rac
+ ing/2026/las-vegas\nConflitto: Conflitto con Jolpica/Ergast (fallback strut
+ turato): 2026-11-20T05:00+01:00\nConflitto: Conflitto con Formula1.com (sol
+ o data\; ora non pubblicata): 2026-11-19
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2163,19 +2163,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cbc666b82b4979ccd84960d8@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20261121T013000
 DTEND;TZID=Europe/Rome:20261121T023000
 SUMMARY:Formula 1 — Las Vegas Grand Prix 2026 — FP3
 LOCATION:Las Vegas Strip Street Circuit\, Las Vegas\, USA
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/las-vegas\nFonte orario: Formula1.com https://www.for
- mula1.com/en/racing/2026/las-vegas\nConflitto: Conflitto con Jolpica/Ergast
-  (fallback strutturato): 2026-11-21T01:30+01:00\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-11-20
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/las-vegas\nFonte orario: Formula1.com https://www.formula1.com/en/rac
+ ing/2026/las-vegas\nConflitto: Conflitto con Jolpica/Ergast (fallback strut
+ turato): 2026-11-21T01:30+01:00\nConflitto: Conflitto con Formula1.com (sol
+ o data\; ora non pubblicata): 2026-11-20
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2184,19 +2184,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2b97487e29aef83047cd6f4d@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20261121T050000
 DTEND;TZID=Europe/Rome:20261121T060000
 SUMMARY:Formula 1 — Las Vegas Grand Prix 2026 — Qualifiche
 LOCATION:Las Vegas Strip Street Circuit\, Las Vegas\, USA
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/las-vegas\nFonte orario: Formula1.com https://www.for
- mula1.com/en/racing/2026/las-vegas\nConflitto: Conflitto con Jolpica/Ergast
-  (fallback strutturato): 2026-11-21T05:00+01:00\nConflitto: Conflitto con F
- ormula1.com (solo data\; ora non pubblicata): 2026-11-20
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/las-vegas\nFonte orario: Formula1.com https://www.formula1.com/en/rac
+ ing/2026/las-vegas\nConflitto: Conflitto con Jolpica/Ergast (fallback strut
+ turato): 2026-11-21T05:00+01:00\nConflitto: Conflitto con Formula1.com (sol
+ o data\; ora non pubblicata): 2026-11-20
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2205,18 +2205,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:70e9a4402563d1e4ac370d54@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20261122T050000
 DTEND;TZID=Europe/Rome:20261122T060000
 SUMMARY:Formula 1 — Las Vegas Grand Prix 2026 — Gara
 LOCATION:Las Vegas Strip Street Circuit\, Las Vegas\, USA
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/las-vegas\nFonte orario: Formula1.com https://www.for
- mula1.com/en/racing/2026/las-vegas\nConflitto: Conflitto con Formula1.com (
- solo data\; ora non pubblicata): 2026-11-21
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/las-vegas\nFonte orario: Formula1.com https://www.formula1.com/en/rac
+ ing/2026/las-vegas\nConflitto: Conflitto con Formula1.com (solo data\; ora 
+ non pubblicata): 2026-11-21
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2230,19 +2230,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9a64311cd5218835c6b211d3@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20261127T143000
 DTEND;TZID=Europe/Rome:20261127T153000
 SUMMARY:Formula 1 — Qatar Grand Prix 2026 — FP1
 LOCATION:Losail International Circuit\, Lusail\, Qatar
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/qatar\nFonte orario: Formula1.com https://www.formula
- 1.com/en/racing/2026/qatar\nConflitto: Conflitto con Jolpica/Ergast (fallba
- ck strutturato): 2026-11-27T14:30+01:00\nConflitto: Conflitto con Formula1.
- com (solo data\; ora non pubblicata): 2026-11-27
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/qatar\nFonte orario: Formula1.com https://www.formula1.com/en
+ /racing/2026/qatar\nConflitto: Conflitto con Jolpica/Ergast (fallback strut
+ turato): 2026-11-27T14:30+01:00\nConflitto: Conflitto con Formula1.com (sol
+ o data\; ora non pubblicata): 2026-11-27
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2251,19 +2251,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4e122e6205db47d90d50b585@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20261127T180000
 DTEND;TZID=Europe/Rome:20261127T190000
 SUMMARY:Formula 1 — Qatar Grand Prix 2026 — FP2
 LOCATION:Losail International Circuit\, Lusail\, Qatar
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/qatar\nFonte orario: Formula1.com https://www.formula
- 1.com/en/racing/2026/qatar\nConflitto: Conflitto con Jolpica/Ergast (fallba
- ck strutturato): 2026-11-27T18:00+01:00\nConflitto: Conflitto con Formula1.
- com (solo data\; ora non pubblicata): 2026-11-27
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/qatar\nFonte orario: Formula1.com https://www.formula1.com/en
+ /racing/2026/qatar\nConflitto: Conflitto con Jolpica/Ergast (fallback strut
+ turato): 2026-11-27T18:00+01:00\nConflitto: Conflitto con Formula1.com (sol
+ o data\; ora non pubblicata): 2026-11-27
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2272,19 +2272,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:56944775e680c16f642e9e14@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20261128T153000
 DTEND;TZID=Europe/Rome:20261128T163000
 SUMMARY:Formula 1 — Qatar Grand Prix 2026 — FP3
 LOCATION:Losail International Circuit\, Lusail\, Qatar
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/qatar\nFonte orario: Formula1.com https://www.formula
- 1.com/en/racing/2026/qatar\nConflitto: Conflitto con Jolpica/Ergast (fallba
- ck strutturato): 2026-11-28T15:30+01:00\nConflitto: Conflitto con Formula1.
- com (solo data\; ora non pubblicata): 2026-11-28
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/qatar\nFonte orario: Formula1.com https://www.formula1.com/en
+ /racing/2026/qatar\nConflitto: Conflitto con Jolpica/Ergast (fallback strut
+ turato): 2026-11-28T15:30+01:00\nConflitto: Conflitto con Formula1.com (sol
+ o data\; ora non pubblicata): 2026-11-28
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2293,19 +2293,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:70122154886ccf64fcda09f0@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20261128T190000
 DTEND;TZID=Europe/Rome:20261128T200000
 SUMMARY:Formula 1 — Qatar Grand Prix 2026 — Qualifiche
 LOCATION:Losail International Circuit\, Lusail\, Qatar
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/qatar\nFonte orario: Formula1.com https://www.formula
- 1.com/en/racing/2026/qatar\nConflitto: Conflitto con Jolpica/Ergast (fallba
- ck strutturato): 2026-11-28T19:00+01:00\nConflitto: Conflitto con Formula1.
- com (solo data\; ora non pubblicata): 2026-11-28
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/qatar\nFonte orario: Formula1.com https://www.formula1.com/en
+ /racing/2026/qatar\nConflitto: Conflitto con Jolpica/Ergast (fallback strut
+ turato): 2026-11-28T19:00+01:00\nConflitto: Conflitto con Formula1.com (sol
+ o data\; ora non pubblicata): 2026-11-28
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2314,18 +2314,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a7a7f74280d3e4760c3dc92a@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:2
+DTSTAMP:20260813T093055Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Rome:20261129T170000
 DTEND;TZID=Europe/Rome:20261129T180000
 SUMMARY:Formula 1 — Qatar Grand Prix 2026 — Gara
 LOCATION:Losail International Circuit\, Lusail\, Qatar
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/qatar\nFonte orario: Formula1.com https://www.formula
- 1.com/en/racing/2026/qatar\nConflitto: Conflitto con Formula1.com (solo dat
- a\; ora non pubblicata): 2026-11-29
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)\n
+ Italia: Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limita
+ zioni geografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/e
+ n/racing/2026/qatar\nFonte orario: Formula1.com https://www.formula1.com/en
+ /racing/2026/qatar\nConflitto: Conflitto con Formula1.com (solo data\; ora 
+ non pubblicata): 2026-11-29
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2339,18 +2339,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b2723beae76e0e98864fa8c4@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20261204T103000
 DTEND;TZID=Europe/Rome:20261204T113000
 SUMMARY:Formula 1 — Abu Dhabi Grand Prix 2026 — FP1
 LOCATION:Yas Marina Circuit\, Abu Dhabi\, UAE
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/yas_marina\nFonte orario: Jolpica/Ergast (fallback st
- rutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto c
- on Formula1.com (solo data\; ora non pubblicata): 2026-12-04
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/yas_marina\nFonte orario: Jolpica/Ergast (fallback strutturato) https
+ ://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com 
+ (solo data\; ora non pubblicata): 2026-12-04
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2359,18 +2359,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dc61d8151e38105571a44044@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20261204T140000
 DTEND;TZID=Europe/Rome:20261204T150000
 SUMMARY:Formula 1 — Abu Dhabi Grand Prix 2026 — FP2
 LOCATION:Yas Marina Circuit\, Abu Dhabi\, UAE
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/yas_marina\nFonte orario: Jolpica/Ergast (fallback st
- rutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto c
- on Formula1.com (solo data\; ora non pubblicata): 2026-12-04
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/yas_marina\nFonte orario: Jolpica/Ergast (fallback strutturato) https
+ ://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com 
+ (solo data\; ora non pubblicata): 2026-12-04
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2379,18 +2379,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fb17b283101b4fda18a02eba@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20261205T113000
 DTEND;TZID=Europe/Rome:20261205T123000
 SUMMARY:Formula 1 — Abu Dhabi Grand Prix 2026 — FP3
 LOCATION:Yas Marina Circuit\, Abu Dhabi\, UAE
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/yas_marina\nFonte orario: Jolpica/Ergast (fallback st
- rutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto c
- on Formula1.com (solo data\; ora non pubblicata): 2026-12-05
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/yas_marina\nFonte orario: Jolpica/Ergast (fallback strutturato) https
+ ://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com 
+ (solo data\; ora non pubblicata): 2026-12-05
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2399,18 +2399,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6b1676de7ba34234e31a7a3f@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20261205T150000
 DTEND;TZID=Europe/Rome:20261205T160000
 SUMMARY:Formula 1 — Abu Dhabi Grand Prix 2026 — Qualifiche
 LOCATION:Yas Marina Circuit\, Abu Dhabi\, UAE
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/yas_marina\nFonte orario: Jolpica/Ergast (fallback st
- rutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto c
- on Formula1.com (solo data\; ora non pubblicata): 2026-12-05
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/yas_marina\nFonte orario: Jolpica/Ergast (fallback strutturato) https
+ ://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com 
+ (solo data\; ora non pubblicata): 2026-12-05
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2419,18 +2419,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:31dc3d18ba1eedc403be48b5@motorsport-calendar
-DTSTAMP:20260811T095739Z
-SEQUENCE:3
+DTSTAMP:20260813T093055Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20261206T140000
 DTEND;TZID=Europe/Rome:20261206T150000
 SUMMARY:Formula 1 — Abu Dhabi Grand Prix 2026 — Gara
 LOCATION:Yas Marina Circuit\, Abu Dhabi\, UAE
-DESCRIPTION:Stato: PROGRAMMATA\nAustria: Da confermare\nItalia: TV8 / Sky S
- port / NOW — Da confermare (da confermare)\nStreaming soggetto a possibil
- i limitazioni geografiche.\nFonte sportiva: Formula1.com https://www.formul
- a1.com/en/racing/2026/yas_marina\nFonte orario: Jolpica/Ergast (fallback st
- rutturato) https://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto c
- on Formula1.com (solo data\; ora non pubblicata): 2026-12-06
+DESCRIPTION:Stato: PROGRAMMATA\nAustria: ORF 1 / ORF ON (diretta)\nItalia: 
+ Sky Sport F1 / NOW (diretta)\nStreaming soggetto a possibili limitazioni ge
+ ografiche.\nFonte sportiva: Formula1.com https://www.formula1.com/en/racing
+ /2026/yas_marina\nFonte orario: Jolpica/Ergast (fallback strutturato) https
+ ://api.jolpi.ca/ergast/f1/2026.json\nConflitto: Conflitto con Formula1.com 
+ (solo data\; ora non pubblicata): 2026-12-06
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
