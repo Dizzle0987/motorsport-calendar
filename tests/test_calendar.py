@@ -215,6 +215,30 @@ def test_published_2026_broadcast_rights_are_applied_per_weekend():
     assert "palinsesto 12:30" in rendered
 
 
+def test_orf_rights_do_not_invent_an_airtime_from_the_session_start():
+    candidate = event(
+        grand_prix="Madrid Grand Prix 2026",
+        start="2026-09-13T15:00+02:00",
+    )
+    updated = apply_published_broadcasts([candidate])[0]
+    assert updated.broadcaster_at == "ORF 1 / ORF ON"
+    assert updated.broadcast_type_at == "diretta"
+    assert updated.broadcast_time_at == ""
+    rendered = render_calendar([updated], "Test").replace("\r\n ", "")
+    assert "Austria: ORF 1 / ORF ON (diretta) — palinsesto da confermare" in rendered
+
+
+def test_verified_orf_weekend_uses_official_programme_start():
+    candidate = event(
+        grand_prix="British Grand Prix 2026",
+        start="2026-07-05T16:00+02:00",
+    )
+    updated = apply_published_broadcasts([candidate])[0]
+    assert updated.broadcaster_at == "ORF 1 / ORF ON"
+    assert updated.broadcast_time_at == "dalle 15:25"
+    assert updated.broadcaster_at_url == "https://tv.orf.at/stories/260705_formel1_gb100.html"
+
+
 def test_tv8_direct_not_confused_with_delayed_and_free_preferred():
     choices = [
         {"name":"Sky Sport", "type":"diretta", "access":"a pagamento"},
@@ -243,6 +267,7 @@ def test_source_fallback_keeps_official_round_dates(tmp_path, monkeypatch):
     events = generate(tmp_path, online=True, now=datetime(2026, 8, 11, tzinfo=timezone.utc))
     assert any(e.competition == "Formula 1" for e in events)
     assert any(e.competition == "MotoGP" for e in events)
+    assert any(e.is_timed for e in events)
 
 
 def test_protection_of_last_valid_calendar(tmp_path, monkeypatch):
