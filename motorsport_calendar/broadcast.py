@@ -21,6 +21,31 @@ SERVUS_F1_2026_RACE_DATES = {
     "2026-10-04", "2026-10-25", "2026-11-08", "2026-11-29",
 }
 
+# Weekend-specific ORF 1 programme starts, taken from official ORF listings.
+# Do not add a session here unless its actual broadcast start is published.
+ORF_F1_2026_SCHEDULES = {
+    "2026-07-05": {
+        "url": "https://tv.orf.at/stories/260705_formel1_gb100.html",
+        "times": {
+            "FP1": "dalle 13:20",
+            "Sprint Qualifying": "dalle 17:10",
+            "Sprint": "dalle 12:40",
+            "Qualifiche": "dalle 16:55",
+            "Gara": "dalle 15:25",
+        },
+    },
+    "2026-07-26": {
+        "url": "https://tv.orf.at/stories/260726_formel1_ungarn100.html",
+        "times": {
+            "FP1": "dalle 13:20",
+            "FP2": "dalle 16:50",
+            "FP3": "dalle 12:20",
+            "Qualifiche": "dalle 15:55",
+            "Gara": "dalle 14:25",
+        },
+    },
+}
+
 
 def _rank(name: str, order: tuple[str, ...]) -> int:
     return next((i for i, token in enumerate(order) if token.lower() in name.lower()), len(order))
@@ -79,9 +104,22 @@ def apply_published_broadcasts(events: list[Event]) -> list[Event]:
                         event.broadcaster_at_url = SERVUS_F1_2026
                     else:
                         event.broadcaster_at = "ORF 1 / ORF ON"
-                        event.broadcaster_at_url = ORF_F1_RIGHTS
+                        orf_schedule = ORF_F1_2026_SCHEDULES.get(race_date.isoformat())
+                        event.broadcaster_at_url = (
+                            orf_schedule["url"] if orf_schedule else ORF_F1_RIGHTS
+                        )
                     event.broadcast_type_at = "diretta"
-                    event.broadcast_time_at = session_time
+                    # The seasonal rights allocation identifies ORF as the live
+                    # broadcaster, but it does not publish the programme start
+                    # time for each session. Never present the sporting session
+                    # time as an ORF airtime without a weekend-specific listing.
+                    if race_date.isoformat() in SERVUS_F1_2026_RACE_DATES:
+                        event.broadcast_time_at = session_time
+                    else:
+                        event.broadcast_time_at = (
+                            orf_schedule["times"].get(event.session, "")
+                            if orf_schedule else ""
+                        )
                     if race_date.isoformat() == "2026-08-23":
                         event.broadcast_time_at = {
                             "2026-08-21": "dalle 12:15",

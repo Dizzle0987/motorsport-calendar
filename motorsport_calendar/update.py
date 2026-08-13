@@ -259,10 +259,15 @@ def generate(root: Path = ROOT, *, online: bool = True, now: datetime | None = N
     else:
         official_f1 = []
         official_motogp = []
-    automatic = apply_published_broadcasts(
-        deduplicate(official_f1 + official_motogp + events_from_rounds(rounds, today=now.date()))
-    )
-    combined = merge_events(deduplicate(automatic), manual, previous)
+    # A temporary source failure may leave only all-day round placeholders.
+    # Prefer an existing timed session with the same stable identity so a
+    # valid published calendar is never degraded by a fallback update.
+    automatic = apply_published_broadcasts(deduplicate(
+        official_f1 + official_motogp
+        + events_from_rounds(rounds, today=now.date())
+        + previous
+    ))
+    combined = merge_events(automatic, manual, previous)
     if not combined and previous:
         combined = previous
     changed = events_signature(combined) != events_signature(previous)

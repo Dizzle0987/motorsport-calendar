@@ -33,7 +33,8 @@ def _description(event: Event) -> str:
         "Orario: Da confermare" if not event.is_timed else "",
         (f"Austria: {event.broadcaster_at}" if event.broadcaster_at == "Da confermare"
          else f"Austria: {event.broadcaster_at} ({event.broadcast_type_at})"
-              + (f" — palinsesto {event.broadcast_time_at}" if event.broadcast_time_at else "")),
+              + (f" — palinsesto {event.broadcast_time_at}"
+                 if event.broadcast_time_at else " — palinsesto da confermare")),
         f"Italia: {event.broadcaster_it} ({event.broadcast_type_it})"
         + (f" — palinsesto {event.broadcast_time_it}" if event.broadcast_time_it else ""),
         "Streaming soggetto a possibili limitazioni geografiche.",
