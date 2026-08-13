@@ -13,6 +13,7 @@ from .discovery import discover_rounds, merge_rounds
 from .ics import render_calendar
 from .merge import deduplicate, merge_events
 from .model import Event
+from .official_epg import apply_official_epgs
 from .parsers import (
     F1_BASE,
     F1_SOURCE,
@@ -269,6 +270,7 @@ def generate(root: Path = ROOT, *, online: bool = True, now: datetime | None = N
         + previous
     ))
     if online:
+        automatic = apply_official_epgs(automatic, now.date())
         automatic = apply_tv8_schedule(
             automatic, fetch_tv8_schedule(automatic, now.date())
         )

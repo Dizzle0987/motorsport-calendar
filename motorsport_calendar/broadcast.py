@@ -100,7 +100,6 @@ def apply_published_broadcasts(events: list[Event]) -> list[Event]:
             for value in (event.start_dt for event in weekend)
         )
         for event in weekend:
-            session_time = event.start_dt.strftime("%H:%M") if event.is_timed else ""
             event_date = event.start_dt.date() if event.is_timed else event.start_dt
             if competition == "Formula 1":
                 if race_date.year == 2026:
@@ -119,7 +118,7 @@ def apply_published_broadcasts(events: list[Event]) -> list[Event]:
                     # time for each session. Never present the sporting session
                     # time as an ORF airtime without a weekend-specific listing.
                     if race_date.isoformat() in SERVUS_F1_2026_RACE_DATES:
-                        event.broadcast_time_at = session_time
+                        event.broadcast_time_at = ""
                     else:
                         event.broadcast_time_at = (
                             orf_schedule["times"].get(event.session, "")
@@ -130,11 +129,13 @@ def apply_published_broadcasts(events: list[Event]) -> list[Event]:
                             "2026-08-21": "dalle 12:15",
                             "2026-08-22": "dalle 11:30",
                             "2026-08-23": "dalle 13:00",
-                        }.get(event_date.isoformat(), session_time)
+                        }.get(event_date.isoformat(), "")
                 event.broadcaster_it = "Sky Sport F1 / NOW"
                 event.broadcaster_it_url = SKY_F1_2026
                 event.broadcast_type_it = "diretta"
-                event.broadcast_time_it = session_time
+                # Sky confirms the live feed, but the sporting start is not
+                # automatically the start of the television programme.
+                event.broadcast_time_it = ""
             elif competition == "MotoGP":
                 if race_date.year == 2026:
                     if event.session in {"Q1", "Q2", "Sprint", "Gara"}:
@@ -143,14 +144,14 @@ def apply_published_broadcasts(events: list[Event]) -> list[Event]:
                         event.broadcaster_at = "ServusTV On (international stream)"
                     event.broadcaster_at_url = SERVUS_MOTOGP_2026
                     event.broadcast_type_at = "diretta"
-                    event.broadcast_time_at = session_time
+                    event.broadcast_time_at = ""
                     if race_date.isoformat() == "2026-08-30":
                         event.broadcast_time_at = {
                             "Q1": "dalle 10:40", "Q2": "dalle 10:40",
                             "Sprint": "dalle 14:30", "Gara": "dalle 10:20",
-                        }.get(event.session, session_time)
+                        }.get(event.session, "")
                 event.broadcaster_it = "Sky Sport MotoGP / NOW"
                 event.broadcaster_it_url = SKY_MOTOGP_2026
                 event.broadcast_type_it = "diretta"
-                event.broadcast_time_it = session_time
+                event.broadcast_time_it = ""
     return events
