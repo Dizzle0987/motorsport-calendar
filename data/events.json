@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-13T09:43:30+00:00",
+  "updated_at": "2026-08-13T10:10:33+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -26,7 +26,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "04:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-02-27"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-02-27",
+        "Conflitto con MotoGP.com API ufficiale: 2026-02-27T04:45+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -57,7 +58,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "09:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-02-27"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-02-27",
+        "Conflitto con MotoGP.com API ufficiale: 2026-02-27T09:00+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -88,7 +90,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "04:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-02-28"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-02-28",
+        "Conflitto con MotoGP.com API ufficiale: 2026-02-28T04:10+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -119,7 +122,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "04:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-02-28"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-02-28",
+        "Conflitto con MotoGP.com API ufficiale: 2026-02-28T04:50+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -150,7 +154,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "05:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-02-28"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-02-28",
+        "Conflitto con MotoGP.com API ufficiale: 2026-02-28T05:15+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -181,7 +186,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "09:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-02-28"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-02-28",
+        "Conflitto con MotoGP.com API ufficiale: 2026-02-28T09:00+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -212,7 +218,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "04:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-01"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-01",
+        "Conflitto con MotoGP.com API ufficiale: 2026-03-01T04:40+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -243,7 +250,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "09:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-01"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-01",
+        "Conflitto con MotoGP.com API ufficiale: 2026-03-01T09:00+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -274,7 +282,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "02:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-06"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-06",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-03-06T02:30+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -305,7 +314,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "06:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-06"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-06",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-03-06T06:00+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -336,7 +346,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "02:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-07"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-07",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-03-07T02:30+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -367,7 +378,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "06:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-07"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-07",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-03-07T06:00+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -398,7 +410,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "05:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-08"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-08",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-03-08T05:00+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -423,16 +436,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "04:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "04:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-13"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-13",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-03-13T04:30+01:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "3e528d6971384501ec0cf150@motorsport-calendar"
@@ -454,16 +468,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "08:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "08:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-13"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-13",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-03-13T08:30+01:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "e5be4e3f2dd9bfeab2978de4@motorsport-calendar"
@@ -485,16 +500,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "04:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "04:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-14"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-14",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-03-14T04:00+01:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "c8eafd9450fa799b7aa7d063@motorsport-calendar"
@@ -516,16 +532,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "08:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "08:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-14"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-14",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-03-14T08:00+01:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "9924c8fc03cf7f38353e26ac@motorsport-calendar"
@@ -547,16 +564,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "08:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "08:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-15"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-15",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-03-15T08:00+01:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "93a81532fb4466b55722ae1b@motorsport-calendar"
@@ -584,7 +602,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "16:05",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-20"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-20",
+        "Conflitto con MotoGP.com API ufficiale: 2026-03-20T16:05+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -615,7 +634,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "20:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-20"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-20",
+        "Conflitto con MotoGP.com API ufficiale: 2026-03-20T20:00+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -646,7 +666,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-21"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-21",
+        "Conflitto con MotoGP.com API ufficiale: 2026-03-21T14:10+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -677,7 +698,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-21"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-21",
+        "Conflitto con MotoGP.com API ufficiale: 2026-03-21T14:50+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -708,7 +730,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-21"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-21",
+        "Conflitto con MotoGP.com API ufficiale: 2026-03-21T15:15+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -739,7 +762,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "20:20",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-21"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-21",
+        "Conflitto con MotoGP.com API ufficiale: 2026-03-21T20:20+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -770,7 +794,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-22"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-22",
+        "Conflitto con MotoGP.com API ufficiale: 2026-03-22T14:40+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -801,7 +826,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "19:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-22"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-22",
+        "Conflitto con MotoGP.com API ufficiale: 2026-03-22T19:00+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -832,7 +858,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "03:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-27"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-27",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-03-27T03:30+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -863,7 +890,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "07:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-27"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-27",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-03-27T07:00+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -894,7 +922,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "16:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-27"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-27",
+        "Conflitto con MotoGP.com API ufficiale: 2026-03-27T16:45+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -925,7 +954,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "21:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-27"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-27",
+        "Conflitto con MotoGP.com API ufficiale: 2026-03-27T21:00+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -956,7 +986,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "03:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-28"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-28",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-03-28T03:30+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -987,7 +1018,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "07:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-28"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-28",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-03-28T07:00+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1018,7 +1050,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "16:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-28"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-28",
+        "Conflitto con MotoGP.com API ufficiale: 2026-03-28T16:10+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1049,7 +1082,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "16:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-28"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-28",
+        "Conflitto con MotoGP.com API ufficiale: 2026-03-28T16:50+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1080,7 +1114,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "17:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-28"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-28",
+        "Conflitto con MotoGP.com API ufficiale: 2026-03-28T17:15+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1111,7 +1146,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "21:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-28"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-28",
+        "Conflitto con MotoGP.com API ufficiale: 2026-03-28T21:10+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1142,7 +1178,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "07:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-29"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-03-29",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-03-29T07:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1173,7 +1210,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "17:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-29"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-29",
+        "Conflitto con MotoGP.com API ufficiale: 2026-03-29T17:40+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1204,7 +1242,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "22:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-29"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-03-29",
+        "Conflitto con MotoGP.com API ufficiale: 2026-03-29T22:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1235,7 +1274,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-04-24"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-04-24",
+        "Conflitto con MotoGP.com API ufficiale: 2026-04-24T10:45+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1266,7 +1306,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-04-24"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-04-24",
+        "Conflitto con MotoGP.com API ufficiale: 2026-04-24T15:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1297,7 +1338,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-04-25"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-04-25",
+        "Conflitto con MotoGP.com API ufficiale: 2026-04-25T10:10+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1328,7 +1370,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-04-25"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-04-25",
+        "Conflitto con MotoGP.com API ufficiale: 2026-04-25T10:50+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1359,7 +1402,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "11:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-04-25"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-04-25",
+        "Conflitto con MotoGP.com API ufficiale: 2026-04-25T11:15+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1390,7 +1434,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-04-25"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-04-25",
+        "Conflitto con MotoGP.com API ufficiale: 2026-04-25T15:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1421,7 +1466,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "09:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-04-26"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-04-26",
+        "Conflitto con MotoGP.com API ufficiale: 2026-04-26T09:40+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1452,7 +1498,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-04-26"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-04-26",
+        "Conflitto con MotoGP.com API ufficiale: 2026-04-26T14:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1477,16 +1524,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "18:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "18:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-05-01"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-05-01",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-05-01T18:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "a0760aaea5d4b94154de0a4b@motorsport-calendar"
@@ -1508,16 +1556,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "22:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "22:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-05-01"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-05-01",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-05-01T22:30+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "7d011b4c30ffa82c32c5c006@motorsport-calendar"
@@ -1539,16 +1588,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "18:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "18:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-05-02"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-05-02",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-05-02T18:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "10ff47f52f310669e5626883@motorsport-calendar"
@@ -1570,16 +1620,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "22:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "22:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-05-02"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-05-02",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-05-02T22:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "e34f9e836483600999b745c7@motorsport-calendar"
@@ -1601,16 +1652,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "22:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "22:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-05-03"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-05-03",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-05-03T22:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "8aad91ec2817e73147fdef60@motorsport-calendar"
@@ -1638,7 +1690,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-08"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-08",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-08T10:45+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1669,7 +1722,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-08"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-08",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-08T15:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1700,7 +1754,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-09"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-09",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-09T10:10+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1731,7 +1786,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-09"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-09",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-09T10:50+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1762,7 +1818,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "11:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-09"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-09",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-09T11:15+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1793,7 +1850,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-09"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-09",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-09T15:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1824,7 +1882,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "09:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-10"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-10",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-10T09:40+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1855,7 +1914,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-10"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-10",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-10T14:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1886,7 +1946,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-15"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-15",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-15T10:45+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1917,7 +1978,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-15"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-15",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-15T15:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1948,7 +2010,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-16"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-16",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-16T10:10+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -1979,7 +2042,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-16"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-16",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-16T10:50+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2010,7 +2074,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "11:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-16"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-16",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-16T11:15+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2041,7 +2106,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-16"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-16",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-16T15:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2072,7 +2138,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "09:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-17"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-17",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-17T09:40+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2103,7 +2170,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-17"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-17",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-17T14:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2134,7 +2202,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "18:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-05-22"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-05-22",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-05-22T18:30+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2165,7 +2234,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "22:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-05-22"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-05-22",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-05-22T22:30+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2196,7 +2266,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "18:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-05-23"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-05-23",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-05-23T18:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2227,7 +2298,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "22:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-05-23"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-05-23",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-05-23T22:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2258,7 +2330,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "22:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-05-24"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-05-24",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-05-24T22:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2289,7 +2362,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-29"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-29",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-29T10:45+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2320,7 +2394,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-29"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-29",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-29T15:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2351,7 +2426,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-30"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-30",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-30T10:10+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2382,7 +2458,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-30"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-30",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-30T10:50+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2413,7 +2490,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "11:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-30"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-30",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-30T11:15+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2444,7 +2522,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-30"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-30",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-30T15:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2475,7 +2554,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "09:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-31"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-31",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-31T09:40+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2506,7 +2586,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-31"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-05-31",
+        "Conflitto con MotoGP.com API ufficiale: 2026-05-31T14:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2537,7 +2618,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-05"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-05",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-05T10:45+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2562,16 +2644,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "13:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "13:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-05"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-05",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-06-05T13:30+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "d265731dc027cdd62a46f34c@motorsport-calendar"
@@ -2599,7 +2682,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-05"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-05",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-05T15:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2624,16 +2708,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "17:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "17:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-05"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-05",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-06-05T17:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "78af3758e61b017a76990a21@motorsport-calendar"
@@ -2661,7 +2746,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-06"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-06",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-06T10:10+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2692,7 +2778,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-06"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-06",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-06T10:50+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2723,7 +2810,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "11:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-06"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-06",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-06T11:15+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2748,16 +2836,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "12:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "12:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-06"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-06",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-06-06T12:30+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "673d14649783938905d3a91b@motorsport-calendar"
@@ -2785,7 +2874,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-06"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-06",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-06T15:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2810,16 +2900,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "16:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "16:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-06"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-06",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-06-06T16:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "0463dc7367c7920a471d2653@motorsport-calendar"
@@ -2847,7 +2938,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "09:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-07"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-07",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-07T09:40+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2878,7 +2970,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-07"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-07",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-07T14:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -2903,16 +2996,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "15:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-07"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-07",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-06-07T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "0f96a3e9b51503efd5454c40@motorsport-calendar"
@@ -2934,16 +3028,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "13:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "13:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-12"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-12",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-06-12T13:30+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "3176e89efe8a8572832cc471@motorsport-calendar"
@@ -2965,16 +3060,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "17:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "17:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-12"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-12",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-06-12T17:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "b0777e5d238d036c6cb9da07@motorsport-calendar"
@@ -2996,16 +3092,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "12:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "12:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-13"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-13",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-06-13T12:30+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "58f36fde5f7bce4857f79890@motorsport-calendar"
@@ -3027,16 +3124,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "16:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "16:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-13"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-13",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-06-13T16:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "e4b83daba8a284183d4cac67@motorsport-calendar"
@@ -3058,16 +3156,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "15:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-14"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-14",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-06-14T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "a0d2943ef30879c3f432c76a@motorsport-calendar"
@@ -3095,7 +3194,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-19"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-19",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-19T10:45+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3126,7 +3226,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-19"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-19",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-19T15:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3157,7 +3258,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-20"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-20",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-20T10:10+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3188,7 +3290,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-20"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-20",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-20T10:50+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3219,7 +3322,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "11:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-20"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-20",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-20T11:15+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3250,7 +3354,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-20"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-20",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-20T15:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3281,7 +3386,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "09:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-21"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-21",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-21T09:40+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3312,7 +3418,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-21"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-21",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-21T14:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3343,7 +3450,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-26"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-26",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-26T10:45+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3374,7 +3482,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "13:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-26"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-26",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-06-26T13:30+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3405,7 +3514,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-26"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-26",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-26T15:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3436,7 +3546,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "17:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-26"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-26",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-06-26T17:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3467,7 +3578,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-27"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-27",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-27T10:10+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3498,7 +3610,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-27"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-27",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-27T10:50+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3529,7 +3642,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "11:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-27"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-27",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-27T11:15+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3560,7 +3674,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "12:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-27"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-27",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-06-27T12:30+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3591,7 +3706,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-27"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-27",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-27T15:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3622,7 +3738,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "16:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-27"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-27",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-06-27T16:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3653,7 +3770,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "09:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-28"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-28",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-28T09:40+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3684,7 +3802,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-28"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-06-28",
+        "Conflitto con MotoGP.com API ufficiale: 2026-06-28T14:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3715,7 +3834,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-28"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-06-28",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-06-28T15:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3738,18 +3858,19 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
+      "broadcaster_at_url": "https://tv.orf.at/stories/260705_formel1_gb100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "13:30",
+      "broadcast_time_at": "dalle 13:20",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "13:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-03"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-03",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-07-03T13:30+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "f736da1886a470ac530ef12f@motorsport-calendar"
@@ -3769,18 +3890,19 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
+      "broadcaster_at_url": "https://tv.orf.at/stories/260705_formel1_gb100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "17:30",
+      "broadcast_time_at": "dalle 17:10",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "17:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-03"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-03",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-07-03T17:30+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "1e70d1b011ca9ffa4554c6fb@motorsport-calendar"
@@ -3800,18 +3922,19 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
+      "broadcaster_at_url": "https://tv.orf.at/stories/260705_formel1_gb100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "13:00",
+      "broadcast_time_at": "dalle 12:40",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "13:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-04"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-04",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-07-04T13:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "aec272e86721fb70a0191db7@motorsport-calendar"
@@ -3831,18 +3954,19 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
+      "broadcaster_at_url": "https://tv.orf.at/stories/260705_formel1_gb100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "17:00",
+      "broadcast_time_at": "dalle 16:55",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "17:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-04"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-04",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-07-04T17:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "d9b9098a589b6b38d5b10d74@motorsport-calendar"
@@ -3862,18 +3986,19 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
+      "broadcaster_at_url": "https://tv.orf.at/stories/260705_formel1_gb100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "16:00",
+      "broadcast_time_at": "dalle 15:25",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "16:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-05"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-05",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-07-05T16:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "a462b4632490a7f658ae5ee3@motorsport-calendar"
@@ -3901,7 +4026,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-07-10"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-07-10",
+        "Conflitto con MotoGP.com API ufficiale: 2026-07-10T10:45+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3932,7 +4058,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-07-10"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-07-10",
+        "Conflitto con MotoGP.com API ufficiale: 2026-07-10T15:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3963,7 +4090,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-07-11"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-07-11",
+        "Conflitto con MotoGP.com API ufficiale: 2026-07-11T10:10+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -3994,7 +4122,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-07-11"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-07-11",
+        "Conflitto con MotoGP.com API ufficiale: 2026-07-11T10:50+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -4025,7 +4154,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "11:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-07-11"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-07-11",
+        "Conflitto con MotoGP.com API ufficiale: 2026-07-11T11:15+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -4056,7 +4186,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-07-11"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-07-11",
+        "Conflitto con MotoGP.com API ufficiale: 2026-07-11T15:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -4087,7 +4218,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "09:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-07-12"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-07-12",
+        "Conflitto con MotoGP.com API ufficiale: 2026-07-12T09:40+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -4118,7 +4250,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-07-12"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-07-12",
+        "Conflitto con MotoGP.com API ufficiale: 2026-07-12T14:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -4149,7 +4282,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "13:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-17"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-17",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-07-17T13:30+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -4180,7 +4314,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "17:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-17"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-17",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-07-17T17:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -4211,7 +4346,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "12:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-18"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-18",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-07-18T12:30+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -4242,7 +4378,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "16:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-18"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-18",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-07-18T16:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -4273,7 +4410,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-19"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-19",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-07-19T15:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -4296,18 +4434,19 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
+      "broadcaster_at_url": "https://tv.orf.at/stories/260726_formel1_ungarn100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "13:30",
+      "broadcast_time_at": "dalle 13:20",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "13:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-24"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-24",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-07-24T13:30+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "7481822fee1d6fe70d9ca273@motorsport-calendar"
@@ -4327,18 +4466,19 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
+      "broadcaster_at_url": "https://tv.orf.at/stories/260726_formel1_ungarn100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "17:00",
+      "broadcast_time_at": "dalle 16:50",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "17:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-24"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-24",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-07-24T17:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "213864ef5c167d75a0ebce26@motorsport-calendar"
@@ -4358,18 +4498,19 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
+      "broadcaster_at_url": "https://tv.orf.at/stories/260726_formel1_ungarn100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "12:30",
+      "broadcast_time_at": "dalle 12:20",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "12:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-25"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-25",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-07-25T12:30+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "c1dc162f0ccf411ba7be50be@motorsport-calendar"
@@ -4389,18 +4530,19 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
+      "broadcaster_at_url": "https://tv.orf.at/stories/260726_formel1_ungarn100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "16:00",
+      "broadcast_time_at": "dalle 15:55",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "16:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-25"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-25",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-07-25T16:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "d589c5b0c91e29b941efc608@motorsport-calendar"
@@ -4420,18 +4562,19 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
+      "broadcaster_at_url": "https://tv.orf.at/stories/260726_formel1_ungarn100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "15:00",
+      "broadcast_time_at": "dalle 14:25",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-26"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-07-26",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-07-26T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "a5b97d931a0eba985459394b@motorsport-calendar"
@@ -4459,7 +4602,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "12:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-07"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-07",
+        "Conflitto con MotoGP.com API ufficiale: 2026-08-07T12:45+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -4490,7 +4634,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "17:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-07"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-07",
+        "Conflitto con MotoGP.com API ufficiale: 2026-08-07T17:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -4521,7 +4666,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "12:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-08"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-08",
+        "Conflitto con MotoGP.com API ufficiale: 2026-08-08T12:10+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -4552,7 +4698,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "12:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-08"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-08",
+        "Conflitto con MotoGP.com API ufficiale: 2026-08-08T12:50+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -4583,7 +4730,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "13:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-08"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-08",
+        "Conflitto con MotoGP.com API ufficiale: 2026-08-08T13:15+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -4614,7 +4762,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "17:05",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-08"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-08",
+        "Conflitto con MotoGP.com API ufficiale: 2026-08-08T17:05+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -4645,7 +4794,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-09"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-09",
+        "Conflitto con MotoGP.com API ufficiale: 2026-08-09T10:40+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -4676,7 +4826,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-09"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-09",
+        "Conflitto con MotoGP.com API ufficiale: 2026-08-09T14:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -4707,7 +4858,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "12:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-08-21"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-08-21",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-08-21T12:30+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -4738,7 +4890,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "16:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-08-21"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-08-21",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-08-21T16:30+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -4769,7 +4922,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "12:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-08-22"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-08-22",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-08-22T12:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -4800,7 +4954,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "16:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-08-22"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-08-22",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-08-22T16:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -4831,7 +4986,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-08-23"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-08-23",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-08-23T15:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -4862,7 +5018,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-28"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-28",
+        "Conflitto con MotoGP.com API ufficiale: 2026-08-28T10:45+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -4893,7 +5050,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-28"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-28",
+        "Conflitto con MotoGP.com API ufficiale: 2026-08-28T15:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -4924,7 +5082,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-29"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-29",
+        "Conflitto con MotoGP.com API ufficiale: 2026-08-29T10:10+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -4955,7 +5114,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-29"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-29",
+        "Conflitto con MotoGP.com API ufficiale: 2026-08-29T10:50+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -4986,7 +5146,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "11:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-29"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-29",
+        "Conflitto con MotoGP.com API ufficiale: 2026-08-29T11:15+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5017,7 +5178,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-29"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-29",
+        "Conflitto con MotoGP.com API ufficiale: 2026-08-29T15:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5048,7 +5210,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "09:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-30"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-30",
+        "Conflitto con MotoGP.com API ufficiale: 2026-08-30T09:40+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5079,7 +5242,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-30"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-30",
+        "Conflitto con MotoGP.com API ufficiale: 2026-08-30T14:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5110,7 +5274,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "12:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-04"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-04",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-04T12:30+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5141,7 +5306,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "16:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-04"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-04",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-04T16:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5172,7 +5338,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "12:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-05"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-05",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-05T12:30+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5203,7 +5370,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "16:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-05"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-05",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-05T16:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5234,7 +5402,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-06"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-06",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-06T15:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5265,7 +5434,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-11"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-11",
+        "Conflitto con MotoGP.com API ufficiale: 2026-09-11T10:45+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5290,17 +5460,18 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "13:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "13:30",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-11T13:30+02:00",
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-11"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-11",
+        "Conflitto con Formula1.com: 2026-09-11T13:30+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "79e7d1b581a1d00c7e5b46be@motorsport-calendar"
@@ -5328,7 +5499,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-11"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-11",
+        "Conflitto con MotoGP.com API ufficiale: 2026-09-11T15:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5353,17 +5525,18 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "17:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "17:00",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-11T17:00+02:00",
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-11"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-11",
+        "Conflitto con Formula1.com: 2026-09-11T17:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "ebc38c1cdcec14487fa0592d@motorsport-calendar"
@@ -5391,7 +5564,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-12"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-12",
+        "Conflitto con MotoGP.com API ufficiale: 2026-09-12T10:10+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5422,7 +5596,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-12"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-12",
+        "Conflitto con MotoGP.com API ufficiale: 2026-09-12T10:50+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5453,7 +5628,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "11:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-12"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-12",
+        "Conflitto con MotoGP.com API ufficiale: 2026-09-12T11:15+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5478,17 +5654,18 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "12:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "12:30",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-12T12:30+02:00",
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-12"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-12",
+        "Conflitto con Formula1.com: 2026-09-12T12:30+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "2ae6aa55fe21b2d3d117fe6e@motorsport-calendar"
@@ -5516,7 +5693,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-12"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-12",
+        "Conflitto con MotoGP.com API ufficiale: 2026-09-12T15:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5541,17 +5719,18 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "16:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "16:00",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-12T16:00+02:00",
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-12"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-12",
+        "Conflitto con Formula1.com: 2026-09-12T16:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "a097994d903df76890cfdaf1@motorsport-calendar"
@@ -5579,7 +5758,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "09:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-13"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-13",
+        "Conflitto con MotoGP.com API ufficiale: 2026-09-13T09:40+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5610,7 +5790,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-13"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-13",
+        "Conflitto con MotoGP.com API ufficiale: 2026-09-13T14:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5635,16 +5816,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "15:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-13"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-13",
+        "Conflitto con Formula1.com: 2026-09-13T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "03c2ecc9ee1166d34d897dd8@motorsport-calendar"
@@ -5672,7 +5854,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-18"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-18",
+        "Conflitto con MotoGP.com API ufficiale: 2026-09-18T10:45+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5703,7 +5886,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-18"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-18",
+        "Conflitto con MotoGP.com API ufficiale: 2026-09-18T15:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5734,7 +5918,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-19"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-19",
+        "Conflitto con MotoGP.com API ufficiale: 2026-09-19T10:10+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5765,7 +5950,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-19"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-19",
+        "Conflitto con MotoGP.com API ufficiale: 2026-09-19T10:50+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5796,7 +5982,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "11:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-19"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-19",
+        "Conflitto con MotoGP.com API ufficiale: 2026-09-19T11:15+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5827,7 +6014,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-19"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-19",
+        "Conflitto con MotoGP.com API ufficiale: 2026-09-19T15:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5858,7 +6046,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "09:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-20"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-20",
+        "Conflitto con MotoGP.com API ufficiale: 2026-09-20T09:40+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5889,7 +6078,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-20"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-20",
+        "Conflitto con MotoGP.com API ufficiale: 2026-09-20T14:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -5914,16 +6104,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "10:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-24"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-24",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-24T10:30+02:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "dd4d90cd07ed05728ba095a3@motorsport-calendar"
@@ -5945,16 +6136,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "14:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-24"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-24",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-24T14:00+02:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "833df1fee6ceec64ed3c5eb9@motorsport-calendar"
@@ -5976,16 +6168,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "10:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-25"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-25",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-25T10:30+02:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "bba89637b458db015ac4aa2b@motorsport-calendar"
@@ -6007,16 +6200,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "14:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-25"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-25",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-25T14:00+02:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "d3f68b1df21d4ec141ca897b@motorsport-calendar"
@@ -6038,16 +6232,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "13:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "13:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-26"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-26",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-26T13:00+02:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "e7b13837c146f299b26e37ba@motorsport-calendar"
@@ -6075,7 +6270,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "03:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-02"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-02",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-02T03:45+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6106,7 +6302,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "04:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-02"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-02",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-02T04:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6137,7 +6334,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "08:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-02"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-02",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-02T08:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6168,7 +6366,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "08:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-02"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-02",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-02T08:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6199,7 +6398,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "03:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-03"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-03",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-03T03:10+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6230,7 +6430,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "03:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-03"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-03",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-03T03:50+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6261,7 +6462,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "04:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-03"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-03",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-03T04:15+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6292,7 +6494,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "08:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-03"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-03",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-03T08:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6323,7 +6526,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "08:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-03"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-03",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-03T08:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6354,7 +6558,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "11:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-03"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-03",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-03T11:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6385,7 +6590,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "02:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-04"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-04",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-04T02:40+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6416,7 +6622,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "07:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-04"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-04",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-04T07:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6447,7 +6654,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "09:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-04"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-04",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-04T09:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6478,7 +6686,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "04:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-09"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-09",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-09T04:45+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6509,7 +6718,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "09:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-09"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-09",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-09T09:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6534,17 +6744,18 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "10:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:30",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-09T10:30+02:00",
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-09"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-09",
+        "Conflitto con Formula1.com: 2026-10-09T10:30+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "3e2b211f961fcf652f0c32b8@motorsport-calendar"
@@ -6566,17 +6777,18 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "14:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:30",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-09T14:30+02:00",
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-09"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-09",
+        "Conflitto con Formula1.com: 2026-10-09T14:30+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "0862dcd8d2d6464941725865@motorsport-calendar"
@@ -6604,7 +6816,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "04:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-10"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-10",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-10T04:10+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6635,7 +6848,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "04:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-10"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-10",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-10T04:50+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6666,7 +6880,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "05:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-10"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-10",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-10T05:15+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6697,7 +6912,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "09:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-10"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-10",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-10T09:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6722,17 +6938,18 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "11:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "11:00",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-10T11:00+02:00",
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-10"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-10",
+        "Conflitto con Formula1.com: 2026-10-10T11:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "b13c3a0fd23de2ded6ea6152@motorsport-calendar"
@@ -6754,17 +6971,18 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "15:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-10T15:00+02:00",
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-10"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-10",
+        "Conflitto con Formula1.com: 2026-10-10T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "af73f2c29cd8e835f6372e95@motorsport-calendar"
@@ -6792,7 +7010,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "04:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-11"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-11",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-11T04:40+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6823,7 +7042,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "08:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-11"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-11",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-11T08:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6848,16 +7068,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "14:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-11"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-11",
+        "Conflitto con Formula1.com: 2026-10-11T14:00+02:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "84fd61030fda67bb3a7009e2@motorsport-calendar"
@@ -6885,7 +7106,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "01:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-23"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-23",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-23T01:45+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6916,7 +7138,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "06:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-23"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-23",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-23T06:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -6948,7 +7171,8 @@
       "broadcast_time_it": "19:30",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-23T19:30+02:00",
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-23"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-23",
+        "Conflitto con Formula1.com: 2026-10-23T19:30+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -6980,7 +7204,8 @@
       "broadcast_time_it": "23:00",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-23T23:00+02:00",
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-23"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-23",
+        "Conflitto con Formula1.com: 2026-10-23T23:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -7011,7 +7236,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "01:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-24"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-24",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-24T01:10+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7042,7 +7268,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "01:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-24"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-24",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-24T01:50+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7073,7 +7300,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "02:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-24"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-24",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-24T02:15+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7104,7 +7332,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "06:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-24"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-24",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-24T06:00+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7136,7 +7365,8 @@
       "broadcast_time_it": "19:30",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-24T19:30+02:00",
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-24"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-24",
+        "Conflitto con Formula1.com: 2026-10-24T19:30+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -7168,7 +7398,8 @@
       "broadcast_time_it": "23:00",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-24T23:00+02:00",
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-24"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-24",
+        "Conflitto con Formula1.com: 2026-10-24T23:00+02:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -7199,7 +7430,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "00:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-25"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-25",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-25T00:40+02:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7230,7 +7462,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "04:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-25"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-25",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-25T04:00+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7261,7 +7494,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "21:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-25"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-25",
+        "Conflitto con Formula1.com: 2026-10-25T21:00+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -7292,7 +7526,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "03:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-30"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-30",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-30T03:45+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7323,7 +7558,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "08:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-30"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-30",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-30T08:00+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7348,16 +7584,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "19:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "19:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-30"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-30",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-30T19:30+01:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "20c9553e99d1aa644a9c1e2e@motorsport-calendar"
@@ -7379,16 +7616,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "23:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "23:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-30"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-30",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-30T23:00+01:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "06f79aa7aac138252d5dbed1@motorsport-calendar"
@@ -7416,7 +7654,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "03:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-31"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-31",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-31T03:10+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7447,7 +7686,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "03:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-31"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-31",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-31T03:50+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7478,7 +7718,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "04:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-31"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-31",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-31T04:15+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7509,7 +7750,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "08:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-31"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-31",
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-31T08:00+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7534,16 +7776,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "18:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "18:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-31"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-31",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-31T18:30+01:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "53e630e1723dae3f79ccd6e1@motorsport-calendar"
@@ -7565,16 +7808,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "22:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "22:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-31"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-31",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-31T22:00+01:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "772808d2910a2edd0bdebaa1@motorsport-calendar"
@@ -7602,7 +7846,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "03:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-01"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-01",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-01T03:40+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7633,7 +7878,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "08:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-01"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-01",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-01T08:00+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7658,16 +7904,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "21:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "21:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-01"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-01",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-01T21:00+01:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "7a602bd5f92b957deab8febc@motorsport-calendar"
@@ -7695,7 +7942,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "13:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-06"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-06",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-06T13:45+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7726,7 +7974,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "16:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-06"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-06",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-06T16:30+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7757,7 +8006,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "18:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-06"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-06",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-06T18:00+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7788,7 +8038,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "20:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-06"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-06",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-06T20:00+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7819,7 +8070,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "13:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-07"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-07",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-07T13:00+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7850,7 +8102,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "13:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-07"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-07",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-07T13:40+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7881,7 +8134,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:05",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-07"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-07",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-07T14:05+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7912,7 +8166,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-07"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-07",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-07T15:30+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7943,7 +8198,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "18:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-07"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-07",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-07T18:00+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -7974,7 +8230,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "19:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-07"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-07",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-07T19:00+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -8005,7 +8262,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "13:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-08"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-08",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-08T13:40+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -8036,7 +8294,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "18:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-08"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-08",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-08T18:00+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -8067,7 +8326,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "18:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-08"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-08",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-08T18:00+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -8092,17 +8352,18 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "01:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "01:30",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-20T01:30+01:00",
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-19"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-19",
+        "Conflitto con Formula1.com: 2026-11-20T01:30+01:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "5bd4105ae763e2d31d34deee@motorsport-calendar"
@@ -8124,17 +8385,18 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "05:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "05:00",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-20T05:00+01:00",
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-19"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-19",
+        "Conflitto con Formula1.com: 2026-11-20T05:00+01:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "77bb305dc2258f82cda34b54@motorsport-calendar"
@@ -8162,7 +8424,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "11:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-20"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-20",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-20T11:45+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -8193,7 +8456,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "16:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-20"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-20",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-20T16:00+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -8218,17 +8482,18 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "01:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "01:30",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-21T01:30+01:00",
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-20"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-20",
+        "Conflitto con Formula1.com: 2026-11-21T01:30+01:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "cbc666b82b4979ccd84960d8@motorsport-calendar"
@@ -8250,17 +8515,18 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "05:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "05:00",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-21T05:00+01:00",
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-20"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-20",
+        "Conflitto con Formula1.com: 2026-11-21T05:00+01:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "2b97487e29aef83047cd6f4d@motorsport-calendar"
@@ -8288,7 +8554,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "11:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-21"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-21",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-21T11:10+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -8319,7 +8586,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "11:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-21"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-21",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-21T11:50+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -8350,7 +8618,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "12:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-21"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-21",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-21T12:15+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -8381,7 +8650,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "16:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-21"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-21",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-21T16:00+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -8406,16 +8676,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "05:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "05:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-21"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-21",
+        "Conflitto con Formula1.com: 2026-11-22T05:00+01:00"
       ],
       "notes": "",
-      "sequence": 4,
+      "sequence": 5,
       "enabled": true,
       "stable_key": null,
       "uid": "70e9a4402563d1e4ac370d54@motorsport-calendar"
@@ -8443,7 +8714,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-22"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-22",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-22T10:40+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -8474,7 +8746,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-22"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-22",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-22T14:00+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -8505,7 +8778,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:45",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-27"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-27",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-27T10:45+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -8537,7 +8811,8 @@
       "broadcast_time_it": "14:30",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-27T14:30+01:00",
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-27"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-27",
+        "Conflitto con Formula1.com: 2026-11-27T14:30+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -8568,7 +8843,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-27"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-27",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-27T15:00+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -8600,7 +8876,8 @@
       "broadcast_time_it": "18:00",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-27T18:00+01:00",
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-27"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-27",
+        "Conflitto con Formula1.com: 2026-11-27T18:00+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -8631,7 +8908,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:10",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-28"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-28",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-28T10:10+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -8662,7 +8940,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:50",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-28"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-28",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-28T10:50+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -8693,7 +8972,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "11:15",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-28"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-28",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-28T11:15+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -8724,7 +9004,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-28"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-28",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-28T15:00+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -8756,7 +9037,8 @@
       "broadcast_time_it": "15:30",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-28T15:30+01:00",
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-28"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-28",
+        "Conflitto con Formula1.com: 2026-11-28T15:30+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -8788,7 +9070,8 @@
       "broadcast_time_it": "19:00",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-28T19:00+01:00",
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-28"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-28",
+        "Conflitto con Formula1.com: 2026-11-28T19:00+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -8819,7 +9102,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "09:40",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-29"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-29",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-29T09:40+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -8850,7 +9134,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:00",
       "conflicts": [
-        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-29"
+        "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-29",
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-29T14:00+01:00"
       ],
       "notes": "",
       "sequence": 5,
@@ -8881,7 +9166,8 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "17:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-29"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-29",
+        "Conflitto con Formula1.com: 2026-11-29T17:00+01:00"
       ],
       "notes": "",
       "sequence": 4,
@@ -8906,16 +9192,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "10:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "10:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-12-04"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-12-04",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-12-04T10:30+01:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "b2723beae76e0e98864fa8c4@motorsport-calendar"
@@ -8937,16 +9224,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "14:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-12-04"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-12-04",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-12-04T14:00+01:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "dc61d8151e38105571a44044@motorsport-calendar"
@@ -8968,16 +9256,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "11:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "11:30",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-12-05"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-12-05",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-12-05T11:30+01:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "fb17b283101b4fda18a02eba@motorsport-calendar"
@@ -8999,16 +9288,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "15:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "15:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-12-05"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-12-05",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-12-05T15:00+01:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "6b1676de7ba34234e31a7a3f@motorsport-calendar"
@@ -9030,16 +9320,17 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "14:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "14:00",
       "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-12-06"
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-12-06",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-12-06T14:00+01:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "31dc3d18ba1eedc403be48b5@motorsport-calendar"

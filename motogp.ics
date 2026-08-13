@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:7178f932229f65cbfa15f86a@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260227T044500
 DTEND;TZID=Europe/Rome:20260227T053000
@@ -22,7 +22,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  ailand/364a0bd9-d3c2-4ab3-a4cd-211ff469953e\nFonte orario: MotoGP.com API u
  fficiale https://www.motogp.com/en/calendar/2026/event/Thailand/364a0bd9-d3
  c2-4ab3-a4cd-211ff469953e\nConflitto: Conflitto con MotoGP.com (solo data\;
-  ora non pubblicata): 2026-02-27
+  ora non pubblicata): 2026-02-27\nConflitto: Conflitto con MotoGP.com API u
+ fficiale: 2026-02-27T04:45+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -31,7 +32,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bc2e1129ef6c66749ea82f93@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260227T090000
 DTEND;TZID=Europe/Rome:20260227T100000
@@ -44,7 +45,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  ailand/364a0bd9-d3c2-4ab3-a4cd-211ff469953e\nFonte orario: MotoGP.com API u
  fficiale https://www.motogp.com/en/calendar/2026/event/Thailand/364a0bd9-d3
  c2-4ab3-a4cd-211ff469953e\nConflitto: Conflitto con MotoGP.com (solo data\;
-  ora non pubblicata): 2026-02-27
+  ora non pubblicata): 2026-02-27\nConflitto: Conflitto con MotoGP.com API u
+ fficiale: 2026-02-27T09:00+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -53,7 +55,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:55c4bcf3a7edbd9b5b83e0a9@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260228T041000
 DTEND;TZID=Europe/Rome:20260228T044000
@@ -66,7 +68,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  ailand/364a0bd9-d3c2-4ab3-a4cd-211ff469953e\nFonte orario: MotoGP.com API u
  fficiale https://www.motogp.com/en/calendar/2026/event/Thailand/364a0bd9-d3
  c2-4ab3-a4cd-211ff469953e\nConflitto: Conflitto con MotoGP.com (solo data\;
-  ora non pubblicata): 2026-02-28
+  ora non pubblicata): 2026-02-28\nConflitto: Conflitto con MotoGP.com API u
+ fficiale: 2026-02-28T04:10+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -75,7 +78,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bd1e20bf9e9b6d081bf744bf@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260228T045000
 DTEND;TZID=Europe/Rome:20260228T050500
@@ -88,7 +91,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  bd9-d3c2-4ab3-a4cd-211ff469953e\nFonte orario: MotoGP.com API ufficiale htt
  ps://www.motogp.com/en/calendar/2026/event/Thailand/364a0bd9-d3c2-4ab3-a4cd
  -211ff469953e\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pub
- blicata): 2026-02-28
+ blicata): 2026-02-28\nConflitto: Conflitto con MotoGP.com API ufficiale: 20
+ 26-02-28T04:50+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -97,7 +101,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:479a5b261ccf7c4c4ab2d310@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260228T051500
 DTEND;TZID=Europe/Rome:20260228T053000
@@ -110,7 +114,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  bd9-d3c2-4ab3-a4cd-211ff469953e\nFonte orario: MotoGP.com API ufficiale htt
  ps://www.motogp.com/en/calendar/2026/event/Thailand/364a0bd9-d3c2-4ab3-a4cd
  -211ff469953e\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pub
- blicata): 2026-02-28
+ blicata): 2026-02-28\nConflitto: Conflitto con MotoGP.com API ufficiale: 20
+ 26-02-28T05:15+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -119,7 +124,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:44eb10f30d7f7633809056e4@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260228T090000
 DTEND;TZID=Europe/Rome:20260228T100000
@@ -132,7 +137,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  bd9-d3c2-4ab3-a4cd-211ff469953e\nFonte orario: MotoGP.com API ufficiale htt
  ps://www.motogp.com/en/calendar/2026/event/Thailand/364a0bd9-d3c2-4ab3-a4cd
  -211ff469953e\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pub
- blicata): 2026-02-28
+ blicata): 2026-02-28\nConflitto: Conflitto con MotoGP.com API ufficiale: 20
+ 26-02-28T09:00+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -141,7 +147,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:75fa721c6df050c0eb8ce179@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260301T044000
 DTEND;TZID=Europe/Rome:20260301T045000
@@ -154,7 +160,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  ailand/364a0bd9-d3c2-4ab3-a4cd-211ff469953e\nFonte orario: MotoGP.com API u
  fficiale https://www.motogp.com/en/calendar/2026/event/Thailand/364a0bd9-d3
  c2-4ab3-a4cd-211ff469953e\nConflitto: Conflitto con MotoGP.com (solo data\;
-  ora non pubblicata): 2026-03-01
+  ora non pubblicata): 2026-03-01\nConflitto: Conflitto con MotoGP.com API u
+ fficiale: 2026-03-01T04:40+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -163,7 +170,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:293a5b35fe4854f5acda166a@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260301T090000
 DTEND;TZID=Europe/Rome:20260301T100000
@@ -176,7 +183,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  bd9-d3c2-4ab3-a4cd-211ff469953e\nFonte orario: MotoGP.com API ufficiale htt
  ps://www.motogp.com/en/calendar/2026/event/Thailand/364a0bd9-d3c2-4ab3-a4cd
  -211ff469953e\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pub
- blicata): 2026-03-01
+ blicata): 2026-03-01\nConflitto: Conflitto con MotoGP.com API ufficiale: 20
+ 26-03-01T09:00+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -190,7 +198,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:77d41aea089c6ffa11aa1d3f@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260320T160500
 DTEND;TZID=Europe/Rome:20260320T170500
@@ -203,7 +211,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  asil/11588b5a-f76c-4c8e-ae06-acba82ff1303\nFonte orario: MotoGP.com API uff
  iciale https://www.motogp.com/en/calendar/2026/event/Brasil/11588b5a-f76c-4
  c8e-ae06-acba82ff1303\nConflitto: Conflitto con MotoGP.com (solo data\; ora
-  non pubblicata): 2026-03-20
+  non pubblicata): 2026-03-20\nConflitto: Conflitto con MotoGP.com API uffic
+ iale: 2026-03-20T16:05+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -212,7 +221,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:25d497ec5b161ee2c4649e81@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260320T200000
 DTEND;TZID=Europe/Rome:20260320T210000
@@ -225,7 +234,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  asil/11588b5a-f76c-4c8e-ae06-acba82ff1303\nFonte orario: MotoGP.com API uff
  iciale https://www.motogp.com/en/calendar/2026/event/Brasil/11588b5a-f76c-4
  c8e-ae06-acba82ff1303\nConflitto: Conflitto con MotoGP.com (solo data\; ora
-  non pubblicata): 2026-03-20
+  non pubblicata): 2026-03-20\nConflitto: Conflitto con MotoGP.com API uffic
+ iale: 2026-03-20T20:00+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -234,7 +244,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a86a4e610622220e9215f027@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260321T141000
 DTEND;TZID=Europe/Rome:20260321T144000
@@ -247,7 +257,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  asil/11588b5a-f76c-4c8e-ae06-acba82ff1303\nFonte orario: MotoGP.com API uff
  iciale https://www.motogp.com/en/calendar/2026/event/Brasil/11588b5a-f76c-4
  c8e-ae06-acba82ff1303\nConflitto: Conflitto con MotoGP.com (solo data\; ora
-  non pubblicata): 2026-03-21
+  non pubblicata): 2026-03-21\nConflitto: Conflitto con MotoGP.com API uffic
+ iale: 2026-03-21T14:10+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -256,7 +267,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4756b31d4fbb4311cd44cdc5@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260321T145000
 DTEND;TZID=Europe/Rome:20260321T150500
@@ -269,7 +280,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  a-f76c-4c8e-ae06-acba82ff1303\nFonte orario: MotoGP.com API ufficiale https
  ://www.motogp.com/en/calendar/2026/event/Brasil/11588b5a-f76c-4c8e-ae06-acb
  a82ff1303\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubblic
- ata): 2026-03-21
+ ata): 2026-03-21\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026-0
+ 3-21T14:50+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -278,7 +290,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:837b5fdfa838b13596ce5885@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260321T151500
 DTEND;TZID=Europe/Rome:20260321T153000
@@ -291,7 +303,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  a-f76c-4c8e-ae06-acba82ff1303\nFonte orario: MotoGP.com API ufficiale https
  ://www.motogp.com/en/calendar/2026/event/Brasil/11588b5a-f76c-4c8e-ae06-acb
  a82ff1303\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubblic
- ata): 2026-03-21
+ ata): 2026-03-21\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026-0
+ 3-21T15:15+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -300,7 +313,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:721b7c445f49734c8b11eea6@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260321T202000
 DTEND;TZID=Europe/Rome:20260321T212000
@@ -313,7 +326,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  a-f76c-4c8e-ae06-acba82ff1303\nFonte orario: MotoGP.com API ufficiale https
  ://www.motogp.com/en/calendar/2026/event/Brasil/11588b5a-f76c-4c8e-ae06-acb
  a82ff1303\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubblic
- ata): 2026-03-21
+ ata): 2026-03-21\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026-0
+ 3-21T20:20+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -322,7 +336,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:74f7cdc8a6cb2365a678fa50@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260322T144000
 DTEND;TZID=Europe/Rome:20260322T145000
@@ -335,7 +349,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  asil/11588b5a-f76c-4c8e-ae06-acba82ff1303\nFonte orario: MotoGP.com API uff
  iciale https://www.motogp.com/en/calendar/2026/event/Brasil/11588b5a-f76c-4
  c8e-ae06-acba82ff1303\nConflitto: Conflitto con MotoGP.com (solo data\; ora
-  non pubblicata): 2026-03-22
+  non pubblicata): 2026-03-22\nConflitto: Conflitto con MotoGP.com API uffic
+ iale: 2026-03-22T14:40+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -344,7 +359,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6b8a1b7af0d0913ed8be01bd@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260322T190000
 DTEND;TZID=Europe/Rome:20260322T200000
@@ -357,7 +372,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  a-f76c-4c8e-ae06-acba82ff1303\nFonte orario: MotoGP.com API ufficiale https
  ://www.motogp.com/en/calendar/2026/event/Brasil/11588b5a-f76c-4c8e-ae06-acb
  a82ff1303\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubblic
- ata): 2026-03-22
+ ata): 2026-03-22\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026-0
+ 3-22T19:00+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -371,7 +387,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bb40a418266bb11023162c1e@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260327T164500
 DTEND;TZID=Europe/Rome:20260327T173000
@@ -384,7 +400,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  ericas/8c83648e-8ec9-40f1-9ba0-b0f19883e7d7\nFonte orario: MotoGP.com API u
  fficiale https://www.motogp.com/en/calendar/2026/event/Americas/8c83648e-8e
  c9-40f1-9ba0-b0f19883e7d7\nConflitto: Conflitto con MotoGP.com (solo data\;
-  ora non pubblicata): 2026-03-27
+  ora non pubblicata): 2026-03-27\nConflitto: Conflitto con MotoGP.com API u
+ fficiale: 2026-03-27T16:45+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -393,7 +410,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e26d7960c5cc16845b47d45a@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260327T210000
 DTEND;TZID=Europe/Rome:20260327T220000
@@ -406,7 +423,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  ericas/8c83648e-8ec9-40f1-9ba0-b0f19883e7d7\nFonte orario: MotoGP.com API u
  fficiale https://www.motogp.com/en/calendar/2026/event/Americas/8c83648e-8e
  c9-40f1-9ba0-b0f19883e7d7\nConflitto: Conflitto con MotoGP.com (solo data\;
-  ora non pubblicata): 2026-03-27
+  ora non pubblicata): 2026-03-27\nConflitto: Conflitto con MotoGP.com API u
+ fficiale: 2026-03-27T21:00+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -415,7 +433,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a9f02934f0ae4bf288709ce3@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260328T161000
 DTEND;TZID=Europe/Rome:20260328T164000
@@ -428,7 +446,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  ericas/8c83648e-8ec9-40f1-9ba0-b0f19883e7d7\nFonte orario: MotoGP.com API u
  fficiale https://www.motogp.com/en/calendar/2026/event/Americas/8c83648e-8e
  c9-40f1-9ba0-b0f19883e7d7\nConflitto: Conflitto con MotoGP.com (solo data\;
-  ora non pubblicata): 2026-03-28
+  ora non pubblicata): 2026-03-28\nConflitto: Conflitto con MotoGP.com API u
+ fficiale: 2026-03-28T16:10+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -437,7 +456,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a6246d39e73a2b5397af655f@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260328T165000
 DTEND;TZID=Europe/Rome:20260328T170500
@@ -450,7 +469,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  48e-8ec9-40f1-9ba0-b0f19883e7d7\nFonte orario: MotoGP.com API ufficiale htt
  ps://www.motogp.com/en/calendar/2026/event/Americas/8c83648e-8ec9-40f1-9ba0
  -b0f19883e7d7\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pub
- blicata): 2026-03-28
+ blicata): 2026-03-28\nConflitto: Conflitto con MotoGP.com API ufficiale: 20
+ 26-03-28T16:50+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -459,7 +479,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:10a143fa9efb840469535475@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260328T171500
 DTEND;TZID=Europe/Rome:20260328T173000
@@ -472,7 +492,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  48e-8ec9-40f1-9ba0-b0f19883e7d7\nFonte orario: MotoGP.com API ufficiale htt
  ps://www.motogp.com/en/calendar/2026/event/Americas/8c83648e-8ec9-40f1-9ba0
  -b0f19883e7d7\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pub
- blicata): 2026-03-28
+ blicata): 2026-03-28\nConflitto: Conflitto con MotoGP.com API ufficiale: 20
+ 26-03-28T17:15+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -481,7 +502,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d96c50f1927881cd0b623445@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260328T211000
 DTEND;TZID=Europe/Rome:20260328T221000
@@ -494,7 +515,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  48e-8ec9-40f1-9ba0-b0f19883e7d7\nFonte orario: MotoGP.com API ufficiale htt
  ps://www.motogp.com/en/calendar/2026/event/Americas/8c83648e-8ec9-40f1-9ba0
  -b0f19883e7d7\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pub
- blicata): 2026-03-28
+ blicata): 2026-03-28\nConflitto: Conflitto con MotoGP.com API ufficiale: 20
+ 26-03-28T21:10+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -503,7 +525,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:883bedc43ecbf60e16ced144@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260329T174000
 DTEND;TZID=Europe/Rome:20260329T175000
@@ -516,7 +538,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  ericas/8c83648e-8ec9-40f1-9ba0-b0f19883e7d7\nFonte orario: MotoGP.com API u
  fficiale https://www.motogp.com/en/calendar/2026/event/Americas/8c83648e-8e
  c9-40f1-9ba0-b0f19883e7d7\nConflitto: Conflitto con MotoGP.com (solo data\;
-  ora non pubblicata): 2026-03-29
+  ora non pubblicata): 2026-03-29\nConflitto: Conflitto con MotoGP.com API u
+ fficiale: 2026-03-29T17:40+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -525,7 +548,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:040c547d2ed36b3b7a6108bc@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260329T220000
 DTEND;TZID=Europe/Rome:20260329T230000
@@ -538,7 +561,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  48e-8ec9-40f1-9ba0-b0f19883e7d7\nFonte orario: MotoGP.com API ufficiale htt
  ps://www.motogp.com/en/calendar/2026/event/Americas/8c83648e-8ec9-40f1-9ba0
  -b0f19883e7d7\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pub
- blicata): 2026-03-29
+ blicata): 2026-03-29\nConflitto: Conflitto con MotoGP.com API ufficiale: 20
+ 26-03-29T22:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -552,7 +576,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cd289d72f4a00e9d246214f5@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260424T104500
 DTEND;TZID=Europe/Rome:20260424T113000
@@ -565,7 +589,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  paña/a24be69b-8472-4aa4-9e83-d3610e0f1d98\nFonte orario: MotoGP.com API uf
  ficiale https://www.motogp.com/en/calendar/2026/event/España/a24be69b-8472
  -4aa4-9e83-d3610e0f1d98\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-04-24
+ ra non pubblicata): 2026-04-24\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-04-24T10:45+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -574,7 +599,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cc74442146a47f02c16901d9@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260424T150000
 DTEND;TZID=Europe/Rome:20260424T160000
@@ -587,7 +612,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  paña/a24be69b-8472-4aa4-9e83-d3610e0f1d98\nFonte orario: MotoGP.com API uf
  ficiale https://www.motogp.com/en/calendar/2026/event/España/a24be69b-8472
  -4aa4-9e83-d3610e0f1d98\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-04-24
+ ra non pubblicata): 2026-04-24\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-04-24T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -596,7 +622,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:60499d9f0cff7692a44d6289@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260425T101000
 DTEND;TZID=Europe/Rome:20260425T104000
@@ -609,7 +635,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  paña/a24be69b-8472-4aa4-9e83-d3610e0f1d98\nFonte orario: MotoGP.com API uf
  ficiale https://www.motogp.com/en/calendar/2026/event/España/a24be69b-8472
  -4aa4-9e83-d3610e0f1d98\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-04-25
+ ra non pubblicata): 2026-04-25\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-04-25T10:10+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -618,7 +645,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3acf562353d08394f533980c@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260425T105000
 DTEND;TZID=Europe/Rome:20260425T110500
@@ -631,7 +658,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  9b-8472-4aa4-9e83-d3610e0f1d98\nFonte orario: MotoGP.com API ufficiale http
  s://www.motogp.com/en/calendar/2026/event/España/a24be69b-8472-4aa4-9e83-d
  3610e0f1d98\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubbl
- icata): 2026-04-25
+ icata): 2026-04-25\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026
+ -04-25T10:50+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -640,7 +668,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9ddb6247769c711f709ba86e@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260425T111500
 DTEND;TZID=Europe/Rome:20260425T113000
@@ -653,7 +681,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  9b-8472-4aa4-9e83-d3610e0f1d98\nFonte orario: MotoGP.com API ufficiale http
  s://www.motogp.com/en/calendar/2026/event/España/a24be69b-8472-4aa4-9e83-d
  3610e0f1d98\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubbl
- icata): 2026-04-25
+ icata): 2026-04-25\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026
+ -04-25T11:15+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -662,7 +691,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:914a186a9e27bf5fe13c742a@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260425T150000
 DTEND;TZID=Europe/Rome:20260425T160000
@@ -675,7 +704,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  9b-8472-4aa4-9e83-d3610e0f1d98\nFonte orario: MotoGP.com API ufficiale http
  s://www.motogp.com/en/calendar/2026/event/España/a24be69b-8472-4aa4-9e83-d
  3610e0f1d98\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubbl
- icata): 2026-04-25
+ icata): 2026-04-25\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026
+ -04-25T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -684,7 +714,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4767eec324ad732bf67e145e@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260426T094000
 DTEND;TZID=Europe/Rome:20260426T095000
@@ -697,7 +727,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  paña/a24be69b-8472-4aa4-9e83-d3610e0f1d98\nFonte orario: MotoGP.com API uf
  ficiale https://www.motogp.com/en/calendar/2026/event/España/a24be69b-8472
  -4aa4-9e83-d3610e0f1d98\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-04-26
+ ra non pubblicata): 2026-04-26\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-04-26T09:40+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -706,7 +737,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4fd2b5b3f2cb1fca8f6d57f1@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260426T140000
 DTEND;TZID=Europe/Rome:20260426T150000
@@ -719,7 +750,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  9b-8472-4aa4-9e83-d3610e0f1d98\nFonte orario: MotoGP.com API ufficiale http
  s://www.motogp.com/en/calendar/2026/event/España/a24be69b-8472-4aa4-9e83-d
  3610e0f1d98\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubbl
- icata): 2026-04-26
+ icata): 2026-04-26\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026
+ -04-26T14:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -733,7 +765,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0cec0886b782b569c6cc2d62@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260508T104500
 DTEND;TZID=Europe/Rome:20260508T113000
@@ -746,7 +778,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  ance/4237f175-c6a4-4d1e-b658-82962baf3fa3\nFonte orario: MotoGP.com API uff
  iciale https://www.motogp.com/en/calendar/2026/event/France/4237f175-c6a4-4
  d1e-b658-82962baf3fa3\nConflitto: Conflitto con MotoGP.com (solo data\; ora
-  non pubblicata): 2026-05-08
+  non pubblicata): 2026-05-08\nConflitto: Conflitto con MotoGP.com API uffic
+ iale: 2026-05-08T10:45+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -755,7 +788,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:994e1e2ea1e8662563e00df7@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260508T150000
 DTEND;TZID=Europe/Rome:20260508T160000
@@ -768,7 +801,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  ance/4237f175-c6a4-4d1e-b658-82962baf3fa3\nFonte orario: MotoGP.com API uff
  iciale https://www.motogp.com/en/calendar/2026/event/France/4237f175-c6a4-4
  d1e-b658-82962baf3fa3\nConflitto: Conflitto con MotoGP.com (solo data\; ora
-  non pubblicata): 2026-05-08
+  non pubblicata): 2026-05-08\nConflitto: Conflitto con MotoGP.com API uffic
+ iale: 2026-05-08T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -777,7 +811,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:215c087803fca861d8842ef1@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260509T101000
 DTEND;TZID=Europe/Rome:20260509T104000
@@ -790,7 +824,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  ance/4237f175-c6a4-4d1e-b658-82962baf3fa3\nFonte orario: MotoGP.com API uff
  iciale https://www.motogp.com/en/calendar/2026/event/France/4237f175-c6a4-4
  d1e-b658-82962baf3fa3\nConflitto: Conflitto con MotoGP.com (solo data\; ora
-  non pubblicata): 2026-05-09
+  non pubblicata): 2026-05-09\nConflitto: Conflitto con MotoGP.com API uffic
+ iale: 2026-05-09T10:10+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -799,7 +834,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:76f9330c750d5f0531c2d110@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260509T105000
 DTEND;TZID=Europe/Rome:20260509T110500
@@ -812,7 +847,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  5-c6a4-4d1e-b658-82962baf3fa3\nFonte orario: MotoGP.com API ufficiale https
  ://www.motogp.com/en/calendar/2026/event/France/4237f175-c6a4-4d1e-b658-829
  62baf3fa3\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubblic
- ata): 2026-05-09
+ ata): 2026-05-09\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026-0
+ 5-09T10:50+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -821,7 +857,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:98f935716c2fcbee0ae8433b@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260509T111500
 DTEND;TZID=Europe/Rome:20260509T113000
@@ -834,7 +870,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  5-c6a4-4d1e-b658-82962baf3fa3\nFonte orario: MotoGP.com API ufficiale https
  ://www.motogp.com/en/calendar/2026/event/France/4237f175-c6a4-4d1e-b658-829
  62baf3fa3\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubblic
- ata): 2026-05-09
+ ata): 2026-05-09\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026-0
+ 5-09T11:15+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -843,7 +880,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4fa7e391fa7122a66692384c@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260509T150000
 DTEND;TZID=Europe/Rome:20260509T160000
@@ -856,7 +893,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  5-c6a4-4d1e-b658-82962baf3fa3\nFonte orario: MotoGP.com API ufficiale https
  ://www.motogp.com/en/calendar/2026/event/France/4237f175-c6a4-4d1e-b658-829
  62baf3fa3\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubblic
- ata): 2026-05-09
+ ata): 2026-05-09\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026-0
+ 5-09T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -865,7 +903,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ccee1557f62b32805c494d00@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260510T094000
 DTEND;TZID=Europe/Rome:20260510T095000
@@ -878,7 +916,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  ance/4237f175-c6a4-4d1e-b658-82962baf3fa3\nFonte orario: MotoGP.com API uff
  iciale https://www.motogp.com/en/calendar/2026/event/France/4237f175-c6a4-4
  d1e-b658-82962baf3fa3\nConflitto: Conflitto con MotoGP.com (solo data\; ora
-  non pubblicata): 2026-05-10
+  non pubblicata): 2026-05-10\nConflitto: Conflitto con MotoGP.com API uffic
+ iale: 2026-05-10T09:40+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -887,7 +926,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:443d16c018d54c690cc94acf@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260510T140000
 DTEND;TZID=Europe/Rome:20260510T151500
@@ -900,7 +939,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  5-c6a4-4d1e-b658-82962baf3fa3\nFonte orario: MotoGP.com API ufficiale https
  ://www.motogp.com/en/calendar/2026/event/France/4237f175-c6a4-4d1e-b658-829
  62baf3fa3\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubblic
- ata): 2026-05-10
+ ata): 2026-05-10\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026-0
+ 5-10T14:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -914,7 +954,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bf60ca94089859122aecdd14@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260515T104500
 DTEND;TZID=Europe/Rome:20260515T113000
@@ -927,7 +967,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  talunya/200bf59d-3db2-4e17-a903-4be204fa3496\nFonte orario: MotoGP.com API 
  ufficiale https://www.motogp.com/en/calendar/2026/event/Catalunya/200bf59d-
  3db2-4e17-a903-4be204fa3496\nConflitto: Conflitto con MotoGP.com (solo data
- \; ora non pubblicata): 2026-05-15
+ \; ora non pubblicata): 2026-05-15\nConflitto: Conflitto con MotoGP.com API
+  ufficiale: 2026-05-15T10:45+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -936,7 +977,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8cb041374ccc3b0874db7ed0@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260515T150000
 DTEND;TZID=Europe/Rome:20260515T160000
@@ -949,7 +990,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  talunya/200bf59d-3db2-4e17-a903-4be204fa3496\nFonte orario: MotoGP.com API 
  ufficiale https://www.motogp.com/en/calendar/2026/event/Catalunya/200bf59d-
  3db2-4e17-a903-4be204fa3496\nConflitto: Conflitto con MotoGP.com (solo data
- \; ora non pubblicata): 2026-05-15
+ \; ora non pubblicata): 2026-05-15\nConflitto: Conflitto con MotoGP.com API
+  ufficiale: 2026-05-15T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -958,7 +1000,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0f2768f50980bf9dd33c1ce7@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260516T101000
 DTEND;TZID=Europe/Rome:20260516T104000
@@ -971,7 +1013,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  talunya/200bf59d-3db2-4e17-a903-4be204fa3496\nFonte orario: MotoGP.com API 
  ufficiale https://www.motogp.com/en/calendar/2026/event/Catalunya/200bf59d-
  3db2-4e17-a903-4be204fa3496\nConflitto: Conflitto con MotoGP.com (solo data
- \; ora non pubblicata): 2026-05-16
+ \; ora non pubblicata): 2026-05-16\nConflitto: Conflitto con MotoGP.com API
+  ufficiale: 2026-05-16T10:10+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -980,7 +1023,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fd84aad8278958f7d636c4ae@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260516T105000
 DTEND;TZID=Europe/Rome:20260516T110500
@@ -993,7 +1036,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  f59d-3db2-4e17-a903-4be204fa3496\nFonte orario: MotoGP.com API ufficiale ht
  tps://www.motogp.com/en/calendar/2026/event/Catalunya/200bf59d-3db2-4e17-a9
  03-4be204fa3496\nConflitto: Conflitto con MotoGP.com (solo data\; ora non p
- ubblicata): 2026-05-16
+ ubblicata): 2026-05-16\nConflitto: Conflitto con MotoGP.com API ufficiale: 
+ 2026-05-16T10:50+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1002,7 +1046,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:193efa0cd90cdafb9bf5b485@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260516T111500
 DTEND;TZID=Europe/Rome:20260516T113000
@@ -1015,7 +1059,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  f59d-3db2-4e17-a903-4be204fa3496\nFonte orario: MotoGP.com API ufficiale ht
  tps://www.motogp.com/en/calendar/2026/event/Catalunya/200bf59d-3db2-4e17-a9
  03-4be204fa3496\nConflitto: Conflitto con MotoGP.com (solo data\; ora non p
- ubblicata): 2026-05-16
+ ubblicata): 2026-05-16\nConflitto: Conflitto con MotoGP.com API ufficiale: 
+ 2026-05-16T11:15+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1024,7 +1069,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0d02776264c68ecb494c2a83@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260516T150000
 DTEND;TZID=Europe/Rome:20260516T160000
@@ -1037,7 +1082,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  f59d-3db2-4e17-a903-4be204fa3496\nFonte orario: MotoGP.com API ufficiale ht
  tps://www.motogp.com/en/calendar/2026/event/Catalunya/200bf59d-3db2-4e17-a9
  03-4be204fa3496\nConflitto: Conflitto con MotoGP.com (solo data\; ora non p
- ubblicata): 2026-05-16
+ ubblicata): 2026-05-16\nConflitto: Conflitto con MotoGP.com API ufficiale: 
+ 2026-05-16T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1046,7 +1092,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9af66c1d412e27ed56949d94@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260517T094000
 DTEND;TZID=Europe/Rome:20260517T095000
@@ -1059,7 +1105,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  talunya/200bf59d-3db2-4e17-a903-4be204fa3496\nFonte orario: MotoGP.com API 
  ufficiale https://www.motogp.com/en/calendar/2026/event/Catalunya/200bf59d-
  3db2-4e17-a903-4be204fa3496\nConflitto: Conflitto con MotoGP.com (solo data
- \; ora non pubblicata): 2026-05-17
+ \; ora non pubblicata): 2026-05-17\nConflitto: Conflitto con MotoGP.com API
+  ufficiale: 2026-05-17T09:40+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1068,7 +1115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b6070ba344dc3423a8110511@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260517T140000
 DTEND;TZID=Europe/Rome:20260517T150000
@@ -1081,7 +1128,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  f59d-3db2-4e17-a903-4be204fa3496\nFonte orario: MotoGP.com API ufficiale ht
  tps://www.motogp.com/en/calendar/2026/event/Catalunya/200bf59d-3db2-4e17-a9
  03-4be204fa3496\nConflitto: Conflitto con MotoGP.com (solo data\; ora non p
- ubblicata): 2026-05-17
+ ubblicata): 2026-05-17\nConflitto: Conflitto con MotoGP.com API ufficiale: 
+ 2026-05-17T14:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1095,7 +1143,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e222b5e7ca98e6e1b1ed09d7@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260529T104500
 DTEND;TZID=Europe/Rome:20260529T113000
@@ -1109,7 +1157,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  aly/bf2104f9-f5cc-4a99-a993-cb5d01bccd24\nFonte orario: MotoGP.com API uffi
  ciale https://www.motogp.com/en/calendar/2026/event/Italy/bf2104f9-f5cc-4a9
  9-a993-cb5d01bccd24\nConflitto: Conflitto con MotoGP.com (solo data\; ora n
- on pubblicata): 2026-05-29
+ on pubblicata): 2026-05-29\nConflitto: Conflitto con MotoGP.com API ufficia
+ le: 2026-05-29T10:45+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1118,7 +1167,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f46d6b8e8cf5137afe543626@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260529T150000
 DTEND;TZID=Europe/Rome:20260529T160900
@@ -1132,7 +1181,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  aly/bf2104f9-f5cc-4a99-a993-cb5d01bccd24\nFonte orario: MotoGP.com API uffi
  ciale https://www.motogp.com/en/calendar/2026/event/Italy/bf2104f9-f5cc-4a9
  9-a993-cb5d01bccd24\nConflitto: Conflitto con MotoGP.com (solo data\; ora n
- on pubblicata): 2026-05-29
+ on pubblicata): 2026-05-29\nConflitto: Conflitto con MotoGP.com API ufficia
+ le: 2026-05-29T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1141,7 +1191,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bf7cea515cea7bfe70ecc477@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260530T101000
 DTEND;TZID=Europe/Rome:20260530T104000
@@ -1155,7 +1205,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  aly/bf2104f9-f5cc-4a99-a993-cb5d01bccd24\nFonte orario: MotoGP.com API uffi
  ciale https://www.motogp.com/en/calendar/2026/event/Italy/bf2104f9-f5cc-4a9
  9-a993-cb5d01bccd24\nConflitto: Conflitto con MotoGP.com (solo data\; ora n
- on pubblicata): 2026-05-30
+ on pubblicata): 2026-05-30\nConflitto: Conflitto con MotoGP.com API ufficia
+ le: 2026-05-30T10:10+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1164,7 +1215,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:42fa5f798ca37b23173c1996@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260530T105000
 DTEND;TZID=Europe/Rome:20260530T110500
@@ -1178,7 +1229,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  -f5cc-4a99-a993-cb5d01bccd24\nFonte orario: MotoGP.com API ufficiale https:
  //www.motogp.com/en/calendar/2026/event/Italy/bf2104f9-f5cc-4a99-a993-cb5d0
  1bccd24\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubblicat
- a): 2026-05-30
+ a): 2026-05-30\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026-05-
+ 30T10:50+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1187,7 +1239,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4a1bd6a2d4614dbff42db33c@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260530T111500
 DTEND;TZID=Europe/Rome:20260530T113000
@@ -1201,7 +1253,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  -f5cc-4a99-a993-cb5d01bccd24\nFonte orario: MotoGP.com API ufficiale https:
  //www.motogp.com/en/calendar/2026/event/Italy/bf2104f9-f5cc-4a99-a993-cb5d0
  1bccd24\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubblicat
- a): 2026-05-30
+ a): 2026-05-30\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026-05-
+ 30T11:15+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1210,7 +1263,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:54990ac9cdea660d279480a8@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260530T150000
 DTEND;TZID=Europe/Rome:20260530T160000
@@ -1224,7 +1277,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  -f5cc-4a99-a993-cb5d01bccd24\nFonte orario: MotoGP.com API ufficiale https:
  //www.motogp.com/en/calendar/2026/event/Italy/bf2104f9-f5cc-4a99-a993-cb5d0
  1bccd24\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubblicat
- a): 2026-05-30
+ a): 2026-05-30\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026-05-
+ 30T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1233,7 +1287,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1792a8d899cb437478ac0e74@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260531T094000
 DTEND;TZID=Europe/Rome:20260531T095000
@@ -1247,7 +1301,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  aly/bf2104f9-f5cc-4a99-a993-cb5d01bccd24\nFonte orario: MotoGP.com API uffi
  ciale https://www.motogp.com/en/calendar/2026/event/Italy/bf2104f9-f5cc-4a9
  9-a993-cb5d01bccd24\nConflitto: Conflitto con MotoGP.com (solo data\; ora n
- on pubblicata): 2026-05-31
+ on pubblicata): 2026-05-31\nConflitto: Conflitto con MotoGP.com API ufficia
+ le: 2026-05-31T09:40+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1256,7 +1311,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fce8dd33cbfa9e110e44455e@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260531T140000
 DTEND;TZID=Europe/Rome:20260531T150000
@@ -1270,7 +1325,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  -f5cc-4a99-a993-cb5d01bccd24\nFonte orario: MotoGP.com API ufficiale https:
  //www.motogp.com/en/calendar/2026/event/Italy/bf2104f9-f5cc-4a99-a993-cb5d0
  1bccd24\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubblicat
- a): 2026-05-31
+ a): 2026-05-31\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026-05-
+ 31T14:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1284,7 +1340,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:42ac7e6fa57e3d3ad80d8260@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260605T104500
 DTEND;TZID=Europe/Rome:20260605T113000
@@ -1297,7 +1353,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  ngria/a37708ab-914c-433f-83d4-e55d1b95ccc3\nFonte orario: MotoGP.com API uf
  ficiale https://www.motogp.com/en/calendar/2026/event/Hungria/a37708ab-914c
  -433f-83d4-e55d1b95ccc3\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-06-05
+ ra non pubblicata): 2026-06-05\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-06-05T10:45+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1306,7 +1363,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fa576419a6cecb34cd2df459@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260605T150000
 DTEND;TZID=Europe/Rome:20260605T160000
@@ -1319,7 +1376,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  ngria/a37708ab-914c-433f-83d4-e55d1b95ccc3\nFonte orario: MotoGP.com API uf
  ficiale https://www.motogp.com/en/calendar/2026/event/Hungria/a37708ab-914c
  -433f-83d4-e55d1b95ccc3\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-06-05
+ ra non pubblicata): 2026-06-05\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-06-05T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1328,7 +1386,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e533c1222e62927a179ae413@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260606T101000
 DTEND;TZID=Europe/Rome:20260606T104000
@@ -1341,7 +1399,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  ngria/a37708ab-914c-433f-83d4-e55d1b95ccc3\nFonte orario: MotoGP.com API uf
  ficiale https://www.motogp.com/en/calendar/2026/event/Hungria/a37708ab-914c
  -433f-83d4-e55d1b95ccc3\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-06-06
+ ra non pubblicata): 2026-06-06\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-06-06T10:10+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1350,7 +1409,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fbd1640025c9c0495f9f97cb@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260606T105000
 DTEND;TZID=Europe/Rome:20260606T110500
@@ -1363,7 +1422,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  ab-914c-433f-83d4-e55d1b95ccc3\nFonte orario: MotoGP.com API ufficiale http
  s://www.motogp.com/en/calendar/2026/event/Hungria/a37708ab-914c-433f-83d4-e
  55d1b95ccc3\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubbl
- icata): 2026-06-06
+ icata): 2026-06-06\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026
+ -06-06T10:50+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1372,7 +1432,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:233fd0b16536c88e6b90d261@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260606T111500
 DTEND;TZID=Europe/Rome:20260606T113000
@@ -1385,7 +1445,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  ab-914c-433f-83d4-e55d1b95ccc3\nFonte orario: MotoGP.com API ufficiale http
  s://www.motogp.com/en/calendar/2026/event/Hungria/a37708ab-914c-433f-83d4-e
  55d1b95ccc3\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubbl
- icata): 2026-06-06
+ icata): 2026-06-06\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026
+ -06-06T11:15+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1394,7 +1455,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4a6a62eac2c84f48be4674b6@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260606T150000
 DTEND;TZID=Europe/Rome:20260606T160000
@@ -1407,7 +1468,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  ab-914c-433f-83d4-e55d1b95ccc3\nFonte orario: MotoGP.com API ufficiale http
  s://www.motogp.com/en/calendar/2026/event/Hungria/a37708ab-914c-433f-83d4-e
  55d1b95ccc3\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubbl
- icata): 2026-06-06
+ icata): 2026-06-06\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026
+ -06-06T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1416,7 +1478,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d1a97d35ecf908f90a47309b@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260607T094000
 DTEND;TZID=Europe/Rome:20260607T095000
@@ -1429,7 +1491,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  ngria/a37708ab-914c-433f-83d4-e55d1b95ccc3\nFonte orario: MotoGP.com API uf
  ficiale https://www.motogp.com/en/calendar/2026/event/Hungria/a37708ab-914c
  -433f-83d4-e55d1b95ccc3\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-06-07
+ ra non pubblicata): 2026-06-07\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-06-07T09:40+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1438,7 +1501,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fa04d22440f64d61f00a6289@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260607T140000
 DTEND;TZID=Europe/Rome:20260607T150000
@@ -1451,7 +1514,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  ab-914c-433f-83d4-e55d1b95ccc3\nFonte orario: MotoGP.com API ufficiale http
  s://www.motogp.com/en/calendar/2026/event/Hungria/a37708ab-914c-433f-83d4-e
  55d1b95ccc3\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubbl
- icata): 2026-06-07
+ icata): 2026-06-07\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026
+ -06-07T14:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1465,7 +1529,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6dc73894e7f703ce858323d1@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260619T104500
 DTEND;TZID=Europe/Rome:20260619T113000
@@ -1478,7 +1542,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  eck Republiky/c2018c5e-fb82-4058-b359-1b7d9769e703\nFonte orario: MotoGP.co
  m API ufficiale https://www.motogp.com/en/calendar/2026/event/Czeck Republi
  ky/c2018c5e-fb82-4058-b359-1b7d9769e703\nConflitto: Conflitto con MotoGP.co
- m (solo data\; ora non pubblicata): 2026-06-19
+ m (solo data\; ora non pubblicata): 2026-06-19\nConflitto: Conflitto con Mo
+ toGP.com API ufficiale: 2026-06-19T10:45+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1487,7 +1552,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6dc81eeae199ac3962b6637d@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260619T150000
 DTEND;TZID=Europe/Rome:20260619T160000
@@ -1500,7 +1565,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  eck Republiky/c2018c5e-fb82-4058-b359-1b7d9769e703\nFonte orario: MotoGP.co
  m API ufficiale https://www.motogp.com/en/calendar/2026/event/Czeck Republi
  ky/c2018c5e-fb82-4058-b359-1b7d9769e703\nConflitto: Conflitto con MotoGP.co
- m (solo data\; ora non pubblicata): 2026-06-19
+ m (solo data\; ora non pubblicata): 2026-06-19\nConflitto: Conflitto con Mo
+ toGP.com API ufficiale: 2026-06-19T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1509,7 +1575,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6cc42321cc0abbaaffb61cf6@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260620T101000
 DTEND;TZID=Europe/Rome:20260620T104000
@@ -1522,7 +1588,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  eck Republiky/c2018c5e-fb82-4058-b359-1b7d9769e703\nFonte orario: MotoGP.co
  m API ufficiale https://www.motogp.com/en/calendar/2026/event/Czeck Republi
  ky/c2018c5e-fb82-4058-b359-1b7d9769e703\nConflitto: Conflitto con MotoGP.co
- m (solo data\; ora non pubblicata): 2026-06-20
+ m (solo data\; ora non pubblicata): 2026-06-20\nConflitto: Conflitto con Mo
+ toGP.com API ufficiale: 2026-06-20T10:10+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1531,7 +1598,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:989bdd9775677f0a724d78fb@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260620T105000
 DTEND;TZID=Europe/Rome:20260620T110500
@@ -1544,7 +1611,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  y/c2018c5e-fb82-4058-b359-1b7d9769e703\nFonte orario: MotoGP.com API uffici
  ale https://www.motogp.com/en/calendar/2026/event/Czeck Republiky/c2018c5e-
  fb82-4058-b359-1b7d9769e703\nConflitto: Conflitto con MotoGP.com (solo data
- \; ora non pubblicata): 2026-06-20
+ \; ora non pubblicata): 2026-06-20\nConflitto: Conflitto con MotoGP.com API
+  ufficiale: 2026-06-20T10:50+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1553,7 +1621,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:679bde2e5ed914c68cd29ab2@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260620T111500
 DTEND;TZID=Europe/Rome:20260620T113000
@@ -1566,7 +1634,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  y/c2018c5e-fb82-4058-b359-1b7d9769e703\nFonte orario: MotoGP.com API uffici
  ale https://www.motogp.com/en/calendar/2026/event/Czeck Republiky/c2018c5e-
  fb82-4058-b359-1b7d9769e703\nConflitto: Conflitto con MotoGP.com (solo data
- \; ora non pubblicata): 2026-06-20
+ \; ora non pubblicata): 2026-06-20\nConflitto: Conflitto con MotoGP.com API
+  ufficiale: 2026-06-20T11:15+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1575,7 +1644,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:39374a4647646510e6caec04@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260620T150000
 DTEND;TZID=Europe/Rome:20260620T160000
@@ -1588,7 +1657,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  y/c2018c5e-fb82-4058-b359-1b7d9769e703\nFonte orario: MotoGP.com API uffici
  ale https://www.motogp.com/en/calendar/2026/event/Czeck Republiky/c2018c5e-
  fb82-4058-b359-1b7d9769e703\nConflitto: Conflitto con MotoGP.com (solo data
- \; ora non pubblicata): 2026-06-20
+ \; ora non pubblicata): 2026-06-20\nConflitto: Conflitto con MotoGP.com API
+  ufficiale: 2026-06-20T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1597,7 +1667,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:49779cbbf5d592e3cd69fa82@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260621T094000
 DTEND;TZID=Europe/Rome:20260621T095000
@@ -1610,7 +1680,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  eck Republiky/c2018c5e-fb82-4058-b359-1b7d9769e703\nFonte orario: MotoGP.co
  m API ufficiale https://www.motogp.com/en/calendar/2026/event/Czeck Republi
  ky/c2018c5e-fb82-4058-b359-1b7d9769e703\nConflitto: Conflitto con MotoGP.co
- m (solo data\; ora non pubblicata): 2026-06-21
+ m (solo data\; ora non pubblicata): 2026-06-21\nConflitto: Conflitto con Mo
+ toGP.com API ufficiale: 2026-06-21T09:40+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1619,7 +1690,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b7e257461415107eb21ebae7@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260621T140000
 DTEND;TZID=Europe/Rome:20260621T150000
@@ -1632,7 +1703,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  y/c2018c5e-fb82-4058-b359-1b7d9769e703\nFonte orario: MotoGP.com API uffici
  ale https://www.motogp.com/en/calendar/2026/event/Czeck Republiky/c2018c5e-
  fb82-4058-b359-1b7d9769e703\nConflitto: Conflitto con MotoGP.com (solo data
- \; ora non pubblicata): 2026-06-21
+ \; ora non pubblicata): 2026-06-21\nConflitto: Conflitto con MotoGP.com API
+  ufficiale: 2026-06-21T14:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1646,7 +1718,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8f72222e77ca48e97a64d43d@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260626T104500
 DTEND;TZID=Europe/Rome:20260626T113000
@@ -1659,7 +1731,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  therlands/47c25c37-d307-4d45-b1ed-b1cb5e811975\nFonte orario: MotoGP.com AP
  I ufficiale https://www.motogp.com/en/calendar/2026/event/Netherlands/47c25
  c37-d307-4d45-b1ed-b1cb5e811975\nConflitto: Conflitto con MotoGP.com (solo 
- data\; ora non pubblicata): 2026-06-26
+ data\; ora non pubblicata): 2026-06-26\nConflitto: Conflitto con MotoGP.com
+  API ufficiale: 2026-06-26T10:45+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1668,7 +1741,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6ace3cc946582eeedadd50e7@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260626T150000
 DTEND;TZID=Europe/Rome:20260626T160500
@@ -1681,7 +1754,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  therlands/47c25c37-d307-4d45-b1ed-b1cb5e811975\nFonte orario: MotoGP.com AP
  I ufficiale https://www.motogp.com/en/calendar/2026/event/Netherlands/47c25
  c37-d307-4d45-b1ed-b1cb5e811975\nConflitto: Conflitto con MotoGP.com (solo 
- data\; ora non pubblicata): 2026-06-26
+ data\; ora non pubblicata): 2026-06-26\nConflitto: Conflitto con MotoGP.com
+  API ufficiale: 2026-06-26T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1690,7 +1764,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5fbd64b61c69345cd8131214@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260627T101000
 DTEND;TZID=Europe/Rome:20260627T104000
@@ -1703,7 +1777,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  therlands/47c25c37-d307-4d45-b1ed-b1cb5e811975\nFonte orario: MotoGP.com AP
  I ufficiale https://www.motogp.com/en/calendar/2026/event/Netherlands/47c25
  c37-d307-4d45-b1ed-b1cb5e811975\nConflitto: Conflitto con MotoGP.com (solo 
- data\; ora non pubblicata): 2026-06-27
+ data\; ora non pubblicata): 2026-06-27\nConflitto: Conflitto con MotoGP.com
+  API ufficiale: 2026-06-27T10:10+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1712,7 +1787,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cef2fc4cffb5b653a0d6bb25@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260627T105000
 DTEND;TZID=Europe/Rome:20260627T110500
@@ -1725,7 +1800,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  c25c37-d307-4d45-b1ed-b1cb5e811975\nFonte orario: MotoGP.com API ufficiale 
  https://www.motogp.com/en/calendar/2026/event/Netherlands/47c25c37-d307-4d4
  5-b1ed-b1cb5e811975\nConflitto: Conflitto con MotoGP.com (solo data\; ora n
- on pubblicata): 2026-06-27
+ on pubblicata): 2026-06-27\nConflitto: Conflitto con MotoGP.com API ufficia
+ le: 2026-06-27T10:50+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1734,7 +1810,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9b2a7607360c37987983a891@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260627T111500
 DTEND;TZID=Europe/Rome:20260627T113000
@@ -1747,7 +1823,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  c25c37-d307-4d45-b1ed-b1cb5e811975\nFonte orario: MotoGP.com API ufficiale 
  https://www.motogp.com/en/calendar/2026/event/Netherlands/47c25c37-d307-4d4
  5-b1ed-b1cb5e811975\nConflitto: Conflitto con MotoGP.com (solo data\; ora n
- on pubblicata): 2026-06-27
+ on pubblicata): 2026-06-27\nConflitto: Conflitto con MotoGP.com API ufficia
+ le: 2026-06-27T11:15+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1756,7 +1833,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e0fbb4c258da4202f3e750bf@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260627T150000
 DTEND;TZID=Europe/Rome:20260627T160000
@@ -1769,7 +1846,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  c25c37-d307-4d45-b1ed-b1cb5e811975\nFonte orario: MotoGP.com API ufficiale 
  https://www.motogp.com/en/calendar/2026/event/Netherlands/47c25c37-d307-4d4
  5-b1ed-b1cb5e811975\nConflitto: Conflitto con MotoGP.com (solo data\; ora n
- on pubblicata): 2026-06-27
+ on pubblicata): 2026-06-27\nConflitto: Conflitto con MotoGP.com API ufficia
+ le: 2026-06-27T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1778,7 +1856,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:df7d878118f82ad98d786920@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260628T094000
 DTEND;TZID=Europe/Rome:20260628T095000
@@ -1791,7 +1869,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  therlands/47c25c37-d307-4d45-b1ed-b1cb5e811975\nFonte orario: MotoGP.com AP
  I ufficiale https://www.motogp.com/en/calendar/2026/event/Netherlands/47c25
  c37-d307-4d45-b1ed-b1cb5e811975\nConflitto: Conflitto con MotoGP.com (solo 
- data\; ora non pubblicata): 2026-06-28
+ data\; ora non pubblicata): 2026-06-28\nConflitto: Conflitto con MotoGP.com
+  API ufficiale: 2026-06-28T09:40+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1800,7 +1879,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0d206c16a5a3405628477b51@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260628T140000
 DTEND;TZID=Europe/Rome:20260628T150000
@@ -1813,7 +1892,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  c25c37-d307-4d45-b1ed-b1cb5e811975\nFonte orario: MotoGP.com API ufficiale 
  https://www.motogp.com/en/calendar/2026/event/Netherlands/47c25c37-d307-4d4
  5-b1ed-b1cb5e811975\nConflitto: Conflitto con MotoGP.com (solo data\; ora n
- on pubblicata): 2026-06-28
+ on pubblicata): 2026-06-28\nConflitto: Conflitto con MotoGP.com API ufficia
+ le: 2026-06-28T14:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1827,7 +1907,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bc0747e2a63e8f1f22906aaa@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260710T104500
 DTEND;TZID=Europe/Rome:20260710T113000
@@ -1840,7 +1920,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  rmany/259be6f4-c23c-4dc2-bc42-7664842f6409\nFonte orario: MotoGP.com API uf
  ficiale https://www.motogp.com/en/calendar/2026/event/Germany/259be6f4-c23c
  -4dc2-bc42-7664842f6409\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-07-10
+ ra non pubblicata): 2026-07-10\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-07-10T10:45+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1849,7 +1930,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0ba9d9f452786066e9ac2b33@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260710T150000
 DTEND;TZID=Europe/Rome:20260710T160000
@@ -1862,7 +1943,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  rmany/259be6f4-c23c-4dc2-bc42-7664842f6409\nFonte orario: MotoGP.com API uf
  ficiale https://www.motogp.com/en/calendar/2026/event/Germany/259be6f4-c23c
  -4dc2-bc42-7664842f6409\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-07-10
+ ra non pubblicata): 2026-07-10\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-07-10T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1871,7 +1953,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ce421dffe7a545c3bf538095@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260711T101000
 DTEND;TZID=Europe/Rome:20260711T104000
@@ -1884,7 +1966,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  rmany/259be6f4-c23c-4dc2-bc42-7664842f6409\nFonte orario: MotoGP.com API uf
  ficiale https://www.motogp.com/en/calendar/2026/event/Germany/259be6f4-c23c
  -4dc2-bc42-7664842f6409\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-07-11
+ ra non pubblicata): 2026-07-11\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-07-11T10:10+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1893,7 +1976,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3bdbb8d3152a83e67c80590d@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260711T105000
 DTEND;TZID=Europe/Rome:20260711T110500
@@ -1906,7 +1989,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  f4-c23c-4dc2-bc42-7664842f6409\nFonte orario: MotoGP.com API ufficiale http
  s://www.motogp.com/en/calendar/2026/event/Germany/259be6f4-c23c-4dc2-bc42-7
  664842f6409\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubbl
- icata): 2026-07-11
+ icata): 2026-07-11\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026
+ -07-11T10:50+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1915,7 +1999,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:21e1354862fdc4e8566e6b56@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260711T111500
 DTEND;TZID=Europe/Rome:20260711T113000
@@ -1928,7 +2012,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  f4-c23c-4dc2-bc42-7664842f6409\nFonte orario: MotoGP.com API ufficiale http
  s://www.motogp.com/en/calendar/2026/event/Germany/259be6f4-c23c-4dc2-bc42-7
  664842f6409\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubbl
- icata): 2026-07-11
+ icata): 2026-07-11\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026
+ -07-11T11:15+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1937,7 +2022,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b55686cb4e141a0b92436c19@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260711T150000
 DTEND;TZID=Europe/Rome:20260711T160000
@@ -1950,7 +2035,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  f4-c23c-4dc2-bc42-7664842f6409\nFonte orario: MotoGP.com API ufficiale http
  s://www.motogp.com/en/calendar/2026/event/Germany/259be6f4-c23c-4dc2-bc42-7
  664842f6409\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubbl
- icata): 2026-07-11
+ icata): 2026-07-11\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026
+ -07-11T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1959,7 +2045,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:12dc1a0f4fc456d28fabc482@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260712T094000
 DTEND;TZID=Europe/Rome:20260712T095000
@@ -1972,7 +2058,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  rmany/259be6f4-c23c-4dc2-bc42-7664842f6409\nFonte orario: MotoGP.com API uf
  ficiale https://www.motogp.com/en/calendar/2026/event/Germany/259be6f4-c23c
  -4dc2-bc42-7664842f6409\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-07-12
+ ra non pubblicata): 2026-07-12\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-07-12T09:40+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -1981,7 +2068,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a7e200af0d705d4f37305774@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260712T140000
 DTEND;TZID=Europe/Rome:20260712T150000
@@ -1994,7 +2081,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  f4-c23c-4dc2-bc42-7664842f6409\nFonte orario: MotoGP.com API ufficiale http
  s://www.motogp.com/en/calendar/2026/event/Germany/259be6f4-c23c-4dc2-bc42-7
  664842f6409\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubbl
- icata): 2026-07-12
+ icata): 2026-07-12\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026
+ -07-12T14:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2008,7 +2096,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dc41e5de18f0b6b5de6b6aff@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260807T124500
 DTEND;TZID=Europe/Rome:20260807T133000
@@ -2021,7 +2109,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  eat Britain/41aa319a-8ec5-49d6-aa99-4e2059c88098\nFonte orario: MotoGP.com 
  API ufficiale https://www.motogp.com/en/calendar/2026/event/Great Britain/4
  1aa319a-8ec5-49d6-aa99-4e2059c88098\nConflitto: Conflitto con MotoGP.com (s
- olo data\; ora non pubblicata): 2026-08-07
+ olo data\; ora non pubblicata): 2026-08-07\nConflitto: Conflitto con MotoGP
+ .com API ufficiale: 2026-08-07T12:45+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2030,7 +2119,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:56a303a5da13e1ea9fbce89c@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260807T170000
 DTEND;TZID=Europe/Rome:20260807T180000
@@ -2043,7 +2132,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  eat Britain/41aa319a-8ec5-49d6-aa99-4e2059c88098\nFonte orario: MotoGP.com 
  API ufficiale https://www.motogp.com/en/calendar/2026/event/Great Britain/4
  1aa319a-8ec5-49d6-aa99-4e2059c88098\nConflitto: Conflitto con MotoGP.com (s
- olo data\; ora non pubblicata): 2026-08-07
+ olo data\; ora non pubblicata): 2026-08-07\nConflitto: Conflitto con MotoGP
+ .com API ufficiale: 2026-08-07T17:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2052,7 +2142,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c4ae6d7c73136a31c521fae8@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260808T121000
 DTEND;TZID=Europe/Rome:20260808T124000
@@ -2065,7 +2155,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  eat Britain/41aa319a-8ec5-49d6-aa99-4e2059c88098\nFonte orario: MotoGP.com 
  API ufficiale https://www.motogp.com/en/calendar/2026/event/Great Britain/4
  1aa319a-8ec5-49d6-aa99-4e2059c88098\nConflitto: Conflitto con MotoGP.com (s
- olo data\; ora non pubblicata): 2026-08-08
+ olo data\; ora non pubblicata): 2026-08-08\nConflitto: Conflitto con MotoGP
+ .com API ufficiale: 2026-08-08T12:10+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2074,7 +2165,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:34d3cd01eabbf65ae395efaf@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260808T125000
 DTEND;TZID=Europe/Rome:20260808T130500
@@ -2087,7 +2178,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  41aa319a-8ec5-49d6-aa99-4e2059c88098\nFonte orario: MotoGP.com API ufficial
  e https://www.motogp.com/en/calendar/2026/event/Great Britain/41aa319a-8ec5
  -49d6-aa99-4e2059c88098\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-08-08
+ ra non pubblicata): 2026-08-08\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-08-08T12:50+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2096,7 +2188,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:18575cb469e9caaccc5ff089@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260808T131500
 DTEND;TZID=Europe/Rome:20260808T133000
@@ -2109,7 +2201,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  41aa319a-8ec5-49d6-aa99-4e2059c88098\nFonte orario: MotoGP.com API ufficial
  e https://www.motogp.com/en/calendar/2026/event/Great Britain/41aa319a-8ec5
  -49d6-aa99-4e2059c88098\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-08-08
+ ra non pubblicata): 2026-08-08\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-08-08T13:15+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2118,7 +2211,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6042421052c4e3ee404f76d5@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260808T170500
 DTEND;TZID=Europe/Rome:20260808T180500
@@ -2131,7 +2224,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  41aa319a-8ec5-49d6-aa99-4e2059c88098\nFonte orario: MotoGP.com API ufficial
  e https://www.motogp.com/en/calendar/2026/event/Great Britain/41aa319a-8ec5
  -49d6-aa99-4e2059c88098\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-08-08
+ ra non pubblicata): 2026-08-08\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-08-08T17:05+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2140,7 +2234,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c159fb88460c9e6942ce73f1@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260809T104000
 DTEND;TZID=Europe/Rome:20260809T105000
@@ -2153,7 +2247,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV On (international stream) (d
  eat Britain/41aa319a-8ec5-49d6-aa99-4e2059c88098\nFonte orario: MotoGP.com 
  API ufficiale https://www.motogp.com/en/calendar/2026/event/Great Britain/4
  1aa319a-8ec5-49d6-aa99-4e2059c88098\nConflitto: Conflitto con MotoGP.com (s
- olo data\; ora non pubblicata): 2026-08-09
+ olo data\; ora non pubblicata): 2026-08-09\nConflitto: Conflitto con MotoGP
+ .com API ufficiale: 2026-08-09T10:40+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2162,7 +2257,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ec5051d4d3bfb3a2a8de2e42@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:4
 DTSTART;TZID=Europe/Rome:20260809T140000
 DTEND;TZID=Europe/Rome:20260809T150000
@@ -2175,7 +2270,8 @@ DESCRIPTION:Stato: CONCLUSA\nAustria: ServusTV / ServusTV On (diretta) —
  41aa319a-8ec5-49d6-aa99-4e2059c88098\nFonte orario: MotoGP.com API ufficial
  e https://www.motogp.com/en/calendar/2026/event/Great Britain/41aa319a-8ec5
  -49d6-aa99-4e2059c88098\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-08-09
+ ra non pubblicata): 2026-08-09\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-08-09T14:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2189,7 +2285,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7608bb89cf545d143c04ec3b@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260828T104500
 DTEND;TZID=Europe/Rome:20260828T113000
@@ -2202,7 +2298,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Spain/86abdbde-5e3d-45b1-a1f0-f74044a90eb3\nFonte orario: MotoGP.com API 
  ufficiale https://www.motogp.com/en/calendar/2026/event/Spain/86abdbde-5e3d
  -45b1-a1f0-f74044a90eb3\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-08-28
+ ra non pubblicata): 2026-08-28\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-08-28T10:45+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2211,7 +2308,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:14ef35761d0bdf67ea9540df@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260828T150000
 DTEND;TZID=Europe/Rome:20260828T160000
@@ -2224,7 +2321,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Spain/86abdbde-5e3d-45b1-a1f0-f74044a90eb3\nFonte orario: MotoGP.com API 
  ufficiale https://www.motogp.com/en/calendar/2026/event/Spain/86abdbde-5e3d
  -45b1-a1f0-f74044a90eb3\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-08-28
+ ra non pubblicata): 2026-08-28\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-08-28T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2233,7 +2331,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1c75aea47ab1d8ad83972e8e@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260829T101000
 DTEND;TZID=Europe/Rome:20260829T104000
@@ -2246,7 +2344,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Spain/86abdbde-5e3d-45b1-a1f0-f74044a90eb3\nFonte orario: MotoGP.com API 
  ufficiale https://www.motogp.com/en/calendar/2026/event/Spain/86abdbde-5e3d
  -45b1-a1f0-f74044a90eb3\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-08-29
+ ra non pubblicata): 2026-08-29\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-08-29T10:10+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2255,7 +2354,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7518274ebe9169b5b6062bb7@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260829T105000
 DTEND;TZID=Europe/Rome:20260829T110500
@@ -2268,7 +2367,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  n/86abdbde-5e3d-45b1-a1f0-f74044a90eb3\nFonte orario: MotoGP.com API uffici
  ale https://www.motogp.com/en/calendar/2026/event/Spain/86abdbde-5e3d-45b1-
  a1f0-f74044a90eb3\nConflitto: Conflitto con MotoGP.com (solo data\; ora non
-  pubblicata): 2026-08-29
+  pubblicata): 2026-08-29\nConflitto: Conflitto con MotoGP.com API ufficiale
+ : 2026-08-29T10:50+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2277,7 +2377,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1800d0670e14cedfaed5e714@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260829T111500
 DTEND;TZID=Europe/Rome:20260829T113000
@@ -2290,7 +2390,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  n/86abdbde-5e3d-45b1-a1f0-f74044a90eb3\nFonte orario: MotoGP.com API uffici
  ale https://www.motogp.com/en/calendar/2026/event/Spain/86abdbde-5e3d-45b1-
  a1f0-f74044a90eb3\nConflitto: Conflitto con MotoGP.com (solo data\; ora non
-  pubblicata): 2026-08-29
+  pubblicata): 2026-08-29\nConflitto: Conflitto con MotoGP.com API ufficiale
+ : 2026-08-29T11:15+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2299,7 +2400,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bb49bdf309075c205fcf42e0@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260829T150000
 DTEND;TZID=Europe/Rome:20260829T160000
@@ -2312,7 +2413,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  n/86abdbde-5e3d-45b1-a1f0-f74044a90eb3\nFonte orario: MotoGP.com API uffici
  ale https://www.motogp.com/en/calendar/2026/event/Spain/86abdbde-5e3d-45b1-
  a1f0-f74044a90eb3\nConflitto: Conflitto con MotoGP.com (solo data\; ora non
-  pubblicata): 2026-08-29
+  pubblicata): 2026-08-29\nConflitto: Conflitto con MotoGP.com API ufficiale
+ : 2026-08-29T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2321,7 +2423,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4a2c60f32082eef54b94111f@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260830T094000
 DTEND;TZID=Europe/Rome:20260830T095000
@@ -2334,7 +2436,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Spain/86abdbde-5e3d-45b1-a1f0-f74044a90eb3\nFonte orario: MotoGP.com API 
  ufficiale https://www.motogp.com/en/calendar/2026/event/Spain/86abdbde-5e3d
  -45b1-a1f0-f74044a90eb3\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-08-30
+ ra non pubblicata): 2026-08-30\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-08-30T09:40+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2343,7 +2446,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:53b2c9ca03d85b8d32fba4c9@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260830T140000
 DTEND;TZID=Europe/Rome:20260830T150000
@@ -2356,7 +2459,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  n/86abdbde-5e3d-45b1-a1f0-f74044a90eb3\nFonte orario: MotoGP.com API uffici
  ale https://www.motogp.com/en/calendar/2026/event/Spain/86abdbde-5e3d-45b1-
  a1f0-f74044a90eb3\nConflitto: Conflitto con MotoGP.com (solo data\; ora non
-  pubblicata): 2026-08-30
+  pubblicata): 2026-08-30\nConflitto: Conflitto con MotoGP.com API ufficiale
+ : 2026-08-30T14:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2370,7 +2474,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cb5edde27adcceeeb5a3e823@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260911T104500
 DTEND;TZID=Europe/Rome:20260911T113000
@@ -2385,7 +2489,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/San Marino/537f71f7-25ea-4cb2-a259-70b0da576cc6\nFonte orario: MotoGP.com
   API ufficiale https://www.motogp.com/en/calendar/2026/event/San Marino/537
  f71f7-25ea-4cb2-a259-70b0da576cc6\nConflitto: Conflitto con MotoGP.com (sol
- o data\; ora non pubblicata): 2026-09-11
+ o data\; ora non pubblicata): 2026-09-11\nConflitto: Conflitto con MotoGP.c
+ om API ufficiale: 2026-09-11T10:45+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2394,7 +2499,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b9ea35b873271e077d567d75@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260911T150000
 DTEND;TZID=Europe/Rome:20260911T160000
@@ -2409,7 +2514,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/San Marino/537f71f7-25ea-4cb2-a259-70b0da576cc6\nFonte orario: MotoGP.com
   API ufficiale https://www.motogp.com/en/calendar/2026/event/San Marino/537
  f71f7-25ea-4cb2-a259-70b0da576cc6\nConflitto: Conflitto con MotoGP.com (sol
- o data\; ora non pubblicata): 2026-09-11
+ o data\; ora non pubblicata): 2026-09-11\nConflitto: Conflitto con MotoGP.c
+ om API ufficiale: 2026-09-11T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2418,7 +2524,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:adf7714315018f36085b7b1e@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260912T101000
 DTEND;TZID=Europe/Rome:20260912T104000
@@ -2432,7 +2538,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/San Marino/537f71f7-25ea-4cb2-a259-70b0da576cc6\nFonte orario: MotoGP.com
   API ufficiale https://www.motogp.com/en/calendar/2026/event/San Marino/537
  f71f7-25ea-4cb2-a259-70b0da576cc6\nConflitto: Conflitto con MotoGP.com (sol
- o data\; ora non pubblicata): 2026-09-12
+ o data\; ora non pubblicata): 2026-09-12\nConflitto: Conflitto con MotoGP.c
+ om API ufficiale: 2026-09-12T10:10+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2441,7 +2548,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:71deca606ec4e63266c8ab72@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260912T105000
 DTEND;TZID=Europe/Rome:20260912T110500
@@ -2455,7 +2562,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  /537f71f7-25ea-4cb2-a259-70b0da576cc6\nFonte orario: MotoGP.com API ufficia
  le https://www.motogp.com/en/calendar/2026/event/San Marino/537f71f7-25ea-4
  cb2-a259-70b0da576cc6\nConflitto: Conflitto con MotoGP.com (solo data\; ora
-  non pubblicata): 2026-09-12
+  non pubblicata): 2026-09-12\nConflitto: Conflitto con MotoGP.com API uffic
+ iale: 2026-09-12T10:50+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2464,7 +2572,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4726cc9358126898544384e1@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260912T111500
 DTEND;TZID=Europe/Rome:20260912T113000
@@ -2478,7 +2586,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  /537f71f7-25ea-4cb2-a259-70b0da576cc6\nFonte orario: MotoGP.com API ufficia
  le https://www.motogp.com/en/calendar/2026/event/San Marino/537f71f7-25ea-4
  cb2-a259-70b0da576cc6\nConflitto: Conflitto con MotoGP.com (solo data\; ora
-  non pubblicata): 2026-09-12
+  non pubblicata): 2026-09-12\nConflitto: Conflitto con MotoGP.com API uffic
+ iale: 2026-09-12T11:15+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2487,7 +2596,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e724410457d0b9d4b323dd62@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260912T150000
 DTEND;TZID=Europe/Rome:20260912T160000
@@ -2501,7 +2610,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  /537f71f7-25ea-4cb2-a259-70b0da576cc6\nFonte orario: MotoGP.com API ufficia
  le https://www.motogp.com/en/calendar/2026/event/San Marino/537f71f7-25ea-4
  cb2-a259-70b0da576cc6\nConflitto: Conflitto con MotoGP.com (solo data\; ora
-  non pubblicata): 2026-09-12
+  non pubblicata): 2026-09-12\nConflitto: Conflitto con MotoGP.com API uffic
+ iale: 2026-09-12T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2510,7 +2620,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9c67f0ea45a4a774e067fe80@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260913T094000
 DTEND;TZID=Europe/Rome:20260913T095000
@@ -2525,7 +2635,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/San Marino/537f71f7-25ea-4cb2-a259-70b0da576cc6\nFonte orario: MotoGP.com
   API ufficiale https://www.motogp.com/en/calendar/2026/event/San Marino/537
  f71f7-25ea-4cb2-a259-70b0da576cc6\nConflitto: Conflitto con MotoGP.com (sol
- o data\; ora non pubblicata): 2026-09-13
+ o data\; ora non pubblicata): 2026-09-13\nConflitto: Conflitto con MotoGP.c
+ om API ufficiale: 2026-09-13T09:40+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2534,7 +2645,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a6adb8b97812f6152c7b470b@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260913T140000
 DTEND;TZID=Europe/Rome:20260913T150000
@@ -2548,7 +2659,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  /537f71f7-25ea-4cb2-a259-70b0da576cc6\nFonte orario: MotoGP.com API ufficia
  le https://www.motogp.com/en/calendar/2026/event/San Marino/537f71f7-25ea-4
  cb2-a259-70b0da576cc6\nConflitto: Conflitto con MotoGP.com (solo data\; ora
-  non pubblicata): 2026-09-13
+  non pubblicata): 2026-09-13\nConflitto: Conflitto con MotoGP.com API uffic
+ iale: 2026-09-13T14:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2562,7 +2674,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6c427daa5521ca9141f6f226@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260918T104500
 DTEND;TZID=Europe/Rome:20260918T113000
@@ -2575,7 +2687,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Austria/1d659e29-247a-402c-ba1e-33fa14670cbe\nFonte orario: MotoGP.com AP
  I ufficiale https://www.motogp.com/en/calendar/2026/event/Austria/1d659e29-
  247a-402c-ba1e-33fa14670cbe\nConflitto: Conflitto con MotoGP.com (solo data
- \; ora non pubblicata): 2026-09-18
+ \; ora non pubblicata): 2026-09-18\nConflitto: Conflitto con MotoGP.com API
+  ufficiale: 2026-09-18T10:45+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2584,7 +2697,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4cfd531253e48f3b0490ac74@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260918T150000
 DTEND;TZID=Europe/Rome:20260918T160000
@@ -2597,7 +2710,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Austria/1d659e29-247a-402c-ba1e-33fa14670cbe\nFonte orario: MotoGP.com AP
  I ufficiale https://www.motogp.com/en/calendar/2026/event/Austria/1d659e29-
  247a-402c-ba1e-33fa14670cbe\nConflitto: Conflitto con MotoGP.com (solo data
- \; ora non pubblicata): 2026-09-18
+ \; ora non pubblicata): 2026-09-18\nConflitto: Conflitto con MotoGP.com API
+  ufficiale: 2026-09-18T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2606,7 +2720,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3b3aa04fb41e14e3eb6e468a@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260919T101000
 DTEND;TZID=Europe/Rome:20260919T104000
@@ -2619,7 +2733,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Austria/1d659e29-247a-402c-ba1e-33fa14670cbe\nFonte orario: MotoGP.com AP
  I ufficiale https://www.motogp.com/en/calendar/2026/event/Austria/1d659e29-
  247a-402c-ba1e-33fa14670cbe\nConflitto: Conflitto con MotoGP.com (solo data
- \; ora non pubblicata): 2026-09-19
+ \; ora non pubblicata): 2026-09-19\nConflitto: Conflitto con MotoGP.com API
+  ufficiale: 2026-09-19T10:10+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2628,7 +2743,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:80b86e96ae75c9b2c80b96d1@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260919T105000
 DTEND;TZID=Europe/Rome:20260919T110500
@@ -2641,7 +2756,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  659e29-247a-402c-ba1e-33fa14670cbe\nFonte orario: MotoGP.com API ufficiale 
  https://www.motogp.com/en/calendar/2026/event/Austria/1d659e29-247a-402c-ba
  1e-33fa14670cbe\nConflitto: Conflitto con MotoGP.com (solo data\; ora non p
- ubblicata): 2026-09-19
+ ubblicata): 2026-09-19\nConflitto: Conflitto con MotoGP.com API ufficiale: 
+ 2026-09-19T10:50+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2650,7 +2766,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e8728f129d6210033858eb2d@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260919T111500
 DTEND;TZID=Europe/Rome:20260919T113000
@@ -2663,7 +2779,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  659e29-247a-402c-ba1e-33fa14670cbe\nFonte orario: MotoGP.com API ufficiale 
  https://www.motogp.com/en/calendar/2026/event/Austria/1d659e29-247a-402c-ba
  1e-33fa14670cbe\nConflitto: Conflitto con MotoGP.com (solo data\; ora non p
- ubblicata): 2026-09-19
+ ubblicata): 2026-09-19\nConflitto: Conflitto con MotoGP.com API ufficiale: 
+ 2026-09-19T11:15+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2672,7 +2789,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:91eb88345b2d3d41acf5621a@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260919T150000
 DTEND;TZID=Europe/Rome:20260919T160000
@@ -2685,7 +2802,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  659e29-247a-402c-ba1e-33fa14670cbe\nFonte orario: MotoGP.com API ufficiale 
  https://www.motogp.com/en/calendar/2026/event/Austria/1d659e29-247a-402c-ba
  1e-33fa14670cbe\nConflitto: Conflitto con MotoGP.com (solo data\; ora non p
- ubblicata): 2026-09-19
+ ubblicata): 2026-09-19\nConflitto: Conflitto con MotoGP.com API ufficiale: 
+ 2026-09-19T15:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2694,7 +2812,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c55ea1a8e0ad5fb46201dae5@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260920T094000
 DTEND;TZID=Europe/Rome:20260920T095000
@@ -2707,7 +2825,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Austria/1d659e29-247a-402c-ba1e-33fa14670cbe\nFonte orario: MotoGP.com AP
  I ufficiale https://www.motogp.com/en/calendar/2026/event/Austria/1d659e29-
  247a-402c-ba1e-33fa14670cbe\nConflitto: Conflitto con MotoGP.com (solo data
- \; ora non pubblicata): 2026-09-20
+ \; ora non pubblicata): 2026-09-20\nConflitto: Conflitto con MotoGP.com API
+  ufficiale: 2026-09-20T09:40+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2716,7 +2835,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f075c3a62d5dd2331165f1b3@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20260920T140000
 DTEND;TZID=Europe/Rome:20260920T150000
@@ -2729,7 +2848,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  659e29-247a-402c-ba1e-33fa14670cbe\nFonte orario: MotoGP.com API ufficiale 
  https://www.motogp.com/en/calendar/2026/event/Austria/1d659e29-247a-402c-ba
  1e-33fa14670cbe\nConflitto: Conflitto con MotoGP.com (solo data\; ora non p
- ubblicata): 2026-09-20
+ ubblicata): 2026-09-20\nConflitto: Conflitto con MotoGP.com API ufficiale: 
+ 2026-09-20T14:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2743,7 +2863,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:aa658f973c642b0cbf8525c9@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261002T034500
 DTEND;TZID=Europe/Rome:20261002T043000
@@ -2756,7 +2876,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Japan/a87453f0-3ed0-4469-993a-1486af92d879\nFonte orario: MotoGP.com API 
  ufficiale https://www.motogp.com/en/calendar/2026/event/Japan/a87453f0-3ed0
  -4469-993a-1486af92d879\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-10-02
+ ra non pubblicata): 2026-10-02\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-10-02T03:45+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2765,7 +2886,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:14ea3f1f80a89ea1b662c689@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261002T080000
 DTEND;TZID=Europe/Rome:20261002T090000
@@ -2778,7 +2899,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Japan/a87453f0-3ed0-4469-993a-1486af92d879\nFonte orario: MotoGP.com API 
  ufficiale https://www.motogp.com/en/calendar/2026/event/Japan/a87453f0-3ed0
  -4469-993a-1486af92d879\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-10-02
+ ra non pubblicata): 2026-10-02\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-10-02T08:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2787,7 +2909,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:04745c06352ecbd9667624e7@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261003T031000
 DTEND;TZID=Europe/Rome:20261003T034000
@@ -2800,7 +2922,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Japan/a87453f0-3ed0-4469-993a-1486af92d879\nFonte orario: MotoGP.com API 
  ufficiale https://www.motogp.com/en/calendar/2026/event/Japan/a87453f0-3ed0
  -4469-993a-1486af92d879\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-10-03
+ ra non pubblicata): 2026-10-03\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-10-03T03:10+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2809,7 +2932,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6f9497e3db0561d08e12c950@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261003T035000
 DTEND;TZID=Europe/Rome:20261003T040500
@@ -2822,7 +2945,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  53f0-3ed0-4469-993a-1486af92d879\nFonte orario: MotoGP.com API ufficiale ht
  tps://www.motogp.com/en/calendar/2026/event/Japan/a87453f0-3ed0-4469-993a-1
  486af92d879\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubbl
- icata): 2026-10-03
+ icata): 2026-10-03\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026
+ -10-03T03:50+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2831,7 +2955,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0cbfcfcf87900edaa4aa8547@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261003T041500
 DTEND;TZID=Europe/Rome:20261003T043000
@@ -2844,7 +2968,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  53f0-3ed0-4469-993a-1486af92d879\nFonte orario: MotoGP.com API ufficiale ht
  tps://www.motogp.com/en/calendar/2026/event/Japan/a87453f0-3ed0-4469-993a-1
  486af92d879\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubbl
- icata): 2026-10-03
+ icata): 2026-10-03\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026
+ -10-03T04:15+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2853,7 +2978,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:82b46590e2a49b8b97a08f20@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261003T080000
 DTEND;TZID=Europe/Rome:20261003T090000
@@ -2866,7 +2991,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  53f0-3ed0-4469-993a-1486af92d879\nFonte orario: MotoGP.com API ufficiale ht
  tps://www.motogp.com/en/calendar/2026/event/Japan/a87453f0-3ed0-4469-993a-1
  486af92d879\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubbl
- icata): 2026-10-03
+ icata): 2026-10-03\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026
+ -10-03T08:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2875,7 +3001,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fad16f78ee89e96b7fa8c606@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261004T024000
 DTEND;TZID=Europe/Rome:20261004T025000
@@ -2888,7 +3014,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Japan/a87453f0-3ed0-4469-993a-1486af92d879\nFonte orario: MotoGP.com API 
  ufficiale https://www.motogp.com/en/calendar/2026/event/Japan/a87453f0-3ed0
  -4469-993a-1486af92d879\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-10-04
+ ra non pubblicata): 2026-10-04\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-10-04T02:40+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2897,7 +3024,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b48806a2d5a515391353833b@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261004T070000
 DTEND;TZID=Europe/Rome:20261004T080000
@@ -2910,7 +3037,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  53f0-3ed0-4469-993a-1486af92d879\nFonte orario: MotoGP.com API ufficiale ht
  tps://www.motogp.com/en/calendar/2026/event/Japan/a87453f0-3ed0-4469-993a-1
  486af92d879\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubbl
- icata): 2026-10-04
+ icata): 2026-10-04\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026
+ -10-04T07:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2924,7 +3052,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:928e87a11c9ad0a8f49406b0@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261009T044500
 DTEND;TZID=Europe/Rome:20261009T053000
@@ -2937,7 +3065,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Indonesia/877c27e8-70e0-4847-bacf-2290d7cc903c\nFonte orario: MotoGP.com 
  API ufficiale https://www.motogp.com/en/calendar/2026/event/Indonesia/877c2
  7e8-70e0-4847-bacf-2290d7cc903c\nConflitto: Conflitto con MotoGP.com (solo 
- data\; ora non pubblicata): 2026-10-09
+ data\; ora non pubblicata): 2026-10-09\nConflitto: Conflitto con MotoGP.com
+  API ufficiale: 2026-10-09T04:45+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2946,7 +3075,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f8f4a123c0200f9601bbfb9e@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261009T090000
 DTEND;TZID=Europe/Rome:20261009T100000
@@ -2959,7 +3088,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Indonesia/877c27e8-70e0-4847-bacf-2290d7cc903c\nFonte orario: MotoGP.com 
  API ufficiale https://www.motogp.com/en/calendar/2026/event/Indonesia/877c2
  7e8-70e0-4847-bacf-2290d7cc903c\nConflitto: Conflitto con MotoGP.com (solo 
- data\; ora non pubblicata): 2026-10-09
+ data\; ora non pubblicata): 2026-10-09\nConflitto: Conflitto con MotoGP.com
+  API ufficiale: 2026-10-09T09:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2968,7 +3098,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5a71d759def3b5294df48780@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261010T041000
 DTEND;TZID=Europe/Rome:20261010T044000
@@ -2981,7 +3111,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Indonesia/877c27e8-70e0-4847-bacf-2290d7cc903c\nFonte orario: MotoGP.com 
  API ufficiale https://www.motogp.com/en/calendar/2026/event/Indonesia/877c2
  7e8-70e0-4847-bacf-2290d7cc903c\nConflitto: Conflitto con MotoGP.com (solo 
- data\; ora non pubblicata): 2026-10-10
+ data\; ora non pubblicata): 2026-10-10\nConflitto: Conflitto con MotoGP.com
+  API ufficiale: 2026-10-10T04:10+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -2990,7 +3121,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a7c8cd22ecfa60e15a465b45@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261010T045000
 DTEND;TZID=Europe/Rome:20261010T050500
@@ -3003,7 +3134,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  877c27e8-70e0-4847-bacf-2290d7cc903c\nFonte orario: MotoGP.com API ufficial
  e https://www.motogp.com/en/calendar/2026/event/Indonesia/877c27e8-70e0-484
  7-bacf-2290d7cc903c\nConflitto: Conflitto con MotoGP.com (solo data\; ora n
- on pubblicata): 2026-10-10
+ on pubblicata): 2026-10-10\nConflitto: Conflitto con MotoGP.com API ufficia
+ le: 2026-10-10T04:50+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3012,7 +3144,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7f8e3671a88830054ca121f9@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261010T051500
 DTEND;TZID=Europe/Rome:20261010T053000
@@ -3025,7 +3157,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  877c27e8-70e0-4847-bacf-2290d7cc903c\nFonte orario: MotoGP.com API ufficial
  e https://www.motogp.com/en/calendar/2026/event/Indonesia/877c27e8-70e0-484
  7-bacf-2290d7cc903c\nConflitto: Conflitto con MotoGP.com (solo data\; ora n
- on pubblicata): 2026-10-10
+ on pubblicata): 2026-10-10\nConflitto: Conflitto con MotoGP.com API ufficia
+ le: 2026-10-10T05:15+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3034,7 +3167,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1304f94452e3ff820da4296c@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261010T090000
 DTEND;TZID=Europe/Rome:20261010T100000
@@ -3047,7 +3180,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  877c27e8-70e0-4847-bacf-2290d7cc903c\nFonte orario: MotoGP.com API ufficial
  e https://www.motogp.com/en/calendar/2026/event/Indonesia/877c27e8-70e0-484
  7-bacf-2290d7cc903c\nConflitto: Conflitto con MotoGP.com (solo data\; ora n
- on pubblicata): 2026-10-10
+ on pubblicata): 2026-10-10\nConflitto: Conflitto con MotoGP.com API ufficia
+ le: 2026-10-10T09:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3056,7 +3190,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:08f2c431a68a1ddb5ae48d15@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261011T044000
 DTEND;TZID=Europe/Rome:20261011T045000
@@ -3069,7 +3203,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Indonesia/877c27e8-70e0-4847-bacf-2290d7cc903c\nFonte orario: MotoGP.com 
  API ufficiale https://www.motogp.com/en/calendar/2026/event/Indonesia/877c2
  7e8-70e0-4847-bacf-2290d7cc903c\nConflitto: Conflitto con MotoGP.com (solo 
- data\; ora non pubblicata): 2026-10-11
+ data\; ora non pubblicata): 2026-10-11\nConflitto: Conflitto con MotoGP.com
+  API ufficiale: 2026-10-11T04:40+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3078,7 +3213,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:df6ec57ebec2b1019211f18d@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261011T080000
 DTEND;TZID=Europe/Rome:20261011T090000
@@ -3091,7 +3226,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  877c27e8-70e0-4847-bacf-2290d7cc903c\nFonte orario: MotoGP.com API ufficial
  e https://www.motogp.com/en/calendar/2026/event/Indonesia/877c27e8-70e0-484
  7-bacf-2290d7cc903c\nConflitto: Conflitto con MotoGP.com (solo data\; ora n
- on pubblicata): 2026-10-11
+ on pubblicata): 2026-10-11\nConflitto: Conflitto con MotoGP.com API ufficia
+ le: 2026-10-11T08:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3105,7 +3241,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1c4d2c52d45d1ff012949579@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261023T014500
 DTEND;TZID=Europe/Rome:20261023T023000
@@ -3118,7 +3254,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Australia/66961f05-2454-4455-9d65-f99c49d25b17\nFonte orario: MotoGP.com 
  API ufficiale https://www.motogp.com/en/calendar/2026/event/Australia/66961
  f05-2454-4455-9d65-f99c49d25b17\nConflitto: Conflitto con MotoGP.com (solo 
- data\; ora non pubblicata): 2026-10-23
+ data\; ora non pubblicata): 2026-10-23\nConflitto: Conflitto con MotoGP.com
+  API ufficiale: 2026-10-23T01:45+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3127,7 +3264,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b626cbfcbbb9b123b7423c52@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261023T060000
 DTEND;TZID=Europe/Rome:20261023T070000
@@ -3140,7 +3277,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Australia/66961f05-2454-4455-9d65-f99c49d25b17\nFonte orario: MotoGP.com 
  API ufficiale https://www.motogp.com/en/calendar/2026/event/Australia/66961
  f05-2454-4455-9d65-f99c49d25b17\nConflitto: Conflitto con MotoGP.com (solo 
- data\; ora non pubblicata): 2026-10-23
+ data\; ora non pubblicata): 2026-10-23\nConflitto: Conflitto con MotoGP.com
+  API ufficiale: 2026-10-23T06:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3149,7 +3287,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:115188ffb14aae757de4e95f@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261024T011000
 DTEND;TZID=Europe/Rome:20261024T014000
@@ -3162,7 +3300,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Australia/66961f05-2454-4455-9d65-f99c49d25b17\nFonte orario: MotoGP.com 
  API ufficiale https://www.motogp.com/en/calendar/2026/event/Australia/66961
  f05-2454-4455-9d65-f99c49d25b17\nConflitto: Conflitto con MotoGP.com (solo 
- data\; ora non pubblicata): 2026-10-24
+ data\; ora non pubblicata): 2026-10-24\nConflitto: Conflitto con MotoGP.com
+  API ufficiale: 2026-10-24T01:10+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3171,7 +3310,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:00aee1d48bbbea49ed6b1d63@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261024T015000
 DTEND;TZID=Europe/Rome:20261024T020500
@@ -3184,7 +3323,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  66961f05-2454-4455-9d65-f99c49d25b17\nFonte orario: MotoGP.com API ufficial
  e https://www.motogp.com/en/calendar/2026/event/Australia/66961f05-2454-445
  5-9d65-f99c49d25b17\nConflitto: Conflitto con MotoGP.com (solo data\; ora n
- on pubblicata): 2026-10-24
+ on pubblicata): 2026-10-24\nConflitto: Conflitto con MotoGP.com API ufficia
+ le: 2026-10-24T01:50+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3193,7 +3333,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ce67126ec2f629d1114387f8@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261024T021500
 DTEND;TZID=Europe/Rome:20261024T023000
@@ -3206,7 +3346,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  66961f05-2454-4455-9d65-f99c49d25b17\nFonte orario: MotoGP.com API ufficial
  e https://www.motogp.com/en/calendar/2026/event/Australia/66961f05-2454-445
  5-9d65-f99c49d25b17\nConflitto: Conflitto con MotoGP.com (solo data\; ora n
- on pubblicata): 2026-10-24
+ on pubblicata): 2026-10-24\nConflitto: Conflitto con MotoGP.com API ufficia
+ le: 2026-10-24T02:15+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3215,7 +3356,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cb6785cc8ff9b5eae0b9e5f0@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261024T060000
 DTEND;TZID=Europe/Rome:20261024T070000
@@ -3228,7 +3369,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  66961f05-2454-4455-9d65-f99c49d25b17\nFonte orario: MotoGP.com API ufficial
  e https://www.motogp.com/en/calendar/2026/event/Australia/66961f05-2454-445
  5-9d65-f99c49d25b17\nConflitto: Conflitto con MotoGP.com (solo data\; ora n
- on pubblicata): 2026-10-24
+ on pubblicata): 2026-10-24\nConflitto: Conflitto con MotoGP.com API ufficia
+ le: 2026-10-24T06:00+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3237,7 +3379,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5c894213c607f721f5efa0e5@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261025T004000
 DTEND;TZID=Europe/Rome:20261025T005000
@@ -3250,7 +3392,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Australia/66961f05-2454-4455-9d65-f99c49d25b17\nFonte orario: MotoGP.com 
  API ufficiale https://www.motogp.com/en/calendar/2026/event/Australia/66961
  f05-2454-4455-9d65-f99c49d25b17\nConflitto: Conflitto con MotoGP.com (solo 
- data\; ora non pubblicata): 2026-10-25
+ data\; ora non pubblicata): 2026-10-25\nConflitto: Conflitto con MotoGP.com
+  API ufficiale: 2026-10-25T00:40+02:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3259,7 +3402,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1260dcd1c43e4adca740f0ac@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261025T040000
 DTEND;TZID=Europe/Rome:20261025T050000
@@ -3272,7 +3415,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  66961f05-2454-4455-9d65-f99c49d25b17\nFonte orario: MotoGP.com API ufficial
  e https://www.motogp.com/en/calendar/2026/event/Australia/66961f05-2454-445
  5-9d65-f99c49d25b17\nConflitto: Conflitto con MotoGP.com (solo data\; ora n
- on pubblicata): 2026-10-25
+ on pubblicata): 2026-10-25\nConflitto: Conflitto con MotoGP.com API ufficia
+ le: 2026-10-25T04:00+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3286,7 +3430,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b81ef6c7fe02a6244c20c205@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261030T034500
 DTEND;TZID=Europe/Rome:20261030T043000
@@ -3299,7 +3443,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Malaysia/d1aedfce-d7c8-4d4a-9532-99c82547baad\nFonte orario: MotoGP.com A
  PI ufficiale https://www.motogp.com/en/calendar/2026/event/Malaysia/d1aedfc
  e-d7c8-4d4a-9532-99c82547baad\nConflitto: Conflitto con MotoGP.com (solo da
- ta\; ora non pubblicata): 2026-10-30
+ ta\; ora non pubblicata): 2026-10-30\nConflitto: Conflitto con MotoGP.com A
+ PI ufficiale: 2026-10-30T03:45+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3308,7 +3453,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bb9e4efb9c5d067670694e32@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261030T080000
 DTEND;TZID=Europe/Rome:20261030T090000
@@ -3321,7 +3466,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Malaysia/d1aedfce-d7c8-4d4a-9532-99c82547baad\nFonte orario: MotoGP.com A
  PI ufficiale https://www.motogp.com/en/calendar/2026/event/Malaysia/d1aedfc
  e-d7c8-4d4a-9532-99c82547baad\nConflitto: Conflitto con MotoGP.com (solo da
- ta\; ora non pubblicata): 2026-10-30
+ ta\; ora non pubblicata): 2026-10-30\nConflitto: Conflitto con MotoGP.com A
+ PI ufficiale: 2026-10-30T08:00+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3330,7 +3476,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:29a6772f51b1dac4e1078514@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261031T031000
 DTEND;TZID=Europe/Rome:20261031T034000
@@ -3343,7 +3489,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Malaysia/d1aedfce-d7c8-4d4a-9532-99c82547baad\nFonte orario: MotoGP.com A
  PI ufficiale https://www.motogp.com/en/calendar/2026/event/Malaysia/d1aedfc
  e-d7c8-4d4a-9532-99c82547baad\nConflitto: Conflitto con MotoGP.com (solo da
- ta\; ora non pubblicata): 2026-10-31
+ ta\; ora non pubblicata): 2026-10-31\nConflitto: Conflitto con MotoGP.com A
+ PI ufficiale: 2026-10-31T03:10+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3352,7 +3499,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:49f0773ac5a004a9b35c8576@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261031T035000
 DTEND;TZID=Europe/Rome:20261031T040500
@@ -3365,7 +3512,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  1aedfce-d7c8-4d4a-9532-99c82547baad\nFonte orario: MotoGP.com API ufficiale
   https://www.motogp.com/en/calendar/2026/event/Malaysia/d1aedfce-d7c8-4d4a-
  9532-99c82547baad\nConflitto: Conflitto con MotoGP.com (solo data\; ora non
-  pubblicata): 2026-10-31
+  pubblicata): 2026-10-31\nConflitto: Conflitto con MotoGP.com API ufficiale
+ : 2026-10-31T03:50+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3374,7 +3522,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:95afa0dff3ce3f55a2f03d36@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261031T041500
 DTEND;TZID=Europe/Rome:20261031T043000
@@ -3387,7 +3535,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  1aedfce-d7c8-4d4a-9532-99c82547baad\nFonte orario: MotoGP.com API ufficiale
   https://www.motogp.com/en/calendar/2026/event/Malaysia/d1aedfce-d7c8-4d4a-
  9532-99c82547baad\nConflitto: Conflitto con MotoGP.com (solo data\; ora non
-  pubblicata): 2026-10-31
+  pubblicata): 2026-10-31\nConflitto: Conflitto con MotoGP.com API ufficiale
+ : 2026-10-31T04:15+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3396,7 +3545,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:63796c80f4022e1b18258673@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261031T080000
 DTEND;TZID=Europe/Rome:20261031T090000
@@ -3409,7 +3558,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  1aedfce-d7c8-4d4a-9532-99c82547baad\nFonte orario: MotoGP.com API ufficiale
   https://www.motogp.com/en/calendar/2026/event/Malaysia/d1aedfce-d7c8-4d4a-
  9532-99c82547baad\nConflitto: Conflitto con MotoGP.com (solo data\; ora non
-  pubblicata): 2026-10-31
+  pubblicata): 2026-10-31\nConflitto: Conflitto con MotoGP.com API ufficiale
+ : 2026-10-31T08:00+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3418,7 +3568,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8d21570ea0c0c73ef5cb151d@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261101T034000
 DTEND;TZID=Europe/Rome:20261101T035000
@@ -3431,7 +3581,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Malaysia/d1aedfce-d7c8-4d4a-9532-99c82547baad\nFonte orario: MotoGP.com A
  PI ufficiale https://www.motogp.com/en/calendar/2026/event/Malaysia/d1aedfc
  e-d7c8-4d4a-9532-99c82547baad\nConflitto: Conflitto con MotoGP.com (solo da
- ta\; ora non pubblicata): 2026-11-01
+ ta\; ora non pubblicata): 2026-11-01\nConflitto: Conflitto con MotoGP.com A
+ PI ufficiale: 2026-11-01T03:40+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3440,7 +3591,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:25259c039622fb51d1eb94d6@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261101T080000
 DTEND;TZID=Europe/Rome:20261101T090000
@@ -3453,7 +3604,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  1aedfce-d7c8-4d4a-9532-99c82547baad\nFonte orario: MotoGP.com API ufficiale
   https://www.motogp.com/en/calendar/2026/event/Malaysia/d1aedfce-d7c8-4d4a-
  9532-99c82547baad\nConflitto: Conflitto con MotoGP.com (solo data\; ora non
-  pubblicata): 2026-11-01
+  pubblicata): 2026-11-01\nConflitto: Conflitto con MotoGP.com API ufficiale
+ : 2026-11-01T08:00+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3467,7 +3619,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:909025714831f4407c07c84a@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261106T134500
 DTEND;TZID=Europe/Rome:20261106T143000
@@ -3480,7 +3632,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Qatar/3f3d3f5e-851c-42d2-887a-8ce8b41fa908\nFonte orario: MotoGP.com API 
  ufficiale https://www.motogp.com/en/calendar/2026/event/Qatar/3f3d3f5e-851c
  -42d2-887a-8ce8b41fa908\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-11-06
+ ra non pubblicata): 2026-11-06\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-11-06T13:45+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3489,7 +3642,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:96c8dc5574ec8dcc47826bb3@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261106T180000
 DTEND;TZID=Europe/Rome:20261106T190000
@@ -3502,7 +3655,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Qatar/3f3d3f5e-851c-42d2-887a-8ce8b41fa908\nFonte orario: MotoGP.com API 
  ufficiale https://www.motogp.com/en/calendar/2026/event/Qatar/3f3d3f5e-851c
  -42d2-887a-8ce8b41fa908\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-11-06
+ ra non pubblicata): 2026-11-06\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-11-06T18:00+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3511,7 +3665,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fbdd7486dd067df4d24a9b0f@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261107T130000
 DTEND;TZID=Europe/Rome:20261107T133000
@@ -3524,7 +3678,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Qatar/3f3d3f5e-851c-42d2-887a-8ce8b41fa908\nFonte orario: MotoGP.com API 
  ufficiale https://www.motogp.com/en/calendar/2026/event/Qatar/3f3d3f5e-851c
  -42d2-887a-8ce8b41fa908\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-11-07
+ ra non pubblicata): 2026-11-07\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-11-07T13:00+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3533,7 +3688,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:80b829de0b76bad87156d33a@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261107T134000
 DTEND;TZID=Europe/Rome:20261107T135500
@@ -3546,7 +3701,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  3f5e-851c-42d2-887a-8ce8b41fa908\nFonte orario: MotoGP.com API ufficiale ht
  tps://www.motogp.com/en/calendar/2026/event/Qatar/3f3d3f5e-851c-42d2-887a-8
  ce8b41fa908\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubbl
- icata): 2026-11-07
+ icata): 2026-11-07\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026
+ -11-07T13:40+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3555,7 +3711,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5331e292f0bb5ca6f0c8b150@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261107T140500
 DTEND;TZID=Europe/Rome:20261107T142000
@@ -3568,7 +3724,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  3f5e-851c-42d2-887a-8ce8b41fa908\nFonte orario: MotoGP.com API ufficiale ht
  tps://www.motogp.com/en/calendar/2026/event/Qatar/3f3d3f5e-851c-42d2-887a-8
  ce8b41fa908\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubbl
- icata): 2026-11-07
+ icata): 2026-11-07\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026
+ -11-07T14:05+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3577,7 +3734,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6bf2aed775948e2ae1423de5@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261107T180000
 DTEND;TZID=Europe/Rome:20261107T190000
@@ -3590,7 +3747,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  3f5e-851c-42d2-887a-8ce8b41fa908\nFonte orario: MotoGP.com API ufficiale ht
  tps://www.motogp.com/en/calendar/2026/event/Qatar/3f3d3f5e-851c-42d2-887a-8
  ce8b41fa908\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubbl
- icata): 2026-11-07
+ icata): 2026-11-07\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026
+ -11-07T18:00+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3599,7 +3757,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9745694d57c1973a93ad6c93@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261108T134000
 DTEND;TZID=Europe/Rome:20261108T135000
@@ -3612,7 +3770,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Qatar/3f3d3f5e-851c-42d2-887a-8ce8b41fa908\nFonte orario: MotoGP.com API 
  ufficiale https://www.motogp.com/en/calendar/2026/event/Qatar/3f3d3f5e-851c
  -42d2-887a-8ce8b41fa908\nConflitto: Conflitto con MotoGP.com (solo data\; o
- ra non pubblicata): 2026-11-08
+ ra non pubblicata): 2026-11-08\nConflitto: Conflitto con MotoGP.com API uff
+ iciale: 2026-11-08T13:40+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3621,7 +3780,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b8bf268e0c2ee1fbc560df8f@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261108T180000
 DTEND;TZID=Europe/Rome:20261108T190000
@@ -3634,7 +3793,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  3f5e-851c-42d2-887a-8ce8b41fa908\nFonte orario: MotoGP.com API ufficiale ht
  tps://www.motogp.com/en/calendar/2026/event/Qatar/3f3d3f5e-851c-42d2-887a-8
  ce8b41fa908\nConflitto: Conflitto con MotoGP.com (solo data\; ora non pubbl
- icata): 2026-11-08
+ icata): 2026-11-08\nConflitto: Conflitto con MotoGP.com API ufficiale: 2026
+ -11-08T18:00+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3648,7 +3808,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6a5b03a22a3853c83c1f0911@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261120T114500
 DTEND;TZID=Europe/Rome:20261120T123000
@@ -3661,7 +3821,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Portugal/c7f7626b-807f-4a6f-813e-7ad2c68302a3\nFonte orario: MotoGP.com A
  PI ufficiale https://www.motogp.com/en/calendar/2026/event/Portugal/c7f7626
  b-807f-4a6f-813e-7ad2c68302a3\nConflitto: Conflitto con MotoGP.com (solo da
- ta\; ora non pubblicata): 2026-11-20
+ ta\; ora non pubblicata): 2026-11-20\nConflitto: Conflitto con MotoGP.com A
+ PI ufficiale: 2026-11-20T11:45+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3670,7 +3831,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b7fc2e939daa794e5878ee8d@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261120T160000
 DTEND;TZID=Europe/Rome:20261120T170000
@@ -3683,7 +3844,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Portugal/c7f7626b-807f-4a6f-813e-7ad2c68302a3\nFonte orario: MotoGP.com A
  PI ufficiale https://www.motogp.com/en/calendar/2026/event/Portugal/c7f7626
  b-807f-4a6f-813e-7ad2c68302a3\nConflitto: Conflitto con MotoGP.com (solo da
- ta\; ora non pubblicata): 2026-11-20
+ ta\; ora non pubblicata): 2026-11-20\nConflitto: Conflitto con MotoGP.com A
+ PI ufficiale: 2026-11-20T16:00+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3692,7 +3854,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5a66e41eabe6df664fb949b6@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261121T111000
 DTEND;TZID=Europe/Rome:20261121T114000
@@ -3705,7 +3867,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Portugal/c7f7626b-807f-4a6f-813e-7ad2c68302a3\nFonte orario: MotoGP.com A
  PI ufficiale https://www.motogp.com/en/calendar/2026/event/Portugal/c7f7626
  b-807f-4a6f-813e-7ad2c68302a3\nConflitto: Conflitto con MotoGP.com (solo da
- ta\; ora non pubblicata): 2026-11-21
+ ta\; ora non pubblicata): 2026-11-21\nConflitto: Conflitto con MotoGP.com A
+ PI ufficiale: 2026-11-21T11:10+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3714,7 +3877,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:715fbea8c86daed970db91e5@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261121T115000
 DTEND;TZID=Europe/Rome:20261121T120500
@@ -3727,7 +3890,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  7f7626b-807f-4a6f-813e-7ad2c68302a3\nFonte orario: MotoGP.com API ufficiale
   https://www.motogp.com/en/calendar/2026/event/Portugal/c7f7626b-807f-4a6f-
  813e-7ad2c68302a3\nConflitto: Conflitto con MotoGP.com (solo data\; ora non
-  pubblicata): 2026-11-21
+  pubblicata): 2026-11-21\nConflitto: Conflitto con MotoGP.com API ufficiale
+ : 2026-11-21T11:50+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3736,7 +3900,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:35a7a463c0b5dd6e0926a058@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261121T121500
 DTEND;TZID=Europe/Rome:20261121T123000
@@ -3749,7 +3913,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  7f7626b-807f-4a6f-813e-7ad2c68302a3\nFonte orario: MotoGP.com API ufficiale
   https://www.motogp.com/en/calendar/2026/event/Portugal/c7f7626b-807f-4a6f-
  813e-7ad2c68302a3\nConflitto: Conflitto con MotoGP.com (solo data\; ora non
-  pubblicata): 2026-11-21
+  pubblicata): 2026-11-21\nConflitto: Conflitto con MotoGP.com API ufficiale
+ : 2026-11-21T12:15+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3758,7 +3923,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:36ed7973d31e77d06fdcef20@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261121T160000
 DTEND;TZID=Europe/Rome:20261121T170000
@@ -3771,7 +3936,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  7f7626b-807f-4a6f-813e-7ad2c68302a3\nFonte orario: MotoGP.com API ufficiale
   https://www.motogp.com/en/calendar/2026/event/Portugal/c7f7626b-807f-4a6f-
  813e-7ad2c68302a3\nConflitto: Conflitto con MotoGP.com (solo data\; ora non
-  pubblicata): 2026-11-21
+  pubblicata): 2026-11-21\nConflitto: Conflitto con MotoGP.com API ufficiale
+ : 2026-11-21T16:00+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3780,7 +3946,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3d9f1c0cc6bafd518885ba57@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261122T104000
 DTEND;TZID=Europe/Rome:20261122T105000
@@ -3793,7 +3959,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Portugal/c7f7626b-807f-4a6f-813e-7ad2c68302a3\nFonte orario: MotoGP.com A
  PI ufficiale https://www.motogp.com/en/calendar/2026/event/Portugal/c7f7626
  b-807f-4a6f-813e-7ad2c68302a3\nConflitto: Conflitto con MotoGP.com (solo da
- ta\; ora non pubblicata): 2026-11-22
+ ta\; ora non pubblicata): 2026-11-22\nConflitto: Conflitto con MotoGP.com A
+ PI ufficiale: 2026-11-22T10:40+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3802,7 +3969,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f3bd7a34f08f217b9307f683@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261122T140000
 DTEND;TZID=Europe/Rome:20261122T150000
@@ -3815,7 +3982,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  7f7626b-807f-4a6f-813e-7ad2c68302a3\nFonte orario: MotoGP.com API ufficiale
   https://www.motogp.com/en/calendar/2026/event/Portugal/c7f7626b-807f-4a6f-
  813e-7ad2c68302a3\nConflitto: Conflitto con MotoGP.com (solo data\; ora non
-  pubblicata): 2026-11-22
+  pubblicata): 2026-11-22\nConflitto: Conflitto con MotoGP.com API ufficiale
+ : 2026-11-22T14:00+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3829,7 +3997,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:08e652b835db28eb476b963d@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261127T104500
 DTEND;TZID=Europe/Rome:20261127T113000
@@ -3842,7 +4010,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Valencia/6ad2859f-51c4-459e-9714-338814e7537f\nFonte orario: MotoGP.com A
  PI ufficiale https://www.motogp.com/en/calendar/2026/event/Valencia/6ad2859
  f-51c4-459e-9714-338814e7537f\nConflitto: Conflitto con MotoGP.com (solo da
- ta\; ora non pubblicata): 2026-11-27
+ ta\; ora non pubblicata): 2026-11-27\nConflitto: Conflitto con MotoGP.com A
+ PI ufficiale: 2026-11-27T10:45+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3851,7 +4020,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7a9732b004a5825b12bf19ff@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261127T150000
 DTEND;TZID=Europe/Rome:20261127T160000
@@ -3864,7 +4033,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Valencia/6ad2859f-51c4-459e-9714-338814e7537f\nFonte orario: MotoGP.com A
  PI ufficiale https://www.motogp.com/en/calendar/2026/event/Valencia/6ad2859
  f-51c4-459e-9714-338814e7537f\nConflitto: Conflitto con MotoGP.com (solo da
- ta\; ora non pubblicata): 2026-11-27
+ ta\; ora non pubblicata): 2026-11-27\nConflitto: Conflitto con MotoGP.com A
+ PI ufficiale: 2026-11-27T15:00+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3873,7 +4043,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ac0ec1f7ba2dac524bd6d803@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261128T101000
 DTEND;TZID=Europe/Rome:20261128T104000
@@ -3886,7 +4056,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Valencia/6ad2859f-51c4-459e-9714-338814e7537f\nFonte orario: MotoGP.com A
  PI ufficiale https://www.motogp.com/en/calendar/2026/event/Valencia/6ad2859
  f-51c4-459e-9714-338814e7537f\nConflitto: Conflitto con MotoGP.com (solo da
- ta\; ora non pubblicata): 2026-11-28
+ ta\; ora non pubblicata): 2026-11-28\nConflitto: Conflitto con MotoGP.com A
+ PI ufficiale: 2026-11-28T10:10+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3895,7 +4066,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a4372fca1c96a902d7728dca@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261128T105000
 DTEND;TZID=Europe/Rome:20261128T110500
@@ -3908,7 +4079,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  ad2859f-51c4-459e-9714-338814e7537f\nFonte orario: MotoGP.com API ufficiale
   https://www.motogp.com/en/calendar/2026/event/Valencia/6ad2859f-51c4-459e-
  9714-338814e7537f\nConflitto: Conflitto con MotoGP.com (solo data\; ora non
-  pubblicata): 2026-11-28
+  pubblicata): 2026-11-28\nConflitto: Conflitto con MotoGP.com API ufficiale
+ : 2026-11-28T10:50+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3917,7 +4089,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fccf21b867dbdf10c1811dfd@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261128T111500
 DTEND;TZID=Europe/Rome:20261128T113000
@@ -3930,7 +4102,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  ad2859f-51c4-459e-9714-338814e7537f\nFonte orario: MotoGP.com API ufficiale
   https://www.motogp.com/en/calendar/2026/event/Valencia/6ad2859f-51c4-459e-
  9714-338814e7537f\nConflitto: Conflitto con MotoGP.com (solo data\; ora non
-  pubblicata): 2026-11-28
+  pubblicata): 2026-11-28\nConflitto: Conflitto con MotoGP.com API ufficiale
+ : 2026-11-28T11:15+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3939,7 +4112,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3e0b0031b8d162dfb54e3210@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261128T150000
 DTEND;TZID=Europe/Rome:20261128T160000
@@ -3952,7 +4125,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  ad2859f-51c4-459e-9714-338814e7537f\nFonte orario: MotoGP.com API ufficiale
   https://www.motogp.com/en/calendar/2026/event/Valencia/6ad2859f-51c4-459e-
  9714-338814e7537f\nConflitto: Conflitto con MotoGP.com (solo data\; ora non
-  pubblicata): 2026-11-28
+  pubblicata): 2026-11-28\nConflitto: Conflitto con MotoGP.com API ufficiale
+ : 2026-11-28T15:00+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3961,7 +4135,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cec2b7cc6ba259ba63d3a76e@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261129T094000
 DTEND;TZID=Europe/Rome:20261129T095000
@@ -3974,7 +4148,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV On (international stream)
  t/Valencia/6ad2859f-51c4-459e-9714-338814e7537f\nFonte orario: MotoGP.com A
  PI ufficiale https://www.motogp.com/en/calendar/2026/event/Valencia/6ad2859
  f-51c4-459e-9714-338814e7537f\nConflitto: Conflitto con MotoGP.com (solo da
- ta\; ora non pubblicata): 2026-11-29
+ ta\; ora non pubblicata): 2026-11-29\nConflitto: Conflitto con MotoGP.com A
+ PI ufficiale: 2026-11-29T09:40+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
@@ -3983,7 +4158,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d266d457d062428e019ca7d0@motorsport-calendar
-DTSTAMP:20260813T094330Z
+DTSTAMP:20260813T101033Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Rome:20261129T140000
 DTEND;TZID=Europe/Rome:20261129T150000
@@ -3996,7 +4171,8 @@ DESCRIPTION:Stato: PROGRAMMATA\nAustria: ServusTV / ServusTV On (diretta)
  ad2859f-51c4-459e-9714-338814e7537f\nFonte orario: MotoGP.com API ufficiale
   https://www.motogp.com/en/calendar/2026/event/Valencia/6ad2859f-51c4-459e-
  9714-338814e7537f\nConflitto: Conflitto con MotoGP.com (solo data\; ora non
-  pubblicata): 2026-11-29
+  pubblicata): 2026-11-29\nConflitto: Conflitto con MotoGP.com API ufficiale
+ : 2026-11-29T14:00+01:00
 BEGIN:VALARM
 TRIGGER:-PT2H30M
 ACTION:DISPLAY
