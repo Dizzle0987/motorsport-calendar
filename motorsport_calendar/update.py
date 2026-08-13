@@ -76,9 +76,11 @@ def _tbc_broadcast(event: Event) -> Event:
     event.broadcaster_at = "Da confermare"
     event.broadcaster_at_url = ""
     event.broadcast_type_at = "da confermare"
+    event.broadcast_time_at = ""
     event.broadcaster_it = "TV8 / Sky Sport / NOW — Da confermare"
     event.broadcaster_it_url = f"{TV8_URL} | {SKY_URL}"
     event.broadcast_type_it = "da confermare"
+    event.broadcast_time_it = ""
     return event
 
 
