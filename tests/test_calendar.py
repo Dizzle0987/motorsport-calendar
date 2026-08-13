@@ -7,7 +7,7 @@ from pathlib import Path
 
 import pytest
 
-from motorsport_calendar.broadcast import apply_broadcasts, choose_broadcast
+from motorsport_calendar.broadcast import apply_broadcasts, apply_published_broadcasts, choose_broadcast
 from motorsport_calendar.discovery import discover_rounds, merge_rounds
 from motorsport_calendar.ics import render_calendar
 from motorsport_calendar.merge import deduplicate, merge_events
@@ -186,6 +186,26 @@ def test_unknown_austrian_broadcaster_does_not_list_both_channels():
     text = render_calendar([candidate], "Test")
     assert "Austria: Da confermare" in text.replace("\\n", "\n")
     assert "ORF" not in text and "ServusTV" not in text
+
+
+def test_published_2026_broadcast_rights_are_applied_per_weekend():
+    f1 = [
+        event(grand_prix="Dutch Grand Prix 2026", session="FP1", start="2026-08-21T12:30+02:00"),
+        event(grand_prix="Dutch Grand Prix 2026", start="2026-08-23T15:00+02:00"),
+    ]
+    motogp = [
+        event(competition="MotoGP", grand_prix="Aragon 2026", session="Practice", start="2026-08-28T15:00+02:00"),
+        event(competition="MotoGP", grand_prix="Aragon 2026", session="Sprint", start="2026-08-29T15:00+02:00"),
+        event(competition="MotoGP", grand_prix="Aragon 2026", start="2026-08-30T14:00+02:00"),
+    ]
+    updated = apply_published_broadcasts(f1 + motogp)
+    assert updated[0].broadcaster_at == "ServusTV / ServusTV On"
+    assert updated[0].broadcaster_it == "Sky Sport F1 / NOW"
+    assert updated[2].broadcaster_at == "ServusTV On (international stream)"
+    assert updated[3].broadcaster_at == "ServusTV / ServusTV On"
+    assert updated[4].broadcaster_it == "Sky Sport MotoGP / NOW"
+    assert all(item.broadcast_type_at == "diretta" for item in updated)
+    assert all(item.broadcast_type_it == "diretta" for item in updated)
 
 
 def test_tv8_direct_not_confused_with_delayed_and_free_preferred():
