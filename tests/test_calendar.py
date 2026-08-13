@@ -239,15 +239,26 @@ def test_verified_orf_weekend_uses_official_programme_start():
     assert updated.broadcaster_at_url == "https://tv.orf.at/stories/260705_formel1_gb100.html"
 
 
-def test_tv8_direct_not_confused_with_delayed_and_free_preferred():
+def test_live_tv8_is_preferred_over_live_pay_tv():
     choices = [
         {"name":"Sky Sport", "type":"diretta", "access":"a pagamento"},
-        {"name":"TV8", "type":"differita", "access":"gratuita"},
+        {"name":"NOW", "type":"diretta", "access":"a pagamento"},
+        {"name":"TV8", "type":"diretta", "access":"gratuita"},
     ]
     selected = choose_broadcast(choices, "IT")
-    assert selected["name"] == "TV8" and selected["type"] == "differita"
+    assert selected["name"] == "TV8" and selected["type"] == "diretta"
     updated = apply_broadcasts(event(), [], [selected])
-    assert updated.broadcast_type_it == "differita"
+    assert updated.broadcaster_it == "TV8"
+
+
+def test_live_sky_is_preferred_over_delayed_tv8():
+    choices = [
+        {"name":"TV8", "type":"differita", "access":"gratuita"},
+        {"name":"Sky Sport", "type":"diretta", "access":"a pagamento"},
+        {"name":"NOW", "type":"diretta", "access":"a pagamento"},
+    ]
+    selected = choose_broadcast(choices, "IT")
+    assert selected["name"] == "Sky Sport" and selected["type"] == "diretta"
 
 
 def test_validation_rejects_empty_or_one_series():
