@@ -20,7 +20,7 @@ Ogni aggiornamento controlla automaticamente la stagione corrente e quella succe
 
 Durante l’anno restano disponibili la stagione corrente e quelle future già annunciate. Dal 1° gennaio, non appena il calendario della nuova stagione è disponibile, la stagione precedente viene rimossa automaticamente dal catalogo, dagli eventi e dai tre feed; gli URL di sottoscrizione non cambiano. La pulizia avviene separatamente per Formula 1 e MotoGP, quindi un ritardo o un errore di una fonte non può svuotare una delle due serie. L’anno fa parte dell’identità logica del Gran Premio, quindi due edizioni annuali non condividono lo stesso UID. Test pre/post-stagionali e sessioni straordinarie restano esclusi.
 
-I palinsesti Austria e Italia sono conservativi. Senza una pagina che indichi esplicitamente sessione, data e ora, il campo resta “Da confermare”; ORF e ServusTV non vengono presentati insieme come se trasmettessero la stessa sessione. TV8 in differita non viene mai presentato come diretta. Lo streaming può essere soggetto a limitazioni geografiche.
+I palinsesti Austria e Italia sono conservativi. Le assegnazioni stagionali ufficiali già pubblicate vengono applicate automaticamente: ORF 1 / ORF ON o ServusTV / ServusTV On in Austria, Sky Sport / NOW in Italia. Per la MotoGP, le sessioni integrali disponibili soltanto nel flusso internazionale di ServusTV On sono indicate separatamente. TV8 viene preferita solo quando pubblica una trasmissione specifica verificabile; una differita non viene mai presentata come diretta. Lo streaming può essere soggetto a limitazioni geografiche.
 
 ## Uso locale
 
