@@ -8,6 +8,7 @@ import urllib.request
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
+from .broadcast import apply_published_broadcasts
 from .discovery import discover_rounds, merge_rounds
 from .ics import render_calendar
 from .merge import deduplicate, merge_events
@@ -256,7 +257,9 @@ def generate(root: Path = ROOT, *, online: bool = True, now: datetime | None = N
     else:
         official_f1 = []
         official_motogp = []
-    automatic = deduplicate(official_f1 + official_motogp + events_from_rounds(rounds, today=now.date()))
+    automatic = apply_published_broadcasts(
+        deduplicate(official_f1 + official_motogp + events_from_rounds(rounds, today=now.date()))
+    )
     combined = merge_events(deduplicate(automatic), manual, previous)
     if not combined and previous:
         combined = previous
