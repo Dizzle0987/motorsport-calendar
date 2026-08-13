@@ -200,12 +200,19 @@ def test_published_2026_broadcast_rights_are_applied_per_weekend():
     ]
     updated = apply_published_broadcasts(f1 + motogp)
     assert updated[0].broadcaster_at == "ServusTV / ServusTV On"
+    assert updated[0].broadcast_time_at == "dalle 12:15"
     assert updated[0].broadcaster_it == "Sky Sport F1 / NOW"
+    assert updated[0].broadcast_time_it == "12:30"
     assert updated[2].broadcaster_at == "ServusTV On (international stream)"
     assert updated[3].broadcaster_at == "ServusTV / ServusTV On"
+    assert updated[3].broadcast_time_at == "dalle 14:30"
     assert updated[4].broadcaster_it == "Sky Sport MotoGP / NOW"
+    assert updated[4].broadcast_time_at == "dalle 10:20"
     assert all(item.broadcast_type_at == "diretta" for item in updated)
     assert all(item.broadcast_type_it == "diretta" for item in updated)
+    rendered = render_calendar(updated, "Test").replace("\r\n ", "")
+    assert "palinsesto dalle 12:15" in rendered
+    assert "palinsesto 12:30" in rendered
 
 
 def test_tv8_direct_not_confused_with_delayed_and_free_preferred():
