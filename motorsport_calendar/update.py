@@ -24,11 +24,12 @@ from .parsers import (
     parse_f1_schedule_json,
     parse_motogp_event_json,
 )
+from .tv8 import apply_tv8_schedule, fetch_tv8_schedule
 
 ROOT = Path(__file__).resolve().parents[1]
 ORF_URL = "https://tv.orf.at/"
 SERVUS_URL = "https://www.servustv.com/sport/"
-TV8_URL = "https://www.tv8.it/guidatv"
+TV8_URL = "https://www.tv8.it/programmazione"
 SKY_URL = "https://sport.sky.it/guida-tv"
 
 
@@ -267,6 +268,10 @@ def generate(root: Path = ROOT, *, online: bool = True, now: datetime | None = N
         + events_from_rounds(rounds, today=now.date())
         + previous
     ))
+    if online:
+        automatic = apply_tv8_schedule(
+            automatic, fetch_tv8_schedule(automatic, now.date())
+        )
     combined = merge_events(automatic, manual, previous)
     if not combined and previous:
         combined = previous
