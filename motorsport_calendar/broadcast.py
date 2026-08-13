@@ -57,9 +57,13 @@ def choose_broadcast(candidates: list[dict], country: str) -> dict | None:
     if country == "AT":
         return min(candidates, key=lambda x: _rank(x.get("name", ""), AT_PRIORITY))
     return min(candidates, key=lambda x: (
-        0 if x.get("access") == "gratuita" else 1,
+        # Free-to-air wins only when it is live. A delayed TV8 broadcast
+        # must never replace a live Sky/NOW option in the primary field.
+        0 if x.get("access") == "gratuita" and x.get("type") == "diretta"
+        else 1 if x.get("type") == "diretta"
+        else 2 if x.get("access") == "gratuita"
+        else 3,
         _rank(x.get("name", ""), IT_FREE + IT_PAID),
-        0 if x.get("type") == "diretta" else 1,
     ))
 
 
@@ -82,8 +86,9 @@ def apply_broadcasts(event: Event, austria: list[dict], italy: list[dict]) -> Ev
 def apply_published_broadcasts(events: list[Event]) -> list[Event]:
     """Apply season schedules already published by the official broadcasters.
 
-    This is deliberately conservative: free Italian TV is only selected by a
-    session-specific override; Sky/NOW remains the verified live fallback.
+    This is deliberately conservative: a verified live TV8 listing has first
+    priority; Sky/NOW remains the live fallback when TV8 is delayed or has no
+    session-specific listing.
     """
     weekends: dict[tuple[str, str], list[Event]] = defaultdict(list)
     for event in events:
