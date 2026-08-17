@@ -6,7 +6,7 @@ import re
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, timedelta
 from html.parser import HTMLParser
 
 from .model import Event, ROME
@@ -15,6 +15,39 @@ ORF_EPG = "https://tv.orf.at/program/orf1/index.html"
 SERVUS_EPG = "https://www.servustv.com/de/epg"
 SKY_F1 = "https://programmi.sky.it/sport/motori/formula-1"
 SKY_MOTOGP = "https://programmi.sky.it/sport/motori/motogp"
+
+# Stable official Programmi Sky pages. Their contents are refreshed for the
+# current edition, so the same URLs remain useful in later seasons.
+SKY_GUIDES = {
+    "Formula 1": {
+        "dutch": f"{SKY_F1}/dove-vedere-f1-olanda-programmazione",
+        "netherlands": f"{SKY_F1}/dove-vedere-f1-olanda-programmazione",
+        "italian": f"{SKY_F1}/dove-vedere-f1-italia-programmazione",
+        "monza": f"{SKY_F1}/dove-vedere-f1-italia-programmazione",
+        "madrid": f"{SKY_F1}/dove-vedere-f1-madrid-programmazione",
+        "azerbaijan": f"{SKY_F1}/dove-vedere-f1-azerbaijan-programmazione",
+        "singapore": f"{SKY_F1}/dove-vedere-f1-singapore-programmazione",
+        "united states": f"{SKY_F1}/dove-vedere-f1-stati-uniti-programmazione",
+        "mexico": f"{SKY_F1}/dove-vedere-f1-messico-programmazione",
+    },
+    "MotoGP": {
+        "aragon": f"{SKY_MOTOGP}/dove-vedere-orari-motogp-gp-aragon",
+        "san marino": f"{SKY_MOTOGP}/dove-vedere-orari-motogp-gp-san-marino",
+        "austria": f"{SKY_MOTOGP}/dove-vedere-orari-motogp-gp-austria",
+        "japan": f"{SKY_MOTOGP}/dove-vedere-orari-motogp-gp-giappone",
+        "indonesia": f"{SKY_MOTOGP}/dove-vedere-orari-motogp-gp-indonesia",
+        "australia": f"{SKY_MOTOGP}/dove-vedere-orari-motogp-gp-australia",
+        "malaysia": f"{SKY_MOTOGP}/dove-vedere-orari-motogp-gp-malesia",
+        "portugal": f"{SKY_MOTOGP}/dove-vedere-orari-motogp-gp-portogallo",
+        "valencia": f"{SKY_MOTOGP}/dove-vedere-orari-motogp-gp-valencia",
+    },
+}
+
+ITALIAN_MONTHS = {
+    "gennaio": 1, "febbraio": 2, "marzo": 3, "aprile": 4,
+    "maggio": 5, "giugno": 6, "luglio": 7, "agosto": 8,
+    "settembre": 9, "ottobre": 10, "novembre": 11, "dicembre": 12,
+}
 
 HEADERS = {
     "User-Agent": "MotorsportCalendar/1.0 (+https://dizzle0987.github.io/motorsport-calendar/)",
@@ -146,17 +179,110 @@ def fetch_servus_epg() -> list[dict]:
     return parse_servus_epg(_get(SERVUS_EPG))
 
 
-def check_sky_official_pages(events: list[Event]) -> None:
-    """Check both official Sky programme pages without inventing an airtime.
+class _VisibleTextParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.hidden = 0
+        self.parts: list[str] = []
 
-    Sky/NOW rights remain assigned by the official seasonal calendar. These
-    pages are fetched on every run; exact airtimes are only filled by a
-    machine-verifiable EPG source (currently TV8 for the free alternative).
-    """
-    if any(e.competition == "Formula 1" for e in events):
-        _get(SKY_F1)
-    if any(e.competition == "MotoGP" for e in events):
-        _get(SKY_MOTOGP)
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag in {"script", "style", "noscript"}:
+            self.hidden += 1
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag in {"script", "style", "noscript"} and self.hidden:
+            self.hidden -= 1
+
+    def handle_data(self, data: str) -> None:
+        if not self.hidden and data.strip():
+            self.parts.append(data.strip())
+
+
+def visible_text(text: str) -> str:
+    if "<" not in text:
+        return " ".join(text.split())
+    parser = _VisibleTextParser()
+    parser.feed(text)
+    return " ".join(parser.parts)
+
+
+def _sky_session_matches(event: Event, context: str) -> bool:
+    value = context.casefold()
+    if event.session == "Sprint Qualifying":
+        return "sprint" in value and "qual" in value
+    if event.session == "Sprint":
+        return "sprint" in value and "qual" not in value
+    if event.session in {"Qualifiche", "Q1", "Q2"}:
+        return "qualific" in value and "sprint" not in value
+    if event.session == "Gara":
+        return any(x in value for x in ("gara lunga", "la gara", "gran premio"))
+    if event.session in {"FP1", "Prove libere"}:
+        return any(x in value for x in ("prima sessione di prove", "prime prove libere", "prove libere 1"))
+    if event.session == "Practice":
+        return "pre-qualific" in value
+    if event.session in {"FP2", "FP3"}:
+        return event.session.casefold() in value or f"prove libere {event.session[-1]}" in value
+    return False
+
+
+def sky_time_for_event(event: Event, page: str) -> str:
+    """Read a session time only from the dated official Sky guide text."""
+    text = visible_text(page)
+    lowered = text.casefold()
+    day_pattern = re.compile(
+        r"(?:venerd[iì]|sabato|domenica)\s+(\d{1,2})(?:\s+([a-zà]+))?",
+        re.I,
+    )
+    markers = list(day_pattern.finditer(lowered))
+    for index, marker in enumerate(markers):
+        day = int(marker.group(1))
+        month_name = (marker.group(2) or "").casefold()
+        month = ITALIAN_MONTHS.get(month_name, event.start_dt.month)
+        if day != event.start_dt.day or month != event.start_dt.month:
+            continue
+        end = markers[index + 1].start() if index + 1 < len(markers) else min(len(lowered), marker.end() + 700)
+        segment = lowered[marker.end():end]
+        time_matches = list(re.finditer(r"(?:ore|alle|dalle)\s+(\d{1,2})(?:[:.]([0-5]\d))?", segment))
+        for time_index, time_match in enumerate(time_matches):
+            previous_end = time_matches[time_index - 1].end() if time_index else 0
+            next_start = time_matches[time_index + 1].start() if time_index + 1 < len(time_matches) else len(segment)
+            before = segment[max(previous_end, time_match.start() - 85):time_match.start()]
+            after = segment[time_match.end():min(next_start, time_match.end() + 105)]
+            if (_sky_session_matches(event, after)
+                    or _sky_session_matches(event, before)
+                    or _sky_session_matches(event, f"{before} {after}")):
+                return f"dalle {int(time_match.group(1)):02d}:{time_match.group(2) or '00'}"
+    return ""
+
+
+def sky_guide_for_event(event: Event) -> str:
+    value = f"{event.grand_prix} {event.circuit} {event.location}".casefold()
+    for token, url in SKY_GUIDES.get(event.competition, {}).items():
+        if token in value:
+            return url
+    return ""
+
+
+def apply_sky_guides(events: list[Event], today: date) -> list[Event]:
+    pages: dict[str, str] = {}
+    for event in events:
+        if not event.is_timed or not (today <= event.start_dt.date() <= today + timedelta(days=21)):
+            continue
+        if "Sky Sport" not in event.broadcaster_it:
+            continue
+        url = sky_guide_for_event(event)
+        if not url:
+            continue
+        if url not in pages:
+            try:
+                pages[url] = _get(url)
+            except OSError:
+                pages[url] = ""
+        programme_time = sky_time_for_event(event, pages[url])
+        if programme_time:
+            event.broadcast_time_it = programme_time
+            event.broadcaster_it_url = url
+    return events
 
 
 def apply_official_epgs(events: list[Event], today: date) -> list[Event]:
@@ -168,8 +294,5 @@ def apply_official_epgs(events: list[Event], today: date) -> list[Event]:
         apply_epg(events, fetch_servus_epg(), "ServusTV", SERVUS_EPG)
     except (OSError, ValueError):
         pass
-    try:
-        check_sky_official_pages(events)
-    except (OSError, ValueError):
-        pass
+    apply_sky_guides(events, today)
     return events
