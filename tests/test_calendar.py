@@ -12,7 +12,12 @@ from motorsport_calendar.discovery import discover_rounds, merge_rounds
 from motorsport_calendar.ics import render_calendar
 from motorsport_calendar.merge import deduplicate, merge_events
 from motorsport_calendar.model import Event, ROME
-from motorsport_calendar.official_epg import apply_epg, parse_orf_epg, parse_servus_epg
+from motorsport_calendar.official_epg import (
+    apply_epg,
+    parse_orf_epg,
+    parse_servus_epg,
+    sky_time_for_event,
+)
 from motorsport_calendar.parsers import (
     classify_session,
     parse_f1_schedule_html,
@@ -252,6 +257,46 @@ def test_sporting_start_is_never_used_as_sky_or_servus_airtime():
     assert updated.broadcast_time_at == ""
     assert updated.broadcaster_it == "Sky Sport F1 / NOW"
     assert updated.broadcast_time_it == ""
+
+
+def test_sky_official_f1_guide_supplies_dated_session_times():
+    page = """
+      Venerdì 21 agosto alle ore 12:30 la prima sessione di prove libere;
+      alle ore 16:30 la qualifica Sprint.
+      Sabato 22 agosto alle ore 12:00 partirà la Sprint Race, mentre alle
+      ore 16:00 si terranno le qualifiche per la gara di domenica.
+      Domenica 23 agosto alle ore 15:00 la gara del Gran Premio d'Olanda.
+    """
+    events = [
+        event(session="FP1", start="2026-08-21T12:30+02:00"),
+        event(session="Sprint Qualifying", start="2026-08-21T16:30+02:00"),
+        event(session="Sprint", start="2026-08-22T12:00+02:00"),
+        event(session="Qualifiche", start="2026-08-22T16:00+02:00"),
+        event(session="Gara", start="2026-08-23T15:00+02:00"),
+    ]
+    assert [sky_time_for_event(item, page) for item in events] == [
+        "dalle 12:30", "dalle 16:30", "dalle 12:00", "dalle 16:00", "dalle 15:00",
+    ]
+
+
+def test_sky_official_motogp_guide_supplies_combined_qualifying_start():
+    page = """
+      Venerdì 28 agosto con le prime prove libere alle ore 10:45, mentre alle
+      ore 15:00 sono in programma le Pre-qualifiche. Sabato 29 agosto le
+      qualifiche dalle ore 10:50, poi alle ore 15:00 scatta la Sprint Race.
+      Domenica 30 agosto la gara lunga è alle ore 14:00.
+    """
+    events = [
+        event(competition="MotoGP", session="Prove libere", start="2026-08-28T10:45+02:00"),
+        event(competition="MotoGP", session="Practice", start="2026-08-28T15:00+02:00"),
+        event(competition="MotoGP", session="Q1", start="2026-08-29T10:50+02:00"),
+        event(competition="MotoGP", session="Q2", start="2026-08-29T11:15+02:00"),
+        event(competition="MotoGP", session="Sprint", start="2026-08-29T15:00+02:00"),
+        event(competition="MotoGP", session="Gara", start="2026-08-30T14:00+02:00"),
+    ]
+    assert [sky_time_for_event(item, page) for item in events] == [
+        "dalle 10:45", "dalle 15:00", "dalle 10:50", "dalle 10:50", "dalle 15:00", "dalle 14:00",
+    ]
 
 
 def test_orf_rights_do_not_invent_an_airtime_from_the_session_start():
