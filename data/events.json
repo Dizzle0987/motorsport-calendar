@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-13T10:43:44+00:00",
+  "updated_at": "2026-08-17T07:52:03+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -4854,15 +4854,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 12:15",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-olanda-programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 12:30",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-08-21",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-08-21T12:30+02:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "90edf651556ee61022af6502@motorsport-calendar"
@@ -4982,15 +4982,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 13:00",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-olanda-programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 15:00",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-08-23",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-08-23T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "f6c540d405acd58a641eba3b@motorsport-calendar"
@@ -5014,15 +5014,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-aragon",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 10:45",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-28",
         "Conflitto con MotoGP.com API ufficiale: 2026-08-28T10:45+02:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "7608bb89cf545d143c04ec3b@motorsport-calendar"
@@ -5046,15 +5046,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-aragon",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 15:00",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-28",
         "Conflitto con MotoGP.com API ufficiale: 2026-08-28T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "14ef35761d0bdf67ea9540df@motorsport-calendar"
