@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-17T19:45:21+00:00",
+  "updated_at": "2026-08-19T03:26:14+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -5365,16 +5365,16 @@
       "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PN5TIBU059T7L8L/formel-1-2026-die-live-rennen-bei-servustv-und-servustv-on",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
-      "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it": "TV8",
+      "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 16:00",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-05",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-05T16:00+02:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "95bc052276c0f293249d73b7@motorsport-calendar"
