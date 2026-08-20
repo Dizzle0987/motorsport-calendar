@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-19T19:36:15+00:00",
+  "updated_at": "2026-08-20T03:26:09+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -6286,7 +6286,7 @@
       "circuit": "Sepang International Circuit",
       "location": "Kuala Lumpur",
       "country": "Malaysia",
-      "start": "2026-10-02T04:00+02:00",
+      "start": "2026-10-02T06:30+02:00",
       "end": null,
       "status": "programmata",
       "source_sport": "Formula1.com",
@@ -6305,43 +6305,11 @@
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-02",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-02T04:00+02:00"
       ],
-      "notes": "",
-      "sequence": 6,
+      "notes": "Riprogrammata da 2026-10-02T04:00+02:00",
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "e79e1193d0ab4b06e0ef09d9@motorsport-calendar"
-    },
-    {
-      "competition": "Formula 1",
-      "grand_prix": "Bahrain Grand Prix in Malaysia 2026",
-      "session": "FP2",
-      "circuit": "Sepang International Circuit",
-      "location": "Kuala Lumpur",
-      "country": "Malaysia",
-      "start": "2026-10-02T08:00+02:00",
-      "end": null,
-      "status": "programmata",
-      "source_sport": "Formula1.com",
-      "source_sport_url": "https://www.formula1.com/en/racing/2026/sepang",
-      "source_time": "Jolpica/Ergast (fallback strutturato)",
-      "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
-      "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PN5TIBU059T7L8L/formel-1-2026-die-live-rennen-bei-servustv-und-servustv-on",
-      "broadcast_type_at": "diretta",
-      "broadcast_time_at": "",
-      "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
-      "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
-      "conflicts": [
-        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-02",
-        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-02T08:00+02:00"
-      ],
-      "notes": "",
-      "sequence": 6,
-      "enabled": true,
-      "stable_key": null,
-      "uid": "baeb1800ce18ecfdc6151aa1@motorsport-calendar"
     },
     {
       "competition": "MotoGP",
@@ -6374,6 +6342,38 @@
       "enabled": true,
       "stable_key": null,
       "uid": "14ea3f1f80a89ea1b662c689@motorsport-calendar"
+    },
+    {
+      "competition": "Formula 1",
+      "grand_prix": "Bahrain Grand Prix in Malaysia 2026",
+      "session": "FP2",
+      "circuit": "Sepang International Circuit",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "start": "2026-10-02T10:00+02:00",
+      "end": null,
+      "status": "programmata",
+      "source_sport": "Formula1.com",
+      "source_sport_url": "https://www.formula1.com/en/racing/2026/sepang",
+      "source_time": "Jolpica/Ergast (fallback strutturato)",
+      "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
+      "broadcaster_at": "ServusTV / ServusTV On",
+      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PN5TIBU059T7L8L/formel-1-2026-die-live-rennen-bei-servustv-und-servustv-on",
+      "broadcast_type_at": "diretta",
+      "broadcast_time_at": "",
+      "broadcaster_it": "Sky Sport F1 / NOW",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcast_type_it": "diretta",
+      "broadcast_time_it": "",
+      "conflicts": [
+        "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-02",
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-02T08:00+02:00"
+      ],
+      "notes": "Riprogrammata da 2026-10-02T08:00+02:00",
+      "sequence": 7,
+      "enabled": true,
+      "stable_key": null,
+      "uid": "baeb1800ce18ecfdc6151aa1@motorsport-calendar"
     },
     {
       "competition": "MotoGP",
@@ -6478,7 +6478,7 @@
       "circuit": "Sepang International Circuit",
       "location": "Kuala Lumpur",
       "country": "Malaysia",
-      "start": "2026-10-03T08:00+02:00",
+      "start": "2026-10-03T06:30+02:00",
       "end": null,
       "status": "programmata",
       "source_sport": "Formula1.com",
@@ -6497,8 +6497,8 @@
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-03",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-03T08:00+02:00"
       ],
-      "notes": "",
-      "sequence": 6,
+      "notes": "Riprogrammata da 2026-10-03T08:00+02:00",
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "cb156b1b0acf46ee1495a164@motorsport-calendar"
@@ -6542,7 +6542,7 @@
       "circuit": "Sepang International Circuit",
       "location": "Kuala Lumpur",
       "country": "Malaysia",
-      "start": "2026-10-03T11:00+02:00",
+      "start": "2026-10-03T10:00+02:00",
       "end": null,
       "status": "programmata",
       "source_sport": "Formula1.com",
@@ -6561,8 +6561,8 @@
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-03",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-03T11:00+02:00"
       ],
-      "notes": "",
-      "sequence": 6,
+      "notes": "Riprogrammata da 2026-10-03T11:00+02:00",
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "eae68ac0c69746e4c4095911@motorsport-calendar"
