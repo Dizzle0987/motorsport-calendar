@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-20T19:50:36+00:00",
+  "updated_at": "2026-08-21T03:33:39+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -5462,16 +5462,16 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-madrid-programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 13:30",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-11T13:30+02:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-11",
         "Conflitto con Formula1.com: 2026-09-11T13:30+02:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "79e7d1b581a1d00c7e5b46be@motorsport-calendar"
