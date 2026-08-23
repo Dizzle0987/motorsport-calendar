@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-23T13:49:00+00:00",
+  "updated_at": "2026-08-23T19:11:48+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -4978,9 +4978,9 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/epg",
+      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PN5TIBU059T7L8L/formel-1-2026-die-live-rennen-bei-servustv-und-servustv-on",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 14:57",
+      "broadcast_time_at": "dalle 13:00",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-olanda-programmazione",
       "broadcast_type_it": "diretta",
@@ -4990,7 +4990,7 @@
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-08-23T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "f6c540d405acd58a641eba3b@motorsport-calendar"
