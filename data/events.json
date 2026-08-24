@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-23T19:11:48+00:00",
+  "updated_at": "2026-08-24T03:38:23+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -4982,15 +4982,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 13:00",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-olanda-programmazione",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 15:00",
+      "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-08-23",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-08-23T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 9,
+      "sequence": 10,
       "enabled": true,
       "stable_key": null,
       "uid": "f6c540d405acd58a641eba3b@motorsport-calendar"
@@ -5814,9 +5814,9 @@
       "source_time": "Formula1.com",
       "source_time_url": "https://www.formula1.com/en/racing/2026/spain",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
+      "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "",
+      "broadcast_time_at": "dalle 14:25",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-madrid-programmazione",
       "broadcast_type_it": "diretta",
@@ -5826,7 +5826,7 @@
         "Conflitto con Formula1.com: 2026-09-13T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "03c2ecc9ee1166d34d897dd8@motorsport-calendar"
