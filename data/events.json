@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-29T00:23:08+00:00",
+  "updated_at": "2026-08-29T12:23:15+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -5068,7 +5068,7 @@
       "country": "Spain",
       "start": "2026-08-29T10:10+02:00",
       "end": "2026-08-29T10:40+02:00",
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Spain/86abdbde-5e3d-45b1-a1f0-f74044a90eb3",
       "source_time": "MotoGP.com API ufficiale",
@@ -5086,7 +5086,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-08-29T10:10+02:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "1c75aea47ab1d8ad83972e8e@motorsport-calendar"
@@ -5100,13 +5100,13 @@
       "country": "Spain",
       "start": "2026-08-29T10:50+02:00",
       "end": "2026-08-29T11:05+02:00",
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Spain/86abdbde-5e3d-45b1-a1f0-f74044a90eb3",
       "source_time": "MotoGP.com API ufficiale",
       "source_time_url": "https://www.motogp.com/en/calendar/2026/event/Spain/86abdbde-5e3d-45b1-a1f0-f74044a90eb3",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/epg",
+      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PNF9DHWJSIDAC7G/motogp-2026-alle-live-rennen-bei-servustv-und-servustv-on",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 10:40",
       "broadcaster_it": "TV8",
@@ -5118,7 +5118,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-08-29T10:50+02:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "7518274ebe9169b5b6062bb7@motorsport-calendar"
@@ -5132,13 +5132,13 @@
       "country": "Spain",
       "start": "2026-08-29T11:15+02:00",
       "end": "2026-08-29T11:30+02:00",
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Spain/86abdbde-5e3d-45b1-a1f0-f74044a90eb3",
       "source_time": "MotoGP.com API ufficiale",
       "source_time_url": "https://www.motogp.com/en/calendar/2026/event/Spain/86abdbde-5e3d-45b1-a1f0-f74044a90eb3",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/epg",
+      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PNF9DHWJSIDAC7G/motogp-2026-alle-live-rennen-bei-servustv-und-servustv-on",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 10:40",
       "broadcaster_it": "TV8",
@@ -5150,7 +5150,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-08-29T11:15+02:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "1800d0670e14cedfaed5e714@motorsport-calendar"
