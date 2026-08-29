@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-29T12:23:15+00:00",
+  "updated_at": "2026-08-29T18:23:02+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -5164,7 +5164,7 @@
       "country": "Spain",
       "start": "2026-08-29T15:00+02:00",
       "end": null,
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Spain/86abdbde-5e3d-45b1-a1f0-f74044a90eb3",
       "source_time": "MotoGP.com API ufficiale",
@@ -5182,7 +5182,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-08-29T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "bb49bdf309075c205fcf42e0@motorsport-calendar"
