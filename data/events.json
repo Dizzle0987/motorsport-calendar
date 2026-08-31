@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-30T18:23:05+00:00",
+  "updated_at": "2026-08-31T00:23:07+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -5237,16 +5237,16 @@
       "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PNF9DHWJSIDAC7G/motogp-2026-alle-live-rennen-bei-servustv-und-servustv-on",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 10:20",
-      "broadcaster_it": "TV8",
-      "broadcaster_it_url": "https://www.tv8.it/programmazione",
+      "broadcaster_it": "Sky Sport MotoGP / NOW",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 13:45",
+      "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-08-30",
         "Conflitto con MotoGP.com API ufficiale: 2026-08-30T14:00+02:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "53b2c9ca03d85b8d32fba4c9@motorsport-calendar"
