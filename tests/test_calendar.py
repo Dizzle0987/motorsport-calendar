@@ -302,7 +302,7 @@ def test_tvinfo_fallback_reads_requested_date_first_column():
       <table>
         <tr><td>Sa 5.9.</td><td>So 6.9.</td><td>Mo 7.9.</td><td>Di 8.9.</td></tr>
         <tr>
-          <td>12:15 <a>Formel 1 - Pirelli Grand Prix von Italien 3. Freies Training Folge 13</a></td>
+          <td>12:13 <a>Servus Wetter</a> 12:15 <a>Formel 1 - Pirelli Grand Prix von Italien 3. Freies Training Folge 13</a></td>
           <td>13:00 <a>Formel 1 - Pirelli Grand Prix von Italien Rennen: Vorbericht Folge 13</a></td>
           <td>15:00 <a>Servus um 3</a></td>
           <td>16:00 <a>Quizjagd</a></td>
@@ -320,6 +320,12 @@ def test_tvinfo_fallback_reads_requested_date_first_column():
     rows = parse_tvinfo_epg(page, candidate.start_dt.date())
     apply_epg([candidate], rows, "ServusTV", "https://www.tvinfo.de/tv-programm/servustv/05.09.2026")
     assert candidate.broadcast_time_at == "dalle 15:30"
+    fp3 = event(
+        grand_prix="Italian Grand Prix 2026", session="FP3",
+        start="2026-09-05T12:30+02:00", broadcaster_at="ServusTV / ServusTV On",
+    )
+    apply_epg([fp3], rows, "ServusTV", "https://www.tvinfo.de/tv-programm/servustv/05.09.2026")
+    assert fp3.broadcast_time_at == "dalle 12:15"
 
 
 def test_sporting_start_is_never_used_as_sky_or_servus_airtime():
