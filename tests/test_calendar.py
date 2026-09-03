@@ -17,6 +17,7 @@ from motorsport_calendar.official_epg import (
     parse_orf_epg,
     parse_servus_epg,
     parse_tvheute_epg,
+    parse_tvinfo_epg,
     sky_time_for_event,
 )
 from motorsport_calendar.parsers import (
@@ -294,6 +295,31 @@ def test_tvheute_fallback_does_not_replace_primary_or_international_stream():
     # not applying linear-TV fallback data to the streaming event.
     assert primary.broadcast_time_at == "dalle 12:55"
     assert stream.broadcast_time_at == ""
+
+
+def test_tvinfo_fallback_reads_requested_date_first_column():
+    page = """
+      <table>
+        <tr><td>Sa 5.9.</td><td>So 6.9.</td><td>Mo 7.9.</td><td>Di 8.9.</td></tr>
+        <tr>
+          <td>12:15 <a>Formel 1 - Pirelli Grand Prix von Italien 3. Freies Training Folge 13</a></td>
+          <td>13:00 <a>Formel 1 - Pirelli Grand Prix von Italien Rennen: Vorbericht Folge 13</a></td>
+          <td>15:00 <a>Servus um 3</a></td>
+          <td>16:00 <a>Quizjagd</a></td>
+        </tr>
+        <tr>
+          <td>15:30 <a>Formel 1 - Pirelli Grand Prix von Italien Qualifying: Vorbericht Folge 13</a></td>
+          <td>15:00 <a>Formel 1 - Pirelli Grand Prix von Italien Das Rennen Folge 13</a></td>
+        </tr>
+      </table>
+    """
+    candidate = event(
+        grand_prix="Italian Grand Prix 2026", session="Qualifiche",
+        start="2026-09-05T16:00+02:00", broadcaster_at="ServusTV / ServusTV On",
+    )
+    rows = parse_tvinfo_epg(page, candidate.start_dt.date())
+    apply_epg([candidate], rows, "ServusTV", "https://www.tvinfo.de/tv-programm/servustv/05.09.2026")
+    assert candidate.broadcast_time_at == "dalle 15:30"
 
 
 def test_sporting_start_is_never_used_as_sky_or_servus_airtime():
