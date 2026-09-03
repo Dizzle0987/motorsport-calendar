@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-03T07:35:37+00:00",
+  "updated_at": "2026-09-03T07:41:28+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -5268,7 +5268,7 @@
       "broadcaster_at": "ServusTV / ServusTV On",
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/04.09.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 12:13",
+      "broadcast_time_at": "dalle 12:15",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-italia-programmazione",
       "broadcast_type_it": "diretta",
@@ -5278,7 +5278,7 @@
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-04T12:30+02:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "442dc5e69badadc8ebcccfa5@motorsport-calendar"
@@ -5332,7 +5332,7 @@
       "broadcaster_at": "ServusTV / ServusTV On",
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/05.09.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 12:13",
+      "broadcast_time_at": "dalle 12:15",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-italia-programmazione",
       "broadcast_type_it": "diretta",
@@ -5342,7 +5342,7 @@
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-05T12:30+02:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "a5806c68622fbc27fde89fe7@motorsport-calendar"
@@ -5590,7 +5590,7 @@
       "broadcaster_at": "ServusTV / ServusTV On",
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/12.09.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 10:10",
+      "broadcast_time_at": "dalle 10:40",
       "broadcaster_it": "TV8",
       "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
@@ -5600,7 +5600,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-09-12T10:50+02:00"
       ],
       "notes": "",
-      "sequence": 10,
+      "sequence": 11,
       "enabled": true,
       "stable_key": null,
       "uid": "71deca606ec4e63266c8ab72@motorsport-calendar"
@@ -5622,7 +5622,7 @@
       "broadcaster_at": "ServusTV / ServusTV On",
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/12.09.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 10:10",
+      "broadcast_time_at": "dalle 10:40",
       "broadcaster_it": "TV8",
       "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
@@ -5632,7 +5632,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-09-12T11:15+02:00"
       ],
       "notes": "",
-      "sequence": 10,
+      "sequence": 11,
       "enabled": true,
       "stable_key": null,
       "uid": "4726cc9358126898544384e1@motorsport-calendar"
@@ -5944,7 +5944,7 @@
       "broadcaster_at": "ServusTV / ServusTV On",
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/19.09.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 10:00",
+      "broadcast_time_at": "dalle 10:40",
       "broadcaster_it": "TV8",
       "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
@@ -5954,7 +5954,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-09-19T10:50+02:00"
       ],
       "notes": "",
-      "sequence": 9,
+      "sequence": 10,
       "enabled": true,
       "stable_key": null,
       "uid": "80b86e96ae75c9b2c80b96d1@motorsport-calendar"
@@ -5976,7 +5976,7 @@
       "broadcaster_at": "ServusTV / ServusTV On",
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/19.09.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 10:00",
+      "broadcast_time_at": "dalle 10:40",
       "broadcaster_it": "TV8",
       "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
@@ -5986,7 +5986,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-09-19T11:15+02:00"
       ],
       "notes": "",
-      "sequence": 9,
+      "sequence": 10,
       "enabled": true,
       "stable_key": null,
       "uid": "e8728f129d6210033858eb2d@motorsport-calendar"
