@@ -283,17 +283,21 @@ def parse_tvinfo_epg(text: str, event_date: date) -> list[dict]:
         if not table_row:
             continue
         cell = table_row[0]
-        match = re.match(r"^(?P<start>\d{1,2}:\d{2})\s+(?P<title>.+)$", cell, re.S)
-        if not match:
-            continue
-        start = datetime.combine(event_date, datetime.strptime(match["start"], "%H:%M").time(), ROME)
-        rows.append({
-            "title": match["title"],
-            "start": start.isoformat(),
-            # A listing page does not expose the end consistently. Three hours
-            # safely covers the pre-show plus session matching window.
-            "end": (start + timedelta(hours=3)).isoformat(),
-        })
+        markers = list(re.finditer(r"(?:^|\s)(?P<start>\d{1,2}:\d{2})(?=\s)", cell))
+        for index, marker in enumerate(markers):
+            title_start = marker.end()
+            title_end = markers[index + 1].start() if index + 1 < len(markers) else len(cell)
+            title = cell[title_start:title_end].strip()
+            if not title:
+                continue
+            start = datetime.combine(event_date, datetime.strptime(marker["start"], "%H:%M").time(), ROME)
+            rows.append({
+                "title": title,
+                "start": start.isoformat(),
+                # A listing page does not expose the end consistently. Three
+                # hours covers the pre-show plus session matching window.
+                "end": (start + timedelta(hours=3)).isoformat(),
+            })
     return rows
 
 
