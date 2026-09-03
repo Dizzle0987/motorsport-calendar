@@ -14,6 +14,7 @@ from .model import Event, ROME
 ORF_EPG = "https://tv.orf.at/program/orf1/index.html"
 SERVUS_EPG = "https://www.servustv.com/de/epg"
 TVHEUTE_BASE = "https://tvheute.at"
+TVINFO_BASE = "https://www.tvinfo.de/tv-programm"
 SKY_F1 = "https://programmi.sky.it/sport/motori/formula-1"
 SKY_MOTOGP = "https://programmi.sky.it/sport/motori/motogp"
 
@@ -244,6 +245,82 @@ def fetch_tvheute_epg(events: list[Event], today: date, broadcaster: str) -> tup
     return rows, f"{TVHEUTE_BASE}/{slug}/heute-im-tv"
 
 
+class _TvInfoParser(HTMLParser):
+    """Collect table rows; TVinfo places each of four dates in one column."""
+
+    def __init__(self) -> None:
+        super().__init__()
+        self.rows: list[list[str]] = []
+        self.row: list[str] | None = None
+        self.cell: list[str] | None = None
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag == "tr":
+            self.row = []
+        elif tag in {"td", "th"} and self.row is not None:
+            self.cell = []
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag in {"td", "th"} and self.row is not None and self.cell is not None:
+            self.row.append(" ".join(" ".join(self.cell).split()))
+            self.cell = None
+        elif tag == "tr" and self.row is not None:
+            if self.row:
+                self.rows.append(self.row)
+            self.row = None
+
+    def handle_data(self, data: str) -> None:
+        if self.cell is not None and data.strip():
+            self.cell.append(data.strip())
+
+
+def parse_tvinfo_epg(text: str, event_date: date) -> list[dict]:
+    """Read the first (requested-date) column of a TVinfo channel page."""
+    parser = _TvInfoParser()
+    parser.feed(text)
+    rows: list[dict] = []
+    for table_row in parser.rows:
+        if not table_row:
+            continue
+        cell = table_row[0]
+        match = re.match(r"^(?P<start>\d{1,2}:\d{2})\s+(?P<title>.+)$", cell, re.S)
+        if not match:
+            continue
+        start = datetime.combine(event_date, datetime.strptime(match["start"], "%H:%M").time(), ROME)
+        rows.append({
+            "title": match["title"],
+            "start": start.isoformat(),
+            # A listing page does not expose the end consistently. Three hours
+            # safely covers the pre-show plus session matching window.
+            "end": (start + timedelta(hours=3)).isoformat(),
+        })
+    return rows
+
+
+def fetch_tvinfo_epg(events: list[Event], today: date, broadcaster: str) -> tuple[list[dict], str]:
+    """Fetch server-rendered Austrian listings, one requested date at a time."""
+    slug = "orf1" if broadcaster == "ORF" else "servustv"
+    dates = sorted({
+        event.start_dt.date() for event in events
+        if event.is_timed
+        and today <= event.start_dt.date() <= today + timedelta(days=21)
+        and broadcaster.casefold() in event.broadcaster_at.casefold()
+        and "international stream" not in event.broadcaster_at.casefold()
+        and not event.broadcast_time_at
+    })
+    rows: list[dict] = []
+    for event_date in dates:
+        url = f"{TVINFO_BASE}/{slug}/{event_date:%d.%m.%Y}"
+        try:
+            parsed = parse_tvinfo_epg(_get(url), event_date)
+            for row in parsed:
+                row["source"] = url
+            rows.extend(parsed)
+        except (OSError, ValueError):
+            continue
+    return rows, f"{TVINFO_BASE}/{slug}"
+
+
 class _VisibleTextParser(HTMLParser):
     def __init__(self) -> None:
         super().__init__()
@@ -359,10 +436,12 @@ def apply_official_epgs(events: list[Event], today: date) -> list[Event]:
         apply_epg(events, fetch_servus_epg(), "ServusTV", SERVUS_EPG)
     except (OSError, ValueError):
         pass
-    # The broadcasters' own pages remain authoritative. TVHeute is queried
-    # only for still-empty linear-TV airtimes when either primary parser or
-    # endpoint fails or omits the dated listing.
+    # The broadcasters' own pages remain authoritative. The server-rendered
+    # TVinfo grid is the first fallback; TVHeute remains a second independent
+    # fallback. Both are queried only for still-empty linear-TV airtimes.
     for broadcaster in ("ORF", "ServusTV"):
+        fallback, source = fetch_tvinfo_epg(events, today, broadcaster)
+        apply_epg(events, fallback, broadcaster, source, only_missing=True)
         fallback, source = fetch_tvheute_epg(events, today, broadcaster)
         apply_epg(events, fallback, broadcaster, source, only_missing=True)
     apply_sky_guides(events, today)
