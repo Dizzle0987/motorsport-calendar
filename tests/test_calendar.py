@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 import shutil
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 import pytest
@@ -16,6 +16,7 @@ from motorsport_calendar.official_epg import (
     apply_epg,
     parse_orf_epg,
     parse_servus_epg,
+    parse_tvheute_epg,
     sky_time_for_event,
 )
 from motorsport_calendar.parsers import (
@@ -246,6 +247,53 @@ def test_official_servus_epg_parser_and_application():
     programmes = parse_servus_epg(payload)
     updated = apply_epg([candidate], programmes, "ServusTV", "https://www.servustv.com/de/epg")[0]
     assert updated.broadcast_time_at == "dalle 14:30"
+
+
+def test_tvheute_fallback_selects_servus_preview_and_orf_programme():
+    servus_page = """
+      ServusTV SPORT 15:30 16:00 25' Formel 1 - Pirelli Grand Prix von Italien
+      FORMEL 1 Qualifying: Vorbericht ServusTV SPORT 16:00 17:00 50'
+      Formel 1 - Pirelli Grand Prix von Italien FORMEL 1 Qualifying
+    """
+    orf_page = """
+      ORF1 SPORT 12:20 13:40 80' Formel 1 Großer Preis von Spanien 2026
+      FORMEL 1 F1 3.Training ORF1 SPORT 15:55 17:35 100'
+      Formel 1 Großer Preis von Spanien 2026 FORMEL 1 F1 Qualifying
+    """
+    servus = event(
+        grand_prix="Italian Grand Prix 2026", session="Qualifiche",
+        start="2026-09-05T16:00+02:00", broadcaster_at="ServusTV / ServusTV On",
+    )
+    orf = event(
+        grand_prix="Madrid Grand Prix 2026", session="FP3",
+        start="2026-09-12T12:30+02:00", broadcaster_at="ORF 1 / ORF ON",
+    )
+    servus_rows = parse_tvheute_epg(servus_page, servus.start_dt.date(), "ServusTV")
+    orf_rows = parse_tvheute_epg(orf_page, orf.start_dt.date(), "ORF1")
+    apply_epg([servus], servus_rows, "ServusTV", "https://tvheute.at/servustv-programm/05-09-2026-im-tv")
+    apply_epg([orf], orf_rows, "ORF", "https://tvheute.at/orf1-programm/12-09-2026-im-tv")
+    assert servus.broadcast_time_at == "dalle 15:30"
+    assert orf.broadcast_time_at == "dalle 12:20"
+
+
+def test_tvheute_fallback_does_not_replace_primary_or_international_stream():
+    rows = parse_tvheute_epg(
+        "ServusTV SPORT 13:00 15:00 99' MotoGP Countdown",
+        date(2026, 9, 20), "ServusTV",
+    )
+    primary = event(
+        competition="MotoGP", session="Gara", start="2026-09-20T14:00+02:00",
+        broadcaster_at="ServusTV / ServusTV On", broadcast_time_at="dalle 12:55",
+    )
+    stream = event(
+        competition="MotoGP", session="Gara", start="2026-09-20T14:00+02:00",
+        broadcaster_at="ServusTV On (international stream)",
+    )
+    apply_epg([primary], rows, "ServusTV", "fallback", only_missing=True)
+    # The fetcher excludes streaming-only rows; model that invariant here by
+    # not applying linear-TV fallback data to the streaming event.
+    assert primary.broadcast_time_at == "dalle 12:55"
+    assert stream.broadcast_time_at == ""
 
 
 def test_sporting_start_is_never_used_as_sky_or_servus_airtime():
