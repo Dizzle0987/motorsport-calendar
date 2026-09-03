@@ -13,6 +13,7 @@ from .model import Event, ROME
 
 ORF_EPG = "https://tv.orf.at/program/orf1/index.html"
 SERVUS_EPG = "https://www.servustv.com/de/epg"
+TVHEUTE_BASE = "https://tvheute.at"
 SKY_F1 = "https://programmi.sky.it/sport/motori/formula-1"
 SKY_MOTOGP = "https://programmi.sky.it/sport/motori/motogp"
 
@@ -141,9 +142,14 @@ def _session_matches(event: Event, title: str) -> bool:
     return False
 
 
-def apply_epg(events: list[Event], programmes: list[dict], broadcaster: str, source: str) -> list[Event]:
+def apply_epg(
+    events: list[Event], programmes: list[dict], broadcaster: str, source: str,
+    *, only_missing: bool = False,
+) -> list[Event]:
     for event in events:
         if not event.is_timed or broadcaster.casefold() not in event.broadcaster_at.casefold():
+            continue
+        if only_missing and event.broadcast_time_at:
             continue
         candidates = []
         for row in programmes:
@@ -155,11 +161,11 @@ def apply_epg(events: list[Event], programmes: list[dict], broadcaster: str, sou
             except (KeyError, ValueError):
                 continue
             if start.date() == event.start_dt.date() and event.start_dt - timedelta(hours=2) <= start <= event.start_dt + timedelta(minutes=10) and end >= event.start_dt:
-                candidates.append(start)
+                candidates.append((start, row.get("source", source)))
         if candidates:
-            start = min(candidates)
+            start, selected_source = min(candidates, key=lambda item: item[0])
             event.broadcast_time_at = f"dalle {start:%H:%M}"
-            event.broadcaster_at_url = source
+            event.broadcaster_at_url = selected_source
     return events
 
 
@@ -177,6 +183,65 @@ def fetch_orf_epg(events: list[Event], today: date) -> list[dict]:
 
 def fetch_servus_epg() -> list[dict]:
     return parse_servus_epg(_get(SERVUS_EPG))
+
+
+TVHEUTE_CATEGORIES = (
+    "SPORT", "INFO", "SHOW", "SERIE", "DOKU", "FILM", "KIDS",
+    "MAGAZIN", "UNTERHALTUNG", "NACHRICHTEN",
+)
+
+
+def parse_tvheute_epg(text: str, event_date: date, channel: str) -> list[dict]:
+    """Parse one dated TVHeute channel page into local EPG intervals."""
+    page = visible_text(text)
+    categories = "|".join(TVHEUTE_CATEGORIES)
+    channel_pattern = re.escape(channel)
+    pattern = re.compile(
+        rf"(?:^|\s){channel_pattern}\s+(?:(?:{categories})\s+)?"
+        rf"(?P<start>\d{{2}}:\d{{2}})\s+(?P<end>\d{{2}}:\d{{2}})\s+"
+        rf"\d+'\s+(?P<title>.*?)"
+        rf"(?=(?:\s{channel_pattern}\s+(?:(?:{categories})\s+)?\d{{2}}:\d{{2}})|\Z)",
+        re.I | re.S,
+    )
+    rows: list[dict] = []
+    for match in pattern.finditer(page):
+        start = datetime.combine(event_date, datetime.strptime(match["start"], "%H:%M").time(), ROME)
+        end = datetime.combine(event_date, datetime.strptime(match["end"], "%H:%M").time(), ROME)
+        if end <= start:
+            end += timedelta(days=1)
+        rows.append({
+            "title": " ".join(match["title"].split()),
+            "start": start.isoformat(),
+            "end": end.isoformat(),
+        })
+    return rows
+
+
+def fetch_tvheute_epg(events: list[Event], today: date, broadcaster: str) -> tuple[list[dict], str]:
+    """Fetch the dated Austrian TV guide used only as a resilient fallback."""
+    if broadcaster == "ORF":
+        channel, slug = "ORF1", "orf1-programm"
+    else:
+        channel, slug = "ServusTV", "servustv-programm"
+    dates = sorted({
+        event.start_dt.date() for event in events
+        if event.is_timed
+        and today <= event.start_dt.date() <= today + timedelta(days=21)
+        and broadcaster.casefold() in event.broadcaster_at.casefold()
+        and "international stream" not in event.broadcaster_at.casefold()
+        and not event.broadcast_time_at
+    })
+    rows: list[dict] = []
+    for event_date in dates:
+        url = f"{TVHEUTE_BASE}/{slug}/{event_date:%d-%m-%Y}-im-tv"
+        try:
+            parsed = parse_tvheute_epg(_get(url), event_date, channel)
+            for row in parsed:
+                row["source"] = url
+            rows.extend(parsed)
+        except (OSError, ValueError):
+            continue
+    return rows, f"{TVHEUTE_BASE}/{slug}/heute-im-tv"
 
 
 class _VisibleTextParser(HTMLParser):
@@ -294,5 +359,11 @@ def apply_official_epgs(events: list[Event], today: date) -> list[Event]:
         apply_epg(events, fetch_servus_epg(), "ServusTV", SERVUS_EPG)
     except (OSError, ValueError):
         pass
+    # The broadcasters' own pages remain authoritative. TVHeute is queried
+    # only for still-empty linear-TV airtimes when either primary parser or
+    # endpoint fails or omits the dated listing.
+    for broadcaster in ("ORF", "ServusTV"):
+        fallback, source = fetch_tvheute_epg(events, today, broadcaster)
+        apply_epg(events, fallback, broadcaster, source, only_missing=True)
     apply_sky_guides(events, today)
     return events
