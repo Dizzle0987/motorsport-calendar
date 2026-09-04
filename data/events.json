@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-04T06:33:24+00:00",
+  "updated_at": "2026-09-04T18:29:11+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -5400,13 +5400,13 @@
       "broadcaster_it": "TV8",
       "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 15:00",
+      "broadcast_time_it": "dalle 14:55",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-06",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-06T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "3f5ecb1f741e0ce29faca156@motorsport-calendar"
