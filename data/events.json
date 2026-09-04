@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-04T00:35:40+00:00",
+  "updated_at": "2026-09-04T06:33:24+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -5266,9 +5266,9 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PN5TIBU059T7L8L/formel-1-2026-die-live-rennen-bei-servustv-und-servustv-on",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/04.09.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "",
+      "broadcast_time_at": "dalle 12:15",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-italia-programmazione",
       "broadcast_type_it": "diretta",
@@ -5278,7 +5278,7 @@
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-04T12:30+02:00"
       ],
       "notes": "",
-      "sequence": 10,
+      "sequence": 11,
       "enabled": true,
       "stable_key": null,
       "uid": "442dc5e69badadc8ebcccfa5@motorsport-calendar"
@@ -5298,9 +5298,9 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PN5TIBU059T7L8L/formel-1-2026-die-live-rennen-bei-servustv-und-servustv-on",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/04.09.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "",
+      "broadcast_time_at": "dalle 15:45",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-italia-programmazione",
       "broadcast_type_it": "diretta",
@@ -5310,7 +5310,7 @@
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-04T16:00+02:00"
       ],
       "notes": "",
-      "sequence": 9,
+      "sequence": 10,
       "enabled": true,
       "stable_key": null,
       "uid": "2fe22613c6bc481e25c7d334@motorsport-calendar"
