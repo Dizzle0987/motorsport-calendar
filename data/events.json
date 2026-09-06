@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-06T15:30:18+00:00",
+  "updated_at": "2026-09-06T20:26:41+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -5394,9 +5394,9 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/epg",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/06.09.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 14:50",
+      "broadcast_time_at": "dalle 13:00",
       "broadcaster_it": "TV8",
       "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
@@ -5406,7 +5406,7 @@
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-06T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 10,
+      "sequence": 11,
       "enabled": true,
       "stable_key": null,
       "uid": "3f5ecb1f741e0ce29faca156@motorsport-calendar"
