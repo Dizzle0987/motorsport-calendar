@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-11T11:25:53+00:00",
+  "updated_at": "2026-09-11T16:31:10+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -5451,12 +5451,12 @@
       "location": "Madrid",
       "country": "Spain",
       "start": "2026-09-11T13:30+02:00",
-      "end": "2026-09-11T14:30+02:00",
+      "end": null,
       "status": "programmata",
       "source_sport": "Formula1.com",
       "source_sport_url": "https://www.formula1.com/en/racing/2026/spain",
-      "source_time": "Formula1.com",
-      "source_time_url": "https://www.formula1.com/en/racing/2026/spain",
+      "source_time": "Jolpica/Ergast (fallback strutturato)",
+      "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
@@ -5466,12 +5466,11 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 13:30",
       "conflicts": [
-        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-11T13:30+02:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-11",
         "Conflitto con Formula1.com: 2026-09-11T13:30+02:00"
       ],
       "notes": "",
-      "sequence": 14,
+      "sequence": 15,
       "enabled": true,
       "stable_key": null,
       "uid": "79e7d1b581a1d00c7e5b46be@motorsport-calendar"
@@ -5485,7 +5484,7 @@
       "country": "San Marino",
       "start": "2026-09-11T15:00+02:00",
       "end": "2026-09-11T16:00+02:00",
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/San Marino/537f71f7-25ea-4cb2-a259-70b0da576cc6",
       "source_time": "MotoGP.com API ufficiale",
@@ -5503,7 +5502,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-09-11T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "b9ea35b873271e077d567d75@motorsport-calendar"
@@ -5516,12 +5515,12 @@
       "location": "Madrid",
       "country": "Spain",
       "start": "2026-09-11T17:00+02:00",
-      "end": "2026-09-11T18:00+02:00",
+      "end": null,
       "status": "programmata",
       "source_sport": "Formula1.com",
       "source_sport_url": "https://www.formula1.com/en/racing/2026/spain",
-      "source_time": "Formula1.com",
-      "source_time_url": "https://www.formula1.com/en/racing/2026/spain",
+      "source_time": "Jolpica/Ergast (fallback strutturato)",
+      "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
@@ -5531,12 +5530,11 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "",
       "conflicts": [
-        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-11T17:00+02:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-11",
         "Conflitto con Formula1.com: 2026-09-11T17:00+02:00"
       ],
       "notes": "",
-      "sequence": 13,
+      "sequence": 14,
       "enabled": true,
       "stable_key": null,
       "uid": "ebc38c1cdcec14487fa0592d@motorsport-calendar"
