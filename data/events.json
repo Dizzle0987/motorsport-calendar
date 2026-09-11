@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-10T20:54:15+00:00",
+  "updated_at": "2026-09-11T04:44:53+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -6266,15 +6266,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-giappone",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 03:45",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-02",
         "Conflitto con MotoGP.com API ufficiale: 2026-10-02T03:45+02:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "aa658f973c642b0cbf8525c9@motorsport-calendar"
@@ -6294,9 +6294,9 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PN5TIBU059T7L8L/formel-1-2026-die-live-rennen-bei-servustv-und-servustv-on",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/02.10.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "",
+      "broadcast_time_at": "dalle 06:15",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
@@ -6305,8 +6305,8 @@
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-02",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-02T06:30+02:00"
       ],
-      "notes": "Riprogrammata da 2026-10-02T04:00+02:00",
-      "sequence": 7,
+      "notes": "",
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "e79e1193d0ab4b06e0ef09d9@motorsport-calendar"
@@ -6330,15 +6330,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-giappone",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 08:00",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-02",
         "Conflitto con MotoGP.com API ufficiale: 2026-10-02T08:00+02:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "14ea3f1f80a89ea1b662c689@motorsport-calendar"
@@ -6358,9 +6358,9 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PN5TIBU059T7L8L/formel-1-2026-die-live-rennen-bei-servustv-und-servustv-on",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/02.10.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "",
+      "broadcast_time_at": "dalle 09:45",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
@@ -6369,8 +6369,8 @@
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-02",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-02T10:00+02:00"
       ],
-      "notes": "Riprogrammata da 2026-10-02T08:00+02:00",
-      "sequence": 7,
+      "notes": "",
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "baeb1800ce18ecfdc6151aa1@motorsport-calendar"
