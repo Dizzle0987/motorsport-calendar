@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-12T10:50:51+00:00",
+  "updated_at": "2026-09-12T15:34:21+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -5643,12 +5643,12 @@
       "location": "Madrid",
       "country": "Spain",
       "start": "2026-09-12T12:30+02:00",
-      "end": "2026-09-12T13:30+02:00",
+      "end": null,
       "status": "programmata",
       "source_sport": "Formula1.com",
       "source_sport_url": "https://www.formula1.com/en/racing/2026/spain",
-      "source_time": "Formula1.com",
-      "source_time_url": "https://www.formula1.com/en/racing/2026/spain",
+      "source_time": "Jolpica/Ergast (fallback strutturato)",
+      "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
@@ -5658,12 +5658,11 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "",
       "conflicts": [
-        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-12T12:30+02:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-12",
         "Conflitto con Formula1.com: 2026-09-12T12:30+02:00"
       ],
       "notes": "",
-      "sequence": 13,
+      "sequence": 14,
       "enabled": true,
       "stable_key": null,
       "uid": "2ae6aa55fe21b2d3d117fe6e@motorsport-calendar"
@@ -5677,7 +5676,7 @@
       "country": "San Marino",
       "start": "2026-09-12T15:00+02:00",
       "end": null,
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/San Marino/537f71f7-25ea-4cb2-a259-70b0da576cc6",
       "source_time": "MotoGP.com API ufficiale",
@@ -5695,7 +5694,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-09-12T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 11,
+      "sequence": 12,
       "enabled": true,
       "stable_key": null,
       "uid": "e724410457d0b9d4b323dd62@motorsport-calendar"
@@ -5708,12 +5707,12 @@
       "location": "Madrid",
       "country": "Spain",
       "start": "2026-09-12T16:00+02:00",
-      "end": "2026-09-12T17:00+02:00",
+      "end": null,
       "status": "programmata",
       "source_sport": "Formula1.com",
       "source_sport_url": "https://www.formula1.com/en/racing/2026/spain",
-      "source_time": "Formula1.com",
-      "source_time_url": "https://www.formula1.com/en/racing/2026/spain",
+      "source_time": "Jolpica/Ergast (fallback strutturato)",
+      "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
@@ -5723,12 +5722,11 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 16:00",
       "conflicts": [
-        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-12T16:00+02:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-12",
         "Conflitto con Formula1.com: 2026-09-12T16:00+02:00"
       ],
       "notes": "",
-      "sequence": 14,
+      "sequence": 15,
       "enabled": true,
       "stable_key": null,
       "uid": "a097994d903df76890cfdaf1@motorsport-calendar"
@@ -5943,8 +5941,8 @@
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/19.09.2026",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 10:40",
-      "broadcaster_it": "TV8",
-      "broadcaster_it_url": "https://www.tv8.it/programmazione",
+      "broadcaster_it": "Sky Sport MotoGP / NOW",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-austria",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 10:50",
       "conflicts": [
@@ -5952,7 +5950,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-09-19T10:50+02:00"
       ],
       "notes": "",
-      "sequence": 10,
+      "sequence": 11,
       "enabled": true,
       "stable_key": null,
       "uid": "80b86e96ae75c9b2c80b96d1@motorsport-calendar"
@@ -5975,8 +5973,8 @@
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/19.09.2026",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 10:40",
-      "broadcaster_it": "TV8",
-      "broadcaster_it_url": "https://www.tv8.it/programmazione",
+      "broadcaster_it": "Sky Sport MotoGP / NOW",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-austria",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 10:50",
       "conflicts": [
@@ -5984,7 +5982,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-09-19T11:15+02:00"
       ],
       "notes": "",
-      "sequence": 10,
+      "sequence": 11,
       "enabled": true,
       "stable_key": null,
       "uid": "e8728f129d6210033858eb2d@motorsport-calendar"
@@ -6007,8 +6005,8 @@
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/19.09.2026",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 14:25",
-      "broadcaster_it": "TV8",
-      "broadcaster_it_url": "https://www.tv8.it/programmazione",
+      "broadcaster_it": "Sky Sport MotoGP / NOW",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-austria",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 15:00",
       "conflicts": [
@@ -6016,7 +6014,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-09-19T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 9,
+      "sequence": 10,
       "enabled": true,
       "stable_key": null,
       "uid": "91eb88345b2d3d41acf5621a@motorsport-calendar"
