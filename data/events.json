@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-12T15:34:21+00:00",
+  "updated_at": "2026-09-12T20:35:36+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -5659,7 +5659,7 @@
       "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-12",
-        "Conflitto con Formula1.com: 2026-09-12T12:30+02:00"
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-12T12:30+02:00"
       ],
       "notes": "",
       "sequence": 14,
@@ -5723,7 +5723,7 @@
       "broadcast_time_it": "dalle 16:00",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-12",
-        "Conflitto con Formula1.com: 2026-09-12T16:00+02:00"
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-12T16:00+02:00"
       ],
       "notes": "",
       "sequence": 15,
@@ -5941,8 +5941,8 @@
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/19.09.2026",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 10:40",
-      "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-austria",
+      "broadcaster_it": "TV8",
+      "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 10:50",
       "conflicts": [
@@ -5950,7 +5950,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-09-19T10:50+02:00"
       ],
       "notes": "",
-      "sequence": 11,
+      "sequence": 12,
       "enabled": true,
       "stable_key": null,
       "uid": "80b86e96ae75c9b2c80b96d1@motorsport-calendar"
@@ -5973,8 +5973,8 @@
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/19.09.2026",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 10:40",
-      "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-austria",
+      "broadcaster_it": "TV8",
+      "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 10:50",
       "conflicts": [
@@ -5982,7 +5982,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-09-19T11:15+02:00"
       ],
       "notes": "",
-      "sequence": 11,
+      "sequence": 12,
       "enabled": true,
       "stable_key": null,
       "uid": "e8728f129d6210033858eb2d@motorsport-calendar"
@@ -6005,8 +6005,8 @@
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/19.09.2026",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 14:25",
-      "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-austria",
+      "broadcaster_it": "TV8",
+      "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 15:00",
       "conflicts": [
@@ -6014,7 +6014,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-09-19T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 10,
+      "sequence": 11,
       "enabled": true,
       "stable_key": null,
       "uid": "91eb88345b2d3d41acf5621a@motorsport-calendar"
