@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-13T04:52:23+00:00",
+  "updated_at": "2026-09-13T11:56:40+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -5740,7 +5740,7 @@
       "country": "San Marino",
       "start": "2026-09-13T09:40+02:00",
       "end": "2026-09-13T09:50+02:00",
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/San Marino/537f71f7-25ea-4cb2-a259-70b0da576cc6",
       "source_time": "MotoGP.com API ufficiale",
@@ -5758,7 +5758,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-09-13T09:40+02:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "9c67f0ea45a4a774e067fe80@motorsport-calendar"
