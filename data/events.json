@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-13T11:56:40+00:00",
+  "updated_at": "2026-09-13T16:20:52+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -5772,7 +5772,7 @@
       "country": "San Marino",
       "start": "2026-09-13T14:00+02:00",
       "end": null,
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/San Marino/537f71f7-25ea-4cb2-a259-70b0da576cc6",
       "source_time": "MotoGP.com API ufficiale",
@@ -5784,13 +5784,13 @@
       "broadcaster_it": "TV8",
       "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 13:55",
+      "broadcast_time_it": "dalle 13:50",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-13",
         "Conflitto con MotoGP.com API ufficiale: 2026-09-13T14:00+02:00"
       ],
       "notes": "",
-      "sequence": 9,
+      "sequence": 10,
       "enabled": true,
       "stable_key": null,
       "uid": "a6adb8b97812f6152c7b470b@motorsport-calendar"
@@ -5807,8 +5807,8 @@
       "status": "programmata",
       "source_sport": "Formula1.com",
       "source_sport_url": "https://www.formula1.com/en/racing/2026/spain",
-      "source_time": "Formula1.com",
-      "source_time_url": "https://www.formula1.com/en/racing/2026/spain",
+      "source_time": "Jolpica/Ergast (fallback strutturato)",
+      "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
