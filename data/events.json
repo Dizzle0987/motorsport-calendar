@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-14T05:01:48+00:00",
+  "updated_at": "2026-09-14T12:53:14+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -6166,15 +6166,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-azerbaijan-programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 10:30",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-25",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-25T10:30+02:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "bba89637b458db015ac4aa2b@motorsport-calendar"
@@ -6198,15 +6198,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-azerbaijan-programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 14:00",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-25",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-25T14:00+02:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "d3f68b1df21d4ec141ca897b@motorsport-calendar"
@@ -6230,15 +6230,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-azerbaijan-programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 13:00",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-26",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-26T13:00+02:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "e7b13837c146f299b26e37ba@motorsport-calendar"
@@ -6517,8 +6517,8 @@
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/03.10.2026",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 07:40",
-      "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-giappone",
+      "broadcaster_it": "TV8",
+      "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 08:00",
       "conflicts": [
@@ -6526,7 +6526,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-10-03T08:00+02:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "82b46590e2a49b8b97a08f20@motorsport-calendar"
