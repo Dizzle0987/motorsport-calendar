@@ -250,6 +250,25 @@ def test_official_servus_epg_parser_and_application():
     assert updated.broadcast_time_at == "dalle 14:30"
 
 
+def test_austrian_epg_can_repair_a_wrong_provisional_channel():
+    candidate = event(
+        grand_prix="Azerbaijan Grand Prix 2026", session="Gara",
+        start="2026-09-26T13:00+02:00", broadcaster_at="ORF 1 / ORF ON",
+        broadcast_time_at="dalle 12:00",
+    )
+    rows = [{
+        "title": "Formel 1: Großer Preis von Aserbaidschan - Rennen",
+        "start": "2026-09-26T11:00:00+02:00",
+        "end": "2026-09-26T15:00:00+02:00",
+    }]
+    apply_epg(
+        [candidate], rows, "ServusTV", "https://www.servustv.com/de/epg",
+        allow_reassignment=True,
+    )
+    assert candidate.broadcaster_at == "ServusTV / ServusTV On"
+    assert candidate.broadcast_time_at == "dalle 11:00"
+
+
 def test_tvheute_fallback_selects_servus_preview_and_orf_programme():
     servus_page = """
       ServusTV SPORT 15:30 16:00 25' Formel 1 - Pirelli Grand Prix von Italien
@@ -380,13 +399,14 @@ def test_sporting_start_is_never_used_as_sky_or_servus_airtime():
     assert updated.broadcast_time_it == ""
 
 
-def test_baku_moved_to_saturday_uses_servus_official_airtimes():
+def test_baku_date_change_does_not_change_servus_allocation():
     sessions = [
         event(grand_prix="Azerbaijan Grand Prix 2026", session="FP1", start="2026-09-24T10:30+02:00"),
         event(grand_prix="Azerbaijan Grand Prix 2026", session="FP2", start="2026-09-24T14:00+02:00"),
         event(grand_prix="Azerbaijan Grand Prix 2026", session="FP3", start="2026-09-25T10:30+02:00"),
         event(grand_prix="Azerbaijan Grand Prix 2026", session="Qualifiche", start="2026-09-25T14:00+02:00"),
-        event(grand_prix="Azerbaijan Grand Prix 2026", session="Gara", start="2026-09-26T13:00+02:00"),
+        # Deliberately use a different race date: rights follow the GP identity.
+        event(grand_prix="Azerbaijan Grand Prix 2026", session="Gara", start="2026-09-27T13:00+02:00"),
     ]
     updated = apply_published_broadcasts(sessions)
     assert {item.broadcaster_at for item in updated} == {"ServusTV / ServusTV On"}
