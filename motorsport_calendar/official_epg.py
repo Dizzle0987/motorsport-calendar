@@ -128,8 +128,14 @@ def _session_matches(event: Event, title: str) -> bool:
     value = title.casefold()
     if event.competition == "Formula 1" and not any(x in value for x in ("formel 1", "formula 1", "f1")):
         return False
-    if event.competition == "MotoGP" and "motogp" not in value:
-        return False
+    if event.competition == "MotoGP":
+        if "motogp" not in value:
+            return False
+        # TV listings prefix every class with the weekend brand "MotoGP".
+        # Reject an explicitly labelled Moto2/Moto3 programme so it cannot be
+        # selected for a premier-class session.
+        if re.search(r"\bmoto[23]\s*:", value):
+            return False
     if event.session == "Sprint Qualifying":
         return "sprint" in value and any(x in value for x in ("qual", "shootout"))
     if event.session == "Sprint":
