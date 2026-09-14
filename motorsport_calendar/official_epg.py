@@ -17,6 +17,7 @@ TVHEUTE_BASE = "https://tvheute.at"
 TVINFO_BASE = "https://www.tvinfo.de/tv-programm"
 SKY_F1 = "https://programmi.sky.it/sport/motori/formula-1"
 SKY_MOTOGP = "https://programmi.sky.it/sport/motori/motogp"
+EPG_LOOKAHEAD_DAYS = 35
 
 # Stable official Programmi Sky pages. Their contents are refreshed for the
 # current edition, so the same URLs remain useful in later seasons.
@@ -151,10 +152,12 @@ def _session_matches(event: Event, title: str) -> bool:
 
 def apply_epg(
     events: list[Event], programmes: list[dict], broadcaster: str, source: str,
-    *, only_missing: bool = False,
+    *, only_missing: bool = False, allow_reassignment: bool = False,
 ) -> list[Event]:
     for event in events:
-        if not event.is_timed or broadcaster.casefold() not in event.broadcaster_at.casefold():
+        if not event.is_timed:
+            continue
+        if not allow_reassignment and broadcaster.casefold() not in event.broadcaster_at.casefold():
             continue
         if only_missing and event.broadcast_time_at:
             continue
@@ -171,13 +174,23 @@ def apply_epg(
                 candidates.append((start, row.get("source", source)))
         if candidates:
             start, selected_source = min(candidates, key=lambda item: item[0])
+            if allow_reassignment:
+                event.broadcaster_at = (
+                    "ORF 1 / ORF ON" if broadcaster == "ORF"
+                    else "ServusTV / ServusTV On"
+                )
+                event.broadcast_type_at = "diretta"
             event.broadcast_time_at = f"dalle {start:%H:%M}"
             event.broadcaster_at_url = selected_source
     return events
 
 
 def fetch_orf_epg(events: list[Event], today: date) -> list[dict]:
-    relevant = {e.start_dt.date().isoformat() for e in events if e.is_timed and "ORF" in e.broadcaster_at and today <= e.start_dt.date() <= today + timedelta(days=21)}
+    relevant = {
+        e.start_dt.date().isoformat() for e in events
+        if e.is_timed
+        and today <= e.start_dt.date() <= today + timedelta(days=EPG_LOOKAHEAD_DAYS)
+    }
     index = _get(ORF_EPG)
     current, links = parse_orf_epg(index)
     rows = list(current)
@@ -233,9 +246,7 @@ def fetch_tvheute_epg(events: list[Event], today: date, broadcaster: str) -> tup
     dates = sorted({
         event.start_dt.date() for event in events
         if event.is_timed
-        and today <= event.start_dt.date() <= today + timedelta(days=21)
-        and broadcaster.casefold() in event.broadcaster_at.casefold()
-        and "international stream" not in event.broadcaster_at.casefold()
+        and today <= event.start_dt.date() <= today + timedelta(days=EPG_LOOKAHEAD_DAYS)
         and not event.broadcast_time_at
     })
     rows: list[dict] = []
@@ -318,9 +329,7 @@ def fetch_tvinfo_epg(events: list[Event], today: date, broadcaster: str) -> tupl
     dates = sorted({
         event.start_dt.date() for event in events
         if event.is_timed
-        and today <= event.start_dt.date() <= today + timedelta(days=21)
-        and broadcaster.casefold() in event.broadcaster_at.casefold()
-        and "international stream" not in event.broadcaster_at.casefold()
+        and today <= event.start_dt.date() <= today + timedelta(days=EPG_LOOKAHEAD_DAYS)
         and not event.broadcast_time_at
     })
     rows: list[dict] = []
@@ -423,7 +432,7 @@ def sky_guide_for_event(event: Event) -> str:
 def apply_sky_guides(events: list[Event], today: date) -> list[Event]:
     pages: dict[str, str] = {}
     for event in events:
-        if not event.is_timed or not (today <= event.start_dt.date() <= today + timedelta(days=21)):
+        if not event.is_timed or not (today <= event.start_dt.date() <= today + timedelta(days=EPG_LOOKAHEAD_DAYS)):
             continue
         if "Sky Sport" not in event.broadcaster_it:
             continue
@@ -443,21 +452,34 @@ def apply_sky_guides(events: list[Event], today: date) -> list[Event]:
 
 
 def apply_official_epgs(events: list[Event], today: date) -> list[Event]:
-    try:
-        apply_epg(events, fetch_orf_epg(events, today), "ORF", ORF_EPG)
-    except (OSError, ValueError):
-        pass
-    try:
-        apply_epg(events, fetch_servus_epg(), "ServusTV", SERVUS_EPG)
-    except (OSError, ValueError):
-        pass
-    # The broadcasters' own pages remain authoritative. The server-rendered
-    # TVinfo grid is the first fallback; TVHeute remains a second independent
-    # fallback. Both are queried only for still-empty linear-TV airtimes.
+    # Scan both Austrian channels instead of trusting the provisional seasonal
+    # assignment. An exact date/session match can therefore repair a moved GP.
+    # Fallback guides are applied first; the broadcasters' own EPGs override
+    # them below when they contain the requested programme.
     for broadcaster in ("ORF", "ServusTV"):
         fallback, source = fetch_tvinfo_epg(events, today, broadcaster)
-        apply_epg(events, fallback, broadcaster, source, only_missing=True)
+        apply_epg(
+            events, fallback, broadcaster, source,
+            allow_reassignment=True,
+        )
         fallback, source = fetch_tvheute_epg(events, today, broadcaster)
-        apply_epg(events, fallback, broadcaster, source, only_missing=True)
+        apply_epg(
+            events, fallback, broadcaster, source,
+            only_missing=True, allow_reassignment=True,
+        )
+    try:
+        apply_epg(
+            events, fetch_orf_epg(events, today), "ORF", ORF_EPG,
+            allow_reassignment=True,
+        )
+    except (OSError, ValueError):
+        pass
+    try:
+        apply_epg(
+            events, fetch_servus_epg(), "ServusTV", SERVUS_EPG,
+            allow_reassignment=True,
+        )
+    except (OSError, ValueError):
+        pass
     apply_sky_guides(events, today)
     return events

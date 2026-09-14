@@ -15,16 +15,18 @@ SERVUS_MOTOGP_2026 = "https://www.servustv.com/de/content/artikel/PNF9DHWJSIDAC7
 SKY_F1_2026 = "https://sport.sky.it/formula-1/calendario"
 SKY_MOTOGP_2026 = "https://sport.sky.it/motogp/calendario"
 
-# Official 2026 allocation. Baku was moved from Sunday 27 September to
-# Saturday 26 September because of a national holiday.
-SERVUS_F1_2026_RACE_DATES = {
-    "2026-03-08", "2026-03-29", "2026-05-24", "2026-06-28",
-    "2026-07-19", "2026-08-23", "2026-09-06", "2026-09-26",
-    "2026-10-04", "2026-10-25", "2026-11-08", "2026-11-29",
+# Official 2026 allocation. Use the GP identity rather than its race date:
+# dates can move after the television rights split has been announced.
+SERVUS_F1_2026_GRAND_PRIX_TOKENS = {
+    "australian grand prix", "japanese grand prix", "canadian grand prix",
+    "austrian grand prix", "belgian grand prix", "dutch grand prix",
+    "italian grand prix", "azerbaijan grand prix",
+    "bahrain grand prix in malaysia", "united states grand prix",
+    "brazilian grand prix", "qatar grand prix",
 }
 
 SERVUS_F1_2026_SCHEDULES = {
-    "2026-09-26": {
+    "azerbaijan grand prix": {
         "url": SERVUS_F1_BAKU_2026,
         "times": {
             "FP1": "dalle 10:15",
@@ -35,6 +37,11 @@ SERVUS_F1_2026_SCHEDULES = {
         },
     },
 }
+
+
+def _grand_prix_schedule(grand_prix: str, schedules: dict) -> dict | None:
+    value = grand_prix.casefold()
+    return next((schedule for token, schedule in schedules.items() if token in value), None)
 
 # Weekend-specific ORF 1 programme starts, taken from official ORF listings.
 # Do not add a session here unless its actual broadcast start is published.
@@ -118,9 +125,15 @@ def apply_published_broadcasts(events: list[Event]) -> list[Event]:
             event_date = event.start_dt.date() if event.is_timed else event.start_dt
             if competition == "Formula 1":
                 if race_date.year == 2026:
-                    if race_date.isoformat() in SERVUS_F1_2026_RACE_DATES:
+                    is_servus = any(
+                        token in event.grand_prix.casefold()
+                        for token in SERVUS_F1_2026_GRAND_PRIX_TOKENS
+                    )
+                    if is_servus:
                         event.broadcaster_at = "ServusTV / ServusTV On"
-                        servus_schedule = SERVUS_F1_2026_SCHEDULES.get(race_date.isoformat())
+                        servus_schedule = _grand_prix_schedule(
+                            event.grand_prix, SERVUS_F1_2026_SCHEDULES
+                        )
                         event.broadcaster_at_url = (
                             servus_schedule["url"] if servus_schedule else SERVUS_F1_2026
                         )
@@ -135,7 +148,7 @@ def apply_published_broadcasts(events: list[Event]) -> list[Event]:
                     # broadcaster, but it does not publish the programme start
                     # time for each session. Never present the sporting session
                     # time as an ORF airtime without a weekend-specific listing.
-                    if race_date.isoformat() in SERVUS_F1_2026_RACE_DATES:
+                    if is_servus:
                         event.broadcast_time_at = (
                             servus_schedule["times"].get(event.session, "")
                             if servus_schedule else ""
