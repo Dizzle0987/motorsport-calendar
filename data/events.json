@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-14T15:53:30+00:00",
+  "updated_at": "2026-09-14T15:58:45+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -6068,7 +6068,7 @@
       "broadcaster_at": "ServusTV / ServusTV On",
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/20.09.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 12:00",
+      "broadcast_time_at": "dalle 13:15",
       "broadcaster_it": "TV8",
       "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
@@ -6078,7 +6078,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-09-20T14:00+02:00"
       ],
       "notes": "",
-      "sequence": 9,
+      "sequence": 10,
       "enabled": true,
       "stable_key": null,
       "uid": "f075c3a62d5dd2331165f1b3@motorsport-calendar"
@@ -6612,7 +6612,7 @@
       "broadcaster_at": "ServusTV / ServusTV On",
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/04.10.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 05:00",
+      "broadcast_time_at": "dalle 06:15",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
       "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-giappone",
       "broadcast_type_it": "diretta",
@@ -6622,7 +6622,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-10-04T07:00+02:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "b48806a2d5a515391353833b@motorsport-calendar"
