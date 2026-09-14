@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-14T16:11:14+00:00",
+  "updated_at": "2026-09-14T21:53:07+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -8787,7 +8787,7 @@
       "competition": "Formula 1",
       "grand_prix": "Qatar Grand Prix 2026",
       "session": "FP1",
-      "circuit": "Losail International Circuit",
+      "circuit": "Lusail International Circuit",
       "location": "Lusail",
       "country": "Qatar",
       "start": "2026-11-27T14:30+01:00",
@@ -8811,7 +8811,7 @@
         "Conflitto con Formula1.com: 2026-11-27T14:30+01:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "9a64311cd5218835c6b211d3@motorsport-calendar"
@@ -8852,7 +8852,7 @@
       "competition": "Formula 1",
       "grand_prix": "Qatar Grand Prix 2026",
       "session": "FP2",
-      "circuit": "Losail International Circuit",
+      "circuit": "Lusail International Circuit",
       "location": "Lusail",
       "country": "Qatar",
       "start": "2026-11-27T18:00+01:00",
@@ -8876,7 +8876,7 @@
         "Conflitto con Formula1.com: 2026-11-27T18:00+01:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "4e122e6205db47d90d50b585@motorsport-calendar"
@@ -9013,7 +9013,7 @@
       "competition": "Formula 1",
       "grand_prix": "Qatar Grand Prix 2026",
       "session": "FP3",
-      "circuit": "Losail International Circuit",
+      "circuit": "Lusail International Circuit",
       "location": "Lusail",
       "country": "Qatar",
       "start": "2026-11-28T15:30+01:00",
@@ -9037,7 +9037,7 @@
         "Conflitto con Formula1.com: 2026-11-28T15:30+01:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "56944775e680c16f642e9e14@motorsport-calendar"
@@ -9046,7 +9046,7 @@
       "competition": "Formula 1",
       "grand_prix": "Qatar Grand Prix 2026",
       "session": "Qualifiche",
-      "circuit": "Losail International Circuit",
+      "circuit": "Lusail International Circuit",
       "location": "Lusail",
       "country": "Qatar",
       "start": "2026-11-28T19:00+01:00",
@@ -9070,7 +9070,7 @@
         "Conflitto con Formula1.com: 2026-11-28T19:00+01:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "70122154886ccf64fcda09f0@motorsport-calendar"
@@ -9143,7 +9143,7 @@
       "competition": "Formula 1",
       "grand_prix": "Qatar Grand Prix 2026",
       "session": "Gara",
-      "circuit": "Losail International Circuit",
+      "circuit": "Lusail International Circuit",
       "location": "Lusail",
       "country": "Qatar",
       "start": "2026-11-29T17:00+01:00",
@@ -9166,7 +9166,7 @@
         "Conflitto con Formula1.com: 2026-11-29T17:00+01:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "a7a7f74280d3e4760c3dc92a@motorsport-calendar"
