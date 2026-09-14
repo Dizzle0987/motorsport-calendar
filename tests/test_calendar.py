@@ -302,7 +302,7 @@ def test_tvinfo_fallback_reads_requested_date_first_column():
       <table>
         <tr><td>Sa 5.9.</td><td>So 6.9.</td><td>Mo 7.9.</td><td>Di 8.9.</td></tr>
         <tr>
-          <td>12:13 <a>Servus Wetter</a> 12:15 <a>Formel 1 - Pirelli Grand Prix von Italien 3. Freies Training Folge 13</a></td>
+          <td>12:13HDTV <a>Servus Wetter</a> 12:15HDTV <a>Formel 1 - Pirelli Grand Prix von Italien 3. Freies Training Folge 13</a></td>
           <td>13:00 <a>Formel 1 - Pirelli Grand Prix von Italien Rennen: Vorbericht Folge 13</a></td>
           <td>15:00 <a>Servus um 3</a></td>
           <td>16:00 <a>Quizjagd</a></td>
@@ -328,15 +328,54 @@ def test_tvinfo_fallback_reads_requested_date_first_column():
     assert fp3.broadcast_time_at == "dalle 12:15"
 
 
+def test_tvinfo_parses_motogp_times_joined_to_hdtv_badge():
+    page = """
+      <table><tr>
+        <td>10:00HDTV MotoGP - Grand Prix von Österreich MotoGP: 2. Freies Training
+            10:40HDTV MotoGP - Grand Prix von Österreich MotoGP: Qualifying - Vorbericht
+            10:50HDTV MotoGP - Grand Prix von Österreich MotoGP: Qualifying</td>
+      </tr></table>
+      <table><tr><td>14:25HDTV MotoGP - Grand Prix von Österreich MotoGP: Sprint Rennen - Vorbericht</td></tr></table>
+    """
+    q1 = event(
+        competition="MotoGP", grand_prix="Austrian Grand Prix 2026", session="Q1",
+        start="2026-09-19T10:50+02:00", broadcaster_at="ServusTV / ServusTV On",
+    )
+    sprint = event(
+        competition="MotoGP", grand_prix="Austrian Grand Prix 2026", session="Sprint",
+        start="2026-09-19T15:00+02:00", broadcaster_at="ServusTV / ServusTV On",
+    )
+    rows = parse_tvinfo_epg(page, date(2026, 9, 19))
+    apply_epg([q1, sprint], rows, "ServusTV", "https://www.tvinfo.de/tv-programm/servustv/19.09.2026")
+    assert q1.broadcast_time_at == "dalle 10:40"
+    assert sprint.broadcast_time_at == "dalle 14:25"
+
+
 def test_sporting_start_is_never_used_as_sky_or_servus_airtime():
     candidate = event(
-        grand_prix="Spanish Grand Prix 2026", start="2026-09-27T15:00+02:00",
+        grand_prix="Italian Grand Prix 2026", start="2026-09-06T15:00+02:00",
     )
     updated = apply_published_broadcasts([candidate])[0]
     assert updated.broadcaster_at == "ServusTV / ServusTV On"
     assert updated.broadcast_time_at == ""
     assert updated.broadcaster_it == "Sky Sport F1 / NOW"
     assert updated.broadcast_time_it == ""
+
+
+def test_baku_moved_to_saturday_uses_servus_official_airtimes():
+    sessions = [
+        event(grand_prix="Azerbaijan Grand Prix 2026", session="FP1", start="2026-09-24T10:30+02:00"),
+        event(grand_prix="Azerbaijan Grand Prix 2026", session="FP2", start="2026-09-24T14:00+02:00"),
+        event(grand_prix="Azerbaijan Grand Prix 2026", session="FP3", start="2026-09-25T10:30+02:00"),
+        event(grand_prix="Azerbaijan Grand Prix 2026", session="Qualifiche", start="2026-09-25T14:00+02:00"),
+        event(grand_prix="Azerbaijan Grand Prix 2026", session="Gara", start="2026-09-26T13:00+02:00"),
+    ]
+    updated = apply_published_broadcasts(sessions)
+    assert {item.broadcaster_at for item in updated} == {"ServusTV / ServusTV On"}
+    assert [item.broadcast_time_at for item in updated] == [
+        "dalle 10:15", "dalle 13:45", "dalle 10:15", "dalle 13:30", "dalle 11:00",
+    ]
+    assert all("presse.servustv.com" in item.broadcaster_at_url for item in updated)
 
 
 def test_sky_official_f1_guide_supplies_dated_session_times():
