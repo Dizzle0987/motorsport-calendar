@@ -9,16 +9,31 @@ IT_FREE = ("TV8",)
 IT_PAID = ("Sky Sport", "NOW")
 
 SERVUS_F1_2026 = "https://www.servustv.com/de/content/artikel/PN5TIBU059T7L8L/formel-1-2026-die-live-rennen-bei-servustv-und-servustv-on"
+SERVUS_F1_BAKU_2026 = "https://presse.servustv.com/news-die-formel-1-in-aserbaidschan-live?id=236716&l=deutsch&menueid=8008"
 ORF_F1_RIGHTS = "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html"
 SERVUS_MOTOGP_2026 = "https://www.servustv.com/de/content/artikel/PNF9DHWJSIDAC7G/motogp-2026-alle-live-rennen-bei-servustv-und-servustv-on"
 SKY_F1_2026 = "https://sport.sky.it/formula-1/calendario"
 SKY_MOTOGP_2026 = "https://sport.sky.it/motogp/calendario"
 
-# Official 2026 allocation. Every other 2026 F1 weekend is live on ORF.
+# Official 2026 allocation. Baku was moved from Sunday 27 September to
+# Saturday 26 September because of a national holiday.
 SERVUS_F1_2026_RACE_DATES = {
     "2026-03-08", "2026-03-29", "2026-05-24", "2026-06-28",
-    "2026-07-19", "2026-08-23", "2026-09-06", "2026-09-27",
+    "2026-07-19", "2026-08-23", "2026-09-06", "2026-09-26",
     "2026-10-04", "2026-10-25", "2026-11-08", "2026-11-29",
+}
+
+SERVUS_F1_2026_SCHEDULES = {
+    "2026-09-26": {
+        "url": SERVUS_F1_BAKU_2026,
+        "times": {
+            "FP1": "dalle 10:15",
+            "FP2": "dalle 13:45",
+            "FP3": "dalle 10:15",
+            "Qualifiche": "dalle 13:30",
+            "Gara": "dalle 11:00",
+        },
+    },
 }
 
 # Weekend-specific ORF 1 programme starts, taken from official ORF listings.
@@ -105,7 +120,10 @@ def apply_published_broadcasts(events: list[Event]) -> list[Event]:
                 if race_date.year == 2026:
                     if race_date.isoformat() in SERVUS_F1_2026_RACE_DATES:
                         event.broadcaster_at = "ServusTV / ServusTV On"
-                        event.broadcaster_at_url = SERVUS_F1_2026
+                        servus_schedule = SERVUS_F1_2026_SCHEDULES.get(race_date.isoformat())
+                        event.broadcaster_at_url = (
+                            servus_schedule["url"] if servus_schedule else SERVUS_F1_2026
+                        )
                     else:
                         event.broadcaster_at = "ORF 1 / ORF ON"
                         orf_schedule = ORF_F1_2026_SCHEDULES.get(race_date.isoformat())
@@ -118,7 +136,10 @@ def apply_published_broadcasts(events: list[Event]) -> list[Event]:
                     # time for each session. Never present the sporting session
                     # time as an ORF airtime without a weekend-specific listing.
                     if race_date.isoformat() in SERVUS_F1_2026_RACE_DATES:
-                        event.broadcast_time_at = ""
+                        event.broadcast_time_at = (
+                            servus_schedule["times"].get(event.session, "")
+                            if servus_schedule else ""
+                        )
                     else:
                         event.broadcast_time_at = (
                             orf_schedule["times"].get(event.session, "")

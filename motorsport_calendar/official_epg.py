@@ -283,7 +283,12 @@ def parse_tvinfo_epg(text: str, event_date: date) -> list[dict]:
         if not table_row:
             continue
         cell = table_row[0]
-        markers = list(re.finditer(r"(?:^|\s)(?P<start>\d{1,2}:\d{2})(?=\s)", cell))
+        # TVinfo sometimes joins its HDTV badge directly to the time in the
+        # server-rendered text (for example ``10:40HDTV``).
+        markers = list(re.finditer(
+            r"(?:^|\s)(?P<start>\d{1,2}:\d{2})(?:HDTV)?(?=\s)", cell,
+            re.I,
+        ))
         for index, marker in enumerate(markers):
             title_start = marker.end()
             title_end = markers[index + 1].start() if index + 1 < len(markers) else len(cell)
