@@ -351,6 +351,24 @@ def test_tvinfo_parses_motogp_times_joined_to_hdtv_badge():
     assert sprint.broadcast_time_at == "dalle 14:25"
 
 
+def test_motogp_race_does_not_match_moto2_listing():
+    page = """
+      <table><tr><td>
+        12:00HDTV MotoGP - Grand Prix von Österreich Moto2: Vorbericht
+        12:15HDTV MotoGP - Grand Prix von Österreich Moto2: Rennen
+        13:15HDTV MotoGP - Grand Prix von Österreich MotoGP: Vorbericht
+        14:00HDTV MotoGP - Grand Prix von Österreich MotoGP: Rennen
+      </td></tr></table>
+    """
+    race = event(
+        competition="MotoGP", grand_prix="Austrian Grand Prix 2026", session="Gara",
+        start="2026-09-20T14:00+02:00", broadcaster_at="ServusTV / ServusTV On",
+    )
+    rows = parse_tvinfo_epg(page, date(2026, 9, 20))
+    apply_epg([race], rows, "ServusTV", "https://www.tvinfo.de/tv-programm/servustv/20.09.2026")
+    assert race.broadcast_time_at == "dalle 13:15"
+
+
 def test_sporting_start_is_never_used_as_sky_or_servus_airtime():
     candidate = event(
         grand_prix="Italian Grand Prix 2026", start="2026-09-06T15:00+02:00",
