@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-15T11:49:13+00:00",
+  "updated_at": "2026-09-17T17:03:31+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -5944,13 +5944,13 @@
       "broadcaster_it": "TV8",
       "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 10:50",
+      "broadcast_time_it": "dalle 10:45",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-19",
         "Conflitto con MotoGP.com API ufficiale: 2026-09-19T10:50+02:00"
       ],
       "notes": "",
-      "sequence": 12,
+      "sequence": 13,
       "enabled": true,
       "stable_key": null,
       "uid": "80b86e96ae75c9b2c80b96d1@motorsport-calendar"
@@ -5976,13 +5976,13 @@
       "broadcaster_it": "TV8",
       "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 10:50",
+      "broadcast_time_it": "dalle 10:45",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-19",
         "Conflitto con MotoGP.com API ufficiale: 2026-09-19T11:15+02:00"
       ],
       "notes": "",
-      "sequence": 12,
+      "sequence": 13,
       "enabled": true,
       "stable_key": null,
       "uid": "e8728f129d6210033858eb2d@motorsport-calendar"
@@ -6008,13 +6008,13 @@
       "broadcaster_it": "TV8",
       "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 15:00",
+      "broadcast_time_it": "dalle 14:55",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-19",
         "Conflitto con MotoGP.com API ufficiale: 2026-09-19T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 11,
+      "sequence": 12,
       "enabled": true,
       "stable_key": null,
       "uid": "91eb88345b2d3d41acf5621a@motorsport-calendar"
