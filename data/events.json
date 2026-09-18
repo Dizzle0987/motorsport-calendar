@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-18T11:21:07+00:00",
+  "updated_at": "2026-09-18T16:28:35+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -5867,8 +5867,8 @@
       "location": "Spielberg",
       "country": "Austria",
       "start": "2026-09-18T15:00+02:00",
-      "end": "2026-09-18T16:00+02:00",
-      "status": "programmata",
+      "end": "2026-09-18T16:07+02:00",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Austria/1d659e29-247a-402c-ba1e-33fa14670cbe",
       "source_time": "MotoGP.com API ufficiale",
@@ -5886,7 +5886,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-09-18T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "4cfd531253e48f3b0490ac74@motorsport-calendar"
