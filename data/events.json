@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-18T16:28:35+00:00",
+  "updated_at": "2026-09-18T20:58:11+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -6072,13 +6072,13 @@
       "broadcaster_it": "TV8",
       "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 14:00",
+      "broadcast_time_it": "dalle 13:45",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-20",
         "Conflitto con MotoGP.com API ufficiale: 2026-09-20T14:00+02:00"
       ],
       "notes": "",
-      "sequence": 10,
+      "sequence": 11,
       "enabled": true,
       "stable_key": null,
       "uid": "f075c3a62d5dd2331165f1b3@motorsport-calendar"
