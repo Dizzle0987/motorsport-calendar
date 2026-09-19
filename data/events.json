@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-18T20:58:11+00:00",
+  "updated_at": "2026-09-19T04:42:19+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -5846,15 +5846,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-austria",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 10:45",
+      "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-18",
         "Conflitto con MotoGP.com API ufficiale: 2026-09-18T10:45+02:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "6c427daa5521ca9141f6f226@motorsport-calendar"
@@ -5873,20 +5873,20 @@
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Austria/1d659e29-247a-402c-ba1e-33fa14670cbe",
       "source_time": "MotoGP.com API ufficiale",
       "source_time_url": "https://www.motogp.com/en/calendar/2026/event/Austria/1d659e29-247a-402c-ba1e-33fa14670cbe",
-      "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/18.09.2026",
+      "broadcaster_at": "ServusTV On (international stream)",
+      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PNF9DHWJSIDAC7G/motogp-2026-alle-live-rennen-bei-servustv-und-servustv-on",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 15:00",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-austria",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 15:00",
+      "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-18",
         "Conflitto con MotoGP.com API ufficiale: 2026-09-18T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 9,
+      "sequence": 10,
       "enabled": true,
       "stable_key": null,
       "uid": "4cfd531253e48f3b0490ac74@motorsport-calendar"
@@ -6738,7 +6738,7 @@
       "source_time": "Formula1.com",
       "source_time_url": "https://www.formula1.com/en/racing/2026/singapore",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/orf1/09.10.2026",
+      "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 10:20",
       "broadcaster_it": "Sky Sport F1 / NOW",
@@ -6771,7 +6771,7 @@
       "source_time": "Formula1.com",
       "source_time_url": "https://www.formula1.com/en/racing/2026/singapore",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/orf1/09.10.2026",
+      "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 14:10",
       "broadcaster_it": "Sky Sport F1 / NOW",
@@ -7260,15 +7260,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-australia",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 01:50",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-24",
         "Conflitto con MotoGP.com API ufficiale: 2026-10-24T01:50+02:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "00aee1d48bbbea49ed6b1d63@motorsport-calendar"
@@ -7292,15 +7292,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-australia",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 01:50",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-24",
         "Conflitto con MotoGP.com API ufficiale: 2026-10-24T02:15+02:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "ce67126ec2f629d1114387f8@motorsport-calendar"
@@ -7324,15 +7324,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-australia",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 06:00",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-24",
         "Conflitto con MotoGP.com API ufficiale: 2026-10-24T06:00+02:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "cb6785cc8ff9b5eae0b9e5f0@motorsport-calendar"
