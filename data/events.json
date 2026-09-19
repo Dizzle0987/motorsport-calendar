@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-19T04:42:19+00:00",
+  "updated_at": "2026-09-19T11:05:39+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -5900,7 +5900,7 @@
       "country": "Austria",
       "start": "2026-09-19T10:10+02:00",
       "end": "2026-09-19T10:40+02:00",
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Austria/1d659e29-247a-402c-ba1e-33fa14670cbe",
       "source_time": "MotoGP.com API ufficiale",
@@ -5918,7 +5918,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-09-19T10:10+02:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "3b3aa04fb41e14e3eb6e468a@motorsport-calendar"
@@ -5932,13 +5932,13 @@
       "country": "Austria",
       "start": "2026-09-19T10:50+02:00",
       "end": "2026-09-19T11:05+02:00",
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Austria/1d659e29-247a-402c-ba1e-33fa14670cbe",
       "source_time": "MotoGP.com API ufficiale",
       "source_time_url": "https://www.motogp.com/en/calendar/2026/event/Austria/1d659e29-247a-402c-ba1e-33fa14670cbe",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/epg",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/19.09.2026",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 10:40",
       "broadcaster_it": "TV8",
@@ -5950,7 +5950,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-09-19T10:50+02:00"
       ],
       "notes": "",
-      "sequence": 13,
+      "sequence": 14,
       "enabled": true,
       "stable_key": null,
       "uid": "80b86e96ae75c9b2c80b96d1@motorsport-calendar"
@@ -5964,13 +5964,13 @@
       "country": "Austria",
       "start": "2026-09-19T11:15+02:00",
       "end": "2026-09-19T11:30+02:00",
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Austria/1d659e29-247a-402c-ba1e-33fa14670cbe",
       "source_time": "MotoGP.com API ufficiale",
       "source_time_url": "https://www.motogp.com/en/calendar/2026/event/Austria/1d659e29-247a-402c-ba1e-33fa14670cbe",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/epg",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/19.09.2026",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 10:40",
       "broadcaster_it": "TV8",
@@ -5982,7 +5982,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-09-19T11:15+02:00"
       ],
       "notes": "",
-      "sequence": 13,
+      "sequence": 14,
       "enabled": true,
       "stable_key": null,
       "uid": "e8728f129d6210033858eb2d@motorsport-calendar"
