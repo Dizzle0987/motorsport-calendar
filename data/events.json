@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-20T11:30:43+00:00",
+  "updated_at": "2026-09-20T16:12:12+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -6060,7 +6060,7 @@
       "country": "Austria",
       "start": "2026-09-20T14:00+02:00",
       "end": null,
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Austria/1d659e29-247a-402c-ba1e-33fa14670cbe",
       "source_time": "MotoGP.com API ufficiale",
@@ -6078,7 +6078,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-09-20T14:00+02:00"
       ],
       "notes": "",
-      "sequence": 11,
+      "sequence": 12,
       "enabled": true,
       "stable_key": null,
       "uid": "f075c3a62d5dd2331165f1b3@motorsport-calendar"
