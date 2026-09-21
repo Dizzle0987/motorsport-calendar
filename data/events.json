@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-20T16:12:12+00:00",
+  "updated_at": "2026-09-21T05:01:27+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -6066,19 +6066,19 @@
       "source_time": "MotoGP.com API ufficiale",
       "source_time_url": "https://www.motogp.com/en/calendar/2026/event/Austria/1d659e29-247a-402c-ba1e-33fa14670cbe",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/20.09.2026",
+      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PNF9DHWJSIDAC7G/motogp-2026-alle-live-rennen-bei-servustv-und-servustv-on",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 13:15",
-      "broadcaster_it": "TV8",
-      "broadcaster_it_url": "https://www.tv8.it/programmazione",
+      "broadcast_time_at": "",
+      "broadcaster_it": "Sky Sport MotoGP / NOW",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 13:45",
+      "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-09-20",
         "Conflitto con MotoGP.com API ufficiale: 2026-09-20T14:00+02:00"
       ],
       "notes": "",
-      "sequence": 12,
+      "sequence": 13,
       "enabled": true,
       "stable_key": null,
       "uid": "f075c3a62d5dd2331165f1b3@motorsport-calendar"
@@ -7062,7 +7062,7 @@
       "source_time": "Formula1.com",
       "source_time_url": "https://www.formula1.com/en/racing/2026/singapore",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/orf1/11.10.2026",
+      "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 13:25",
       "broadcaster_it": "Sky Sport F1 / NOW",
