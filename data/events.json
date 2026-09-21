@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-21T05:01:27+00:00",
+  "updated_at": "2026-09-21T12:54:38+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -6839,8 +6839,8 @@
       "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PNF9DHWJSIDAC7G/motogp-2026-alle-live-rennen-bei-servustv-und-servustv-on",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
-      "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-indonesia",
+      "broadcaster_it": "TV8",
+      "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 04:50",
       "conflicts": [
@@ -6848,7 +6848,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-10-10T04:50+02:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "a7c8cd22ecfa60e15a465b45@motorsport-calendar"
@@ -6871,8 +6871,8 @@
       "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PNF9DHWJSIDAC7G/motogp-2026-alle-live-rennen-bei-servustv-und-servustv-on",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
-      "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-indonesia",
+      "broadcaster_it": "TV8",
+      "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 04:50",
       "conflicts": [
@@ -6880,7 +6880,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-10-10T05:15+02:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "7f8e3671a88830054ca121f9@motorsport-calendar"
@@ -6903,8 +6903,8 @@
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/10.10.2026",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 08:25",
-      "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-indonesia",
+      "broadcaster_it": "TV8",
+      "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 09:00",
       "conflicts": [
@@ -6912,7 +6912,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-10-10T09:00+02:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "1304f94452e3ff820da4296c@motorsport-calendar"
@@ -7065,8 +7065,8 @@
       "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 13:25",
-      "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-singapore-programmazione",
+      "broadcaster_it": "TV8",
+      "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 14:00",
       "conflicts": [
@@ -7074,7 +7074,7 @@
         "Conflitto con Formula1.com: 2026-10-11T14:00+02:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "84fd61030fda67bb3a7009e2@motorsport-calendar"
