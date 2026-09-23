@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-21T12:54:38+00:00",
+  "updated_at": "2026-09-23T17:06:36+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -7456,13 +7456,13 @@
       "broadcaster_it": "Sky Sport MotoGP / NOW",
       "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-australia",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 04:00",
+      "broadcast_time_it": "dalle 06:00",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-25",
         "Conflitto con MotoGP.com API ufficiale: 2026-10-25T04:00+01:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "1260dcd1c43e4adca740f0ac@motorsport-calendar"
