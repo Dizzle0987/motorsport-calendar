@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-23T17:06:36+00:00",
+  "updated_at": "2026-09-24T04:57:14+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -7191,9 +7191,9 @@
       "source_time": "Formula1.com",
       "source_time_url": "https://www.formula1.com/en/racing/2026/united-states",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PN5TIBU059T7L8L/formel-1-2026-die-live-rennen-bei-servustv-und-servustv-on",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/23.10.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "",
+      "broadcast_time_at": "dalle 22:15",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
@@ -7204,7 +7204,7 @@
         "Conflitto con Formula1.com: 2026-10-23T23:00+02:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "f443e8e0bf963cfe284229b7@motorsport-calendar"
