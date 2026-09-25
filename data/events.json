@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-24T04:57:14+00:00",
+  "updated_at": "2026-09-25T05:02:06+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -7320,9 +7320,9 @@
       "source_time": "MotoGP.com API ufficiale",
       "source_time_url": "https://www.motogp.com/en/calendar/2026/event/Australia/66961f05-2454-4455-9d65-f99c49d25b17",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PNF9DHWJSIDAC7G/motogp-2026-alle-live-rennen-bei-servustv-und-servustv-on",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/24.10.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "",
+      "broadcast_time_at": "dalle 05:25",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
       "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-australia",
       "broadcast_type_it": "diretta",
@@ -7332,7 +7332,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-10-24T06:00+02:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "cb6785cc8ff9b5eae0b9e5f0@motorsport-calendar"
@@ -7385,9 +7385,9 @@
       "source_time": "Formula1.com",
       "source_time_url": "https://www.formula1.com/en/racing/2026/united-states",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PN5TIBU059T7L8L/formel-1-2026-die-live-rennen-bei-servustv-und-servustv-on",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/24.10.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "",
+      "broadcast_time_at": "dalle 22:50",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
@@ -7398,7 +7398,7 @@
         "Conflitto con Formula1.com: 2026-10-24T23:00+02:00"
       ],
       "notes": "",
-      "sequence": 5,
+      "sequence": 6,
       "enabled": true,
       "stable_key": null,
       "uid": "8225592a2747117a6bbd406f@motorsport-calendar"
@@ -7518,15 +7518,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-malesia",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 03:45",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-30",
         "Conflitto con MotoGP.com API ufficiale: 2026-10-30T03:45+01:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "b81ef6c7fe02a6244c20c205@motorsport-calendar"
@@ -7550,15 +7550,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-malesia",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 08:00",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-30",
         "Conflitto con MotoGP.com API ufficiale: 2026-10-30T08:00+01:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "bb9e4efb9c5d067670694e32@motorsport-calendar"
@@ -7582,15 +7582,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-messico-programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 19:30",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-30",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-30T19:30+01:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "20c9553e99d1aa644a9c1e2e@motorsport-calendar"
