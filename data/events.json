@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-26T16:27:31+00:00",
+  "updated_at": "2026-09-27T05:23:38+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -6230,15 +6230,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 11:00",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-azerbaijan-programmazione",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 13:00",
+      "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-09-26",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-09-26T13:00+02:00"
       ],
       "notes": "",
-      "sequence": 9,
+      "sequence": 10,
       "enabled": true,
       "stable_key": null,
       "uid": "e7b13837c146f299b26e37ba@motorsport-calendar"
@@ -7870,15 +7870,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-malesia",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 08:00",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-01",
         "Conflitto con MotoGP.com API ufficiale: 2026-11-01T08:00+01:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "25259c039622fb51d1eb94d6@motorsport-calendar"
@@ -7902,15 +7902,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-messico-programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 21:00",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-01",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-01T21:00+01:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "7a602bd5f92b957deab8febc@motorsport-calendar"
