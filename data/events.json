@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T12:40:18+00:00",
+  "updated_at": "2026-09-30T22:19:53+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -6935,8 +6935,8 @@
       "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 10:40",
-      "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-singapore-programmazione",
+      "broadcaster_it": "TV8",
+      "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 11:00",
       "conflicts": [
@@ -6945,7 +6945,7 @@
         "Conflitto con Formula1.com: 2026-10-10T11:00+02:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "b13c3a0fd23de2ded6ea6152@motorsport-calendar"
@@ -6968,8 +6968,8 @@
       "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 14:55",
-      "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-singapore-programmazione",
+      "broadcaster_it": "TV8",
+      "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 15:00",
       "conflicts": [
@@ -6978,7 +6978,7 @@
         "Conflitto con Formula1.com: 2026-10-10T15:00+02:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "af73f2c29cd8e835f6372e95@motorsport-calendar"
