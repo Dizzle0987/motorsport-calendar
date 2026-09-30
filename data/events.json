@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-27T05:23:38+00:00",
+  "updated_at": "2026-09-30T12:40:18+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -6774,8 +6774,8 @@
       "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 14:10",
-      "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-singapore-programmazione",
+      "broadcaster_it": "TV8",
+      "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 14:30",
       "conflicts": [
@@ -6784,7 +6784,7 @@
         "Conflitto con Formula1.com: 2026-10-09T14:30+02:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "0862dcd8d2d6464941725865@motorsport-calendar"
