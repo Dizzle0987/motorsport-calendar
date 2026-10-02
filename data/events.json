@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T12:41:41+00:00",
+  "updated_at": "2026-10-02T22:18:08+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -6484,7 +6484,7 @@
       "broadcaster_at": "ServusTV / ServusTV On",
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/03.10.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 06:30",
+      "broadcast_time_at": "dalle 06:15",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
@@ -6494,7 +6494,7 @@
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-03T06:30+02:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "cb156b1b0acf46ee1495a164@motorsport-calendar"
@@ -6514,9 +6514,9 @@
       "source_time": "MotoGP.com API ufficiale",
       "source_time_url": "https://www.motogp.com/en/calendar/2026/event/Japan/a87453f0-3ed0-4469-993a-1486af92d879",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/03.10.2026",
+      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PNF9DHWJSIDAC7G/motogp-2026-alle-live-rennen-bei-servustv-und-servustv-on",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 07:40",
+      "broadcast_time_at": "",
       "broadcaster_it": "TV8",
       "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
@@ -6526,7 +6526,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-10-03T08:00+02:00"
       ],
       "notes": "",
-      "sequence": 9,
+      "sequence": 10,
       "enabled": true,
       "stable_key": null,
       "uid": "82b46590e2a49b8b97a08f20@motorsport-calendar"
@@ -6546,9 +6546,9 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/03.10.2026",
+      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PN5TIBU059T7L8L/formel-1-2026-die-live-rennen-bei-servustv-und-servustv-on",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 09:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
@@ -6558,7 +6558,7 @@
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-03T10:00+02:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "eae68ac0c69746e4c4095911@motorsport-calendar"
@@ -7738,9 +7738,9 @@
       "source_time": "MotoGP.com API ufficiale",
       "source_time_url": "https://www.motogp.com/en/calendar/2026/event/Malaysia/d1aedfce-d7c8-4d4a-9532-99c82547baad",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PNF9DHWJSIDAC7G/motogp-2026-alle-live-rennen-bei-servustv-und-servustv-on",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/31.10.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "",
+      "broadcast_time_at": "dalle 07:25",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
       "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-malesia",
       "broadcast_type_it": "diretta",
@@ -7750,7 +7750,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-10-31T08:00+01:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "63796c80f4022e1b18258673@motorsport-calendar"
@@ -7770,9 +7770,9 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/orf1/31.10.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "",
+      "broadcast_time_at": "dalle 18:20",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
@@ -7782,7 +7782,7 @@
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-31T18:30+01:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "53e630e1723dae3f79ccd6e1@motorsport-calendar"
