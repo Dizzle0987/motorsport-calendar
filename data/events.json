@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-03T05:23:13+00:00",
+  "updated_at": "2026-10-03T11:44:27+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -6427,7 +6427,7 @@
       "broadcast_time_it": "dalle 03:45",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-03",
-        "Conflitto con MotoGP.com API ufficiale: 2026-10-03T03:50+02:00"
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-03T03:58+02:00"
       ],
       "notes": "Riprogrammata da 2026-10-03T03:50+02:00",
       "sequence": 10,
@@ -6459,7 +6459,7 @@
       "broadcast_time_it": "dalle 03:45",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-03",
-        "Conflitto con MotoGP.com API ufficiale: 2026-10-03T04:15+02:00"
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-03T04:23+02:00"
       ],
       "notes": "Riprogrammata da 2026-10-03T04:15+02:00",
       "sequence": 10,
@@ -6508,7 +6508,7 @@
       "country": "Japan",
       "start": "2026-10-03T08:00+02:00",
       "end": null,
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Japan/a87453f0-3ed0-4469-993a-1486af92d879",
       "source_time": "MotoGP.com API ufficiale",
@@ -6526,7 +6526,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-10-03T08:00+02:00"
       ],
       "notes": "",
-      "sequence": 11,
+      "sequence": 12,
       "enabled": true,
       "stable_key": null,
       "uid": "82b46590e2a49b8b97a08f20@motorsport-calendar"
