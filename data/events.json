@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-03T11:44:27+00:00",
+  "updated_at": "2026-10-03T16:21:31+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -6570,8 +6570,8 @@
       "circuit": "Mobility Resort Motegi",
       "location": "Motegi",
       "country": "Japan",
-      "start": "2026-10-04T02:40+02:00",
-      "end": "2026-10-04T02:50+02:00",
+      "start": "2026-10-04T02:35+02:00",
+      "end": "2026-10-04T02:55+02:00",
       "status": "programmata",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Japan/a87453f0-3ed0-4469-993a-1486af92d879",
@@ -6589,8 +6589,8 @@
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-04",
         "Conflitto con MotoGP.com API ufficiale: 2026-10-04T02:40+02:00"
       ],
-      "notes": "",
-      "sequence": 6,
+      "notes": "Riprogrammata da 2026-10-04T02:40+02:00",
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "fad16f78ee89e96b7fa8c606@motorsport-calendar"
