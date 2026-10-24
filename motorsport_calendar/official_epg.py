@@ -467,6 +467,82 @@ def sky_guide_for_event(event: Event) -> str:
     return ""
 
 
+def sky_programme_time_for_event(event: Event, page: str) -> str:
+    """Find the dated session and its preceding pre-show in a Sky article."""
+    programme_day = None
+    entries: list[tuple[int, str]] = []
+    day_pattern = re.compile(
+        r"(?:luned[iì]|marted[iì]|mercoled[iì]|gioved[iì]|venerd[iì]|sabato|domenica)"
+        r"\s+(\d{1,2})(?:\s+([a-zà]+))?", re.I,
+    )
+    for block in re.finditer(r"<(h[2-4]|p|li)\b[^>]*>(.*?)</\1>", page, re.I | re.S):
+        tag, content = block.group(1).lower(), visible_text(block.group(2))
+        dates = list(day_pattern.finditer(content))
+        if dates and len(content) < 100 and tag != "li":
+            marker = dates[-1]  # "Notte sabato 24-domenica 25 ottobre"
+            programme_day = (
+                int(marker[1]), ITALIAN_MONTHS.get((marker[2] or "").casefold(), event.start_dt.month),
+            )
+            continue
+        if tag.startswith("h"):
+            programme_day = None
+        if tag != "li" or programme_day != (event.start_dt.day, event.start_dt.month):
+            continue
+        match = re.match(r"Ore\s+(\d{1,2})(?:[.:]([0-5]\d))?\s*:\s*(.+)", content, re.I)
+        if match:
+            entries.append((int(match[1]) * 60 + int(match[2] or 0), match[3]))
+    session_minute = event.start_dt.hour * 60 + event.start_dt.minute
+    for index, (minute, title) in enumerate(entries):
+        value = title.casefold()
+        if re.search(r"\bmoto[23]\b|\bf1 academy\b", value):
+            continue
+        matches = _sky_session_matches(event, title)
+        if event.session == "Gara":
+            matches = bool(re.search(r"\b(?:f1|motogp)\s*[-–—:]\s*gara\b", value))
+        elif event.session == "Warm Up":
+            matches = "warm up" in value and "motogp" in value
+        if not matches or abs(minute - session_minute) > 10:
+            continue
+        start = minute
+        for pre_minute, pre_title in reversed(entries[:index]):
+            pre_value = pre_title.casefold()
+            if not any(word in pre_value for word in ("paddock live", "grid", "pre gara", "pre-gara")):
+                break
+            if "post" in pre_value or not minute - 120 <= pre_minute <= start:
+                break
+            start = pre_minute
+        return f"dalle {start // 60:02d}:{start % 60:02d}"
+    return ""
+
+
+def sky_programme_articles(event: Event, index_page: str) -> list[str]:
+    """Discover current full programme articles linked by Sky's sport desk."""
+    guide = sky_guide_for_event(event).rsplit("/", 1)[-1]
+    token = re.sub(r"^dove-vedere-(?:orari-motogp-gp-|f1-)", "", guide)
+    token = re.sub(r"-programmazione$", "", token)
+    if not token:
+        return []
+    tokens = [token]
+    if token == "stati-uniti":
+        tokens.extend(("austin", "usa"))
+    category = "formula-1" if event.competition == "Formula 1" else "motogp"
+    result = set()
+    for href in re.findall(r'href=["\x27]([^"\x27]+)', index_page):
+        url = urllib.parse.urljoin(f"https://sport.sky.it/{category}/", html.unescape(href))
+        parsed = urllib.parse.urlparse(url)
+        match = re.match(rf"/{category}/(\d{{4}})/(\d{{2}})/(\d{{2}})/(.+)", parsed.path)
+        if parsed.netloc != "sport.sky.it" or not match:
+            continue
+        try:
+            published = date(int(match[1]), int(match[2]), int(match[3]))
+        except ValueError:
+            continue
+        if (0 <= (event.start_dt.date() - published).days <= 14
+                and "orari" in match[4] and any(token in match[4] for token in tokens)):
+            result.add(url)
+    return sorted(result, reverse=True)
+
+
 def apply_sky_guides(events: list[Event], today: date) -> list[Event]:
     pages: dict[str, str] = {}
     for event in events:
@@ -486,6 +562,26 @@ def apply_sky_guides(events: list[Event], today: date) -> list[Event]:
         if programme_time:
             event.broadcast_time_it = programme_time
             event.broadcaster_it_url = url
+        # The marketing guide lists sporting starts. The sport desk publishes
+        # the full dated schedule, including the pre-show, in linked articles.
+        category = "formula-1" if event.competition == "Formula 1" else "motogp"
+        index_url = f"https://sport.sky.it/{category}"
+        if index_url not in pages:
+            try:
+                pages[index_url] = _get(index_url)
+            except OSError:
+                pages[index_url] = ""
+        for article_url in sky_programme_articles(event, pages[index_url]):
+            if article_url not in pages:
+                try:
+                    pages[article_url] = _get(article_url)
+                except OSError:
+                    pages[article_url] = ""
+            programme_time = sky_programme_time_for_event(event, pages[article_url])
+            if programme_time:
+                event.broadcast_time_it = programme_time
+                event.broadcaster_it_url = article_url
+                break
     return events
 
 

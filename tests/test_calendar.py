@@ -19,6 +19,8 @@ from motorsport_calendar.official_epg import (
     parse_tvheute_epg,
     parse_tvinfo_epg,
     sky_time_for_event,
+    sky_programme_time_for_event,
+    sky_programme_articles,
 )
 from motorsport_calendar.parsers import (
     classify_session,
@@ -494,6 +496,41 @@ def test_sky_official_f1_guide_recognises_numbered_session_wording():
     ]
     assert [sky_time_for_event(item, page) for item in events] == [
         "dalle 19:30", "dalle 23:00", "dalle 18:30", "dalle 22:00", "dalle 21:00",
+    ]
+
+
+def test_full_sky_programme_selects_race_preshow_not_other_classes_or_replays():
+    motogp = event(competition="MotoGP", session="Gara", start="2026-10-25T04:00+01:00")
+    page = """
+      <h2>GP Australia, programma LIVE su Sky</h2>
+      <p>Notte sabato 24-domenica 25 ottobre</p>
+      <ul><li>Ore 1.30: Paddock Live</li><li>Ore 2: Moto3 – Gara</li>
+      <li>Ore 2.05: Paddock Live</li><li>Ore 2.15: Moto2 – Gara</li>
+      <li>Ore 3.15: Paddock Live</li><li>Ore 3.30: Grid</li>
+      <li>Ore 4: MotoGP - Gara</li><li>Ore 5: Zona Rossa</li></ul>
+      <h2>Repliche</h2><ul><li>Ore 3: Paddock Live</li><li>Ore 4: MotoGP - Gara</li></ul>
+    """
+    assert sky_programme_time_for_event(motogp, page) == "dalle 03:15"
+    f1 = event(session="Gara", start="2026-10-25T21:00+01:00")
+    page = """
+      <h2>La programmazione del GP Usa LIVE su Sky</h2>
+      <p>Sabato 24 ottobre</p><ul><li>Ore 19.15: Paddock Live</li><li>Ore 21: F1 - Gara</li></ul>
+      <p>Domenica 25 ottobre</p><ul><li>Ore 17.55: F1 Academy – Race 3</li>
+      <li>Ore 19.30: Paddock Live</li><li>Ore 21: F1 - Gara</li></ul>
+    """
+    assert sky_programme_time_for_event(f1, page) == "dalle 19:30"
+
+
+def test_sky_programme_discovery_requires_official_recent_matching_article():
+    candidate = event(grand_prix="United States Grand Prix 2026", start="2026-10-25T21:00+01:00")
+    page = """
+      <a href="https://sport.sky.it/formula-1/2026/10/23/f1-orari-gp-austin-2026-usa">Current</a>
+      <a href="https://sport.sky.it/formula-1/2025/10/23/f1-orari-gp-austin-2025-usa">Old</a>
+      <a href="https://sport.sky.it/formula-1/2026/10/23/f1-orari-gp-messico">Other GP</a>
+      <a href="https://example.com/formula-1/2026/10/23/f1-orari-gp-austin">Other site</a>
+    """
+    assert sky_programme_articles(candidate, page) == [
+        "https://sport.sky.it/formula-1/2026/10/23/f1-orari-gp-austin-2026-usa",
     ]
 
 
