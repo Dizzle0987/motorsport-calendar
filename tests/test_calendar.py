@@ -368,20 +368,23 @@ def test_tvinfo_fallback_selects_requested_date_when_it_is_not_first_column():
     assert race.broadcast_time_at == "dalle 20:15"
 
 
-def test_tvinfo_assigns_early_morning_listing_to_next_calendar_day():
+def test_tvinfo_keeps_early_morning_listing_on_its_column_calendar_day():
     page = """
       <table>
         <tr><td>Fr 30.10.</td><td>Sa 31.10.</td><td>So 1.11.</td></tr>
         <tr>
           <td>03:40HDTV MotoGP - Petronas Grand Prix von Malaysia MotoGP: Qualifying - Vorbericht</td>
-          <td>18:20HDTV Formel 1 Großer Preis von Mexiko F1 3.Training</td>
+          <td>03:15HDTV MotoGP - Grand Prix von Australien MotoGP: Vorbericht
+              04:00HDTV MotoGP - Grand Prix von Australien MotoGP: Rennen
+              18:20HDTV Formel 1 Großer Preis von Mexiko F1 3.Training</td>
           <td>20:25HDTV Formel 1 Großer Preis von Mexiko F1 Das Rennen</td>
         </tr>
       </table>
     """
     rows = parse_tvinfo_epg(page, date(2026, 10, 31))
     assert [(row["start"][11:16], row["title"]) for row in rows] == [
-        ("03:40", "MotoGP - Petronas Grand Prix von Malaysia MotoGP: Qualifying - Vorbericht"),
+        ("03:15", "MotoGP - Grand Prix von Australien MotoGP: Vorbericht"),
+        ("04:00", "MotoGP - Grand Prix von Australien MotoGP: Rennen"),
         ("18:20", "Formel 1 Großer Preis von Mexiko F1 3.Training"),
     ]
 

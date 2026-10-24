@@ -339,10 +339,8 @@ def parse_tvinfo_epg(text: str, event_date: date) -> list[dict]:
                     continue
                 programme_day = column_dates.get(column, event_date)
                 programme_time = datetime.strptime(marker["start"], "%H:%M").time()
-                # TVinfo's broadcast day runs into the following morning.
-                # Thus 03:50 under Friday's heading is Saturday at 03:50.
-                if column_dates and programme_time.hour < 5:
-                    programme_day += timedelta(days=1)
+                # The column header is the calendar date, including the
+                # early-morning listings displayed at the bottom of the grid.
                 if programme_day != event_date:
                     continue
                 start = datetime.combine(programme_day, programme_time, ROME)
@@ -366,26 +364,15 @@ def fetch_tvinfo_epg(events: list[Event], today: date, broadcaster: str) -> tupl
         and not event.broadcast_time_at
     })
     rows: list[dict] = []
-    seen: set[tuple[str, str, str]] = set()
-    pages: dict[str, str] = {}
     for event_date in dates:
-        # Early-morning programmes belong to the previous broadcast day's
-        # grid, so inspect that page as well as the event date page.
-        for guide_date in (event_date - timedelta(days=1), event_date):
-            url = f"{TVINFO_BASE}/{slug}/{guide_date:%d.%m.%Y}"
-            try:
-                if url not in pages:
-                    pages[url] = _get(url)
-                parsed = parse_tvinfo_epg(pages[url], event_date)
-                for row in parsed:
-                    key = (row["title"], row["start"], row["end"])
-                    if key in seen:
-                        continue
-                    seen.add(key)
-                    row["source"] = url
-                    rows.append(row)
-            except (OSError, ValueError):
-                continue
+        url = f"{TVINFO_BASE}/{slug}/{event_date:%d.%m.%Y}"
+        try:
+            parsed = parse_tvinfo_epg(_get(url), event_date)
+            for row in parsed:
+                row["source"] = url
+            rows.extend(parsed)
+        except (OSError, ValueError):
+            continue
     return rows, f"{TVINFO_BASE}/{slug}"
 
 
