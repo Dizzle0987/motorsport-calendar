@@ -347,6 +347,45 @@ def test_tvinfo_fallback_reads_requested_date_first_column():
     assert fp3.broadcast_time_at == "dalle 12:15"
 
 
+def test_tvinfo_fallback_selects_requested_date_when_it_is_not_first_column():
+    page = """
+      <table>
+        <tr><td>Sa 24.10.</td><td>So 25.10.</td><td>Mo 26.10.</td><td>Di 27.10.</td></tr>
+        <tr>
+          <td>21:55HDTV Formel 1 - Grand Prix der USA F1 3. Training</td>
+          <td>20:15HDTV Formel 1 - Grand Prix der USA Vorbericht 21:00HDTV Formel 1 - Grand Prix der USA Das Rennen</td>
+          <td>11:15HDTV Formel 1 - Grand Prix der USA Wiederholung</td>
+          <td>16:00HDTV Quizjagd</td>
+        </tr>
+      </table>
+    """
+    race = event(
+        grand_prix="United States Grand Prix 2026", session="Gara",
+        start="2026-10-25T21:00+01:00", broadcaster_at="ServusTV / ServusTV On",
+    )
+    rows = parse_tvinfo_epg(page, race.start_dt.date())
+    apply_epg([race], rows, "ServusTV", "https://www.tvinfo.de/tv-programm/servustv/25.10.2026")
+    assert race.broadcast_time_at == "dalle 20:15"
+
+
+def test_tvinfo_assigns_early_morning_listing_to_next_calendar_day():
+    page = """
+      <table>
+        <tr><td>Fr 30.10.</td><td>Sa 31.10.</td><td>So 1.11.</td></tr>
+        <tr>
+          <td>03:40HDTV MotoGP - Petronas Grand Prix von Malaysia MotoGP: Qualifying - Vorbericht</td>
+          <td>18:20HDTV Formel 1 Großer Preis von Mexiko F1 3.Training</td>
+          <td>20:25HDTV Formel 1 Großer Preis von Mexiko F1 Das Rennen</td>
+        </tr>
+      </table>
+    """
+    rows = parse_tvinfo_epg(page, date(2026, 10, 31))
+    assert [(row["start"][11:16], row["title"]) for row in rows] == [
+        ("03:40", "MotoGP - Petronas Grand Prix von Malaysia MotoGP: Qualifying - Vorbericht"),
+        ("18:20", "Formel 1 Großer Preis von Mexiko F1 3.Training"),
+    ]
+
+
 def test_tvinfo_parses_motogp_times_joined_to_hdtv_badge():
     page = """
       <table><tr>
@@ -433,6 +472,25 @@ def test_sky_official_f1_guide_supplies_dated_session_times():
     ]
     assert [sky_time_for_event(item, page) for item in events] == [
         "dalle 12:30", "dalle 16:30", "dalle 12:00", "dalle 16:00", "dalle 15:00",
+    ]
+
+
+def test_sky_official_f1_guide_recognises_numbered_session_wording():
+    page = """
+      Venerdì 30 ottobre alle ore 19:30 la prima sessione di prove libere;
+      alle ore 23:00 le seconde prove libere. Sabato 31 ottobre alle ore
+      18:30 l'ultima sessione di prove libere, mentre alle ore 22:00 si
+      terranno le qualifiche. Domenica 1 novembre alle ore 21:00 la gara.
+    """
+    events = [
+        event(session="FP1", start="2026-10-30T19:30+01:00"),
+        event(session="FP2", start="2026-10-30T23:00+01:00"),
+        event(session="FP3", start="2026-10-31T18:30+01:00"),
+        event(session="Qualifiche", start="2026-10-31T22:00+01:00"),
+        event(session="Gara", start="2026-11-01T21:00+01:00"),
+    ]
+    assert [sky_time_for_event(item, page) for item in events] == [
+        "dalle 19:30", "dalle 23:00", "dalle 18:30", "dalle 22:00", "dalle 21:00",
     ]
 
 

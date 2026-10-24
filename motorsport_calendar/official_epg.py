@@ -292,34 +292,67 @@ class _TvInfoParser(HTMLParser):
 
 
 def parse_tvinfo_epg(text: str, event_date: date) -> list[dict]:
-    """Read the first (requested-date) column of a TVinfo channel page."""
+    """Read the requested date column of a TVinfo channel page."""
     parser = _TvInfoParser()
     parser.feed(text)
     rows: list[dict] = []
+    column_dates: dict[int, date] = {}
     for table_row in parser.rows:
         if not table_row:
             continue
-        cell = table_row[0]
-        # TVinfo sometimes joins its HDTV badge directly to the time in the
-        # server-rendered text (for example ``10:40HDTV``).
-        markers = list(re.finditer(
-            r"(?:^|\s)(?P<start>\d{1,2}:\d{2})(?:HDTV)?(?=\s)", cell,
-            re.I,
-        ))
-        for index, marker in enumerate(markers):
-            title_start = marker.end()
-            title_end = markers[index + 1].start() if index + 1 < len(markers) else len(cell)
-            title = cell[title_start:title_end].strip()
-            if not title:
-                continue
-            start = datetime.combine(event_date, datetime.strptime(marker["start"], "%H:%M").time(), ROME)
-            rows.append({
-                "title": title,
-                "start": start.isoformat(),
-                # A listing page does not expose the end consistently. Three
-                # hours covers the pre-show plus session matching window.
-                "end": (start + timedelta(hours=3)).isoformat(),
-            })
+        # A dated TVinfo URL still returns a four-day grid.  The requested
+        # date can be in any column (for example Sunday is commonly second),
+        # and the date header is repeated between parts of the schedule.
+        header_dates: list[tuple[int, int, int]] = []
+        for column, value in enumerate(table_row):
+            match = re.search(r"\b(?:Mo|Di|Mi|Do|Fr|Sa|So)\s+(\d{1,2})\.(\d{1,2})\.", value, re.I)
+            if match:
+                header_dates.append((column, int(match.group(1)), int(match.group(2))))
+        if len(header_dates) >= 2:
+            column_dates = {}
+            for column, day, month in header_dates:
+                candidates = []
+                for year in (event_date.year - 1, event_date.year, event_date.year + 1):
+                    try:
+                        candidates.append(date(year, month, day))
+                    except ValueError:
+                        pass
+                if candidates:
+                    column_dates[column] = min(candidates, key=lambda value: abs(value - event_date))
+            continue
+        cells = (
+            ((column, table_row[column]) for column in column_dates if column < len(table_row))
+            if column_dates else ((0, table_row[0]),)
+        )
+        for column, cell in cells:
+            # TVinfo sometimes joins its HDTV badge directly to the time in
+            # the server-rendered text (for example ``10:40HDTV``).
+            markers = list(re.finditer(
+                r"(?:^|\s)(?P<start>\d{1,2}:\d{2})(?:HDTV)?(?=\s)", cell,
+                re.I,
+            ))
+            for index, marker in enumerate(markers):
+                title_start = marker.end()
+                title_end = markers[index + 1].start() if index + 1 < len(markers) else len(cell)
+                title = cell[title_start:title_end].strip()
+                if not title:
+                    continue
+                programme_day = column_dates.get(column, event_date)
+                programme_time = datetime.strptime(marker["start"], "%H:%M").time()
+                # TVinfo's broadcast day runs into the following morning.
+                # Thus 03:50 under Friday's heading is Saturday at 03:50.
+                if column_dates and programme_time.hour < 5:
+                    programme_day += timedelta(days=1)
+                if programme_day != event_date:
+                    continue
+                start = datetime.combine(programme_day, programme_time, ROME)
+                rows.append({
+                    "title": title,
+                    "start": start.isoformat(),
+                    # A listing page does not expose the end consistently.
+                    # Three hours covers the pre-show plus matching window.
+                    "end": (start + timedelta(hours=3)).isoformat(),
+                })
     return rows
 
 
@@ -333,15 +366,26 @@ def fetch_tvinfo_epg(events: list[Event], today: date, broadcaster: str) -> tupl
         and not event.broadcast_time_at
     })
     rows: list[dict] = []
+    seen: set[tuple[str, str, str]] = set()
+    pages: dict[str, str] = {}
     for event_date in dates:
-        url = f"{TVINFO_BASE}/{slug}/{event_date:%d.%m.%Y}"
-        try:
-            parsed = parse_tvinfo_epg(_get(url), event_date)
-            for row in parsed:
-                row["source"] = url
-            rows.extend(parsed)
-        except (OSError, ValueError):
-            continue
+        # Early-morning programmes belong to the previous broadcast day's
+        # grid, so inspect that page as well as the event date page.
+        for guide_date in (event_date - timedelta(days=1), event_date):
+            url = f"{TVINFO_BASE}/{slug}/{guide_date:%d.%m.%Y}"
+            try:
+                if url not in pages:
+                    pages[url] = _get(url)
+                parsed = parse_tvinfo_epg(pages[url], event_date)
+                for row in parsed:
+                    key = (row["title"], row["start"], row["end"])
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    row["source"] = url
+                    rows.append(row)
+            except (OSError, ValueError):
+                continue
     return rows, f"{TVINFO_BASE}/{slug}"
 
 
@@ -386,8 +430,15 @@ def _sky_session_matches(event: Event, context: str) -> bool:
         return any(x in value for x in ("prima sessione di prove", "prime prove libere", "prove libere 1"))
     if event.session == "Practice":
         return "pre-qualific" in value
-    if event.session in {"FP2", "FP3"}:
-        return event.session.casefold() in value or f"prove libere {event.session[-1]}" in value
+    if event.session == "FP2":
+        return any(x in value for x in (
+            "fp2", "prove libere 2", "seconda sessione di prove", "seconde prove libere",
+        ))
+    if event.session == "FP3":
+        return any(x in value for x in (
+            "fp3", "prove libere 3", "terza sessione di prove", "terze prove libere",
+            "ultima sessione di prove", "ultime prove libere",
+        ))
     return False
 
 
