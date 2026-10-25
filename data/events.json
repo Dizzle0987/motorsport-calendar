@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-25T04:47:19+00:00",
+  "updated_at": "2026-10-25T11:37:41+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -7436,7 +7436,7 @@
       "country": "Australia",
       "start": "2026-10-25T06:30+01:00",
       "end": null,
-      "status": "programmata",
+      "status": "cancellata",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Australia/66961f05-2454-4455-9d65-f99c49d25b17",
       "source_time": "MotoGP.com API ufficiale",
@@ -7451,10 +7451,10 @@
       "broadcast_time_it": "dalle 04:00",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-25",
-        "Conflitto con MotoGP.com API ufficiale: 2026-10-25T04:00+01:00"
+        "Conflitto con MotoGP.com API ufficiale: 2026-10-25T06:30+01:00"
       ],
-      "notes": "Riprogrammata da 2026-10-25T04:00+01:00",
-      "sequence": 13,
+      "notes": "",
+      "sequence": 14,
       "enabled": true,
       "stable_key": null,
       "uid": "1260dcd1c43e4adca740f0ac@motorsport-calendar"
@@ -7478,15 +7478,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 19:30",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-stati-uniti-programmazione",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/10/23/f1-orari-gp-austin-2026-usa",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 21:00",
+      "broadcast_time_it": "dalle 19:30",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-25",
         "Conflitto con Formula1.com: 2026-10-25T21:00+01:00"
       ],
       "notes": "",
-      "sequence": 10,
+      "sequence": 11,
       "enabled": true,
       "stable_key": null,
       "uid": "df8f1733383d5311fda5fa13@motorsport-calendar"
