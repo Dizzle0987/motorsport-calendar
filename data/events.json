@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-26T04:52:55+00:00",
+  "updated_at": "2026-10-26T13:10:23+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -7483,7 +7483,7 @@
       "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-25",
-        "Conflitto con Formula1.com: 2026-10-25T21:00+01:00"
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-25T21:00+01:00"
       ],
       "notes": "",
       "sequence": 12,
