@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-28T13:01:00+00:00",
+  "updated_at": "2026-10-28T22:39:44+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -7931,7 +7931,7 @@
       "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-06",
-        "Conflitto con MotoGP.com API ufficiale: 2026-11-06T13:45+01:00"
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-04T13:45+01:00"
       ],
       "notes": "Riprogrammata da 2026-11-06T13:45+01:00",
       "sequence": 7,
@@ -7963,7 +7963,7 @@
       "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-06",
-        "Conflitto con MotoGP.com API ufficiale: 2026-11-06T18:00+01:00"
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-04T18:00+01:00"
       ],
       "notes": "Riprogrammata da 2026-11-06T18:00+01:00",
       "sequence": 7,
@@ -7995,7 +7995,7 @@
       "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-07",
-        "Conflitto con MotoGP.com API ufficiale: 2026-11-07T13:00+01:00"
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-05T13:00+01:00"
       ],
       "notes": "Riprogrammata da 2026-11-07T13:00+01:00",
       "sequence": 7,
@@ -8027,7 +8027,7 @@
       "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-07",
-        "Conflitto con MotoGP.com API ufficiale: 2026-11-07T13:40+01:00"
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-05T13:40+01:00"
       ],
       "notes": "Riprogrammata da 2026-11-07T13:40+01:00",
       "sequence": 8,
@@ -8059,7 +8059,7 @@
       "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-07",
-        "Conflitto con MotoGP.com API ufficiale: 2026-11-07T14:05+01:00"
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-05T14:05+01:00"
       ],
       "notes": "Riprogrammata da 2026-11-07T14:05+01:00",
       "sequence": 8,
@@ -8091,7 +8091,7 @@
       "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-07",
-        "Conflitto con MotoGP.com API ufficiale: 2026-11-07T18:00+01:00"
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-05T18:00+01:00"
       ],
       "notes": "Riprogrammata da 2026-11-07T18:00+01:00",
       "sequence": 8,
@@ -8123,7 +8123,7 @@
       "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-08",
-        "Conflitto con MotoGP.com API ufficiale: 2026-11-08T13:40+01:00"
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-06T13:40+01:00"
       ],
       "notes": "Riprogrammata da 2026-11-08T13:40+01:00",
       "sequence": 7,
@@ -8187,7 +8187,7 @@
       "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-08",
-        "Conflitto con MotoGP.com API ufficiale: 2026-11-08T18:00+01:00"
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-06T18:00+01:00"
       ],
       "notes": "Riprogrammata da 2026-11-08T18:00+01:00",
       "sequence": 8,
