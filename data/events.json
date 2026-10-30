@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T05:54:52+00:00",
+  "updated_at": "2026-10-30T13:02:22+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -7510,15 +7510,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/2026/10/30/orari-motogp-gp-malesia-sepang-sky-now-tv8",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-malesia",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 03:40",
+      "broadcast_time_it": "dalle 03:45",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-30",
         "Conflitto con MotoGP.com API ufficiale: 2026-10-30T03:45+01:00"
       ],
       "notes": "",
-      "sequence": 9,
+      "sequence": 10,
       "enabled": true,
       "stable_key": null,
       "uid": "b81ef6c7fe02a6244c20c205@motorsport-calendar"
@@ -7532,7 +7532,7 @@
       "country": "Malaysia",
       "start": "2026-10-30T08:00+01:00",
       "end": "2026-10-30T09:00+01:00",
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Malaysia/d1aedfce-d7c8-4d4a-9532-99c82547baad",
       "source_time": "MotoGP.com API ufficiale",
@@ -7542,15 +7542,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/2026/10/30/orari-motogp-gp-malesia-sepang-sky-now-tv8",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-malesia",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 07:55",
+      "broadcast_time_it": "dalle 08:00",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-30",
         "Conflitto con MotoGP.com API ufficiale: 2026-10-30T08:00+01:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "bb9e4efb9c5d067670694e32@motorsport-calendar"
@@ -7574,7 +7574,7 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 19:20",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/10/28/f1-orari-gp-messico-2026",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/10/30/formula-1-orari-gp-messico-2026",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 19:15",
       "conflicts": [
@@ -7606,7 +7606,7 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 22:50",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/10/28/f1-orari-gp-messico-2026",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/10/30/formula-1-orari-gp-messico-2026",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 22:45",
       "conflicts": [
@@ -7766,7 +7766,7 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 18:20",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/10/28/f1-orari-gp-messico-2026",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/10/30/formula-1-orari-gp-messico-2026",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 18:15",
       "conflicts": [
@@ -7798,7 +7798,7 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/10/28/f1-orari-gp-messico-2026",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/10/30/formula-1-orari-gp-messico-2026",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 21:30",
       "conflicts": [
@@ -7894,7 +7894,7 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 20:25",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/10/28/f1-orari-gp-messico-2026",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/10/30/formula-1-orari-gp-messico-2026",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 19:30",
       "conflicts": [
