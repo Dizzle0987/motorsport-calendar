@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29T22:48:38+00:00",
+  "updated_at": "2026-10-30T05:54:52+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -7499,8 +7499,8 @@
       "location": "Sepang",
       "country": "Malaysia",
       "start": "2026-10-30T03:45+01:00",
-      "end": "2026-10-30T04:30+01:00",
-      "status": "programmata",
+      "end": "2026-10-30T04:35+01:00",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Malaysia/d1aedfce-d7c8-4d4a-9532-99c82547baad",
       "source_time": "MotoGP.com API ufficiale",
@@ -7518,7 +7518,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-10-30T03:45+01:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "b81ef6c7fe02a6244c20c205@motorsport-calendar"
@@ -8920,9 +8920,9 @@
       "source_time": "MotoGP.com API ufficiale",
       "source_time_url": "https://www.motogp.com/en/calendar/2026/event/Valencia/6ad2859f-51c4-459e-9714-338814e7537f",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PNF9DHWJSIDAC7G/motogp-2026-alle-live-rennen-bei-servustv-und-servustv-on",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/28.11.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "",
+      "broadcast_time_at": "dalle 10:40",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
       "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-valencia",
       "broadcast_type_it": "diretta",
@@ -8932,7 +8932,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-11-28T10:50+01:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "a4372fca1c96a902d7728dca@motorsport-calendar"
@@ -8952,9 +8952,9 @@
       "source_time": "MotoGP.com API ufficiale",
       "source_time_url": "https://www.motogp.com/en/calendar/2026/event/Valencia/6ad2859f-51c4-459e-9714-338814e7537f",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PNF9DHWJSIDAC7G/motogp-2026-alle-live-rennen-bei-servustv-und-servustv-on",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/28.11.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "",
+      "broadcast_time_at": "dalle 10:40",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
       "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-valencia",
       "broadcast_type_it": "diretta",
@@ -8964,7 +8964,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-11-28T11:15+01:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "fccf21b867dbdf10c1811dfd@motorsport-calendar"
@@ -8984,9 +8984,9 @@
       "source_time": "MotoGP.com API ufficiale",
       "source_time_url": "https://www.motogp.com/en/calendar/2026/event/Valencia/6ad2859f-51c4-459e-9714-338814e7537f",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PNF9DHWJSIDAC7G/motogp-2026-alle-live-rennen-bei-servustv-und-servustv-on",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/28.11.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "",
+      "broadcast_time_at": "dalle 14:25",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
       "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-valencia",
       "broadcast_type_it": "diretta",
@@ -8996,7 +8996,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-11-28T15:00+01:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "3e0b0031b8d162dfb54e3210@motorsport-calendar"
@@ -9016,9 +9016,9 @@
       "source_time": "Formula1.com",
       "source_time_url": "https://www.formula1.com/en/racing/2026/qatar",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PN5TIBU059T7L8L/formel-1-2026-die-live-rennen-bei-servustv-und-servustv-on",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/28.11.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "",
+      "broadcast_time_at": "dalle 15:25",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
@@ -9029,7 +9029,7 @@
         "Conflitto con Formula1.com: 2026-11-28T15:30+01:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "56944775e680c16f642e9e14@motorsport-calendar"
@@ -9049,9 +9049,9 @@
       "source_time": "Formula1.com",
       "source_time_url": "https://www.formula1.com/en/racing/2026/qatar",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PN5TIBU059T7L8L/formel-1-2026-die-live-rennen-bei-servustv-und-servustv-on",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/28.11.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "",
+      "broadcast_time_at": "dalle 18:10",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
@@ -9062,7 +9062,7 @@
         "Conflitto con Formula1.com: 2026-11-28T19:00+01:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "70122154886ccf64fcda09f0@motorsport-calendar"
