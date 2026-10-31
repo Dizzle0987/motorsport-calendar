@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-31T05:49:39+00:00",
+  "updated_at": "2026-10-31T12:38:43+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -7638,15 +7638,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/2026/10/30/orari-motogp-gp-malesia-sepang-sky-now-tv8",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 03:05",
+      "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-10-31",
         "Conflitto con MotoGP.com API ufficiale: 2026-10-31T03:10+01:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "29a6772f51b1dac4e1078514@motorsport-calendar"
@@ -7724,7 +7724,7 @@
       "country": "Malaysia",
       "start": "2026-10-31T08:00+01:00",
       "end": null,
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Malaysia/d1aedfce-d7c8-4d4a-9532-99c82547baad",
       "source_time": "MotoGP.com API ufficiale",
@@ -7742,7 +7742,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-10-31T08:00+01:00"
       ],
       "notes": "",
-      "sequence": 10,
+      "sequence": 11,
       "enabled": true,
       "stable_key": null,
       "uid": "63796c80f4022e1b18258673@motorsport-calendar"
@@ -7766,15 +7766,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 18:20",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-messico-programmazione",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/10/30/formula-1-orari-gp-messico-2026",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 18:30",
+      "broadcast_time_it": "dalle 18:15",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-31",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-31T18:30+01:00"
       ],
       "notes": "",
-      "sequence": 11,
+      "sequence": 12,
       "enabled": true,
       "stable_key": null,
       "uid": "53e630e1723dae3f79ccd6e1@motorsport-calendar"
@@ -7798,15 +7798,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-messico-programmazione",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/10/30/formula-1-orari-gp-messico-2026",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 22:00",
+      "broadcast_time_it": "dalle 21:30",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-10-31",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-10-31T22:00+01:00"
       ],
       "notes": "",
-      "sequence": 10,
+      "sequence": 11,
       "enabled": true,
       "stable_key": null,
       "uid": "772808d2910a2edd0bdebaa1@motorsport-calendar"
@@ -7894,15 +7894,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 20:25",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-messico-programmazione",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/10/30/formula-1-orari-gp-messico-2026",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 21:00",
+      "broadcast_time_it": "dalle 19:30",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-01",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-01T21:00+01:00"
       ],
       "notes": "",
-      "sequence": 11,
+      "sequence": 12,
       "enabled": true,
       "stable_key": null,
       "uid": "7a602bd5f92b957deab8febc@motorsport-calendar"
