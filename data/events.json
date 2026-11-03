@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T16:03:15+00:00",
+  "updated_at": "2026-11-03T14:22:53+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -8180,7 +8180,7 @@
       "broadcaster_at": "ServusTV / ServusTV On",
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/07.11.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 16:35",
+      "broadcast_time_at": "dalle 16:40",
       "broadcaster_it": "TV8",
       "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
@@ -8190,7 +8190,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-11-07T17:00+01:00"
       ],
       "notes": "",
-      "sequence": 10,
+      "sequence": 11,
       "enabled": true,
       "stable_key": null,
       "uid": "6bf2aed775948e2ae1423de5@motorsport-calendar"
