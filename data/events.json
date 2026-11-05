@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T06:54:26+00:00",
+  "updated_at": "2026-11-05T20:00:48+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -8184,13 +8184,13 @@
       "broadcaster_it": "TV8",
       "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 17:00",
+      "broadcast_time_it": "dalle 16:55",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-07",
         "Conflitto con MotoGP.com API ufficiale: 2026-11-07T17:00+01:00"
       ],
       "notes": "",
-      "sequence": 11,
+      "sequence": 12,
       "enabled": true,
       "stable_key": null,
       "uid": "6bf2aed775948e2ae1423de5@motorsport-calendar"
@@ -9212,7 +9212,7 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/orf1/04.12.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 13:35",
+      "broadcast_time_at": "dalle 13:50",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
@@ -9222,7 +9222,7 @@
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-12-04T14:00+01:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "dc61d8151e38105571a44044@motorsport-calendar"
