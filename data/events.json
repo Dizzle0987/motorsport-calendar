@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T19:28:22+00:00",
+  "updated_at": "2026-11-07T06:04:36+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -7954,9 +7954,9 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/06.11.2026",
+      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PN5TIBU059T7L8L/formel-1-2026-die-live-rennen-bei-servustv-und-servustv-on",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 16:15",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
@@ -7966,7 +7966,7 @@
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-06T16:30+01:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "6df701abe0a24b91f87cf0f4@motorsport-calendar"
@@ -8018,9 +8018,9 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/06.11.2026",
+      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PN5TIBU059T7L8L/formel-1-2026-die-live-rennen-bei-servustv-und-servustv-on",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 19:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
@@ -8030,7 +8030,7 @@
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-06T20:00+01:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "e1f4f5710b6a9a19374bdd6c@motorsport-calendar"
@@ -9306,9 +9306,9 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://der.orf.at/unternehmen/aktuell/formel1_rechte100.html",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/orf1/06.12.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "",
+      "broadcast_time_at": "dalle 13:25",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
@@ -9318,7 +9318,7 @@
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-12-06T14:00+01:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "31dc3d18ba1eedc403be48b5@motorsport-calendar"
