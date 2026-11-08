@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-08T13:30:46+00:00",
+  "updated_at": "2026-11-08T22:11:02+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -8268,7 +8268,7 @@
       "country": "Qatar",
       "start": "2026-11-08T17:00+01:00",
       "end": null,
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Qatar/3f3d3f5e-851c-42d2-887a-8ce8b41fa908",
       "source_time": "MotoGP.com API ufficiale",
@@ -8286,7 +8286,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-11-08T17:00+01:00"
       ],
       "notes": "",
-      "sequence": 11,
+      "sequence": 12,
       "enabled": true,
       "stable_key": null,
       "uid": "b8bf268e0c2ee1fbc560df8f@motorsport-calendar"
