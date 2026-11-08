@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T21:55:08+00:00",
+  "updated_at": "2026-11-08T06:08:17+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -8082,9 +8082,9 @@
       "source_time": "MotoGP.com API ufficiale",
       "source_time_url": "https://www.motogp.com/en/calendar/2026/event/Qatar/3f3d3f5e-851c-42d2-887a-8ce8b41fa908",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/07.11.2026",
+      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PNF9DHWJSIDAC7G/motogp-2026-alle-live-rennen-bei-servustv-und-servustv-on",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 12:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
       "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
       "broadcast_type_it": "diretta",
@@ -8094,7 +8094,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-11-07T12:40+01:00"
       ],
       "notes": "",
-      "sequence": 11,
+      "sequence": 12,
       "enabled": true,
       "stable_key": null,
       "uid": "80b829de0b76bad87156d33a@motorsport-calendar"
@@ -8114,9 +8114,9 @@
       "source_time": "MotoGP.com API ufficiale",
       "source_time_url": "https://www.motogp.com/en/calendar/2026/event/Qatar/3f3d3f5e-851c-42d2-887a-8ce8b41fa908",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/07.11.2026",
+      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PNF9DHWJSIDAC7G/motogp-2026-alle-live-rennen-bei-servustv-und-servustv-on",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 12:30",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
       "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
       "broadcast_type_it": "diretta",
@@ -8126,7 +8126,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-11-07T13:05+01:00"
       ],
       "notes": "",
-      "sequence": 11,
+      "sequence": 12,
       "enabled": true,
       "stable_key": null,
       "uid": "5331e292f0bb5ca6f0c8b150@motorsport-calendar"
@@ -8146,9 +8146,9 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/07.11.2026",
+      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PN5TIBU059T7L8L/formel-1-2026-die-live-rennen-bei-servustv-und-servustv-on",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 15:10",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
@@ -8158,7 +8158,7 @@
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-07T15:30+01:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "83c638dc981d3eeb085fb075@motorsport-calendar"
@@ -8178,19 +8178,19 @@
       "source_time": "MotoGP.com API ufficiale",
       "source_time_url": "https://www.motogp.com/en/calendar/2026/event/Qatar/3f3d3f5e-851c-42d2-887a-8ce8b41fa908",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/07.11.2026",
+      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PNF9DHWJSIDAC7G/motogp-2026-alle-live-rennen-bei-servustv-und-servustv-on",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 16:40",
-      "broadcaster_it": "TV8",
-      "broadcaster_it_url": "https://www.tv8.it/programmazione",
+      "broadcast_time_at": "",
+      "broadcaster_it": "Sky Sport MotoGP / NOW",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 16:55",
+      "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-07",
         "Conflitto con MotoGP.com API ufficiale: 2026-11-07T17:00+01:00"
       ],
       "notes": "",
-      "sequence": 13,
+      "sequence": 14,
       "enabled": true,
       "stable_key": null,
       "uid": "6bf2aed775948e2ae1423de5@motorsport-calendar"
@@ -8210,9 +8210,9 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/07.11.2026",
+      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PN5TIBU059T7L8L/formel-1-2026-die-live-rennen-bei-servustv-und-servustv-on",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 18:40",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
       "broadcast_type_it": "diretta",
@@ -8222,7 +8222,7 @@
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-07T19:00+01:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "81395deb5cb34e06c22b82b6@motorsport-calendar"
