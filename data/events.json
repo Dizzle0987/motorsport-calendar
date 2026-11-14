@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09T06:41:00+00:00",
+  "updated_at": "2026-11-14T06:30:39+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -9178,7 +9178,7 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/orf1/04.12.2026",
+      "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 10:20",
       "broadcaster_it": "Sky Sport F1 / NOW",
@@ -9210,7 +9210,7 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/orf1/04.12.2026",
+      "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 13:50",
       "broadcaster_it": "Sky Sport F1 / NOW",
