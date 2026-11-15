@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T06:30:39+00:00",
+  "updated_at": "2026-11-15T06:40:28+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -9117,8 +9117,8 @@
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/29.11.2026",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 13:15",
-      "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-valencia",
+      "broadcaster_it": "TV8",
+      "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 14:00",
       "conflicts": [
@@ -9126,7 +9126,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-11-29T14:00+01:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "d266d457d062428e019ca7d0@motorsport-calendar"
@@ -9242,7 +9242,7 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/orf1/05.12.2026",
+      "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 11:15",
       "broadcaster_it": "Sky Sport F1 / NOW",
@@ -9274,7 +9274,7 @@
       "source_time": "Jolpica/Ergast (fallback strutturato)",
       "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/orf1/05.12.2026",
+      "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 14:55",
       "broadcaster_it": "Sky Sport F1 / NOW",
