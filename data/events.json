@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-16T06:36:55+00:00",
+  "updated_at": "2026-11-16T22:10:06+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -8686,8 +8686,8 @@
       "circuit": "Autódromo Internacional do Algarve",
       "location": "Portimão",
       "country": "Portugal",
-      "start": "2026-11-22T10:40+01:00",
-      "end": "2026-11-22T10:50+01:00",
+      "start": "2026-11-22T10:00+01:00",
+      "end": "2026-11-22T10:10+01:00",
       "status": "programmata",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Portugal/c7f7626b-807f-4a6f-813e-7ad2c68302a3",
@@ -8705,8 +8705,8 @@
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-22",
         "Conflitto con MotoGP.com API ufficiale: 2026-11-22T10:40+01:00"
       ],
-      "notes": "",
-      "sequence": 6,
+      "notes": "Riprogrammata da 2026-11-22T10:40+01:00",
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "3d9f1c0cc6bafd518885ba57@motorsport-calendar"
