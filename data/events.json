@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-16T22:10:06+00:00",
+  "updated_at": "2026-11-17T07:59:45+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -8703,7 +8703,7 @@
       "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-22",
-        "Conflitto con MotoGP.com API ufficiale: 2026-11-22T10:40+01:00"
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-22T10:00+01:00"
       ],
       "notes": "Riprogrammata da 2026-11-22T10:40+01:00",
       "sequence": 7,
