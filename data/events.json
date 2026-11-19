@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T07:31:11+00:00",
+  "updated_at": "2026-11-19T09:03:43+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -8342,16 +8342,16 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 01:20",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/18/f1-orari-gp-las-vegas-2026-usa",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 01:15",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-20T01:30+01:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-19",
         "Conflitto con Formula1.com: 2026-11-20T01:30+01:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "5bd4105ae763e2d31d34deee@motorsport-calendar"
@@ -8375,16 +8375,16 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 04:55",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/18/f1-orari-gp-las-vegas-2026-usa",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 04:45",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-20T05:00+01:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-19",
         "Conflitto con Formula1.com: 2026-11-20T05:00+01:00"
       ],
       "notes": "",
-      "sequence": 9,
+      "sequence": 10,
       "enabled": true,
       "stable_key": null,
       "uid": "77bb305dc2258f82cda34b54@motorsport-calendar"
@@ -8408,15 +8408,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/2026/11/18/motogp-orari-gp-portogallo-portimao-2026-dove-vedere-sky-now-tv8",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 11:40",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-20",
         "Conflitto con MotoGP.com API ufficiale: 2026-11-20T11:45+01:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "6a5b03a22a3853c83c1f0911@motorsport-calendar"
@@ -8440,15 +8440,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/2026/11/18/motogp-orari-gp-portogallo-portimao-2026-dove-vedere-sky-now-tv8",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 15:55",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-20",
         "Conflitto con MotoGP.com API ufficiale: 2026-11-20T16:00+01:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "b7fc2e939daa794e5878ee8d@motorsport-calendar"
@@ -8472,16 +8472,16 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 01:20",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/18/f1-orari-gp-las-vegas-2026-usa",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 01:15",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-21T01:30+01:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-20",
         "Conflitto con Formula1.com: 2026-11-21T01:30+01:00"
       ],
       "notes": "",
-      "sequence": 9,
+      "sequence": 10,
       "enabled": true,
       "stable_key": null,
       "uid": "cbc666b82b4979ccd84960d8@motorsport-calendar"
@@ -8505,16 +8505,16 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 04:55",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/18/f1-orari-gp-las-vegas-2026-usa",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 04:30",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-21T05:00+01:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-20",
         "Conflitto con Formula1.com: 2026-11-21T05:00+01:00"
       ],
       "notes": "",
-      "sequence": 9,
+      "sequence": 10,
       "enabled": true,
       "stable_key": null,
       "uid": "2b97487e29aef83047cd6f4d@motorsport-calendar"
@@ -8538,15 +8538,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/2026/11/18/motogp-orari-gp-portogallo-portimao-2026-dove-vedere-sky-now-tv8",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 11:05",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-21",
         "Conflitto con MotoGP.com API ufficiale: 2026-11-21T11:10+01:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "5a66e41eabe6df664fb949b6@motorsport-calendar"
@@ -8666,15 +8666,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 04:25",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/18/f1-orari-gp-las-vegas-2026-usa",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 04:00",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-21",
         "Conflitto con Formula1.com: 2026-11-22T05:00+01:00"
       ],
       "notes": "",
-      "sequence": 9,
+      "sequence": 10,
       "enabled": true,
       "stable_key": null,
       "uid": "70e9a4402563d1e4ac370d54@motorsport-calendar"
@@ -8698,15 +8698,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/2026/11/18/motogp-orari-gp-portogallo-portimao-2026-dove-vedere-sky-now-tv8",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 09:55",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-22",
         "Conflitto con MotoGP.com API ufficiale: 2026-11-22T10:00+01:00"
       ],
-      "notes": "Riprogrammata da 2026-11-22T10:40+01:00",
-      "sequence": 7,
+      "notes": "",
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "3d9f1c0cc6bafd518885ba57@motorsport-calendar"
@@ -8794,16 +8794,16 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 14:15",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-qatar-programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 14:30",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-27T14:30+01:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-27",
         "Conflitto con Formula1.com: 2026-11-27T14:30+01:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "9a64311cd5218835c6b211d3@motorsport-calendar"
@@ -8859,16 +8859,16 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 17:55",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-qatar-programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 18:00",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-27T18:00+01:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-27",
         "Conflitto con Formula1.com: 2026-11-27T18:00+01:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "4e122e6205db47d90d50b585@motorsport-calendar"
@@ -9020,16 +9020,16 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 15:25",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-qatar-programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 15:30",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-28T15:30+01:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-28",
         "Conflitto con Formula1.com: 2026-11-28T15:30+01:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "56944775e680c16f642e9e14@motorsport-calendar"
@@ -9053,16 +9053,16 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 18:10",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-qatar-programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 19:00",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-28T19:00+01:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-28",
         "Conflitto con Formula1.com: 2026-11-28T19:00+01:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "70122154886ccf64fcda09f0@motorsport-calendar"
@@ -9150,15 +9150,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 15:30",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-qatar-programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 17:00",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-29",
         "Conflitto con Formula1.com: 2026-11-29T17:00+01:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "a7a7f74280d3e4760c3dc92a@motorsport-calendar"
@@ -9182,15 +9182,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 10:20",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-abu-dhabi-programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 14:00",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-12-04",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-12-04T10:30+01:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "b2723beae76e0e98864fa8c4@motorsport-calendar"
@@ -9214,15 +9214,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 13:50",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-abu-dhabi-programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 14:30",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-12-04",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-12-04T14:00+01:00"
       ],
       "notes": "",
-      "sequence": 9,
+      "sequence": 10,
       "enabled": true,
       "stable_key": null,
       "uid": "dc61d8151e38105571a44044@motorsport-calendar"
@@ -9246,15 +9246,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 11:15",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-abu-dhabi-programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 11:30",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-12-05",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-12-05T11:30+01:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "fb17b283101b4fda18a02eba@motorsport-calendar"
@@ -9278,15 +9278,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 14:55",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-abu-dhabi-programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 15:00",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-12-05",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-12-05T15:00+01:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "6b1676de7ba34234e31a7a3f@motorsport-calendar"
@@ -9310,15 +9310,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 13:25",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/calendario",
+      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-abu-dhabi-programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 14:00",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-12-06",
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-12-06T14:00+01:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "31dc3d18ba1eedc403be48b5@motorsport-calendar"
