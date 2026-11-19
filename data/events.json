@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T09:03:43+00:00",
+  "updated_at": "2026-11-19T20:43:01+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -8470,7 +8470,7 @@
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 01:20",
+      "broadcast_time_at": "dalle 01:21",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/18/f1-orari-gp-las-vegas-2026-usa",
       "broadcast_type_it": "diretta",
@@ -8481,7 +8481,7 @@
         "Conflitto con Formula1.com: 2026-11-21T01:30+01:00"
       ],
       "notes": "",
-      "sequence": 10,
+      "sequence": 11,
       "enabled": true,
       "stable_key": null,
       "uid": "cbc666b82b4979ccd84960d8@motorsport-calendar"
@@ -8636,13 +8636,13 @@
       "broadcaster_it": "TV8",
       "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 16:00",
+      "broadcast_time_it": "dalle 15:55",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-21",
         "Conflitto con MotoGP.com API ufficiale: 2026-11-21T16:00+01:00"
       ],
       "notes": "",
-      "sequence": 10,
+      "sequence": 11,
       "enabled": true,
       "stable_key": null,
       "uid": "36ed7973d31e77d06fdcef20@motorsport-calendar"
