@@ -21,6 +21,8 @@ from motorsport_calendar.official_epg import (
     sky_time_for_event,
     sky_programme_time_for_event,
     sky_programme_articles,
+    apply_sky_guides,
+    sky_guide_for_event,
 )
 from motorsport_calendar.parsers import (
     classify_session,
@@ -532,6 +534,60 @@ def test_sky_programme_discovery_requires_official_recent_matching_article():
     assert sky_programme_articles(candidate, page) == [
         "https://sport.sky.it/formula-1/2026/10/23/f1-orari-gp-austin-2026-usa",
     ]
+
+
+def test_sky_recognises_portuguese_name_and_round_without_configured_guide(monkeypatch):
+    from motorsport_calendar import official_epg
+    portugal = event(competition="MotoGP", grand_prix="Portuguese Grand Prix 2026",
+                     location="Portimão", country="Portugal")
+    assert sky_guide_for_event(portugal).endswith("gp-portogallo")
+    candidate = event(grand_prix="Japanese Grand Prix 2027", country="Japan", location="Suzuka",
+                      start="2027-03-28T07:00+02:00", broadcaster_it="Sky Sport F1 / NOW")
+    article = "https://sport.sky.it/formula-1/2027/03/25/f1-orari-gp-giappone"
+    page = '<p>Domenica 28 marzo</p><ul><li>Ore 6: Paddock Live</li><li>Ore 7: F1 - Gara</li></ul>'
+    monkeypatch.setattr(official_epg, "_get", lambda url: page if url == article else f'<a href="{article}">Orari</a>')
+    apply_sky_guides([candidate], date(2027, 3, 25))
+    assert candidate.broadcast_time_it == "dalle 06:00"
+    assert candidate.broadcaster_it_url == article
+
+
+def test_sky_rechecks_saved_article_after_homepage_link_disappears(monkeypatch):
+    from motorsport_calendar import official_epg
+    article = "https://sport.sky.it/formula-1/2026/11/18/f1-orari-gp-las-vegas-2026-usa"
+    candidate = event(grand_prix="Las Vegas Grand Prix 2026", start="2026-11-22T05:00+01:00",
+                      broadcaster_it="Sky Sport F1 / NOW", broadcast_time_it="dalle 04:00",
+                      broadcaster_it_url=article)
+    page = '<p>Domenica 22 novembre</p><ul><li>Ore 4.30: Paddock Live</li><li>Ore 5: F1 - Gara</li></ul>'
+    monkeypatch.setattr(official_epg, "_get", lambda url: page if url == article else "")
+    apply_sky_guides([candidate], date(2026, 11, 19))
+    assert candidate.broadcast_time_it == "dalle 04:30"
+    assert candidate.broadcaster_it_url == article
+
+
+@pytest.mark.parametrize("rescheduled", [False, True])
+def test_sky_source_outage_preserves_only_unchanged_session(tmp_path, monkeypatch, rescheduled):
+    from motorsport_calendar import official_epg, update
+    old = event(grand_prix="Las Vegas Grand Prix 2026", start="2026-11-22T05:00+01:00",
+                broadcaster_it="Sky Sport F1 / NOW", broadcast_time_it="dalle 04:00",
+                broadcaster_it_url="https://sport.sky.it/formula-1/2026/11/18/f1-orari-gp-las-vegas")
+    other = event(competition="MotoGP", grand_prix="Portugal GP 2026", start="2026-11-22T14:00+01:00")
+    current = Event.from_dict(old.as_dict())
+    if rescheduled:
+        current.start = "2026-11-22T06:00+01:00"
+    monkeypatch.setattr(update, "load_events", lambda path: [old, other] if path.name == "events.json" else [])
+    monkeypatch.setattr(update, "load_round_catalog", lambda path: {"rounds": []})
+    monkeypatch.setattr(update, "discover_rounds", lambda rounds, today: rounds)
+    monkeypatch.setattr(update, "events_from_rounds", lambda rounds, today: [])
+    monkeypatch.setattr(update, "fetch_f1_details", lambda rounds: [current])
+    monkeypatch.setattr(update, "fetch_motogp_details", lambda rounds: [])
+    monkeypatch.setattr(update, "apply_official_epgs", apply_sky_guides)
+    monkeypatch.setattr(update, "fetch_tv8_schedule", lambda events, today: {})
+    def unavailable(url):
+        raise OSError("temporary outage")
+    monkeypatch.setattr(official_epg, "_get", unavailable)
+    generated = generate(tmp_path, now=datetime(2026, 11, 19, tzinfo=timezone.utc))
+    found = next(e for e in generated if e.competition == "Formula 1")
+    assert found.broadcast_time_it == ("" if rescheduled else "dalle 04:00")
 
 
 def test_sky_official_motogp_guide_supplies_combined_qualifying_start():

@@ -5,6 +5,7 @@ import os
 import tempfile
 import urllib.error
 import urllib.request
+from copy import deepcopy
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
@@ -223,6 +224,7 @@ def _atomic_write_many(files: dict[Path, str]) -> None:
 def generate(root: Path = ROOT, *, online: bool = True, now: datetime | None = None) -> list[Event]:
     now = now or datetime.now(timezone.utc)
     previous = load_events(root / "data/events.json")
+    previous_sky = {event.key: deepcopy(event) for event in previous}
     previous_metadata = load_event_metadata(root / "data/events.json")
     manual = load_events(root / "data/manual_events.json")
     round_catalog = load_round_catalog(root / "data/rounds.json")
@@ -269,6 +271,17 @@ def generate(root: Path = ROOT, *, online: bool = True, now: datetime | None = N
         + events_from_rounds(rounds, today=now.date())
         + previous
     ))
+    # Reuse a verified Sky programme only for the same session at the same
+    # sporting start. A rescheduled session must be verified again.
+    for event in automatic:
+        old = previous_sky.get(event.key)
+        if (old and old.start == event.start and old.broadcast_time_it
+                and "Sky Sport" in old.broadcaster_it and "Sky Sport" in event.broadcaster_it
+                and old.broadcaster_it_url.startswith((
+                    "https://sport.sky.it/", "https://programmi.sky.it/",
+                ))):
+            event.broadcast_time_it = old.broadcast_time_it
+            event.broadcaster_it_url = old.broadcaster_it_url
     if online:
         automatic = apply_official_epgs(automatic, now.date())
         automatic = apply_tv8_schedule(

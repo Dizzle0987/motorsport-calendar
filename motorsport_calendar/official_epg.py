@@ -3,6 +3,8 @@ from __future__ import annotations
 import html
 import json
 import re
+import logging
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -32,6 +34,10 @@ SKY_GUIDES = {
         "singapore": f"{SKY_F1}/dove-vedere-f1-singapore-programmazione",
         "united states": f"{SKY_F1}/dove-vedere-f1-stati-uniti-programmazione",
         "mexico": f"{SKY_F1}/dove-vedere-f1-messico-programmazione",
+        "las vegas": f"{SKY_F1}/dove-vedere-f1-las-vegas-programmazione",
+        "brazil": f"{SKY_F1}/dove-vedere-f1-brasile-programmazione",
+        "qatar": f"{SKY_F1}/dove-vedere-f1-qatar-programmazione",
+        "abu dhabi": f"{SKY_F1}/dove-vedere-f1-abu-dhabi-programmazione",
     },
     "MotoGP": {
         "aragon": f"{SKY_MOTOGP}/dove-vedere-orari-motogp-gp-aragon",
@@ -50,6 +56,18 @@ ITALIAN_MONTHS = {
     "gennaio": 1, "febbraio": 2, "marzo": 3, "aprile": 4,
     "maggio": 5, "giugno": 6, "luglio": 7, "agosto": 8,
     "settembre": 9, "ottobre": 10, "novembre": 11, "dicembre": 12,
+}
+
+SKY_COUNTRY_NAMES = {
+    "japan": "giappone", "china": "cina", "thailand": "thailandia",
+    "argentina": "argentina", "brazil": "brasile", "spain": "spagna",
+    "france": "francia", "italy": "italia", "germany": "germania",
+    "netherlands": "olanda", "united kingdom": "gran-bretagna", "great britain": "gran-bretagna",
+    "czech republic": "repubblica-ceca", "czechia": "repubblica-ceca",
+    "hungary": "ungheria", "belgium": "belgio", "austria": "austria",
+    "portugal": "portogallo", "malaysia": "malesia", "australia": "australia",
+    "mexico": "messico", "united states": "stati-uniti", "usa": "stati-uniti",
+    "saudi arabia": "arabia-saudita", "bahrain": "bahrain", "canada": "canada",
 }
 
 HEADERS = {
@@ -416,7 +434,7 @@ def _sky_session_matches(event: Event, context: str) -> bool:
     if event.session in {"FP1", "Prove libere"}:
         return any(x in value for x in ("prima sessione di prove", "prime prove libere", "prove libere 1"))
     if event.session == "Practice":
-        return "pre-qualific" in value
+        return "pre-qualific" in value or "practice" in value
     if event.session == "FP2":
         return any(x in value for x in (
             "fp2", "prove libere 2", "seconda sessione di prove", "seconde prove libere",
@@ -460,7 +478,9 @@ def sky_time_for_event(event: Event, page: str) -> str:
 
 
 def sky_guide_for_event(event: Event) -> str:
-    value = f"{event.grand_prix} {event.circuit} {event.location}".casefold()
+    value = f"{event.grand_prix} {event.circuit} {event.location} {event.country}".casefold()
+    if "portuguese" in value or "portimao" in value or "portimão" in value:
+        value += " portugal"
     for token, url in SKY_GUIDES.get(event.competition, {}).items():
         if token in value:
             return url
@@ -501,7 +521,8 @@ def sky_programme_time_for_event(event: Event, page: str) -> str:
             matches = bool(re.search(r"\b(?:f1|motogp)\s*[-–—:]\s*gara\b", value))
         elif event.session == "Warm Up":
             matches = "warm up" in value and "motogp" in value
-        if not matches or abs(minute - session_minute) > 10:
+        tolerance = 40 if event.session == "Q2" else 10
+        if not matches or not -tolerance <= minute - session_minute <= 10:
             continue
         start = minute
         for pre_minute, pre_title in reversed(entries[:index]):
@@ -520,9 +541,17 @@ def sky_programme_articles(event: Event, index_page: str) -> list[str]:
     guide = sky_guide_for_event(event).rsplit("/", 1)[-1]
     token = re.sub(r"^dove-vedere-(?:orari-motogp-gp-|f1-)", "", guide)
     token = re.sub(r"-programmazione$", "", token)
-    if not token:
-        return []
-    tokens = [token]
+    tokens = [token] if token else []
+    translated = SKY_COUNTRY_NAMES.get(event.country.casefold())
+    if translated:
+        tokens.append(translated)
+    # Discover articles even for new rounds without a preconfigured marketing
+    # guide. Circuit/location names are independent of the translated GP name.
+    for place in (event.location, event.country):
+        slug = unicodedata.normalize("NFKD", place).encode("ascii", "ignore").decode().lower()
+        slug = re.sub(r"[^a-z0-9]+", "-", slug).strip("-")
+        if len(slug) >= 4:
+            tokens.append(slug)
     if token == "stati-uniti":
         tokens.extend(("austin", "usa"))
     category = "formula-1" if event.competition == "Formula 1" else "motogp"
@@ -545,39 +574,40 @@ def sky_programme_articles(event: Event, index_page: str) -> list[str]:
 
 def apply_sky_guides(events: list[Event], today: date) -> list[Event]:
     pages: dict[str, str] = {}
+
+    def page(url: str) -> str:
+        if url not in pages:
+            try:
+                pages[url] = _get(url)
+            except OSError as exc:
+                logging.warning("Sky schedule unavailable: %s (%s)", url, exc)
+                pages[url] = ""
+        return pages[url]
+
     for event in events:
         if not event.is_timed or not (today <= event.start_dt.date() <= today + timedelta(days=EPG_LOOKAHEAD_DAYS)):
             continue
         if "Sky Sport" not in event.broadcaster_it:
             continue
         url = sky_guide_for_event(event)
-        if not url:
-            continue
-        if url not in pages:
-            try:
-                pages[url] = _get(url)
-            except OSError:
-                pages[url] = ""
-        programme_time = sky_time_for_event(event, pages[url])
-        if programme_time:
+        programme_time = sky_time_for_event(event, page(url)) if url else ""
+        # A shorter marketing page must not replace a verified full programme
+        # retained from the previous run when its article is temporarily absent.
+        if programme_time and not event.broadcast_time_it:
             event.broadcast_time_it = programme_time
             event.broadcaster_it_url = url
         # The marketing guide lists sporting starts. The sport desk publishes
         # the full dated schedule, including the pre-show, in linked articles.
         category = "formula-1" if event.competition == "Formula 1" else "motogp"
         index_url = f"https://sport.sky.it/{category}"
-        if index_url not in pages:
-            try:
-                pages[index_url] = _get(index_url)
-            except OSError:
-                pages[index_url] = ""
-        for article_url in sky_programme_articles(event, pages[index_url]):
-            if article_url not in pages:
-                try:
-                    pages[article_url] = _get(article_url)
-                except OSError:
-                    pages[article_url] = ""
-            programme_time = sky_programme_time_for_event(event, pages[article_url])
+        articles = sky_programme_articles(event, page(index_url))
+        # Revisit the saved source even after it disappears from the homepage.
+        saved = event.broadcaster_it_url
+        if re.match(rf"https://sport\.sky\.it/{category}/{event.start_dt.year}/\d{{2}}/\d{{2}}/", saved):
+            if saved not in articles:
+                articles.append(saved)
+        for article_url in articles:
+            programme_time = sky_programme_time_for_event(event, page(article_url))
             if programme_time:
                 event.broadcast_time_it = programme_time
                 event.broadcaster_it_url = article_url

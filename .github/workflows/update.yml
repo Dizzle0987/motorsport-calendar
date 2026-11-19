@@ -1,6 +1,12 @@
 name: Update calendars
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "motorsport_calendar/**"
+      - "tests/**"
+      - ".github/workflows/update.yml"
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:

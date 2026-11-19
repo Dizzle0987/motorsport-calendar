@@ -24,6 +24,8 @@ I palinsesti Austria e Italia sono conservativi. Ogni 6 ore l'updater controlla 
 
 ## Uso locale
 
+Sky/NOW: ogni aggiornamento cerca anche gli articoli completi dei palinsesti nelle sezioni ufficiali Sky Sport, usando circuito, località e nomi tradotti del paese, anche per GP senza una pagina preconfigurata. I programmi già verificati vengono conservati se la fonte è temporaneamente irraggiungibile e ricontrollati dal loro URL anche quando spariscono dalla homepage. La conservazione vale solo se la sessione mantiene data e ora: uno spostamento richiede una nuova verifica. Un articolo aggiornato può sostituire l'orario conservato. Gli errori di accesso sono registrati nei log del workflow. Le modifiche al generatore avviano automaticamente test, rigenerazione e pubblicazione, oltre al controllo periodico ogni 6 ore.
+
 ```bash
 python -m venv .venv
 . .venv/bin/activate
