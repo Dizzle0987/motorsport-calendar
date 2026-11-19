@@ -24,6 +24,8 @@ I palinsesti Austria e Italia sono conservativi. Ogni 6 ore l'updater controlla 
 
 ## Uso locale
 
+ORF e ServusTV: gli orari, il canale effettivo e la fonte già verificati vengono conservati durante un guasto delle fonti, solo per sessioni con data e ora invariate. Ogni esecuzione ripete comunque la ricerca su entrambi i canali: un dato salvato non blocca nuovi controlli. I nuovi riscontri vengono confrontati separatamente dai dati conservati; le fonti ufficiali prevalgono sui fallback TVinfo/TVHeute. Una giornata ORF irraggiungibile non annulla le altre giornate recuperate. Errori e indisponibilità vengono registrati nei log del workflow.
+
 Sky/NOW: ogni aggiornamento cerca anche gli articoli completi dei palinsesti nelle sezioni ufficiali Sky Sport, usando circuito, località e nomi tradotti del paese, anche per GP senza una pagina preconfigurata. I programmi già verificati vengono conservati se la fonte è temporaneamente irraggiungibile e ricontrollati dal loro URL anche quando spariscono dalla homepage. La conservazione vale solo se la sessione mantiene data e ora: uno spostamento richiede una nuova verifica. Un articolo aggiornato può sostituire l'orario conservato. Gli errori di accesso sono registrati nei log del workflow. Le modifiche al generatore avviano automaticamente test, rigenerazione e pubblicazione, oltre al controllo periodico ogni 6 ore.
 
 ```bash

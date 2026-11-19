@@ -5,6 +5,7 @@ import json
 import re
 import logging
 import unicodedata
+from copy import deepcopy
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -214,8 +215,11 @@ def fetch_orf_epg(events: list[Event], today: date) -> list[dict]:
     rows = list(current)
     for day in sorted(relevant):
         if day in links:
-            parsed, _ = parse_orf_epg(_get(links[day]))
-            rows.extend(parsed)
+            try:
+                parsed, _ = parse_orf_epg(_get(links[day]))
+                rows.extend(parsed)
+            except (OSError, ValueError) as exc:
+                logging.warning("ORF day unavailable: %s (%s)", links[day], exc)
     return rows
 
 
@@ -275,7 +279,8 @@ def fetch_tvheute_epg(events: list[Event], today: date, broadcaster: str) -> tup
             for row in parsed:
                 row["source"] = url
             rows.extend(parsed)
-        except (OSError, ValueError):
+        except (OSError, ValueError) as exc:
+            logging.warning("Austrian fallback unavailable: %s (%s)", url, exc)
             continue
     return rows, f"{TVHEUTE_BASE}/{slug}/heute-im-tv"
 
@@ -379,7 +384,6 @@ def fetch_tvinfo_epg(events: list[Event], today: date, broadcaster: str) -> tupl
         event.start_dt.date() for event in events
         if event.is_timed
         and today <= event.start_dt.date() <= today + timedelta(days=EPG_LOOKAHEAD_DAYS)
-        and not event.broadcast_time_at
     })
     rows: list[dict] = []
     for event_date in dates:
@@ -389,7 +393,8 @@ def fetch_tvinfo_epg(events: list[Event], today: date, broadcaster: str) -> tupl
             for row in parsed:
                 row["source"] = url
             rows.extend(parsed)
-        except (OSError, ValueError):
+        except (OSError, ValueError) as exc:
+            logging.warning("Austrian fallback unavailable: %s (%s)", url, exc)
             continue
     return rows, f"{TVINFO_BASE}/{slug}"
 
@@ -616,34 +621,48 @@ def apply_sky_guides(events: list[Event], today: date) -> list[Event]:
 
 
 def apply_official_epgs(events: list[Event], today: date) -> list[Event]:
+    # Fetch fresh evidence separately from retained programmes. A saved airtime
+    # must neither prevent a new lookup nor count as a successful current match.
+    fresh = [deepcopy(event) for event in events if event.is_timed
+             and today <= event.start_dt.date() <= today + timedelta(days=EPG_LOOKAHEAD_DAYS)]
+    for event in fresh:
+        event.broadcast_time_at = ""
     # Scan both Austrian channels instead of trusting the provisional seasonal
     # assignment. An exact date/session match can therefore repair a moved GP.
     # Fallback guides are applied first; the broadcasters' own EPGs override
     # them below when they contain the requested programme.
     for broadcaster in ("ORF", "ServusTV"):
-        fallback, source = fetch_tvinfo_epg(events, today, broadcaster)
+        fallback, source = fetch_tvinfo_epg(fresh, today, broadcaster)
         apply_epg(
-            events, fallback, broadcaster, source,
+            fresh, fallback, broadcaster, source,
             allow_reassignment=True,
         )
-        fallback, source = fetch_tvheute_epg(events, today, broadcaster)
+        fallback, source = fetch_tvheute_epg(fresh, today, broadcaster)
         apply_epg(
-            events, fallback, broadcaster, source,
+            fresh, fallback, broadcaster, source,
             only_missing=True, allow_reassignment=True,
         )
     try:
         apply_epg(
-            events, fetch_orf_epg(events, today), "ORF", ORF_EPG,
+            fresh, fetch_orf_epg(fresh, today), "ORF", ORF_EPG,
             allow_reassignment=True,
         )
-    except (OSError, ValueError):
-        pass
+    except (OSError, ValueError) as exc:
+        logging.warning("ORF EPG unavailable: %s", exc)
     try:
         apply_epg(
-            events, fetch_servus_epg(), "ServusTV", SERVUS_EPG,
+            fresh, fetch_servus_epg(), "ServusTV", SERVUS_EPG,
             allow_reassignment=True,
         )
-    except (OSError, ValueError):
-        pass
+    except (OSError, ValueError) as exc:
+        logging.warning("ServusTV EPG unavailable: %s", exc)
+    verified = {event.key: event for event in fresh if event.broadcast_time_at}
+    for event in events:
+        if event.key in verified:
+            current = verified[event.key]
+            event.broadcaster_at = current.broadcaster_at
+            event.broadcast_type_at = current.broadcast_type_at
+            event.broadcast_time_at = current.broadcast_time_at
+            event.broadcaster_at_url = current.broadcaster_at_url
     apply_sky_guides(events, today)
     return events

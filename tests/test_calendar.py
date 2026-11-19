@@ -590,6 +590,92 @@ def test_sky_source_outage_preserves_only_unchanged_session(tmp_path, monkeypatc
     assert found.broadcast_time_it == ("" if rescheduled else "dalle 04:00")
 
 
+@pytest.mark.parametrize("broadcaster,url", [
+    ("ORF 1 / ORF ON", "https://tv.orf.at/program/orf1/index.html"),
+    ("ServusTV / ServusTV On", "https://www.servustv.com/de/epg"),
+])
+@pytest.mark.parametrize("rescheduled", [False, True])
+def test_austrian_outage_preserves_time_source_and_channel_only_for_same_session(
+    tmp_path, monkeypatch, broadcaster, url, rescheduled,
+):
+    from motorsport_calendar import official_epg, update
+    old = event(grand_prix="Las Vegas Grand Prix 2026", start="2026-11-22T05:00+01:00",
+                broadcaster_at=broadcaster, broadcast_time_at="dalle 04:25",
+                broadcast_type_at="diretta", broadcaster_at_url=url)
+    other = event(competition="MotoGP", grand_prix="Portugal GP 2026", start="2026-11-22T14:00+01:00")
+    current = Event.from_dict(old.as_dict())
+    if rescheduled:
+        current.start = "2026-11-22T06:00+01:00"
+    monkeypatch.setattr(update, "load_events", lambda path: [old, other] if path.name == "events.json" else [])
+    monkeypatch.setattr(update, "load_round_catalog", lambda path: {"rounds": []})
+    monkeypatch.setattr(update, "discover_rounds", lambda rounds, today: rounds)
+    monkeypatch.setattr(update, "events_from_rounds", lambda rounds, today: [])
+    monkeypatch.setattr(update, "fetch_f1_details", lambda rounds: [current])
+    monkeypatch.setattr(update, "fetch_motogp_details", lambda rounds: [])
+    monkeypatch.setattr(update, "fetch_tv8_schedule", lambda events, today: {})
+    def unavailable(url):
+        raise OSError("temporary outage")
+    monkeypatch.setattr(official_epg, "_get", unavailable)
+    generated = generate(tmp_path, now=datetime(2026, 11, 19, tzinfo=timezone.utc))
+    found = next(e for e in generated if e.competition == "Formula 1")
+    assert found.broadcast_time_at == ("" if rescheduled else "dalle 04:25")
+    if not rescheduled:
+        assert found.broadcaster_at == broadcaster
+        assert found.broadcaster_at_url == url
+
+
+def test_retained_austrian_schedule_is_refreshed_and_official_source_overrides_fallback(monkeypatch):
+    from motorsport_calendar import official_epg as epg
+    candidate = event(start="2026-11-22T05:00+01:00", broadcaster_at="ORF 1 / ORF ON",
+                      broadcast_time_at="dalle 04:25", broadcaster_at_url=epg.ORF_EPG)
+    checked = []
+    def fallback(events, today, broadcaster):
+        checked.append(broadcaster)
+        return ([{"title": "Formel 1 Rennen", "start": "2026-11-22T04:20+01:00",
+                  "end": "2026-11-22T07:00+01:00"}], "https://www.tvinfo.de/tv-programm/" + broadcaster)
+    monkeypatch.setattr(epg, "fetch_tvinfo_epg", fallback)
+    monkeypatch.setattr(epg, "fetch_tvheute_epg", lambda *args: ([], ""))
+    monkeypatch.setattr(epg, "fetch_orf_epg", lambda *args: [])
+    monkeypatch.setattr(epg, "fetch_servus_epg", lambda: [
+        {"title": "Formel 1 Rennen", "start": "2026-11-22T04:10+01:00", "end": "2026-11-22T07:00+01:00"},
+    ])
+    monkeypatch.setattr(epg, "apply_sky_guides", lambda events, today: events)
+    epg.apply_official_epgs([candidate], date(2026, 11, 19))
+    assert checked == ["ORF", "ServusTV"]
+    assert candidate.broadcast_time_at == "dalle 04:10"
+    assert candidate.broadcaster_at == "ServusTV / ServusTV On"
+    assert candidate.broadcaster_at_url == epg.SERVUS_EPG
+
+
+def test_tvinfo_rechecks_dates_with_existing_airtimes(monkeypatch):
+    from motorsport_calendar import official_epg as epg
+    candidate = event(start="2026-11-22T05:00+01:00", broadcast_time_at="dalle 04:25")
+    requested = []
+    def get(url):
+        requested.append(url)
+        return "<table><tr><td>04:10 HDTV Formel 1 Rennen</td></tr></table>"
+    monkeypatch.setattr(epg, "_get", get)
+    rows, _ = epg.fetch_tvinfo_epg([candidate], date(2026, 11, 19), "ORF")
+    assert requested == ["https://www.tvinfo.de/tv-programm/orf1/22.11.2026"]
+    assert rows[0]["start"] == "2026-11-22T04:10:00+01:00"
+
+
+def test_orf_day_failure_does_not_discard_index_programmes(monkeypatch):
+    from motorsport_calendar import official_epg as epg
+    candidate = event(start="2026-11-22T05:00+01:00")
+    index = '''<a href="/program/orf1/day-22-11-2026.html">Sunday</a>
+      <li class="broadcast" data-start-time="2026-11-22T04:25+01:00"
+          data-end-time="2026-11-22T07:00+01:00"><div class="series-title">Formel 1 Rennen</div></li>'''
+    def get(url):
+        if url == epg.ORF_EPG:
+            return index
+        raise OSError("one day temporarily unavailable")
+    monkeypatch.setattr(epg, "_get", get)
+    rows = epg.fetch_orf_epg([candidate], date(2026, 11, 19))
+    assert len(rows) == 1
+    assert rows[0]["start"] == "2026-11-22T04:25+01:00"
+
+
 def test_sky_official_motogp_guide_supplies_combined_qualifying_start():
     page = """
       Venerdì 28 agosto con le prime prove libere alle ore 10:45, mentre alle
