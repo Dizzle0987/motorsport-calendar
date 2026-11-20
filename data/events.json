@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T20:43:01+00:00",
+  "updated_at": "2026-11-20T07:24:08+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -8331,27 +8331,26 @@
       "location": "Las Vegas",
       "country": "USA",
       "start": "2026-11-20T01:30+01:00",
-      "end": "2026-11-20T02:30+01:00",
+      "end": null,
       "status": "programmata",
       "source_sport": "Formula1.com",
       "source_sport_url": "https://www.formula1.com/en/racing/2026/las-vegas",
-      "source_time": "Formula1.com",
-      "source_time_url": "https://www.formula1.com/en/racing/2026/las-vegas",
+      "source_time": "Jolpica/Ergast (fallback strutturato)",
+      "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
-      "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/orf1/20.11.2026",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 01:20",
+      "broadcast_time_at": "dalle 01:21",
       "broadcaster_it": "Sky Sport F1 / NOW",
       "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/18/f1-orari-gp-las-vegas-2026-usa",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 01:15",
       "conflicts": [
-        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-20T01:30+01:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-19",
         "Conflitto con Formula1.com: 2026-11-20T01:30+01:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "5bd4105ae763e2d31d34deee@motorsport-calendar"
@@ -8364,12 +8363,12 @@
       "location": "Las Vegas",
       "country": "USA",
       "start": "2026-11-20T05:00+01:00",
-      "end": "2026-11-20T06:00+01:00",
+      "end": null,
       "status": "programmata",
       "source_sport": "Formula1.com",
       "source_sport_url": "https://www.formula1.com/en/racing/2026/las-vegas",
-      "source_time": "Formula1.com",
-      "source_time_url": "https://www.formula1.com/en/racing/2026/las-vegas",
+      "source_time": "Jolpica/Ergast (fallback strutturato)",
+      "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
@@ -8379,12 +8378,11 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 04:45",
       "conflicts": [
-        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-20T05:00+01:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-19",
         "Conflitto con Formula1.com: 2026-11-20T05:00+01:00"
       ],
       "notes": "",
-      "sequence": 10,
+      "sequence": 11,
       "enabled": true,
       "stable_key": null,
       "uid": "77bb305dc2258f82cda34b54@motorsport-calendar"
@@ -8408,7 +8406,7 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/2026/11/18/motogp-orari-gp-portogallo-portimao-2026-dove-vedere-sky-now-tv8",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/2026/11/20/orari-motogp-gp-portogallo-portimao-sky-now-tv8",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 11:40",
       "conflicts": [
@@ -8440,7 +8438,7 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/2026/11/18/motogp-orari-gp-portogallo-portimao-2026-dove-vedere-sky-now-tv8",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/2026/11/20/orari-motogp-gp-portogallo-portimao-sky-now-tv8",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 15:55",
       "conflicts": [
@@ -8472,7 +8470,7 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 01:21",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/18/f1-orari-gp-las-vegas-2026-usa",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/20/formula-1-orari-gp-las-vegas-2026",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 01:15",
       "conflicts": [
@@ -8505,7 +8503,7 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 04:55",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/18/f1-orari-gp-las-vegas-2026-usa",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/20/formula-1-orari-gp-las-vegas-2026",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 04:30",
       "conflicts": [
@@ -8538,7 +8536,7 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/2026/11/18/motogp-orari-gp-portogallo-portimao-2026-dove-vedere-sky-now-tv8",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/2026/11/20/orari-motogp-gp-portogallo-portimao-sky-now-tv8",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 11:05",
       "conflicts": [
@@ -8666,7 +8664,7 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 04:25",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/18/f1-orari-gp-las-vegas-2026-usa",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/20/formula-1-orari-gp-las-vegas-2026",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 04:00",
       "conflicts": [
@@ -8698,7 +8696,7 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/2026/11/18/motogp-orari-gp-portogallo-portimao-2026-dove-vedere-sky-now-tv8",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/2026/11/20/orari-motogp-gp-portogallo-portimao-sky-now-tv8",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 09:55",
       "conflicts": [
