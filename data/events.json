@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T20:27:01+00:00",
+  "updated_at": "2026-11-21T07:15:08+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -8459,12 +8459,12 @@
       "location": "Las Vegas",
       "country": "USA",
       "start": "2026-11-21T01:30+01:00",
-      "end": "2026-11-21T02:30+01:00",
+      "end": null,
       "status": "programmata",
       "source_sport": "Formula1.com",
       "source_sport_url": "https://www.formula1.com/en/racing/2026/las-vegas",
-      "source_time": "Formula1.com",
-      "source_time_url": "https://www.formula1.com/en/racing/2026/las-vegas",
+      "source_time": "Jolpica/Ergast (fallback strutturato)",
+      "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
@@ -8474,12 +8474,11 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 01:15",
       "conflicts": [
-        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-21T01:30+01:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-20",
         "Conflitto con Formula1.com: 2026-11-21T01:30+01:00"
       ],
       "notes": "",
-      "sequence": 11,
+      "sequence": 12,
       "enabled": true,
       "stable_key": null,
       "uid": "cbc666b82b4979ccd84960d8@motorsport-calendar"
@@ -8492,12 +8491,12 @@
       "location": "Las Vegas",
       "country": "USA",
       "start": "2026-11-21T05:00+01:00",
-      "end": "2026-11-21T06:00+01:00",
+      "end": null,
       "status": "programmata",
       "source_sport": "Formula1.com",
       "source_sport_url": "https://www.formula1.com/en/racing/2026/las-vegas",
-      "source_time": "Formula1.com",
-      "source_time_url": "https://www.formula1.com/en/racing/2026/las-vegas",
+      "source_time": "Jolpica/Ergast (fallback strutturato)",
+      "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
@@ -8507,12 +8506,11 @@
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 04:30",
       "conflicts": [
-        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-21T05:00+01:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-20",
         "Conflitto con Formula1.com: 2026-11-21T05:00+01:00"
       ],
       "notes": "",
-      "sequence": 10,
+      "sequence": 11,
       "enabled": true,
       "stable_key": null,
       "uid": "2b97487e29aef83047cd6f4d@motorsport-calendar"
