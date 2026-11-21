@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T07:15:08+00:00",
+  "updated_at": "2026-11-21T19:20:59+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -8470,12 +8470,12 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 01:21",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/20/formula-1-orari-gp-las-vegas-2026",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/18/f1-orari-gp-las-vegas-2026-usa",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 01:15",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-20",
-        "Conflitto con Formula1.com: 2026-11-21T01:30+01:00"
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-21T01:30+01:00"
       ],
       "notes": "",
       "sequence": 12,
@@ -8502,12 +8502,12 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 04:55",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/20/formula-1-orari-gp-las-vegas-2026",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/18/f1-orari-gp-las-vegas-2026-usa",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 04:30",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-20",
-        "Conflitto con Formula1.com: 2026-11-21T05:00+01:00"
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-21T05:00+01:00"
       ],
       "notes": "",
       "sequence": 11,
@@ -8524,7 +8524,7 @@
       "country": "Portugal",
       "start": "2026-11-21T11:10+01:00",
       "end": "2026-11-21T11:40+01:00",
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Portugal/c7f7626b-807f-4a6f-813e-7ad2c68302a3",
       "source_time": "MotoGP.com API ufficiale",
@@ -8542,7 +8542,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-11-21T11:10+01:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "5a66e41eabe6df664fb949b6@motorsport-calendar"
@@ -8556,13 +8556,13 @@
       "country": "Portugal",
       "start": "2026-11-21T11:50+01:00",
       "end": "2026-11-21T12:05+01:00",
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Portugal/c7f7626b-807f-4a6f-813e-7ad2c68302a3",
       "source_time": "MotoGP.com API ufficiale",
       "source_time_url": "https://www.motogp.com/en/calendar/2026/event/Portugal/c7f7626b-807f-4a6f-813e-7ad2c68302a3",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/epg",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/21.11.2026",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 11:40",
       "broadcaster_it": "TV8",
@@ -8574,7 +8574,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-11-21T11:50+01:00"
       ],
       "notes": "",
-      "sequence": 10,
+      "sequence": 11,
       "enabled": true,
       "stable_key": null,
       "uid": "715fbea8c86daed970db91e5@motorsport-calendar"
@@ -8588,13 +8588,13 @@
       "country": "Portugal",
       "start": "2026-11-21T12:15+01:00",
       "end": "2026-11-21T12:30+01:00",
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Portugal/c7f7626b-807f-4a6f-813e-7ad2c68302a3",
       "source_time": "MotoGP.com API ufficiale",
       "source_time_url": "https://www.motogp.com/en/calendar/2026/event/Portugal/c7f7626b-807f-4a6f-813e-7ad2c68302a3",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.servustv.com/de/epg",
+      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/21.11.2026",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 11:40",
       "broadcaster_it": "TV8",
@@ -8606,7 +8606,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-11-21T12:15+01:00"
       ],
       "notes": "",
-      "sequence": 10,
+      "sequence": 11,
       "enabled": true,
       "stable_key": null,
       "uid": "35a7a463c0b5dd6e0926a058@motorsport-calendar"
@@ -8618,9 +8618,9 @@
       "circuit": "Autódromo Internacional do Algarve",
       "location": "Portimão",
       "country": "Portugal",
-      "start": "2026-11-21T16:00+01:00",
+      "start": "2026-11-21T15:30+01:00",
       "end": null,
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Portugal/c7f7626b-807f-4a6f-813e-7ad2c68302a3",
       "source_time": "MotoGP.com API ufficiale",
@@ -8632,13 +8632,13 @@
       "broadcaster_it": "TV8",
       "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 15:55",
+      "broadcast_time_it": "dalle 15:25",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-21",
         "Conflitto con MotoGP.com API ufficiale: 2026-11-21T16:00+01:00"
       ],
-      "notes": "",
-      "sequence": 11,
+      "notes": "Riprogrammata da 2026-11-21T16:00+01:00",
+      "sequence": 12,
       "enabled": true,
       "stable_key": null,
       "uid": "36ed7973d31e77d06fdcef20@motorsport-calendar"
@@ -8662,7 +8662,7 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 04:25",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/20/formula-1-orari-gp-las-vegas-2026",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/18/f1-orari-gp-las-vegas-2026-usa",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 04:00",
       "conflicts": [
