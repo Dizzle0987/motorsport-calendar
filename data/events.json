@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-21T19:20:59+00:00",
+  "updated_at": "2026-11-22T06:56:38+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -8565,16 +8565,16 @@
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/21.11.2026",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 11:40",
-      "broadcaster_it": "TV8",
-      "broadcaster_it_url": "https://www.tv8.it/programmazione",
+      "broadcaster_it": "Sky Sport MotoGP / NOW",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 11:45",
+      "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-21",
         "Conflitto con MotoGP.com API ufficiale: 2026-11-21T11:50+01:00"
       ],
       "notes": "",
-      "sequence": 11,
+      "sequence": 12,
       "enabled": true,
       "stable_key": null,
       "uid": "715fbea8c86daed970db91e5@motorsport-calendar"
@@ -8597,16 +8597,16 @@
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/21.11.2026",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 11:40",
-      "broadcaster_it": "TV8",
-      "broadcaster_it_url": "https://www.tv8.it/programmazione",
+      "broadcaster_it": "Sky Sport MotoGP / NOW",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 11:45",
+      "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-21",
         "Conflitto con MotoGP.com API ufficiale: 2026-11-21T12:15+01:00"
       ],
       "notes": "",
-      "sequence": 11,
+      "sequence": 12,
       "enabled": true,
       "stable_key": null,
       "uid": "35a7a463c0b5dd6e0926a058@motorsport-calendar"
@@ -8629,16 +8629,16 @@
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/21.11.2026",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 15:25",
-      "broadcaster_it": "TV8",
-      "broadcaster_it_url": "https://www.tv8.it/programmazione",
+      "broadcaster_it": "Sky Sport MotoGP / NOW",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 15:25",
+      "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-21",
-        "Conflitto con MotoGP.com API ufficiale: 2026-11-21T16:00+01:00"
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-21T15:30+01:00"
       ],
-      "notes": "Riprogrammata da 2026-11-21T16:00+01:00",
-      "sequence": 12,
+      "notes": "",
+      "sequence": 13,
       "enabled": true,
       "stable_key": null,
       "uid": "36ed7973d31e77d06fdcef20@motorsport-calendar"
@@ -8655,14 +8655,14 @@
       "status": "programmata",
       "source_sport": "Formula1.com",
       "source_sport_url": "https://www.formula1.com/en/racing/2026/las-vegas",
-      "source_time": "Formula1.com",
-      "source_time_url": "https://www.formula1.com/en/racing/2026/las-vegas",
+      "source_time": "Jolpica/Ergast (fallback strutturato)",
+      "source_time_url": "https://api.jolpi.ca/ergast/f1/2026.json",
       "broadcaster_at": "ORF 1 / ORF ON",
       "broadcaster_at_url": "https://tv.orf.at/program/orf1/index.html",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 04:25",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/18/f1-orari-gp-las-vegas-2026-usa",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/20/formula-1-orari-gp-las-vegas-2026",
       "broadcast_type_it": "diretta",
       "broadcast_time_it": "dalle 04:00",
       "conflicts": [
