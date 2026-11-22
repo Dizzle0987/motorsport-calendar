@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T06:56:38+00:00",
+  "updated_at": "2026-11-22T19:45:48+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -8586,17 +8586,17 @@
       "circuit": "Autódromo Internacional do Algarve",
       "location": "Portimão",
       "country": "Portugal",
-      "start": "2026-11-21T12:15+01:00",
-      "end": "2026-11-21T12:30+01:00",
+      "start": "2026-11-21T12:20+01:00",
+      "end": "2026-11-21T12:35+01:00",
       "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Portugal/c7f7626b-807f-4a6f-813e-7ad2c68302a3",
       "source_time": "MotoGP.com API ufficiale",
       "source_time_url": "https://www.motogp.com/en/calendar/2026/event/Portugal/c7f7626b-807f-4a6f-813e-7ad2c68302a3",
       "broadcaster_at": "ServusTV / ServusTV On",
-      "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/21.11.2026",
+      "broadcaster_at_url": "https://www.servustv.com/de/content/artikel/PNF9DHWJSIDAC7G/motogp-2026-alle-live-rennen-bei-servustv-und-servustv-on",
       "broadcast_type_at": "diretta",
-      "broadcast_time_at": "dalle 11:40",
+      "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
       "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
       "broadcast_type_it": "diretta",
@@ -8605,8 +8605,8 @@
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-21",
         "Conflitto con MotoGP.com API ufficiale: 2026-11-21T12:15+01:00"
       ],
-      "notes": "",
-      "sequence": 12,
+      "notes": "Riprogrammata da 2026-11-21T12:15+01:00",
+      "sequence": 13,
       "enabled": true,
       "stable_key": null,
       "uid": "35a7a463c0b5dd6e0926a058@motorsport-calendar"
@@ -8667,7 +8667,7 @@
       "broadcast_time_it": "dalle 04:00",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-21",
-        "Conflitto con Formula1.com: 2026-11-22T05:00+01:00"
+        "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-22T05:00+01:00"
       ],
       "notes": "",
       "sequence": 10,
@@ -8684,7 +8684,7 @@
       "country": "Portugal",
       "start": "2026-11-22T10:00+01:00",
       "end": "2026-11-22T10:10+01:00",
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Portugal/c7f7626b-807f-4a6f-813e-7ad2c68302a3",
       "source_time": "MotoGP.com API ufficiale",
@@ -8702,7 +8702,7 @@
         "Conflitto con MotoGP.com API ufficiale: 2026-11-22T10:00+01:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "3d9f1c0cc6bafd518885ba57@motorsport-calendar"
@@ -8716,7 +8716,7 @@
       "country": "Portugal",
       "start": "2026-11-22T14:00+01:00",
       "end": null,
-      "status": "programmata",
+      "status": "conclusa",
       "source_sport": "MotoGP.com",
       "source_sport_url": "https://www.motogp.com/en/calendar/2026/event/Portugal/c7f7626b-807f-4a6f-813e-7ad2c68302a3",
       "source_time": "MotoGP.com API ufficiale",
@@ -8728,13 +8728,13 @@
       "broadcaster_it": "TV8",
       "broadcaster_it_url": "https://www.tv8.it/programmazione",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 13:55",
+      "broadcast_time_it": "dalle 13:50",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-22",
         "Conflitto con MotoGP.com API ufficiale: 2026-11-22T14:00+01:00"
       ],
       "notes": "",
-      "sequence": 9,
+      "sequence": 10,
       "enabled": true,
       "stable_key": null,
       "uid": "f3bd7a34f08f217b9307f683@motorsport-calendar"
