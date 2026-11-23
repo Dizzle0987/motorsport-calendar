@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T19:45:48+00:00",
+  "updated_at": "2026-11-23T07:45:10+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -8603,7 +8603,7 @@
       "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-21",
-        "Conflitto con MotoGP.com API ufficiale: 2026-11-21T12:15+01:00"
+        "Conflitto con MotoGP.com API ufficiale: 2026-11-21T12:20+01:00"
       ],
       "notes": "Riprogrammata da 2026-11-21T12:15+01:00",
       "sequence": 13,
@@ -8725,16 +8725,16 @@
       "broadcaster_at_url": "https://www.tvinfo.de/tv-programm/servustv/22.11.2026",
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 13:15",
-      "broadcaster_it": "TV8",
-      "broadcaster_it_url": "https://www.tv8.it/programmazione",
+      "broadcaster_it": "Sky Sport MotoGP / NOW",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 13:50",
+      "broadcast_time_it": "",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-22",
         "Conflitto con MotoGP.com API ufficiale: 2026-11-22T14:00+01:00"
       ],
       "notes": "",
-      "sequence": 10,
+      "sequence": 11,
       "enabled": true,
       "stable_key": null,
       "uid": "f3bd7a34f08f217b9307f683@motorsport-calendar"
