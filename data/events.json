@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-23T07:45:10+00:00",
+  "updated_at": "2026-11-25T08:42:06+00:00",
   "timezone": "Europe/Rome",
   "events": [
     {
@@ -8758,15 +8758,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-valencia",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/2026/11/25/motogp-orari-gp-valencia-2026-dove-vedere-sky-now-tv8",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 10:45",
+      "broadcast_time_it": "dalle 10:40",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-27",
         "Conflitto con MotoGP.com API ufficiale: 2026-11-27T10:45+01:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "08e652b835db28eb476b963d@motorsport-calendar"
@@ -8790,16 +8790,16 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 14:15",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-qatar-programmazione",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/25/f1-orari-gp-qatar-2026-losail",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 14:30",
+      "broadcast_time_it": "dalle 14:15",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-27T14:30+01:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-27",
         "Conflitto con Formula1.com: 2026-11-27T14:30+01:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "9a64311cd5218835c6b211d3@motorsport-calendar"
@@ -8823,15 +8823,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/motogp/dove-vedere-orari-motogp-gp-valencia",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/2026/11/25/motogp-orari-gp-valencia-2026-dove-vedere-sky-now-tv8",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 15:00",
+      "broadcast_time_it": "dalle 14:55",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-27",
         "Conflitto con MotoGP.com API ufficiale: 2026-11-27T15:00+01:00"
       ],
       "notes": "",
-      "sequence": 7,
+      "sequence": 8,
       "enabled": true,
       "stable_key": null,
       "uid": "7a9732b004a5825b12bf19ff@motorsport-calendar"
@@ -8855,16 +8855,16 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 17:55",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-qatar-programmazione",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/25/f1-orari-gp-qatar-2026-losail",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 18:00",
+      "broadcast_time_it": "dalle 17:45",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-27T18:00+01:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-27",
         "Conflitto con Formula1.com: 2026-11-27T18:00+01:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "4e122e6205db47d90d50b585@motorsport-calendar"
@@ -8888,15 +8888,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/2026/11/25/motogp-orari-gp-valencia-2026-dove-vedere-sky-now-tv8",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 10:05",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-28",
         "Conflitto con MotoGP.com API ufficiale: 2026-11-28T10:10+01:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "ac0ec1f7ba2dac524bd6d803@motorsport-calendar"
@@ -9016,16 +9016,16 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 15:25",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-qatar-programmazione",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/25/f1-orari-gp-qatar-2026-losail",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 15:30",
+      "broadcast_time_it": "dalle 15:15",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-28T15:30+01:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-28",
         "Conflitto con Formula1.com: 2026-11-28T15:30+01:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "56944775e680c16f642e9e14@motorsport-calendar"
@@ -9049,16 +9049,16 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 18:10",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-qatar-programmazione",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/25/f1-orari-gp-qatar-2026-losail",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 19:00",
+      "broadcast_time_it": "dalle 18:30",
       "conflicts": [
         "Conflitto con Jolpica/Ergast (fallback strutturato): 2026-11-28T19:00+01:00",
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-28",
         "Conflitto con Formula1.com: 2026-11-28T19:00+01:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "70122154886ccf64fcda09f0@motorsport-calendar"
@@ -9082,15 +9082,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "",
       "broadcaster_it": "Sky Sport MotoGP / NOW",
-      "broadcaster_it_url": "https://sport.sky.it/motogp/calendario",
+      "broadcaster_it_url": "https://sport.sky.it/motogp/2026/11/25/motogp-orari-gp-valencia-2026-dove-vedere-sky-now-tv8",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "",
+      "broadcast_time_it": "dalle 09:35",
       "conflicts": [
         "Conflitto con MotoGP.com (solo data; ora non pubblicata): 2026-11-29",
         "Conflitto con MotoGP.com API ufficiale: 2026-11-29T09:40+01:00"
       ],
       "notes": "",
-      "sequence": 6,
+      "sequence": 7,
       "enabled": true,
       "stable_key": null,
       "uid": "cec2b7cc6ba259ba63d3a76e@motorsport-calendar"
@@ -9146,15 +9146,15 @@
       "broadcast_type_at": "diretta",
       "broadcast_time_at": "dalle 15:30",
       "broadcaster_it": "Sky Sport F1 / NOW",
-      "broadcaster_it_url": "https://programmi.sky.it/sport/motori/formula-1/dove-vedere-f1-qatar-programmazione",
+      "broadcaster_it_url": "https://sport.sky.it/formula-1/2026/11/25/f1-orari-gp-qatar-2026-losail",
       "broadcast_type_it": "diretta",
-      "broadcast_time_it": "dalle 17:00",
+      "broadcast_time_it": "dalle 15:30",
       "conflicts": [
         "Conflitto con Formula1.com (solo data; ora non pubblicata): 2026-11-29",
         "Conflitto con Formula1.com: 2026-11-29T17:00+01:00"
       ],
       "notes": "",
-      "sequence": 8,
+      "sequence": 9,
       "enabled": true,
       "stable_key": null,
       "uid": "a7a7f74280d3e4760c3dc92a@motorsport-calendar"
